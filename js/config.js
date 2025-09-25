@@ -21,9 +21,11 @@ const CONFIG = {
 
     // Configurações de conteúdo
     content: {
-        csvFile: '../MUSICA_9.csv',
-        mdFolder: '../arquivo md/',
-        defaultCategory: 'todas'
+        csvFile: './MUSICA_9.csv',
+        mdFolder: './arquivo md/',
+        defaultCategory: 'todas',
+        // Para funcionamento local sem servidor
+        localMode: true
     },
 
     // Configurações de carregamento

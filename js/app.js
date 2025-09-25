@@ -160,61 +160,70 @@ async function initApp() {
 
 // Carregamento de dados
 async function loadData() {
+    console.log('=== INICIANDO CARREGAMENTO DE DADOS ===');
+    
+    if (CONFIG.dev.mockData) {
+        console.log('Usando dados mock');
+        appState.items = FALLBACK_DATA;
+        appState.filteredItems = [...appState.items];
+        return;
+    }
+
     try {
-        // Tentar carregar dados do CSV
-        if (!CONFIG.dev.mockData) {
-            console.log('Tentando carregar CSV de:', CONFIG.content.csvFile);
-            const response = await fetch(CONFIG.content.csvFile);
-            console.log('Resposta do fetch:', response.status, response.statusText);
+        // Usar dados incorporados se disponíveis
+        if (typeof CSV_DATA !== 'undefined') {
+            console.log('Usando dados incorporados, tamanho:', CSV_DATA.length);
+            appState.items = parseCSV(CSV_DATA);
+            console.log('Itens parseados dos dados incorporados:', appState.items.length);
             
-            if (response.ok) {
-                const csvText = await response.text();
-                console.log('CSV carregado com sucesso, tamanho:', csvText.length);
-                appState.items = parseCSV(csvText);
-                console.log('Itens parseados:', appState.items.length);
+            if (appState.items.length > 0) {
                 appState.filteredItems = [...appState.items];
-                console.log('Itens filtrados:', appState.filteredItems.length);
                 return;
-            } else {
-                console.warn('Falha ao carregar CSV, status:', response.status, response.statusText);
-                // Tentar com um caminho relativo diferente
-                console.log('Tentando caminho alternativo...');
-                const altResponse = await fetch('/MUSICA 9.csv');
-                if (altResponse.ok) {
-                    const csvText = await altResponse.text();
-                    console.log('CSV alternativo carregado com sucesso, tamanho:', csvText.length);
-                    appState.items = parseCSV(csvText);
-                    console.log('Itens parseados:', appState.items.length);
-                    appState.filteredItems = [...appState.items];
-                    return;
-                }
+            }
+        }
+
+        // Fallback: tentar carregar via fetch (para compatibilidade com servidor)
+        console.log('Tentando carregar CSV de:', CONFIG.content.csvFile);
+        const response = await fetch(CONFIG.content.csvFile);
+        
+        if (response.ok) {
+            const csvText = await response.text();
+            console.log('CSV carregado com sucesso via fetch, tamanho:', csvText.length);
+            
+            appState.items = parseCSV(csvText);
+            console.log('Itens parseados do CSV:', appState.items.length);
+            
+            if (appState.items.length > 0) {
+                appState.filteredItems = [...appState.items];
+                return;
             }
         }
         
-        // Fallback para dados locais
-        appState.items = FALLBACK_DATA;
-        appState.filteredItems = [...appState.items];
-        console.log('Usando dados de fallback');
     } catch (error) {
-        console.warn('Erro ao carregar dados, usando fallback:', error);
-        appState.items = FALLBACK_DATA;
-        appState.filteredItems = [...appState.items];
+        console.error('Erro ao carregar dados:', error);
     }
+
+    console.log('Usando dados de fallback, quantidade:', FALLBACK_DATA.length);
+    appState.items = FALLBACK_DATA;
+    appState.filteredItems = [...appState.items];
 }
 
 // Parse CSV data
 function parseCSV(csvText) {
-    const lines = csvText.split('\n');
+    const lines = csvText.split('\n').filter(line => line.trim());
+    
+    if (lines.length === 0) {
+        return [];
+    }
+    
     const items = [];
     
-    console.log('Linhas no CSV:', lines.length);
-    
-    // Skip header line
+    // Processar cada linha de dados (pular cabeçalho)
     for (let i = 1; i < lines.length; i++) {
         const line = lines[i].trim();
         if (!line) continue;
         
-        // Split by semicolon, handling quoted fields
+        // Dividir por ponto e vírgula, mas cuidar com aspas
         const fields = [];
         let currentField = '';
         let inQuotes = false;
@@ -232,31 +241,43 @@ function parseCSV(csvText) {
             }
         }
         
-        // Add the last field
+        // Adicionar o último campo
         fields.push(currentField.trim());
         
-        // Only process lines with enough fields
+        // Verificar se temos pelo menos 9 campos
         if (fields.length >= 9) {
-            items.push({
-                data: fields[0],
-                titulo: fields[1],
-                autor: fields[2],
-                musica: fields[3],
-                genero: fields[4],
+            const item = {
+                data: fields[0].trim(),
+                titulo: fields[1].trim(),
+                autor: fields[2].trim(),
+                musica: fields[3].trim(),
+                genero: fields[4].trim(),
                 atracao: parseInt(fields[5]) || 0,
                 introspeccao: parseInt(fields[6]) || 0,
                 complexidade: parseInt(fields[7]) || 0,
                 significacao: parseInt(fields[8]) || 0
-            });
+            };
+            
+            items.push(item);
         }
     }
     
-    console.log('Itens parseados do CSV:', items.length);
+    console.log('CSV parseado com sucesso:', items.length, 'itens');
     return items;
 }
 
 // Configuração de event listeners
 function setupEventListeners() {
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            appState.searchTerm = e.target.value;
+            renderItems();
+        });
+    }
+    
+
+
     // Modal
     const closeModal = document.getElementById('closeModal');
     if (closeModal) {
@@ -288,17 +309,16 @@ function renderUI() {
 // Renderização de itens no carrossel
 function renderItems() {
     const grid = document.getElementById('musicGrid');
+    
     if (!grid) {
         console.error('Elemento musicGrid não encontrado');
         return;
     }
 
-    console.log('Renderizando itens:', appState.items.length);
     grid.innerHTML = appState.items.map((item, index) => createMusicCard(item, index)).join('');
     
     // Adicionar event listeners aos cards
     const cards = document.querySelectorAll('.music-card');
-    console.log('Cards criados:', cards.length);
     cards.forEach(card => {
         card.addEventListener('click', function() {
             const title = this.dataset.title;
@@ -369,15 +389,22 @@ async function openModal(title, author, date) {
     } catch (error) {
         console.error('Erro ao carregar conteúdo:', error);
         
-        // Mostrar mensagem de erro
-        modalContent.innerHTML = `
-            <div class="text-center text-red-400">
-                <h3 class="text-xl font-bold mb-4">Erro ao carregar conteúdo</h3>
-                <p class="mb-4">Não foi possível carregar o arquivo para "${title}".</p>
-                <p class="text-sm">Erro: ${error.message}</p>
-                <p class="text-xs mt-2 text-gray-400">Arquivo esperado: ${MD_FILE_MAPPING[title] || 'não mapeado'}</p>
+        // Fallback para funcionamento local - mostrar informações básicas
+        const fallbackContent = `
+            <div style="color: #e5e7eb; padding: 20px; line-height: 1.6;">
+                <h3 style="color: #3b82f6; margin-bottom: 16px;">${title}</h3>
+                <p style="margin-bottom: 12px;"><strong>Autor:</strong> ${author}</p>
+                <p style="margin-bottom: 12px;"><strong>Data:</strong> ${date}</p>
+                <div style="background: rgba(59, 130, 246, 0.1); padding: 16px; border-radius: 8px; margin-top: 20px;">
+                    <p style="color: #93c5fd; font-size: 14px; margin: 0;">
+                        Para visualizar o conteúdo completo desta música, acesse através do servidor HTTP em 
+                        <a href="http://localhost:8001" style="color: #60a5fa;">http://localhost:8001</a>
+                    </p>
+                </div>
             </div>
         `;
+        
+        modalContent.innerHTML = fallbackContent;
         modalLoading.classList.add('hidden');
         modalContent.classList.remove('hidden');
     }
