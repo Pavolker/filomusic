@@ -48,21 +48,23 @@ class MusicSearch {
             return;
         }
         
-        // Atualiza o estado da busca
-        if (typeof window.appState !== 'undefined') {
+        // Atualiza o estado global de busca
+        if (window.appState) {
             window.appState.searchTerm = query;
         }
         
-        if (query.length === 0) {
-            // Se não há busca, mostra todos os itens
+        if (query.length < 2) {
             this.showAllItems();
-        } else if (query.length >= 2) {
-            // Realiza a busca e filtra os cards
+            return;
+        }
+        
+        // Se há filtros avançados ativos, usa o sistema integrado
+        if (window.advancedFilters && window.advancedFilters.hasActiveFilters()) {
+            window.advancedFilters.applyWithSearch(query);
+        } else {
+            // Busca tradicional sem filtros
             const results = this.searchMusic(query);
             this.filterCards(results);
-        } else {
-            // Para buscas com menos de 2 caracteres, mostra todos os itens
-            this.showAllItems();
         }
     }
     
@@ -100,16 +102,22 @@ class MusicSearch {
     }
     
     showAllItems() {
-        // Mostra todos os itens (limpa o filtro)
-        if (typeof window.appState !== 'undefined') {
-            window.appState.filteredItems = [];
+        // Limpa o termo de busca
+        if (window.appState) {
             window.appState.searchTerm = '';
+        }
+        
+        // Se há filtros ativos, aplica apenas os filtros
+        if (window.advancedFilters && window.advancedFilters.hasActiveFilters()) {
+            window.advancedFilters.applyFilters();
+        } else {
+            // Mostra todos os itens quando não há busca nem filtros
+            if (window.appState) {
+                window.appState.filteredItems = [...this.musicData];
+            }
             
-            // Re-renderiza os cards com todos os itens
-            if (typeof window.renderItems === 'function') {
+            if (window.renderItems) {
                 window.renderItems();
-            } else if (typeof renderItems === 'function') {
-                renderItems();
             }
         }
         
