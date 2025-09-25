@@ -1,0 +1,9 @@
+
+Wanderléa Charlup Boere Salim, conhecida no movimento Jovem Guarda como "Ternurinha",  é uma das poucas mulheres verdadeiramente ativas e dominantes em um dos movimentos culturais mais expressivos na década de 60/70. Com 16 anos de idade, em 1962 ela já tinha gravado um disco. Com 19 anos namora Roberto Carlos e já se torna apresentadora de programa de televisão “A Jovem Guarda”. 
+Mas a vida da Wanderlei não é fácil, ela casa ao 16 anos com o filho do Chacrinha. No mesmo ano o marido sofre um acidente e fica paraplégico. Separa e casa com Lallo Correia, tem um filho que morreu afogado em uma piscina. Perde o pai, o irmão com AIDS e luta para tirar um câncer do útero. Tudo em um período de 30 anos. Wanderleia, Erasmo Carlos e Roberto Carlos, formam um  trio que  conseguiu aliar uma harmonia rara para três estrelas, com competência incomum na eficiência da comunicação.  Apesar de tudo Wanderleia sempre foi um destaque. Participou a Jovem  Guarda e conseguiu sobreviver a ela com uma personalidade inquestionável. Musicas como "Pare o Casamento" , "Ternura", "Prova de Fogo" , "Te Amo" são retratos de uma época que hipertrofia da visão  romântica de amores profundos,  que eram sofridos para serem conquistados, tanto quanto eram sofridos quando perdidos. Os amores tinham sempre esse acompanhamento do sofrimento, que dava ao poeta e ao músico a substância para as baladas. Felizes ou tristes faziam sucesso, porque a década de 1960 abria uma nova porta para os relacionamentos dos jovens fora da tutela da "velha guarda". Os jovens estavam conquistando as ruas e as bandeiras de novas liberdades. O amor saia das varandas das casas, saia da tutela das famílias e iniciava a jornada para ganhar a tutela de uma nova sexualidade. 
+https://youtu.be/ZUHiEf7rHTc 
+https://youtu.be/kgqkiz9TcM8 
+https://youtu.be/_DDmtHVvrPo 
+https://youtu.be/-CV4PCKyqGE 
+https://youtu.be/5ywltXN2M_g 
+https://youtu.be/ch4XwpO-v-I 

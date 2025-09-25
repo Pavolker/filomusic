@@ -1,0 +1,2 @@
+- 19/03/2017 08:33:24- lembra um sábado lá dos idos de 1971, quando o Grão comprou um compacto do Paul Maccartney que ouvimos o resto do ano incansáveis . Trata-se do Another Day. Segue o link abaixo. Mas queria lembrar também o lado B desse disco. Do meu ponto de vista foi a maior surpresa, You Know My Name, lembram ? Gostei muito dessa musica, ate hoje. Vai ai tambem o link para ela.                                                                                           - Another Day: https://youtu.be/vH6v9JS26xc
+You Know my Name:  https://youtu.be/GFFB4xGfzRk   

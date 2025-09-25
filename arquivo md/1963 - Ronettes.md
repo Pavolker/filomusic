@@ -1,0 +1,4 @@
+
+O grupo Ronettes, das irmãs de Ronnie Spector, Estelle e a prime Nedra, lançaram a inesquecível  “Be my Baby” de 1963.  The Ronettes é o típico “girl group’ americano que alcançou notoriedade na década de 1960. O grupo foi formado em Nova York e consistia principalmente de três cantoras: Veronica "Ronnie" Bennett, sua irmã Estelle Bennett e sua prima Nedra Talley. O maior  sucesso "Be My Baby",  foi produzido por Phil Spector e tornou-se uma das gravações mais emblemáticas da era do "Wall of Sound", uma técnica de produção musical criada por Spector. O som do grupo era caracterizado por harmonias vocais densas e melodias contagiantes, enriquecidas pela produção grandiosa de Phil Spector. A combinação desses elementos criou um estilo musical que capturava tanto a doçura quanto a complexidade emocional do amor juvenil, tornando-as um dos grupos femininos mais memoráveis da era.
+Be My Baby -  https://youtu.be/ZV5tgZlTEkQ
+

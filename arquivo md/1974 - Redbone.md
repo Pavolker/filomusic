@@ -1,0 +1,7 @@
+Redbone, a primeira banda de rock formada inteiramente por nativos americanos a alcançar sucesso nas paradas, marcou a história da música com "Come and Get Your Love", lançada em 1974. A banda, fundada pelos irmãos Pat e Lolly Vegas, de descendência Yaqui e Shoshone, trouxe uma fusão única de rock, R&B e elementos de música nativa americana.
+
+"Come and Get Your Love", que alcançou o top 5 da Billboard Hot 100, é um exemplo perfeito da capacidade da banda de criar música pop contagiante sem perder suas raízes culturais. A música apresenta uma linha de baixo memorável, guitarras funky e uma melodia irresistível que se tornou instantaneamente reconhecível. Sua popularidade foi revitalizada em 2014 quando foi incluída na trilha sonora do filme "Guardiões da Galáxia", apresentando o som do Redbone para uma nova geração.
+
+O legado do Redbone vai além de "Come and Get Your Love". A banda foi pioneira em trazer visibilidade para músicos nativos americanos no mainstream do rock, abrindo caminho para outros artistas indígenas. Eles provaram que era possível manter sua identidade cultural enquanto criavam música pop de alta qualidade, influenciando gerações de músicos nativos americanos que vieram depois.
+
+Come and Get Your Love -  https://youtu.be/ciTV7Zfmw3I

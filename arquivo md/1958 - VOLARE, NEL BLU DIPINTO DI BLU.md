@@ -1,0 +1,2 @@
+Uma dupla de músicas tipicamente italiana.  A primeira, a alegre e cativante “Volare, Nel blu dipinto di blu’, cantada por Domenico Modugno, considerada a musica italiana mais famosa do mundo. Ganhou em 1958 o festival de Sanremo e foi a primeira  e única musica italiana a ganhar um Grammy.  A versão aqui apresentada é da Rita Pavone, que também canta a segunda música.
+ https://youtu.be/COYdfuP6khM

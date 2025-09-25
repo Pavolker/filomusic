@@ -1,0 +1,7 @@
+Hoje relembro o  14 de janeiro de 1973, quando Elvis Presley realiza o primeiro show via satélite do mundo, transmitido, ao vivo, para muitos países que assisti pela Rede Tupi. "Aloha from Hawaii Via Satellite", transmitido em 14 de janeiro de 1973, representou um dos momentos mais marcantes na carreira de Elvis Presley. Foi o primeiro show de um artista solo transmitido via satélite para diversos países, alcançando uma audiência estimada em mais de 1 bilhão de pessoas. Este evento histórico mostrou Elvis no auge de sua forma artística, mesmo que sua saúde já começasse a dar sinais de deterioração.
+
+O show, realizado no Honolulu International Center, apresentou Elvis com um repertório diversificado que incluía seus clássicos, covers contemporâneos e, é claro, "An American Trilogy", que se tornou um dos pontos altos da apresentação. Vestindo seu agora icônico "American Eagle" jumpsuit, desenhado por Bill Belew, Elvis demonstrou por que era conhecido como "O Rei do Rock and Roll", com uma performance que mesclava carisma, poder vocal e showmanship.
+
+O especial foi um triunfo tecnológico e artístico para a época, estabelecendo novos padrões para shows televisionados. A transmissão via satélite custou mais de US$ 2,5 milhões, um valor astronômico para 1973, mas que comprovou o status de Elvis como um fenômeno global. O álbum do show alcançou o topo das paradas e continua sendo um documento importante da fase final de sua carreira.
+
+Aloha from Hawaii - https://youtu.be/H_QnzL-23FM

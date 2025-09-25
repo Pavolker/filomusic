@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filosofia da Música</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#312e81',
+                        accent: '#f59e0b',
+                        cardBg: '#1e40af',
+                        cardBorder: 'rgba(59, 130, 246, 0.3)',
+                        textPrimary: '#ffffff',
+                        textSecondary: '#93c5fd',
+                        textMuted: '#bfdbfe'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white min-h-screen">
+    
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-800 to-indigo-900 shadow-2xl py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between">
+                <img src="../Original_jpg.jpg" alt="Imagem esquerda" class="header-image max-h-20 w-auto object-contain">
+                <div class="text-center flex-1 px-4">
+                    <h1 class="text-3xl md:text-4xl font-bold text-white mb-2 font-serif">
+                        Filosofia da Música
+                    </h1>
+                    <p class="text-lg md:text-xl text-blue-200 mb-1 italic">
+                        – 200 textos em busca do sentido da musicalidade –
+                    </p>
+                    <p class="text-md text-blue-300">
+                        Do livro ‘Filosofia da Música’ de Paulo Volker
+                    </p>
+                </div>
+                <img src="../capas volume_MUSICA.png" alt="Imagem direita" class="header-image max-h-20 w-auto object-contain">
+            </div>
+        </div>
+    </header>
+
+    <!-- Grid Carrossel Horizontal -->
+    <main class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8 text-blue-200">
+                Explore as Composições
+            </h2>
+            
+            <!-- Container do carrossel -->
+            <div class="relative">
+                <div id="musicCarousel" class="overflow-x-auto scroll-snap-x pb-4">
+                    <div id="musicGrid" class="grid-container">
+                        <!-- Cards serão inseridos aqui via JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- Indicadores de scroll -->
+                <div class="flex justify-center mt-6">
+                    <div class="text-blue-300 text-sm">
+                        ← Deslize horizontalmente para ver mais composições →
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal para exibir conteúdo dos arquivos MD -->
+    <div id="contentModal" class="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm z-50 hidden">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-gradient-to-br from-slate-800 to-blue-900 rounded-xl max-w-4xl w-full max-h-[90vh] overflow-hidden shadow-2xl border border-blue-500/30">
+                <!-- Header do Modal -->
+                <div class="sticky top-0 bg-gradient-to-r from-blue-800 to-indigo-900 border-b border-blue-500/30 p-6 flex justify-between items-center">
+                    <div>
+                        <h2 id="modalTitle" class="text-2xl font-bold text-white"></h2>
+                        <p id="modalSubtitle" class="text-blue-200 mt-1"></p>
+                    </div>
+                    <button id="closeModal" class="text-blue-200 hover:text-white text-3xl font-bold transition-colors duration-200">
+                        ×
+                    </button>
+                </div>
+                
+                <!-- Conteúdo do Modal -->
+                <div id="modalContent" class="p-6 overflow-y-auto max-h-[calc(90vh-120px)] prose prose-invert prose-blue max-w-none">
+                    <!-- Conteúdo será inserido aqui -->
+                </div>
+                
+                <!-- Loading State -->
+                <div id="modalLoading" class="p-12 text-center hidden">
+                    <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400 mx-auto mb-4"></div>
+                    <p class="text-blue-200">Carregando conteúdo...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-blue-800 to-indigo-900 py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-lg text-blue-200 mb-4">Desenvolvido por PVolker. App ©Filosofia da Música - 2025</p>
+            <a href="https://sites.google.com/mdh-hability.com/filosofiadamusica/in%C3%ADcio" 
+               target="_blank" 
+               class="inline-block bg-white text-blue-800 font-bold py-3 px-6 rounded-lg hover:bg-blue-100 transition-colors duration-300 shadow-lg">
+                Comprar o livro
+            </a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

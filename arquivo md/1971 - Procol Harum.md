@@ -1,0 +1,7 @@
+Procol Harum escreveu seu nome na história da música com "A Whiter Shade of Pale", lançada em 1967. A banda, formada em Londres por Gary Brooker, Keith Reid, Matthew Fisher, Ray Royer e Dave Knights, criou nesta música uma obra-prima que misturava rock progressivo com elementos clássicos, incluindo a famosa linha de órgão inspirada em Bach.
+
+"A Whiter Shade of Pale" foi um fenômeno imediato, vendendo mais de 10 milhões de cópias e se tornando um dos hinos da "Summer of Love". A combinação única da voz soul de Gary Brooker, a letra enigmática de Keith Reid e o memorável arranjo de órgão de Matthew Fisher criou uma atmosfera única que capturou perfeitamente o espírito da época. A música é frequentemente citada como uma das mais influentes do rock e chegou a gerar uma batalha judicial décadas depois, quando Fisher reivindicou com sucesso seus direitos autorais pelo icônico arranjo de órgão.
+
+Embora a banda tenha continuado a produzir álbuns respeitados no cenário do rock progressivo, como "Shine On Brightly" e "A Salty Dog", nunca conseguiram repetir o sucesso comercial de seu primeiro single. Mesmo assim, o Procol Harum manteve uma base de fãs fiéis e continua sendo lembrado como um dos grupos mais inovadores de sua época, transcendendo o rótulo de "one-hit wonder" através de sua significativa contribuição para a evolução do rock progressivo.
+
+Procol Harum - A Whiter Shade Of Pale - https://youtu.be/Mb3iPP-tHdA

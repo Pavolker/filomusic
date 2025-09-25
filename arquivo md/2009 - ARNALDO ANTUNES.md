@@ -1,0 +1,7 @@
+Extraordinário artista que é Arnaldo Antunes. Alguns sentem antipatia pelo elemento, mas ninguém pode duvidar da sua competência. Lendo sobre ele é impressionante a participação dele no cenário musical e artístico brasileiro hoje, seja incentivando jovens, seja fazendo parcerias no mundo todo. Arnaldo Antunes, um dos artistas mais versáteis e inovadores da música brasileira, lançou "A Casa é Sua" demonstrando sua capacidade única de criar canções que são ao mesmo tempo simples e profundamente poéticas. O ex-integrante dos Titãs, que construiu uma sólida carreira solo, traz nesta música sua característica forma de observar o cotidiano com olhos de poeta.
+
+"A Casa é Sua" representa perfeitamente o estilo singular de Antunes, onde letra e melodia se complementam de maneira orgânica. A música, com sua letra minimalista e arranjo delicado, fala sobre pertencimento e acolhimento de uma forma que só Arnaldo consegue fazer. Sua voz grave e marcante, combinada com a produção limpa e precisa, cria uma atmosfera íntima e acolhedora que reflete perfeitamente o tema da canção.
+
+Como poeta, compositor e artista visual, Arnaldo Antunes sempre trouxe para sua música elementos de diferentes linguagens artísticas. Em "A Casa é Sua", ele consegue criar uma experiência que transcende a simples canção pop, transformando um tema aparentemente simples em uma reflexão poética sobre espaço, pertencimento e relacionamentos.
+
+https://youtu.be/82aj1Bg8FpA

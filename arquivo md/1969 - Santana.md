@@ -1,0 +1,6 @@
+
+Carlos Santana e sua banda revolucionaram o rock com sua fusão única de ritmos latinos, rock psicodélico e blues. "Evil Ways", lançada em 1969 como parte do álbum de estreia "Santana", tornou-se um dos primeiros grandes sucessos da banda, apresentando ao mundo uma sonoridade que seria imitada por décadas. A música, originalmente gravada por Willie Bobo, ganhou nova vida nas mãos de Santana. O arranjo distintivo, com seu órgão Hammond hipnótico tocado por Gregg Rolie, a percussão latina contagiante de Michael Carabello e Jose Areas, e os solos de guitarra característicos de Carlos Santana, criaram uma fusão perfeita entre rock e ritmos latinos. "Evil Ways" alcançou o Top 10 nas paradas americanas e ajudou a estabelecer a banda como uma das mais inovadoras de sua época. A performance desta música no lendário festival de Woodstock em 1969 ajudou a catapultar Santana ao estrelato internacional. Desde então, a banda continuou a evoluir e influenciar gerações de músicos, com Carlos Santana sendo reconhecido como um dos guitarristas mais distintivos e influentes da história do rock.
+Falando de Santana, evidentemente não podemos deixar de lembrar da apresentação alucinante de  Soul Sacrifice também em Woodstock
+- https://youtu.be/TeUh06ILTcQ
+ - https://youtu.be/AqZceAQSJvc
+
