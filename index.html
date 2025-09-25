@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filosofia da Música</title>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
     <script>
-        // Suprimir warning de produção
+        // Configuração do Tailwind CSS
         if (typeof tailwind !== 'undefined') {
             tailwind.config = {
-                corePlugins: {
-                    preflight: false,
+                theme: {
+                    extend: {
+                        colors: {
+                            primary: '#1e40af',
+                            secondary: '#312e81',
+                            accent: '#f59e0b'
+                        }
+                    }
                 }
             }
         }

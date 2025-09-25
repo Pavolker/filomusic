@@ -333,11 +333,11 @@ function renderItems() {
 function createMusicCard(music, index) {
     return `
         <div class="music-card scroll-snap-start" 
-             style="background: linear-gradient(135deg, #1e40af, #312e81); border-radius: 8px; padding: 8px 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border: 1px solid rgba(59, 130, 246, 0.3); cursor: pointer; min-height: 70px; max-height: 70px; overflow: hidden; display: flex; flex-direction: column; justify-content: center; transition: all 0.3s ease;"
+             style="background: linear-gradient(135deg, #1e40af, #312e81); border-radius: 8px; padding: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border: 1px solid rgba(59, 130, 246, 0.3); cursor: pointer; min-height: 70px; max-height: 70px; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;"
              data-title="${music.titulo}" data-author="${music.autor}" data-date="${music.data}">
             <div style="color: #93c5fd; font-size: 12px; font-weight: 500; margin-bottom: 4px;">${music.data}</div>
             <h3 style="color: white; font-size: 14px; font-weight: bold; margin-bottom: 4px; line-height: 1.2; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${music.titulo}</h3>
-            <p style="color: #bfdbfe; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${music.autor}</p>
+            <p style="color: #bfdbfe; font-size: 12px; line-height: 1.1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${music.autor}</p>
         </div>
     `;
 }
