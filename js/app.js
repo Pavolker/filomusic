@@ -362,44 +362,106 @@ async function openModal(title, author, date) {
     try {
         // Buscar arquivo MD correspondente
         const mdFileName = MD_FILE_MAPPING[title];
+        
         if (!mdFileName) {
             throw new Error(`Mapeamento não encontrado para: "${title}"`);
         }
 
-        // Codificar a URL corretamente para lidar com espaços
-        const filePath = `${CONFIG.content.mdFolder}${encodeURIComponent(mdFileName)}`;
-        console.log('Tentando carregar arquivo:', filePath);
-        const response = await fetch(filePath);
+        // Obter conteúdo do arquivo incorporado
+        let mdContent = null;
         
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        // Primeiro tentar obter do conteúdo incorporado
+        if (typeof getMarkdownContent === 'function') {
+            mdContent = getMarkdownContent(mdFileName);
         }
-
-        const mdContent = await response.text();
-        console.log('Arquivo carregado com sucesso:', mdFileName);
         
-        // Converter Markdown para HTML (básico)
-        const htmlContent = convertMarkdownToHTML(mdContent);
+        // Se não encontrou no conteúdo incorporado, tentar fetch (para compatibilidade com servidor)
+        if (!mdContent) {
+            const filePath = `${CONFIG.content.mdFolder}${encodeURIComponent(mdFileName)}`;
+            const response = await fetch(filePath);
+            
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            }
+            
+            mdContent = await response.text();
+        }
         
-        // Exibir conteúdo
-        modalContent.innerHTML = htmlContent;
+        // Converter Markdown para HTML com formatação mais completa
+        let html = mdContent
+            // Headers
+            .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+            .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+            .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+            // Bold e Italic
+            .replace(/\*\*\*(.*?)\*\*\*/gim, '<strong><em>$1</em></strong>')
+            .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
+            .replace(/\*(.*?)\*/gim, '<em>$1</em>')
+            // Links
+            .replace(/\[([^\]]+)\]\(([^)]+)\)/gim, '<a href="$2" target="_blank">$1</a>')
+            // Listas
+            .replace(/^\* (.+)$/gim, '<li>$1</li>')
+            .replace(/^- (.+)$/gim, '<li>$1</li>')
+            // Quebras de linha
+            .replace(/\n\n/gim, '</p><p>')
+            .replace(/\n/gim, '<br>');
+        
+        // Envolver listas em <ul>
+        html = html.replace(/(<li>.*?<\/li>)/gims, '<ul>$1</ul>');
+        
+        // Envolver parágrafos
+        if (!html.startsWith('<h') && !html.startsWith('<ul') && !html.startsWith('<div')) {
+            html = '<p>' + html + '</p>';
+        }
+        
+        // Exibir conteúdo com metadados
+        modalContent.innerHTML = `
+            <div class="modal-metadata" style="color: #e5e7eb; padding: 20px; border-bottom: 1px solid rgba(59, 130, 246, 0.3); margin-bottom: 20px;">
+                <p style="margin-bottom: 8px;"><strong>Título:</strong> ${title}</p>
+                <p style="margin-bottom: 8px;"><strong>Autor:</strong> ${author}</p>
+                <p style="margin-bottom: 8px;"><strong>Data:</strong> ${date}</p>
+            </div>
+            <div class="modal-markdown-content" style="color: #e5e7eb; padding: 0 20px 20px; line-height: 1.6;">
+                ${html}
+            </div>
+        `;
         modalLoading.classList.add('hidden');
         modalContent.classList.remove('hidden');
 
     } catch (error) {
         console.error('Erro ao carregar conteúdo:', error);
         
-        // Fallback para funcionamento local - mostrar informações básicas
+        // Fallback para funcionamento local - mostrar informações básicas e instruções
         const fallbackContent = `
             <div style="color: #e5e7eb; padding: 20px; line-height: 1.6;">
-                <h3 style="color: #3b82f6; margin-bottom: 16px;">${title}</h3>
-                <p style="margin-bottom: 12px;"><strong>Autor:</strong> ${author}</p>
-                <p style="margin-bottom: 12px;"><strong>Data:</strong> ${date}</p>
-                <div style="background: rgba(59, 130, 246, 0.1); padding: 16px; border-radius: 8px; margin-top: 20px;">
-                    <p style="color: #93c5fd; font-size: 14px; margin: 0;">
-                        Para visualizar o conteúdo completo desta música, acesse através do servidor HTTP em 
-                        <a href="http://localhost:8001" style="color: #60a5fa;">http://localhost:8001</a>
-                    </p>
+                <div class="modal-metadata" style="border-bottom: 1px solid rgba(59, 130, 246, 0.3); margin-bottom: 20px; padding-bottom: 20px;">
+                    <p style="margin-bottom: 8px;"><strong>Título:</strong> ${title}</p>
+                    <p style="margin-bottom: 8px;"><strong>Autor:</strong> ${author}</p>
+                    <p style="margin-bottom: 8px;"><strong>Data:</strong> ${date}</p>
+                </div>
+                <div class="modal-info" style="text-align: center;">
+                    <div style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(147, 197, 253, 0.1)); padding: 24px; border-radius: 12px; border: 1px solid rgba(59, 130, 246, 0.2);">
+                        <h3 style="color: #60a5fa; margin: 0 0 16px 0; font-size: 18px;">📖 Conteúdo Completo Disponível</h3>
+                        <p style="margin-bottom: 16px; color: #d1d5db;">
+                            Para visualizar o conteúdo detalhado desta composição musical, 
+                            é necessário executar a aplicação através de um servidor HTTP.
+                        </p>
+                        <div style="background: rgba(0, 0, 0, 0.3); padding: 16px; border-radius: 8px; margin: 16px 0; font-family: monospace; font-size: 14px;">
+                            <p style="margin: 0; color: #93c5fd;">🚀 Como executar:</p>
+                            <p style="margin: 8px 0 0 0; color: #e5e7eb;">python3 -m http.server 8001</p>
+                        </div>
+                        <p style="margin: 16px 0 8px 0; color: #d1d5db; font-size: 14px;">
+                            Depois acesse: 
+                            <a href="http://localhost:8001" style="color: #60a5fa; text-decoration: none; font-weight: bold;">
+                                http://localhost:8001
+                            </a>
+                        </p>
+                        <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(59, 130, 246, 0.2);">
+                            <p style="margin: 0; color: #9ca3af; font-size: 12px;">
+                                💡 Esta aplicação funciona perfeitamente com servidor HTTP para acessar todos os arquivos markdown
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         `;

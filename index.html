@@ -4,21 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filosofia da Música</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#1e40af',
-                        secondary: '#312e81',
-                        accent: '#f59e0b',
-                        cardBg: '#1e40af',
-                        cardBorder: 'rgba(59, 130, 246, 0.3)',
-                        textPrimary: '#ffffff',
-                        textSecondary: '#93c5fd',
-                        textMuted: '#bfdbfe'
-                    }
+        // Suprimir warning de produção
+        if (typeof tailwind !== 'undefined') {
+            tailwind.config = {
+                corePlugins: {
+                    preflight: false,
                 }
             }
         }
@@ -119,6 +111,7 @@
     <!-- Scripts -->
     <script src="js/config.js"></script>
     <script src="js/data.js"></script>
+    <script src="js/markdown-content.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
