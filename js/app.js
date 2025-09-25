@@ -178,6 +178,8 @@ async function loadData() {
             
             if (appState.items.length > 0) {
                 appState.filteredItems = [...appState.items];
+                // Disponibiliza os dados globalmente para a funcionalidade de busca
+                window.musicData = appState.items;
                 return;
             }
         }
@@ -195,6 +197,8 @@ async function loadData() {
             
             if (appState.items.length > 0) {
                 appState.filteredItems = [...appState.items];
+                // Disponibiliza os dados globalmente para a funcionalidade de busca
+                window.musicData = appState.items;
                 return;
             }
         }
@@ -206,6 +210,9 @@ async function loadData() {
     console.log('Usando dados de fallback, quantidade:', FALLBACK_DATA.length);
     appState.items = FALLBACK_DATA;
     appState.filteredItems = [...appState.items];
+    
+    // Disponibiliza os dados globalmente para a funcionalidade de busca
+    window.musicData = appState.items;
 }
 
 // Parse CSV data
@@ -315,7 +322,9 @@ function renderItems() {
         return;
     }
 
-    grid.innerHTML = appState.items.map((item, index) => createMusicCard(item, index)).join('');
+    // Usa filteredItems se houver busca ativa, senão usa todos os items
+    const itemsToRender = appState.filteredItems.length > 0 || appState.searchTerm ? appState.filteredItems : appState.items;
+    grid.innerHTML = itemsToRender.map((item, index) => createMusicCard(item, index)).join('');
     
     // Adicionar event listeners aos cards
     const cards = document.querySelectorAll('.music-card');
@@ -508,6 +517,8 @@ function handleError(error) {
 // Exportar funções globais
 window.openModal = openModal;
 window.closeModalHandler = closeModalHandler;
+window.renderItems = renderItems;
+window.appState = appState;
 
 // Inicializar quando DOM estiver pronto
 if (document.readyState === 'loading') {

@@ -74,6 +74,31 @@
     animation: spin 1s linear infinite;
 }
 
+/* Faixa de Busca - Estilos Autônomos */
+.search-section {
+    position: relative;
+    z-index: 10;
+}
+
+.search-section input[type="text"] {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(59, 130, 246, 0.5);
+    transition: all 0.3s ease;
+}
+
+.search-section input[type="text"]:focus {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(59, 130, 246, 0.8);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.search-section input[type="text"]::placeholder {
+    color: rgba(147, 197, 253, 0.7);
+}
+
+
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .music-card {
@@ -86,6 +111,16 @@
     
     .header-image {
         max-height: 80px;
+    }
+    
+    /* Responsividade da busca */
+    .search-section {
+        padding: 2rem 0;
+    }
+    
+    .search-section input[type="text"] {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
     }
 }
 
