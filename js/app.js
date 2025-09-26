@@ -1,4 +1,5 @@
 // Estado global da aplicação
+
 let appState = {
     items: [],
     filteredItems: [],
@@ -143,18 +144,14 @@ const FALLBACK_DATA = [
     }
 ];
 
-// Inicialização da aplicação
+// Função principal de inicialização
 async function initApp() {
     try {
-        showLoading(true);
         await loadData();
         setupEventListeners();
         renderUI();
     } catch (error) {
-        console.error('Erro na inicialização:', error);
-        handleError(error);
-    } finally {
-        showLoading(false);
+        console.error('Erro ao inicializar aplicação:', error);
     }
 }
 
@@ -283,7 +280,64 @@ function setupEventListeners() {
         });
     }
     
-
+    // Delegação de eventos para cards de música e botões de play
+    // Isso garante que os event listeners funcionem mesmo após re-renderização
+    const musicGrid = document.getElementById('musicGrid');
+    if (musicGrid) {
+        musicGrid.addEventListener('click', function(e) {
+            // Clique no botão de play
+            if (e.target.closest('.play-btn')) {
+                e.stopPropagation();
+                const playBtn = e.target.closest('.play-btn');
+                const filename = playBtn.dataset.filename;
+                
+                console.log('Botão de play clicado para:', filename);
+                
+                // Chama o player do YouTube se estiver disponível
+                if (window.youtubePlayer) {
+                    window.youtubePlayer.playFromCard(filename);
+                    
+                    // Scroll suave para o player
+                    const playerSection = document.querySelector('#youtubePlayer').closest('section');
+                    if (playerSection) {
+                        playerSection.scrollIntoView({ 
+                            behavior: 'smooth', 
+                            block: 'center' 
+                        });
+                    }
+                } else {
+                    console.log('Player do YouTube ainda não está carregado');
+                }
+                return;
+            }
+            
+            // Clique no card (mas não no botão de play)
+            const musicCard = e.target.closest('.music-card');
+            if (musicCard) {
+                const title = musicCard.dataset.title;
+                const author = musicCard.dataset.author;
+                const date = musicCard.dataset.date;
+                openModal(title, author, date);
+            }
+        });
+        
+        // Efeitos hover para botões de play usando delegação
+        musicGrid.addEventListener('mouseenter', function(e) {
+            if (e.target.closest('.play-btn')) {
+                const playBtn = e.target.closest('.play-btn');
+                playBtn.style.background = 'rgba(34, 197, 94, 1)';
+                playBtn.style.transform = 'scale(1.1)';
+            }
+        }, true);
+        
+        musicGrid.addEventListener('mouseleave', function(e) {
+            if (e.target.closest('.play-btn')) {
+                const playBtn = e.target.closest('.play-btn');
+                playBtn.style.background = 'rgba(34, 197, 94, 0.8)';
+                playBtn.style.transform = 'scale(1)';
+            }
+        }, true);
+    }
 
     // Modal
     const closeModal = document.getElementById('closeModal');
@@ -313,40 +367,55 @@ function renderUI() {
     renderItems();
 }
 
-// Renderização de itens no carrossel
-function renderItems() {
-    const grid = document.getElementById('musicGrid');
+// Função para renderizar os itens musicais
+function renderItems(items = appState.items) {
+    const musicGrid = document.getElementById('musicGrid');
+    const loadingState = document.getElementById('loadingState');
+    const errorState = document.getElementById('errorState');
+    const emptyState = document.getElementById('emptyState');
     
-    if (!grid) {
-        console.error('Elemento musicGrid não encontrado');
+    if (!musicGrid) {
+        console.error('Elemento musicGrid não encontrado!');
         return;
     }
 
-    // Usa filteredItems se houver busca ativa, senão usa todos os items
-    const itemsToRender = appState.filteredItems.length > 0 || appState.searchTerm ? appState.filteredItems : appState.items;
-    grid.innerHTML = itemsToRender.map((item, index) => createMusicCard(item, index)).join('');
-    
-    // Adicionar event listeners aos cards
-    const cards = document.querySelectorAll('.music-card');
-    cards.forEach(card => {
-        card.addEventListener('click', function() {
-            const title = this.dataset.title;
-            const author = this.dataset.author;
-            const date = this.dataset.date;
-            openModal(title, author, date);
-        });
-    });
+    // Oculta todos os estados
+    if (loadingState) loadingState.classList.add('hidden');
+    if (errorState) errorState.classList.add('hidden');
+    if (emptyState) emptyState.classList.add('hidden');
+
+    if (!items || items.length === 0) {
+        // Mostra estado vazio
+        musicGrid.classList.add('hidden');
+        if (emptyState) emptyState.classList.remove('hidden');
+        return;
+    }
+
+    // Remove a classe 'hidden' e garante que o grid seja visível
+    musicGrid.classList.remove('hidden');
+    musicGrid.style.display = 'grid';
+
+    const html = items.map(item => createMusicCard(item)).join('');
+    musicGrid.innerHTML = html;
 }
 
 // Função para criar um card de música
 function createMusicCard(music, index) {
     return `
         <div class="music-card scroll-snap-start" 
-             style="background: linear-gradient(135deg, #1e40af, #312e81); border-radius: 8px; padding: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border: 1px solid rgba(59, 130, 246, 0.3); cursor: pointer; min-height: 70px; max-height: 70px; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;"
+             style="background: linear-gradient(135deg, #1e40af, #312e81); border-radius: 8px; padding: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border: 1px solid rgba(59, 130, 246, 0.3); cursor: pointer; min-height: 70px; max-height: 70px; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease; position: relative;"
              data-title="${music.titulo}" data-author="${music.autor}" data-date="${music.data}">
             <div style="color: #93c5fd; font-size: 12px; font-weight: 500; margin-bottom: 4px;">${music.data}</div>
             <h3 style="color: white; font-size: 14px; font-weight: bold; margin-bottom: 4px; line-height: 1.2; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${music.titulo}</h3>
-            <p style="color: #bfdbfe; font-size: 12px; line-height: 1.1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${music.autor}</p>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p style="color: #bfdbfe; font-size: 12px; line-height: 1.1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1;">${music.autor}</p>
+                <button class="play-btn" 
+                        style="background: rgba(34, 197, 94, 0.8); border: none; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s ease; margin-left: 8px;"
+                        data-filename="${music.data} - ${music.titulo}"
+                        title="Reproduzir músicas deste arquivo">
+                    <span style="color: white; font-size: 10px;">▶️</span>
+                </button>
+            </div>
         </div>
     `;
 }
@@ -504,7 +573,22 @@ function closeModalHandler() {
 // Estados da UI
 function showLoading(show) {
     const grid = document.getElementById('musicGrid');
-    if (grid) grid.style.display = show ? 'none' : 'grid';
+    const loadingState = document.getElementById('loadingState');
+    const errorState = document.getElementById('errorState');
+    const emptyState = document.getElementById('emptyState');
+    
+    if (show) {
+        // Mostra loading e oculta outros elementos
+        if (grid) grid.classList.add('hidden');
+        if (errorState) errorState.classList.add('hidden');
+        if (emptyState) emptyState.classList.add('hidden');
+        if (loadingState) loadingState.classList.remove('hidden');
+    } else {
+        // Oculta loading
+        if (loadingState) loadingState.classList.add('hidden');
+        // O grid será mostrado pela função renderItems se houver dados
+    }
+    
     appState.isLoading = show;
 }
 

@@ -3,8 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filosofia da Música</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="description" content="Explore 200 textos em busca do sentido da musicalidade. Uma jornada filosófica através da música de Paulo Volker.">
+    <meta name="msapplication-config" content="none">
+    <meta name="keywords" content="filosofia da música, música, filosofia, Paulo Volker, musicologia, história da música">
+    <meta name="author" content="Paulo Volker">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://filosofiadamusica.com/">
+    <meta property="og:title" content="Filosofia da Música - 200 textos em busca do sentido da musicalidade">
+    <meta property="og:description" content="Explore uma jornada filosófica através da música com 200 textos cuidadosamente selecionados.">
+    <meta property="og:image" content="./capas  volume_MUSICA.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://filosofiadamusica.com/">
+    <meta property="twitter:title" content="Filosofia da Música - 200 textos em busca do sentido da musicalidade">
+    <meta property="twitter:description" content="Explore uma jornada filosófica através da música com 200 textos cuidadosamente selecionados.">
+    <meta property="twitter:image" content="./capas  volume_MUSICA.png">
+    
+    <title>Filosofia da Música - 200 textos em busca do sentido da musicalidade</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="shortcut icon" href="./favicon.svg">
+    <link rel="icon" href="./favicon.svg" sizes="any">
+    <link rel="apple-touch-icon" href="./favicon.svg">
+    <link rel="canonical" href="https://filosofiadamusica.com/">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
     <script>
         // Configuração do Tailwind CSS
@@ -22,50 +46,79 @@
             }
         }
     </script>
+    <link rel="stylesheet" href="css/youtube-player.css">
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body class="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white min-h-screen">
     
     <!-- Header -->
-    <header class="bg-white shadow-2xl py-8">
+    <header class="bg-white shadow-2xl py-4 md:py-8">
         <div class="container mx-auto px-4">
             <div class="flex items-center justify-between">
-                <img src="Original_jpg.jpg" alt="Imagem esquerda" class="header-image w-auto object-contain">
-                <div class="text-center flex-1 px-4">
-                    <h1 class="text-3xl md:text-4xl font-bold text-blue-900 mb-2 font-serif">
-                        Filosofia da Música
-                    </h1>
-                    <p class="text-lg md:text-xl text-blue-800 mb-1 italic">
-                        – 200 textos em busca do sentido da musicalidade –
-                    </p>
-                    <p class="text-md text-blue-700">
-                        Do livro 'Filosofia da Música' de Paulo Volker
-                    </p>
-                </div>
-                <img src="capas  volume_MUSICA.png" alt="Imagem direita" class="header-image w-auto object-contain">
+                <img src="Original_jpg.jpg" alt="Retrato de Paulo Volker, autor do livro Filosofia da Música" class="header-image w-16 md:w-auto h-16 md:h-auto object-contain" loading="eager">
+                 <div class="text-center flex-1 px-2 md:px-4">
+                     <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-blue-900 mb-1 md:mb-2 font-serif">
+                         Filosofia da Música
+                     </h1>
+                     <p class="text-sm sm:text-base md:text-lg lg:text-xl text-blue-800 mb-1 italic hidden sm:block">
+                         – 200 textos em busca do sentido da musicalidade –
+                     </p>
+                     <p class="text-xs sm:text-sm md:text-base text-blue-700">
+                         Do livro 'Filosofia da Música' de Paulo Volker
+                     </p>
+                 </div>
+                 <img src="capas  volume_MUSICA.png" alt="Capa do livro Filosofia da Música de Paulo Volker" class="header-image w-16 md:w-auto h-16 md:h-auto object-contain" loading="eager">
             </div>
         </div>
     </header>
 
     <!-- Grid Carrossel Horizontal -->
-    <main class="py-12">
+    <main class="py-12" role="main">
         <div class="container mx-auto px-4">
 
             
-            <h2 class="text-3xl font-bold text-center mb-8 text-blue-200">
+            <h2 id="carousel-heading" class="text-3xl font-bold text-center mb-8 text-blue-200">
                 Explore as músicas do nosso Horizonte Musical
             </h2>
             
             <!-- Container do carrossel -->
-            <div class="relative">
-                <div id="musicCarousel" class="overflow-x-auto scroll-snap-x pb-4">
-                    <div id="musicGrid" class="grid-container">
-                        <!-- Cards serão inseridos aqui via JavaScript -->
-                    </div>
-                </div>
+            <div class="relative" role="region" aria-labelledby="carousel-heading" aria-label="Carrossel de música">
+                <div id="musicCarousel" class="overflow-x-auto scroll-snap-x pb-4" role="list" aria-live="polite">
+                     <!-- Loading State -->
+                     <div id="loadingState" class="flex justify-center items-center py-12">
+                         <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400"></div>
+                         <span class="ml-3 text-blue-200">Carregando músicas...</span>
+                     </div>
+                     
+                     <!-- Error State -->
+                     <div id="errorState" class="text-center py-12 hidden">
+                         <div class="text-red-400 mb-4">
+                             <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+                             </svg>
+                             <p class="text-lg font-semibold">Erro ao carregar músicas</p>
+                             <p class="text-sm text-blue-300 mt-2">Tente recarregar a página</p>
+                         </div>
+                     </div>
+                     
+                     <!-- Empty State -->
+                     <div id="emptyState" class="text-center py-12 hidden">
+                         <div class="text-blue-300 mb-4">
+                             <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.5-1.01-6-2.709M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+                             </svg>
+                             <p class="text-lg font-semibold">Nenhuma música encontrada</p>
+                             <p class="text-sm text-blue-300 mt-2">Tente ajustar os filtros de busca</p>
+                         </div>
+                     </div>
+                     
+                     <div id="musicGrid" class="grid-container hidden">
+                         <!-- Cards serão inseridos aqui via JavaScript -->
+                     </div>
+                 </div>
                 
                 <!-- Indicadores de scroll -->
-                <div class="flex justify-center mt-6">
+                <div class="flex justify-center mt-6" role="status" aria-label="Instruções de navegação">
                     <div class="text-blue-300 text-sm">
                         ← Deslize horizontalmente para ver mais composições →
                     </div>
@@ -75,26 +128,29 @@
     </main>
 
     <!-- Faixa de Busca -->
-    <section class="search-section bg-gradient-to-r from-slate-800 via-blue-800 to-slate-800 py-6 border-t border-blue-500/30">
+    <section class="search-section bg-gradient-to-r from-slate-800 via-blue-800 to-slate-800 py-6 border-t border-blue-500/30" aria-labelledby="search-heading">
         <div class="container mx-auto px-4">
             <div class="max-w-2xl mx-auto">
-                <h3 class="text-2xl font-bold text-center mb-4 text-blue-200">
+                <h3 id="search-heading" class="text-2xl font-bold text-center mb-4 text-blue-200">
                     🔍 Buscar Música
                 </h3>
                 
                 <!-- Campo de Busca -->
                 <div class="relative">
+                    <label for="searchInput" class="sr-only">Digite o nome da música, artista ou ano</label>
                     <input 
                         type="text" 
                         id="searchInput" 
                         placeholder="Digite o nome da música, artista ou ano..."
                         class="w-full px-6 py-4 text-lg bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-xl text-white placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-300"
+                        aria-describedby="search-description"
                     >
                     <div class="absolute right-4 top-1/2 transform -translate-y-1/2">
-                        <svg class="w-6 h-6 text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-6 h-6 text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                         </svg>
                     </div>
+                    <div id="search-description" class="sr-only">Digite para buscar músicas por título, artista ou ano</div>
                 </div>
                 
 
@@ -103,19 +159,19 @@
     </section>
 
     <!-- Seção de Filtros -->
-    <section class="py-8 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900">
+    <section class="py-8 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900" aria-labelledby="filters-heading">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
-                <h3 class="text-2xl font-bold text-center mb-6 text-blue-200">
+                <h3 id="filters-heading" class="text-2xl font-bold text-center mb-6 text-blue-200">
                     🎛️ Filtros Avançados
                 </h3>
                 
                 <!-- Primeira linha de filtros -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4" role="group" aria-label="Filtros principais para refinar a busca">
                     <!-- Filtro Data -->
                     <div class="filter-group">
-                        <label class="block text-sm font-medium text-blue-200 mb-2">📅 Data</label>
-                        <select id="filterData" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300">
+                        <label for="filterData" class="block text-sm font-medium text-blue-200 mb-2">📅 Data</label>
+                        <select id="filterData" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300" aria-label="Selecionar período histórico">
                             <option value="">Todas as épocas</option>
                             <option value="1100-1500">Música Antiga (1100-1500)</option>
                             <option value="1500-1750">Renascimento/Barroco (1500-1750)</option>
@@ -128,16 +184,16 @@
                     
                     <!-- Filtro Gênero -->
                     <div class="filter-group">
-                        <label class="block text-sm font-medium text-blue-200 mb-2">🎵 Gênero</label>
-                        <select id="filterGenero" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300">
+                        <label for="filterGenero" class="block text-sm font-medium text-blue-200 mb-2">🎵 Gênero</label>
+                        <select id="filterGenero" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300" aria-label="Selecionar gênero musical">
                             <option value="">Todos os gêneros</option>
                         </select>
                     </div>
                     
                     <!-- Filtro Atração Musical -->
                     <div class="filter-group">
-                        <label class="block text-sm font-medium text-blue-200 mb-2">⭐ Atração Musical</label>
-                        <select id="filterAtracao" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300">
+                        <label for="filterAtracao" class="block text-sm font-medium text-blue-200 mb-2">⭐ Atração Musical</label>
+                        <select id="filterAtracao" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300" aria-label="Selecionar nível de atração musical">
                             <option value="">Todos os níveis</option>
                             <option value="1">Baixa (1)</option>
                             <option value="2">Média (2)</option>
@@ -147,11 +203,11 @@
                 </div>
                 
                 <!-- Segunda linha de filtros -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4" role="group" aria-label="Filtros avançados para análise musical">
                     <!-- Filtro Grau de Introspecção -->
                     <div class="filter-group">
-                        <label class="block text-sm font-medium text-blue-200 mb-2">🧘 Grau de Introspecção</label>
-                        <select id="filterIntrospeccao" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300">
+                        <label for="filterIntrospeccao" class="block text-sm font-medium text-blue-200 mb-2">🧘 Grau de Introspecção</label>
+                        <select id="filterIntrospeccao" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300" aria-label="Selecionar grau de introspecção">
                             <option value="">Todos os níveis</option>
                             <option value="1">Baixo (1)</option>
                             <option value="2">Médio (2)</option>
@@ -161,8 +217,8 @@
                     
                     <!-- Filtro Complexidade Emocional -->
                     <div class="filter-group">
-                        <label class="block text-sm font-medium text-blue-200 mb-2">💭 Complexidade Emocional</label>
-                        <select id="filterComplexidade" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300">
+                        <label for="filterComplexidade" class="block text-sm font-medium text-blue-200 mb-2">💭 Complexidade Emocional</label>
+                        <select id="filterComplexidade" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300" aria-label="Selecionar complexidade emocional">
                             <option value="">Todos os níveis</option>
                             <option value="1">Baixa (1)</option>
                             <option value="2">Média (2)</option>
@@ -172,8 +228,8 @@
                     
                     <!-- Filtro Grau de Significação -->
                     <div class="filter-group">
-                        <label class="block text-sm font-medium text-blue-200 mb-2">🎯 Grau de Significação</label>
-                        <select id="filterSignificacao" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300">
+                        <label for="filterSignificacao" class="block text-sm font-medium text-blue-200 mb-2">🎯 Grau de Significação</label>
+                        <select id="filterSignificacao" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300" aria-label="Selecionar grau de significação">
                             <option value="">Todos os níveis</option>
                             <option value="3">Baixo (3)</option>
                             <option value="4">Baixo-Médio (4)</option>
@@ -188,9 +244,63 @@
                 
                 <!-- Botão para limpar filtros -->
                 <div class="text-center mt-6">
-                    <button id="clearFilters" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-300 shadow-lg">
+                    <button id="clearFilters" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-300 shadow-lg" aria-label="Limpar todos os filtros aplicados">
                         🔄 Limpar Filtros
                     </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção do Player do YouTube -->
+    <section class="youtube-player-section py-8 mt-8" aria-labelledby="player-heading">
+        <div class="container mx-auto px-4">
+            <div class="player-container bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-white/20" role="region" aria-label="Reprodutor de música">
+                <h2 id="player-heading" class="text-2xl font-bold text-center mb-6 text-white">
+                    🎵 Player Musical
+                </h2>
+                
+                <!-- Controles do Player -->
+                <div class="flex flex-col items-center space-y-4">
+                    <!-- Informações da música atual -->
+                    <div id="currentTrackInfo" class="text-center text-white" role="status" aria-live="polite">
+                        <p id="currentFileName" class="text-lg font-semibold">Nenhuma música selecionada</p>
+                        <p id="currentTrackTitle" class="text-sm text-blue-200">Clique em um card para reproduzir suas músicas</p>
+                    </div>
+                    
+                    <!-- Player do YouTube (invisível) -->
+                    <div id="youtubePlayer" style="display: none;" aria-label="Player do YouTube"></div>
+                    
+                    <!-- Controles de reprodução -->
+                    <div class="player-buttons flex items-center space-x-4" role="group" aria-label="Controles de reprodução">
+                        <button id="prevBtn" class="player-btn bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full transition-colors duration-300 disabled:bg-gray-500 disabled:cursor-not-allowed" disabled aria-label="Música anterior" title="Tocar música anterior">
+                            ⏮️
+                        </button>
+                        <button id="playPauseBtn" class="player-btn bg-green-600 hover:bg-green-700 text-white p-4 rounded-full transition-colors duration-300 disabled:bg-gray-500 disabled:cursor-not-allowed" disabled aria-label="Reproduzir ou pausar" title="Reproduzir/Pausar música">
+                            ▶️
+                        </button>
+                        <button id="nextBtn" class="player-btn bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full transition-colors duration-300 disabled:bg-gray-500 disabled:cursor-not-allowed" disabled aria-label="Próxima música" title="Tocar próxima música">
+                            ⏭️
+                        </button>
+                        <button id="stopBtn" class="player-btn bg-red-600 hover:bg-red-700 text-white p-3 rounded-full transition-colors duration-300 disabled:bg-gray-500 disabled:cursor-not-allowed" disabled aria-label="Parar reprodução" title="Parar música">
+                            ⏹️
+                        </button>
+                    </div>
+                    
+                    <!-- Controle de volume -->
+                    <div class="volume-control flex items-center space-x-3 w-full max-w-md" role="group" aria-label="Controle de volume">
+                        <span class="text-white text-sm" aria-hidden="true">🔊</span>
+                        <label for="volumeSlider" class="sr-only">Controle de volume</label>
+                        <input type="range" id="volumeSlider" min="0" max="100" value="50" 
+                               class="flex-1 h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer"
+                               aria-label="Volume da música" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                        <span id="volumeValue" class="text-white text-sm w-8" aria-label="Volume atual">50</span>
+                    </div>
+                    
+                    <!-- Progresso da playlist -->
+                    <div id="playlistProgress" class="text-center text-blue-200 text-sm hidden" role="status" aria-live="polite">
+                        <span id="currentTrackNumber">1</span> de <span id="totalTracks">1</span> músicas
+                    </div>
                 </div>
             </div>
         </div>
@@ -238,11 +348,55 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="js/config.js"></script>
     <script src="js/data.js"></script>
-    <script src="js/markdown-content.js"></script>
+    <script src="js/youtube-data.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/youtube-player.js"></script>
     <script src="js/app.js"></script>
     <script src="js/search.js"></script>
     <script src="js/filters.js"></script>
+    
+    <!-- Mobile Menu Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+                    
+                    // Toggle menu visibility
+                    mobileMenu.classList.toggle('hidden');
+                    
+                    // Update aria-expanded
+                    mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+                    
+                    // Update button icon
+                    const icon = mobileMenuButton.querySelector('svg');
+                    if (!isExpanded) {
+                        // Change to X icon
+                        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>';
+                        mobileMenuButton.setAttribute('aria-label', 'Fechar menu');
+                    } else {
+                        // Change to hamburger icon
+                        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>';
+                        mobileMenuButton.setAttribute('aria-label', 'Abrir menu');
+                    }
+                });
+                
+                // Close menu when clicking outside
+                document.addEventListener('click', function(event) {
+                    if (!mobileMenuButton.contains(event.target) && !mobileMenu.contains(event.target)) {
+                        mobileMenu.classList.add('hidden');
+                        mobileMenuButton.setAttribute('aria-expanded', 'false');
+                        mobileMenuButton.setAttribute('aria-label', 'Abrir menu');
+                        const icon = mobileMenuButton.querySelector('svg');
+                        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>';
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html>

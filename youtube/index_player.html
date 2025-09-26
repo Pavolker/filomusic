@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouvir Música do YouTube</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 600px;
+        }
+        h1 {
+            color: #333;
+        }
+        .search-container {
+            margin: 20px 0;
+        }
+        #searchInput {
+            padding: 10px;
+            font-size: 16px;
+            width: 70%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #searchBtn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-left: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #searchBtn:hover {
+            background-color: #45a049;
+        }
+        #playerContainer {
+            margin: 20px 0;
+        }
+        .controls {
+            margin: 20px 0;
+        }
+        button {
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #cc0000;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        .volume-control {
+            margin: 15px 0;
+        }
+        #volumeSlider {
+            width: 80%;
+            margin: 0 10px;
+        }
+        #playlist {
+            text-align: left;
+            margin: 20px 0;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .playlist-item {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+        }
+        .playlist-item:hover {
+            background-color: #f5f5f5;
+        }
+        .playlist-item.playing {
+            background-color: #e3f2fd;
+            font-weight: bold;
+        }
+        #status {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #e3f2fd;
+            color: #1976d2;
+        }
+        #instructions {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #fff3e0;
+            border-radius: 5px;
+            text-align: left;
+        }
+        #clearBtn {
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #clearBtn:hover {
+            background-color: #f57c00;
+        }
+        #stopBtn {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #stopBtn:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ouvir Música do YouTube</h1>
+        
+        <div id="instructions">
+            <p><strong>Instruções:</strong> Digite o nome (ou parte do nome) de um arquivo .md na caixa abaixo. Por exemplo: "nabuco" para reproduzir as músicas do arquivo "NABUCO.md".</p>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Digite o nome do arquivo .md (ex: nabuco)">
+            <button id="searchBtn">Buscar</button>
+        </div>
+        
+        <div id="status">Digite um nome de arquivo para começar</div>
+        
+        <div id="playerContainer"></div>
+        
+        <div class="controls">
+            <button id="playBtn" disabled>Play</button>
+            <button id="pauseBtn" disabled>Pausar</button>
+            <button id="stopBtn" disabled>Parar</button>
+            <button id="nextBtn" disabled>Próxima</button>
+            <button id="prevBtn" disabled>Anterior</button>
+            <button id="clearBtn">Limpar Busca</button>
+        </div>
+        
+        <div class="volume-control">
+            <label for="volumeSlider">Volume:</label>
+            <input type="range" id="volumeSlider" min="0" max="100" value="100">
+        </div>
+        
+        <div id="playlist"></div>
+    </div>
+
+    <script>
+        // Variáveis globais
+        let player;
+        let isPlayerReady = false;
+        let currentPlaylist = [];
+        let currentTrackIndex = 0;
+        let urlsData = {};
+        
+        // Carrega os dados das URLs
+        fetch('urls-data.json')
+            .then(response => response.json())
+            .then(data => {
+                urlsData = data;
+                document.getElementById('status').textContent = 'Dados carregados. Digite um nome de arquivo para começar.';
+            })
+            .catch(error => {
+                console.error('Erro ao carregar os dados:', error);
+                document.getElementById('status').textContent = 'Erro ao carregar os dados das URLs.';
+            });
+        
+        // Carrega a API do YouTube
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        
+        // Função chamada quando a API do YouTube estiver pronta
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('playerContainer', {
+                height: '0', // Altura 0 para apenas áudio
+                width: '0',  // Largura 0 para apenas áudio
+                videoId: '',
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+        
+        // Função chamada quando o player estiver pronto
+        function onPlayerReady(event) {
+            isPlayerReady = true;
+            document.getElementById('playBtn').disabled = false;
+            document.getElementById('pauseBtn').disabled = false;
+            document.getElementById('stopBtn').disabled = false;
+            document.getElementById('nextBtn').disabled = false;
+            document.getElementById('prevBtn').disabled = false;
+            
+            // Define o volume inicial
+            const volume = document.getElementById('volumeSlider').value;
+            player.setVolume(volume);
+        }
+        
+        // Função para controlar o player quando o estado muda
+        function onPlayerStateChange(event) {
+            // Quando uma música termina, toca a próxima
+            if (event.data === YT.PlayerState.ENDED) {
+                playNextTrack();
+            }
+        }
+        
+        // Função para buscar URLs com base no nome do arquivo
+        function searchUrls() {
+            const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
+            
+            if (!searchTerm) {
+                document.getElementById('status').textContent = 'Por favor, digite um nome de arquivo.';
+                return;
+            }
+            
+            // Procura por arquivos que contenham o termo de busca
+            const matchingFiles = Object.keys(urlsData).filter(fileName => 
+                fileName.toLowerCase().includes(searchTerm)
+            );
+            
+            if (matchingFiles.length === 0) {
+                document.getElementById('status').textContent = 'Nenhum arquivo encontrado com esse nome.';
+                document.getElementById('playlist').innerHTML = '';
+                currentPlaylist = [];
+                return;
+            }
+            
+            // Se encontrar exatamente um arquivo, usa esse
+            let selectedFile;
+            if (matchingFiles.length === 1) {
+                selectedFile = matchingFiles[0];
+            } else {
+                // Se encontrar mais de um, verifica se algum é uma correspondência exata
+                const exactMatch = matchingFiles.find(fileName => 
+                    fileName.toLowerCase() === searchTerm
+                );
+                selectedFile = exactMatch || matchingFiles[0];
+            }
+            
+            // Obtém as URLs do arquivo selecionado
+            currentPlaylist = urlsData[selectedFile] || [];
+            currentTrackIndex = 0;
+            
+            if (currentPlaylist.length === 0) {
+                document.getElementById('status').textContent = `O arquivo "${selectedFile}" não contém URLs do YouTube.`;
+                document.getElementById('playlist').innerHTML = '';
+                return;
+            }
+            
+            document.getElementById('status').textContent = `Encontradas ${currentPlaylist.length} músicas no arquivo "${selectedFile}".`;
+            
+            // Atualiza a lista de reprodução
+            updatePlaylistDisplay();
+            
+            // Carrega a primeira música
+            loadTrack(0);
+        }
+        
+        // Função para atualizar a exibição da lista de reprodução
+        function updatePlaylistDisplay() {
+            const playlistElement = document.getElementById('playlist');
+            playlistElement.innerHTML = '<h3>Lista de Reprodução:</h3>';
+            
+            currentPlaylist.forEach((url, index) => {
+                const itemElement = document.createElement('div');
+                itemElement.className = 'playlist-item';
+                if (index === currentTrackIndex) {
+                    itemElement.classList.add('playing');
+                }
+                itemElement.textContent = `Música ${index + 1}: ${url}`;
+                itemElement.addEventListener('click', () => {
+                    loadTrack(index);
+                });
+                playlistElement.appendChild(itemElement);
+            });
+        }
+        
+        // Função para carregar uma música específica
+        function loadTrack(index) {
+            if (!isPlayerReady || currentPlaylist.length === 0) return;
+            
+            currentTrackIndex = index;
+            
+            // Extrai o ID do vídeo da URL
+            const url = currentPlaylist[index];
+            const videoId = extractVideoId(url);
+            
+            if (videoId) {
+                player.loadVideoById(videoId);
+                document.getElementById('status').textContent = `Tocando música ${index + 1} de ${currentPlaylist.length}`;
+                updatePlaylistDisplay();
+            } else {
+                document.getElementById('status').textContent = 'URL inválida.';
+            }
+        }
+        
+        // Função para extrair o ID do vídeo do YouTube de uma URL
+        function extractVideoId(url) {
+            const regex = /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:watch\?v=|embed\/|v\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
+            const match = url.match(regex);
+            return match ? match[1] : null;
+        }
+        
+        // Função para tocar a próxima música
+        function playNextTrack() {
+            if (currentPlaylist.length === 0) return;
+            
+            currentTrackIndex = (currentTrackIndex + 1) % currentPlaylist.length;
+            loadTrack(currentTrackIndex);
+        }
+        
+        // Função para tocar a música anterior
+        function playPrevTrack() {
+            if (currentPlaylist.length === 0) return;
+            
+            currentTrackIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
+            loadTrack(currentTrackIndex);
+        }
+        
+        // Função para parar a música
+        function stopMusic() {
+            if (isPlayerReady) {
+                player.stopVideo();
+                document.getElementById('status').textContent = 'Música parada.';
+            }
+        }
+        
+        // Função para limpar a busca
+        function clearSearch() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('playlist').innerHTML = '';
+            document.getElementById('status').textContent = 'Busca limpa. Digite um nome de arquivo para começar.';
+            currentPlaylist = [];
+            currentTrackIndex = 0;
+        }
+        
+        // Event listeners para os botões
+        document.getElementById('searchBtn').addEventListener('click', searchUrls);
+        
+        document.getElementById('searchInput').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                searchUrls();
+            }
+        });
+        
+        document.getElementById('playBtn').addEventListener('click', function() {
+            if (isPlayerReady && currentPlaylist.length > 0) {
+                player.playVideo();
+            }
+        });
+        
+        document.getElementById('pauseBtn').addEventListener('click', function() {
+            if (isPlayerReady) {
+                player.pauseVideo();
+            }
+        });
+        
+        document.getElementById('stopBtn').addEventListener('click', stopMusic);
+        
+        document.getElementById('nextBtn').addEventListener('click', playNextTrack);
+        
+        document.getElementById('prevBtn').addEventListener('click', playPrevTrack);
+        
+        document.getElementById('clearBtn').addEventListener('click', clearSearch);
+        
+        // Controle de volume
+        document.getElementById('volumeSlider').addEventListener('input', function() {
+            if (isPlayerReady) {
+                player.setVolume(this.value);
+            }
+        });
+    </script>
+</body>
+</html>
