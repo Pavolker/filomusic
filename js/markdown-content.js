@@ -2529,6 +2529,70 @@ Billy Joel
 
 [PastedGraphic2]: PastedGraphic2.png width=302px height=425px`,
 
+    // Arquivos de conceitos para explicação dos filtros avançados
+    "ATRAÇÃO MUSICAL.md": `ATRAÇÃO MUSICAL é uma variável que mede o apelo estético da obra. A variável tem o valor de 1 a 3 (sendo 1= pouca atração; 3 = muita atração; e 2 = mediana atração) , que define, do meu ponto de vista, a qualidade técnica e harmônica da composição, considerando ritmo, melodia e harmonia, e o quanto a música é esteticamente agradável. Esta variável se traduz no quão atraente a obra é para o ouvinte em termos técnicos, proporcionando uma compreensão de sua popularidade ou de seu valor artístico.`,
+
+    "GRAU DE INTROSPECÇÃO.md": `O GRAU DE INTROSPECÇÃO mensura o potencial da música para induzir estados de reflexão interior. A variável tem o valor de 1 a 3 (sendo 1= baixo grau de introspecção; 3 =  alto grau de introspecção; e 2 = mediano grau de introspecção) . Essa variável leva em conta o tempo, o andamento e a complexidade da obra, visto que músicas mais lentas e harmonias profundas tendem a favorecer a introspecção. Avaliando o grau de introspecção, buscamos entender o poder da obra de transportar o ouvinte a uma experiência contemplativa, proporcionando um espaço para uma conexão emocional mais profunda.`,
+
+    "COMPLEXIDADE EMOCIONAL.md": `A COMPLEXIDADE EMOCIONAL se refere à variedade e à profundidade das emoções que a música é capaz de evocar. A variável tem o valor de 1 a 3 (sendo 1= baixa complexidade emocional; 3 =  alta complexidade emocional; e 2 = mediana complexidade emocional). Músicas com alta complexidade emocional podem proporcionar uma experiência multifacetada, transmitindo desde sensações de alegria e euforia até sentimentos de nostalgia e melancolia. Essa variável revela a capacidade da obra de criar uma experiência emocional rica e envolvente, que transcende o prazer auditivo e leva o ouvinte a uma jornada emocional.`,
+
+    "GRAU DE SIGNIFICAÇÃO.md": `GRAU DE SIGNIFICAÇÃO é uma métrica que soma o valor das variáveis acima identificadas (Atração Musical, Grau de Introspecção e Complexidade Emocional). Essa variável identifica, dentro dos meus critérios uma "hierarquia de significação musical", já que possibilita saber quais foram as musicas mais pontuadas. É evidente que as 200 músicas só estão listadas porque todas elas, de uma forma ou de outra, foram importantes em algum momento da minha vida, mas dentro desse "horizonte musical", algumas marcaram de forma definitiva a minha consciência musical.`,
+
+    // Citações dos autores
+    'Spinoza': `
+        <div class="citation-content">
+            <blockquote class="text-lg italic text-gray-700 mb-4 border-l-4 border-blue-500 pl-4">
+                "Uma só coisa pode ser ao mesmo tempo boa e má, e também indiferente. Por exemplo, a música é boa para o melancólico, má para o aflito, para o surdo não é boa nem má"
+            </blockquote>
+            <p class="text-right text-gray-600 font-semibold">— Spinoza</p>
+        </div>
+    `,
+
+    'Machado de Assis': `
+        <div class="citation-content">
+            <blockquote class="text-lg italic text-gray-700 mb-4 border-l-4 border-blue-500 pl-4">
+                "Um dia, quando todos os livros forem queimados por inúteis, há de haver alguém, pode ser que tenor, e talvez italiano, que ensine esta verdade aos homens. Tudo é música, meu amigo. No princípio era o dó, e o dó fez-se ré, etc"
+            </blockquote>
+            <p class="text-right text-gray-600 font-semibold">— Machado de Assis</p>
+        </div>
+    `,
+
+    'Clarice Lispector': `
+        <div class="citation-content">
+            <blockquote class="text-lg italic text-gray-700 mb-4 border-l-4 border-blue-500 pl-4">
+                "Certos momentos da música. A música era da categoria do pensamento, ambos vibravam no mesmo movimento e espécie"
+            </blockquote>
+            <p class="text-right text-gray-600 font-semibold">— Clarice Lispector</p>
+        </div>
+    `,
+
+    'Friedrich Nietzsche': `
+        <div class="citation-content">
+            <blockquote class="text-lg italic text-gray-700 mb-4 border-l-4 border-blue-500 pl-4">
+                "Música e mito trágicos são expressões idênticas da capacidade dionisíaca do povo, sendo inseparável uma do outro"
+            </blockquote>
+            <p class="text-right text-gray-600 font-semibold">— Friedrich Nietzsche</p>
+        </div>
+    `,
+
+    'Bhagavad Gita': `
+        <div class="citation-content">
+            <blockquote class="text-lg italic text-gray-700 mb-4 border-l-4 border-blue-500 pl-4">
+                "Ó rei, eu guardei tal música no fundo da minha alma, e toda vez que a relembro, é mais um momento de êxtase"
+            </blockquote>
+            <p class="text-right text-gray-600 font-semibold">— Bhagavad Gita</p>
+        </div>
+    `,
+
+    'Tao Te Ching': `
+        <div class="citation-content">
+            <blockquote class="text-lg italic text-gray-700 mb-4 border-l-4 border-blue-500 pl-4">
+                "E assim o longo e o curto se delimitam entre si, o alto e o baixo surgem de seu próprio contraste, as notas musicais se harmonizam na própria melodia, e aquele que veio antes demarca o que veio após"
+            </blockquote>
+            <p class="text-right text-gray-600 font-semibold">— Tao Te Ching</p>
+        </div>
+    `
+
 };
 
 // Função para obter conteúdo markdown

@@ -1,0 +1,22 @@
+{
+  "name": "musica-carrosel",
+  "version": "1.0.0",
+  "description": "Aplicação de carrossel de música com player do YouTube",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "tailwindcss -i ./css/input.css -o ./css/tailwind.css --watch",
+    "build": "tailwindcss -i ./css/input.css -o ./css/tailwind.css --minify",
+    "dev": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "keywords": [
+    "music",
+    "youtube",
+    "carousel",
+    "player"
+  ],
+  "author": "",
+  "license": "MIT"
+}

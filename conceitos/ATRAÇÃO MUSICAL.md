@@ -1,0 +1,2 @@
+
+ATRAÇÃO MUSICAL é uma variável que mede o apelo estético da obra. A variável tem o valor de 1 a 3 (sendo 1= pouca atração; 3 = muita atração; e 2 = mediana atração) , que define, do meu ponto de vista, a qualidade técnica e harmônica da composição, considerando ritmo, melodia e harmonia, e o quanto a música é esteticamente agradável. Esta variável se traduz no quão atraente a obra é para o ouvinte em termos técnicos, proporcionando uma compreensão de sua popularidade ou de seu valor artístico.

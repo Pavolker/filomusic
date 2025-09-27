@@ -1,4 +1,4 @@
-// YouTube Player para reprodução de músicas
+// YouTube Player para reprodução de músicas - Cache busting comment - Debug 2024
 class YouTubePlayer {
     constructor() {
         this.player = null;
@@ -9,6 +9,12 @@ class YouTubePlayer {
         this.youtubeUrls = {};
         this.youtubeDisplayNames = {};
         this.currentFileName = '';
+        
+        // Proteção contra loops infinitos
+        this.consecutiveErrors = 0;
+        this.maxConsecutiveErrors = 3;
+        this.lastErrorTime = 0;
+        this.errorCooldown = 2000; // 2 segundos
 
         this.initializeElements();
         this.loadYouTubeUrls();
@@ -24,12 +30,15 @@ class YouTubePlayer {
             prevBtn: document.getElementById('prevBtn'),
             nextBtn: document.getElementById('nextBtn'),
             stopBtn: document.getElementById('stopBtn'),
-            volumeSlider: document.getElementById('volumeSlider'),
-            volumeValue: document.getElementById('volumeValue'),
             currentTrackNumber: document.getElementById('currentTrackNumber'),
             totalTracks: document.getElementById('totalTracks'),
-            playlistProgress: document.getElementById('playlistProgress')
+            playlistProgress: document.getElementById('playlistProgress'),
+            loadingProgress: document.getElementById('loadingProgress'),
+            loadingText: document.getElementById('loadingText'),
+            loadingBar: document.getElementById('loadingBar'),
+            loadingPercentage: document.getElementById('loadingPercentage')
         };
+        
     }
 
     async loadYouTubeUrls() {
@@ -105,9 +114,9 @@ class YouTubePlayer {
             
             if (isLocalFile) {
                 console.warn('Detectado protocolo file://. O player do YouTube pode não funcionar corretamente.');
-                console.warn('Por favor, acesse através de http://localhost:8001');
+                console.warn('Por favor, acesse através de http://localhost:8000');
                 // Para protocolo file://, não definimos origin
-                widgetReferrer = 'http://localhost:8001';
+                widgetReferrer = 'http://localhost:8000';
             } else if (isLocalhost) {
                 originConfig.origin = window.location.origin;
                 widgetReferrer = window.location.href;
@@ -155,68 +164,108 @@ class YouTubePlayer {
         console.log('Player do YouTube pronto');
         this.isPlayerReady = true;
         
-        // Verifica se todas as funções estão disponíveis
-        if (this.player && typeof this.player.setVolume === 'function') {
-            this.player.setVolume(50);
-            this.updateVolumeDisplay(50);
-        }
-        
         // Habilita os controles
         this.enableControls();
     }
 
     onPlayerStateChange(event) {
         if (event.data === YT.PlayerState.ENDED) {
+            this.hideLoadingProgress();
             this.playNext();
         } else if (event.data === YT.PlayerState.PLAYING) {
+            // Completar progresso e esconder barra quando começar a tocar
+            this.updateLoadingProgress(100);
+            setTimeout(() => this.hideLoadingProgress(), 500);
+            
+            // Resetar contador de erros quando música toca com sucesso
+            this.consecutiveErrors = 0;
+            
             this.isPlaying = true;
             this.elements.playPauseBtn.innerHTML = '⏸️';
             this.updateTrackInfo();
         } else if (event.data === YT.PlayerState.PAUSED) {
             this.isPlaying = false;
             this.elements.playPauseBtn.innerHTML = '▶️';
+        } else if (event.data === YT.PlayerState.BUFFERING) {
+            // Mostrar progresso durante buffering se não estiver visível
+            if (this.elements.loadingProgress && this.elements.loadingProgress.classList.contains('hidden')) {
+                this.showLoadingProgress('Carregando...');
+                this.updateLoadingProgress(50);
+            }
         }
     }
 
     onPlayerError(event) {
         console.warn('Erro no player do YouTube:', event.data);
-        // Tenta próxima música se houver erro
+        this.hideLoadingProgress();
+        
+        const currentTime = Date.now();
+        
+        // Verificar se estamos em um loop de erros
+        if (currentTime - this.lastErrorTime < this.errorCooldown) {
+            this.consecutiveErrors++;
+        } else {
+            this.consecutiveErrors = 1;
+        }
+        
+        this.lastErrorTime = currentTime;
+        
+        // Se excedeu o limite de erros consecutivos, parar o player
+        if (this.consecutiveErrors >= this.maxConsecutiveErrors) {
+            console.warn(`Muitos erros consecutivos (${this.consecutiveErrors}). Parando reprodução para evitar loop infinito.`);
+            this.stop();
+            this.showNoMusicMessage('Erro: Não foi possível reproduzir as músicas desta playlist');
+            return;
+        }
+        
+        // Tenta próxima música se houver erro e não excedeu o limite
         if (this.currentPlaylist.length > 1) {
-            this.playNext();
+            console.log(`Tentativa ${this.consecutiveErrors} de ${this.maxConsecutiveErrors}. Tentando próxima música...`);
+            setTimeout(() => this.playNext(), 1000); // Pequeno delay para evitar spam
         }
     }
 
     setupEventListeners() {
-        // Botão Play/Pause
-        this.elements.playPauseBtn.addEventListener('click', () => {
-            if (this.currentPlaylist.length === 0) return;
-            
-            if (this.isPlaying) {
-                this.pause();
-            } else {
-                this.play();
+        // Lista de elementos e suas funções
+        const eventHandlers = [
+            {
+                element: 'playPauseBtn',
+                handler: () => {
+                    if (this.player && this.player.getPlayerState) {
+                        const state = this.player.getPlayerState();
+                        if (state === YT.PlayerState.PLAYING) {
+                            this.pause();
+                        } else {
+                            this.play();
+                        }
+                    }
+                }
+            },
+            {
+                element: 'prevBtn',
+                handler: () => this.playPrevious()
+            },
+            {
+                element: 'nextBtn',
+                handler: () => this.playNext()
+            },
+            {
+                element: 'stopBtn',
+                handler: () => this.stop()
             }
-        });
+        ];
 
-        // Botão Anterior
-        this.elements.prevBtn.addEventListener('click', () => {
-            this.playPrevious();
-        });
-
-        // Botão Próximo
-        this.elements.nextBtn.addEventListener('click', () => {
-            this.playNext();
-        });
-
-        // Botão Parar
-        this.elements.stopBtn.addEventListener('click', () => {
-            this.stop();
-        });
-
-        // Controle de volume
-        this.elements.volumeSlider.addEventListener('input', (e) => {
-            const volume = parseInt(e.target.value);
-            this.setVolume(volume);
+        // Configurar event listeners de forma segura
+        eventHandlers.forEach(({ element, handler }) => {
+            const el = this.elements[element];
+            
+            if (el && typeof el.addEventListener === 'function') {
+                try {
+                    el.addEventListener('click', handler);
+                } catch (error) {
+                    console.error(`Erro ao configurar event listener para ${element}:`, error);
+                }
+            }
         });
     }
 
@@ -231,6 +280,10 @@ class YouTubePlayer {
             this.showNoMusicMessage(cleanFileName);
             return;
         }
+
+        // Resetar contador de erros ao carregar nova playlist
+        this.consecutiveErrors = 0;
+        this.lastErrorTime = 0;
 
         this.currentPlaylist = urls.map(url => this.extractVideoId(url)).filter(id => id);
         this.currentTrackIndex = 0;
@@ -271,6 +324,10 @@ class YouTubePlayer {
             return;
         }
 
+        // Mostrar barra de progresso
+        this.showLoadingProgress('Carregando música...');
+        this.simulateLoadingProgress();
+
         const videoId = this.currentPlaylist[this.currentTrackIndex];
         console.log('Carregando vídeo:', videoId);
 
@@ -294,6 +351,7 @@ class YouTubePlayer {
             this.updateTrackInfo();
         } catch (error) {
             console.error('Erro ao carregar vídeo:', error);
+            this.hideLoadingProgress();
             setTimeout(() => this.loadCurrentTrack(), 2000);
         }
     }
@@ -324,6 +382,10 @@ class YouTubePlayer {
                 this.player.stopVideo();
                 this.isPlaying = false;
                 this.elements.playPauseBtn.innerHTML = '▶️';
+                
+                // Resetar contador de erros quando parar manualmente
+                this.consecutiveErrors = 0;
+                this.lastErrorTime = 0;
             } catch (error) {
                 console.error('Erro ao parar vídeo:', error);
             }
@@ -346,17 +408,7 @@ class YouTubePlayer {
         this.loadCurrentTrack();
     }
 
-    setVolume(volume) {
-        if (this.player) {
-            this.player.setVolume(volume);
-        }
-        this.updateVolumeDisplay(volume);
-    }
 
-    updateVolumeDisplay(volume) {
-        this.elements.volumeValue.textContent = volume;
-        this.elements.volumeSlider.value = volume;
-    }
 
     updateTrackInfo() {
         this.elements.currentFileName.textContent = this.currentFileName;
@@ -369,6 +421,49 @@ class YouTubePlayer {
     updatePlaylistInfo() {
         this.elements.playlistProgress.classList.remove('hidden');
         this.updateTrackInfo();
+    }
+
+    // Métodos para controle da barra de progresso
+    showLoadingProgress(text = 'Carregando música...') {
+        if (this.elements.loadingProgress) {
+            this.elements.loadingProgress.classList.remove('hidden');
+            if (this.elements.loadingText) {
+                this.elements.loadingText.textContent = text;
+            }
+            this.updateLoadingProgress(0);
+        }
+    }
+
+    hideLoadingProgress() {
+        if (this.elements.loadingProgress) {
+            this.elements.loadingProgress.classList.add('hidden');
+        }
+    }
+
+    updateLoadingProgress(percentage) {
+        if (this.elements.loadingBar && this.elements.loadingPercentage) {
+            const clampedPercentage = Math.max(0, Math.min(100, percentage));
+            this.elements.loadingBar.style.width = `${clampedPercentage}%`;
+            this.elements.loadingPercentage.textContent = `${Math.round(clampedPercentage)}%`;
+        }
+    }
+
+    simulateLoadingProgress() {
+        let progress = 0;
+        const increment = Math.random() * 15 + 5; // 5-20% por vez
+        
+        const updateProgress = () => {
+            progress += increment;
+            
+            if (progress < 90) {
+                this.updateLoadingProgress(progress);
+                setTimeout(updateProgress, Math.random() * 300 + 200); // 200-500ms
+            } else {
+                this.updateLoadingProgress(90);
+            }
+        };
+        
+        updateProgress();
     }
 
     enableControls() {

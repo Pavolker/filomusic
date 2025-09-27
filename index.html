@@ -25,27 +25,13 @@
     
     <title>Filosofia da Música - 200 textos em busca do sentido da musicalidade</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="icon" type="image/x-icon" href="./favicon.svg">
     <link rel="shortcut icon" href="./favicon.svg">
     <link rel="icon" href="./favicon.svg" sizes="any">
     <link rel="apple-touch-icon" href="./favicon.svg">
     <link rel="canonical" href="https://filosofiadamusica.com/">
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
-    <script>
-        // Configuração do Tailwind CSS
-        if (typeof tailwind !== 'undefined') {
-            tailwind.config = {
-                theme: {
-                    extend: {
-                        colors: {
-                            primary: '#1e40af',
-                            secondary: '#312e81',
-                            accent: '#f59e0b'
-                        }
-                    }
-                }
-            }
-        }
-    </script>
+    <link href="./css/tailwind.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/youtube-player.css">
     <link rel="stylesheet" href="css/custom.css">
 </head>
@@ -71,6 +57,47 @@
             </div>
         </div>
     </header>
+
+    <!-- Seção de Citações -->
+    <section class="py-8 bg-gradient-to-r from-blue-900/20 to-purple-900/20" role="region" aria-label="Citações sobre música">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-6 text-blue-200">
+                Reflexões sobre a Música
+            </h2>
+            <div class="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+                <button onclick="showCitation('Spinoza')" 
+                        class="bg-blue-600/30 hover:bg-blue-500/40 text-blue-100 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50"
+                        aria-label="Ver citação de Spinoza">
+                    Spinoza
+                </button>
+                <button onclick="showCitation('Machado de Assis')" 
+                        class="bg-blue-600/30 hover:bg-blue-500/40 text-blue-100 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50"
+                        aria-label="Ver citação de Machado de Assis">
+                    Machado de Assis
+                </button>
+                <button onclick="showCitation('Clarice Lispector')" 
+                        class="bg-blue-600/30 hover:bg-blue-500/40 text-blue-100 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50"
+                        aria-label="Ver citação de Clarice Lispector">
+                    Clarice Lispector
+                </button>
+                <button onclick="showCitation('Friedrich Nietzsche')" 
+                        class="bg-blue-600/30 hover:bg-blue-500/40 text-blue-100 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50"
+                        aria-label="Ver citação de Friedrich Nietzsche">
+                    Friedrich Nietzsche
+                </button>
+                <button onclick="showCitation('Bhagavad Gita')" 
+                        class="bg-blue-600/30 hover:bg-blue-500/40 text-blue-100 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50"
+                        aria-label="Ver citação do Bhagavad Gita">
+                    Bhagavad Gita
+                </button>
+                <button onclick="showCitation('Tao Te Ching')" 
+                        class="bg-blue-600/30 hover:bg-blue-500/40 text-blue-100 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50"
+                        aria-label="Ver citação do Tao Te Ching">
+                    Tao Te Ching
+                </button>
+            </div>
+        </div>
+    </section>
 
     <!-- Grid Carrossel Horizontal -->
     <main class="py-12" role="main">
@@ -192,7 +219,14 @@
                     
                     <!-- Filtro Atração Musical -->
                     <div class="filter-group">
-                        <label for="filterAtracao" class="block text-sm font-medium text-blue-200 mb-2">⭐ Atração Musical</label>
+                        <div class="flex items-center gap-2 mb-2">
+                            <label for="filterAtracao" class="text-sm font-medium text-blue-200">⭐ Atração Musical</label>
+                            <button onclick="showConceptExplanation('ATRAÇÃO MUSICAL.md')" class="text-red-500 hover:text-red-300 transition-colors duration-200" title="Ver explicação sobre Atração Musical" aria-label="Explicação sobre Atração Musical">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </div>
                         <select id="filterAtracao" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300" aria-label="Selecionar nível de atração musical">
                             <option value="">Todos os níveis</option>
                             <option value="1">Baixa (1)</option>
@@ -206,7 +240,14 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4" role="group" aria-label="Filtros avançados para análise musical">
                     <!-- Filtro Grau de Introspecção -->
                     <div class="filter-group">
-                        <label for="filterIntrospeccao" class="block text-sm font-medium text-blue-200 mb-2">🧘 Grau de Introspecção</label>
+                        <div class="flex items-center gap-2 mb-2">
+                            <label for="filterIntrospeccao" class="text-sm font-medium text-blue-200">🧘 Grau de Introspecção</label>
+                            <button onclick="showConceptExplanation('GRAU DE INTROSPECÇÃO.md')" class="text-red-500 hover:text-red-300 transition-colors duration-200" title="Ver explicação sobre Grau de Introspecção" aria-label="Explicação sobre Grau de Introspecção">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </div>
                         <select id="filterIntrospeccao" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300" aria-label="Selecionar grau de introspecção">
                             <option value="">Todos os níveis</option>
                             <option value="1">Baixo (1)</option>
@@ -217,7 +258,14 @@
                     
                     <!-- Filtro Complexidade Emocional -->
                     <div class="filter-group">
-                        <label for="filterComplexidade" class="block text-sm font-medium text-blue-200 mb-2">💭 Complexidade Emocional</label>
+                        <div class="flex items-center gap-2 mb-2">
+                            <label for="filterComplexidade" class="text-sm font-medium text-blue-200">💭 Complexidade Emocional</label>
+                            <button onclick="showConceptExplanation('COMPLEXIDADE EMOCIONAL.md')" class="text-red-500 hover:text-red-300 transition-colors duration-200" title="Ver explicação sobre Complexidade Emocional" aria-label="Explicação sobre Complexidade Emocional">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </div>
                         <select id="filterComplexidade" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300" aria-label="Selecionar complexidade emocional">
                             <option value="">Todos os níveis</option>
                             <option value="1">Baixa (1)</option>
@@ -228,7 +276,14 @@
                     
                     <!-- Filtro Grau de Significação -->
                     <div class="filter-group">
-                        <label for="filterSignificacao" class="block text-sm font-medium text-blue-200 mb-2">🎯 Grau de Significação</label>
+                        <div class="flex items-center gap-2 mb-2">
+                            <label for="filterSignificacao" class="text-sm font-medium text-blue-200">🎯 Grau de Significação</label>
+                            <button onclick="showConceptExplanation('GRAU DE SIGNIFICAÇÃO.md')" class="text-red-500 hover:text-red-300 transition-colors duration-200" title="Ver explicação sobre Grau de Significação" aria-label="Explicação sobre Grau de Significação">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </div>
                         <select id="filterSignificacao" class="w-full px-4 py-3 bg-white/10 backdrop-blur-sm border border-blue-400/50 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300" aria-label="Selecionar grau de significação">
                             <option value="">Todos os níveis</option>
                             <option value="3">Baixo (3)</option>
@@ -268,6 +323,19 @@
                         <p id="currentTrackTitle" class="text-sm text-blue-200">Clique em um card para reproduzir suas músicas</p>
                     </div>
                     
+                    <!-- Barra de progresso de carregamento -->
+                    <div id="loadingProgress" class="loading-container hidden w-full max-w-md" role="status" aria-live="polite">
+                        <div class="loading-text text-center text-blue-200 text-sm mb-2">
+                            <span id="loadingText">Carregando música...</span>
+                        </div>
+                        <div class="loading-bar-container bg-gray-700 rounded-full h-2 overflow-hidden">
+                            <div id="loadingBar" class="loading-bar bg-gradient-to-r from-blue-500 to-green-500 h-full rounded-full transition-all duration-300"></div>
+                        </div>
+                        <div class="loading-percentage text-center text-blue-300 text-xs mt-1">
+                            <span id="loadingPercentage">0%</span>
+                        </div>
+                    </div>
+                    
                     <!-- Player do YouTube (invisível) -->
                     <div id="youtubePlayer" style="display: none;" aria-label="Player do YouTube"></div>
                     
@@ -287,15 +355,7 @@
                         </button>
                     </div>
                     
-                    <!-- Controle de volume -->
-                    <div class="volume-control flex items-center space-x-3 w-full max-w-md" role="group" aria-label="Controle de volume">
-                        <span class="text-white text-sm" aria-hidden="true">🔊</span>
-                        <label for="volumeSlider" class="sr-only">Controle de volume</label>
-                        <input type="range" id="volumeSlider" min="0" max="100" value="50" 
-                               class="flex-1 h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer"
-                               aria-label="Volume da música" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
-                        <span id="volumeValue" class="text-white text-sm w-8" aria-label="Volume atual">50</span>
-                    </div>
+
                     
                     <!-- Progresso da playlist -->
                     <div id="playlistProgress" class="text-center text-blue-200 text-sm hidden" role="status" aria-live="polite">
@@ -346,6 +406,40 @@
             </a>
         </div>
     </footer>
+
+    <!-- Modal de Conceitos -->
+    <div id="conceptModal" class="hidden fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm flex items-center justify-center p-4" style="z-index: 2147483647 !important; position: fixed !important;">
+        <div class="bg-white rounded-lg max-w-2xl w-full max-h-[80vh] overflow-hidden shadow-2xl transform transition-all duration-300" style="z-index: 2147483647 !important; position: relative !important;">
+            <div class="flex items-center justify-between p-6 border-b border-gray-200">
+                <h3 id="conceptModalTitle" class="text-xl font-bold text-gray-900"></h3>
+                <button onclick="closeConceptModal()" class="text-gray-400 hover:text-gray-600 transition-colors duration-200 p-1 rounded-full hover:bg-gray-100" aria-label="Fechar explicação">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="conceptModalContent" class="p-6 overflow-y-auto max-h-[60vh] prose prose-sm max-w-none text-gray-700 leading-relaxed">
+                <!-- Conteúdo será inserido aqui -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Citações -->
+    <div id="citationModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-lg max-w-2xl w-full max-h-[80vh] overflow-hidden shadow-2xl">
+            <div class="flex items-center justify-between p-6 border-b border-gray-200">
+                <h3 id="citationModalTitle" class="text-xl font-bold text-gray-900"></h3>
+                <button onclick="closeCitationModal()" class="text-gray-400 hover:text-gray-600 transition-colors duration-200" aria-label="Fechar citação">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="citationModalContent" class="p-6 overflow-y-auto max-h-[60vh]">
+                <!-- Conteúdo será inserido aqui -->
+            </div>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script src="js/data.js"></script>
@@ -398,6 +492,71 @@
                 });
             }
         });
+
+        // Função para exibir explicação dos conceitos
+        function showConceptExplanation(filename) {
+            if (typeof getMarkdownContent === 'function') {
+                const content = getMarkdownContent(filename);
+                if (content) {
+                    const modal = document.getElementById('conceptModal');
+                    const title = document.getElementById('conceptModalTitle');
+                    const contentDiv = document.getElementById('conceptModalContent');
+                    
+                    if (modal && title && contentDiv) {
+                        const titleText = filename.replace('.md', '').replace(/([A-Z])/g, ' $1').trim();
+                        title.textContent = titleText;
+                        contentDiv.innerHTML = content;
+                        modal.classList.remove('hidden');
+                        document.body.style.overflow = 'hidden'; // Previne scroll do body
+                    }
+                }
+            }
+        }
+
+        // Função para fechar o modal
+        function closeConceptModal() {
+            document.getElementById('conceptModal').classList.add('hidden');
+            document.body.style.overflow = 'auto'; // Restaura scroll do body
+        }
+
+        // Fechar modal ao clicar fora dele
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('conceptModal');
+            if (modal) {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        closeConceptModal();
+                    }
+                });
+            }
+
+            // Fechar modal de citação ao clicar fora dele
+            const citationModal = document.getElementById('citationModal');
+            if (citationModal) {
+                citationModal.addEventListener('click', function(e) {
+                    if (e.target === citationModal) {
+                        closeCitationModal();
+                    }
+                });
+            }
+        });
+
+        // Função para exibir citação
+        function showCitation(author) {
+            const content = getMarkdownContent(author);
+            if (content) {
+                document.getElementById('citationModalTitle').textContent = author;
+                document.getElementById('citationModalContent').innerHTML = content;
+                document.getElementById('citationModal').classList.remove('hidden');
+                document.body.style.overflow = 'hidden'; // Previne scroll do body
+            }
+        }
+
+        // Função para fechar o modal de citação
+        function closeCitationModal() {
+            document.getElementById('citationModal').classList.add('hidden');
+            document.body.style.overflow = 'auto'; // Restaura scroll do body
+        }
     </script>
 </body>
 </html>

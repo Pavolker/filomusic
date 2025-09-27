@@ -134,7 +134,7 @@ class AdvancedFilters {
 
         // Atualiza o estado global e re-renderiza
         window.appState.filteredItems = filteredData;
-        window.renderItems();
+        window.renderItems(filteredData);
 
         // Atualiza contador de resultados
         this.updateResultsCounter(filteredData.length);
@@ -198,7 +198,7 @@ class AdvancedFilters {
             window.appState.filteredItems = [...window.musicData];
         }
 
-        window.renderItems();
+        window.renderItems(window.appState.filteredItems);
         this.updateResultsCounter(window.appState.filteredItems.length);
     }
 

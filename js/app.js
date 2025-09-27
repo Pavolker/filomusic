@@ -368,7 +368,7 @@ function renderUI() {
 }
 
 // Função para renderizar os itens musicais
-function renderItems(items = appState.items) {
+function renderItems(items = appState.filteredItems.length > 0 ? appState.filteredItems : appState.items) {
     const musicGrid = document.getElementById('musicGrid');
     const loadingState = document.getElementById('loadingState');
     const errorState = document.getElementById('errorState');
@@ -530,8 +530,8 @@ async function openModal(title, author, date) {
                         </div>
                         <p style="margin: 16px 0 8px 0; color: #d1d5db; font-size: 14px;">
                             Depois acesse: 
-                            <a href="http://localhost:8001" style="color: #60a5fa; text-decoration: none; font-weight: bold;">
-                                http://localhost:8001
+                            <a href="http://localhost:8000" style="color: #60a5fa; text-decoration: none; font-weight: bold;">
+                                http://localhost:8000
                             </a>
                         </p>
                         <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(59, 130, 246, 0.2);">
@@ -605,6 +605,8 @@ window.renderItems = renderItems;
 window.appState = appState;
 
 // Inicializar quando DOM estiver pronto
+
+
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initApp);
 } else {
