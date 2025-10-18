@@ -30,10 +30,10 @@
     <link rel="icon" href="./favicon.svg" sizes="any">
     <link rel="apple-touch-icon" href="./favicon.svg">
     <link rel="canonical" href="https://filosofiadamusica.com/">
-    <link href="./css/tailwind.css?v=3" rel="stylesheet">
+    <link href="./css/tailwind.css?v=4" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/youtube-player.css?v=3">
-    <link rel="stylesheet" href="css/custom.css?v=3">
+    <link rel="stylesheet" href="css/youtube-player.css?v=4">
+    <link rel="stylesheet" href="css/custom.css?v=4">
 </head>
 <body class="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white min-h-screen">
     
@@ -562,33 +562,33 @@
 
     <!-- Modal de Conceitos -->
     <div id="conceptModal" class="hidden fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm flex items-center justify-center p-4" style="z-index: 2147483647 !important; position: fixed !important;">
-        <div class="bg-white rounded-lg max-w-2xl w-full max-h-[80vh] overflow-hidden shadow-2xl transform transition-all duration-300" style="z-index: 2147483647 !important; position: relative !important;">
-            <div class="flex items-center justify-between p-6 border-b border-gray-200">
-                <h3 id="conceptModalTitle" class="text-xl font-bold text-gray-900"></h3>
-                <button onclick="closeConceptModal()" class="text-gray-400 hover:text-gray-600 transition-colors duration-200 p-1 rounded-full hover:bg-gray-100" aria-label="Fechar explicação">
+        <div class="bg-gradient-to-br from-slate-900 to-blue-900 rounded-lg max-w-2xl w-full max-h-[80vh] overflow-hidden shadow-2xl transform transition-all duration-300 border border-blue-500/30" style="z-index: 2147483647 !important; position: relative !important;">
+            <div class="flex items-center justify-between p-6 border-b border-blue-500/30 bg-gradient-to-r from-blue-800 to-indigo-900">
+                <h3 id="conceptModalTitle" class="text-xl font-bold text-white"></h3>
+                <button onclick="closeConceptModal()" class="text-blue-200 hover:text-white transition-colors duration-200 p-1 rounded-full hover:bg-white/10" aria-label="Fechar explicação">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                     </svg>
                 </button>
             </div>
-            <div id="conceptModalContent" class="p-6 overflow-y-auto max-h-[60vh] prose prose-sm max-w-none text-blue-900 font-bold leading-relaxed">
+            <div id="conceptModalContent" class="p-6 overflow-y-auto max-h-[60vh] prose prose-invert prose-blue max-w-none text-white leading-relaxed">
                 <!-- Conteúdo será inserido aqui -->
             </div>
         </div>
     </div>
 
     <!-- Modal para Citações -->
-    <div id="citationModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-        <div class="bg-white rounded-lg max-w-2xl w-full max-h-[80vh] overflow-hidden shadow-2xl">
-            <div class="flex items-center justify-between p-6 border-b border-gray-200">
-                <h3 id="citationModalTitle" class="text-xl font-bold text-gray-900"></h3>
-                <button onclick="closeCitationModal()" class="text-gray-400 hover:text-gray-600 transition-colors duration-200" aria-label="Fechar citação">
+    <div id="citationModal" class="hidden fixed inset-0 bg-black bg-opacity-60 z-50 flex items-center justify-center p-4">
+        <div class="bg-gradient-to-br from-slate-900 to-blue-900 rounded-lg max-w-2xl w-full max-h-[80vh] overflow-hidden shadow-2xl border border-blue-500/30">
+            <div class="flex items-center justify-between p-6 border-b border-blue-500/30 bg-gradient-to-r from-blue-800 to-indigo-900">
+                <h3 id="citationModalTitle" class="text-xl font-bold text-white"></h3>
+                <button onclick="closeCitationModal()" class="text-blue-200 hover:text-white transition-colors duration-200" aria-label="Fechar citação">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                     </svg>
                 </button>
             </div>
-            <div id="citationModalContent" class="p-6 overflow-y-auto max-h-[60vh] text-blue-900 font-bold">
+            <div id="citationModalContent" class="p-6 overflow-y-auto max-h-[60vh] prose prose-invert prose-blue max-w-none text-white leading-relaxed">
                 <!-- Conteúdo será inserido aqui -->
             </div>
         </div>
@@ -622,16 +622,16 @@
     </div>
 
     <!-- Scripts -->
-    <script src="js/data.js?v=3"></script>
-    <script src="js/youtube-data.js?v=3"></script>
-    <script src="js/config.js?v=3"></script>
-    <script src="js/markdown-parser.js?v=3"></script>
-    <script src="js/markdown-content.js?v=3"></script>
-    <script src="js/biblioteca-content.js?v=3"></script>
-    <script src="js/youtube-player.js?v=3"></script>
-    <script src="js/app.js?v=3"></script>
-    <script src="js/search.js?v=3"></script>
-    <script src="js/filters.js?v=3"></script>
+    <script src="js/data.js?v=4"></script>
+    <script src="js/youtube-data.js?v=4"></script>
+    <script src="js/config.js?v=4"></script>
+    <script src="js/markdown-parser.js?v=4"></script>
+    <script src="js/markdown-content.js?v=4"></script>
+    <script src="js/biblioteca-content.js?v=4"></script>
+    <script src="js/youtube-player.js?v=4"></script>
+    <script src="js/app.js?v=4"></script>
+    <script src="js/search.js?v=4"></script>
+    <script src="js/filters.js?v=4"></script>
     
     <!-- Mobile Menu Script -->
     <script>
