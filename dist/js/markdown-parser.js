@@ -100,10 +100,10 @@
                 const level = match[1].length;
                 const text = transformInline(match[2]);
                 const headingClasses = {
-                    1: 'text-3xl font-bold mb-6 text-blue-300',
-                    2: 'text-2xl font-bold mb-4 text-blue-400',
-                    3: 'text-xl font-bold mb-3 text-blue-500'
-                }[level] || 'font-bold text-blue-400';
+                    1: 'text-3xl font-bold mb-6 text-blue-900',
+                    2: 'text-2xl font-bold mb-4 text-blue-900',
+                    3: 'text-xl font-bold mb-3 text-blue-900'
+                }[level] || 'font-bold text-blue-900';
                 buffer.push(`<h${level} class="${headingClasses}">${text}</h${level}>`);
                 return;
             }
@@ -113,7 +113,7 @@
             if (match) {
                 closeActiveList(buffer, state);
                 const text = transformInline(match[1]);
-                buffer.push(`<blockquote class="border-l-4 border-blue-500/70 pl-4 italic text-blue-100 my-4">${text}</blockquote>`);
+                buffer.push(`<blockquote class="border-l-4 border-blue-500/70 pl-4 italic text-blue-900 my-4">${text}</blockquote>`);
                 return;
             }
 
@@ -122,7 +122,7 @@
             if (match) {
                 if (state.activeList !== 'ol') {
                     closeActiveList(buffer, state);
-                    buffer.push('<ol class="list-decimal list-inside space-y-2 text-gray-200 mb-4">');
+                    buffer.push('<ol class="list-decimal list-inside space-y-2 mb-4">');
                     state.activeList = 'ol';
                 }
                 buffer.push(`<li>${transformInline(match[1])}</li>`);
@@ -134,7 +134,7 @@
             if (match) {
                 if (state.activeList !== 'ul') {
                     closeActiveList(buffer, state);
-                    buffer.push('<ul class="list-disc list-inside space-y-2 text-gray-200 mb-4">');
+                    buffer.push('<ul class="list-disc list-inside space-y-2 mb-4">');
                     state.activeList = 'ul';
                 }
                 buffer.push(`<li>${transformInline(match[1])}</li>`);
@@ -143,13 +143,13 @@
 
             // Paragraph fallback
             closeActiveList(buffer, state);
-            buffer.push(`<p class="mb-4 text-gray-200 leading-relaxed">${transformInline(trimmed)}</p>`);
+            buffer.push(`<p class="mb-4 leading-relaxed">${transformInline(trimmed)}</p>`);
         });
 
         closeActiveList(buffer, state);
 
         // Remove parágrafos vazios consecutivos no final
-        while (buffer.length && buffer[buffer.length - 1] === '<p class="mb-4 text-gray-200 leading-relaxed"></p>') {
+        while (buffer.length && buffer[buffer.length - 1] === '<p class="mb-4 leading-relaxed"></p>') {
             buffer.pop();
         }
 
