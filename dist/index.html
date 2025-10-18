@@ -677,7 +677,9 @@
 
         // Função para exibir explicação dos conceitos
         function showConceptExplanation(filename) {
-            if (typeof getMarkdownContent !== 'function') return;
+            if (typeof getMarkdownContent !== 'function') {
+                return;
+            }
 
             let content = getMarkdownContent(filename);
 
@@ -691,22 +693,26 @@
                 }
             }
 
-            if (!content) return;
-
             const modal = document.getElementById('conceptModal');
             const title = document.getElementById('conceptModalTitle');
             const contentDiv = document.getElementById('conceptModalContent');
-            
-            if (modal && title && contentDiv) {
-                const titleText = String(filename).replace(/\.md$/i, '');
-                title.textContent = titleText;
+
+            if (!modal || !title || !contentDiv) return;
+
+            const titleText = String(filename).replace(/\.md$/i, '');
+            title.textContent = titleText;
+
+            if (content) {
                 const html = (typeof window.markdownToHtml === 'function')
                     ? window.markdownToHtml(content)
                     : content;
                 contentDiv.innerHTML = html;
-                modal.classList.remove('hidden');
-                document.body.style.overflow = 'hidden'; // Previne scroll do body
+            } else {
+                contentDiv.innerHTML = '<p class="text-gray-700">Conteúdo não encontrado para este conceito.</p>';
             }
+
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Previne scroll do body
         }
 
         // Função para fechar o modal
