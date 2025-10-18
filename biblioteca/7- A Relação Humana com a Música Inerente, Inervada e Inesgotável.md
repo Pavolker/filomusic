@@ -1,0 +1,7 @@
+7- A Relação Humana com a Música: Inerente, Inervada e Inesgotável
+
+A relação da música com os humanos é descrita como inerente, inervada e inesgotável:
+
+1.  Inerente: Não existe ser humano sem música. O próprio discurso é primeiramente dado na forma de música, complementando a ideia estruturalista de que a linguagem é estruturante para a humanidade. De fato, embora as formas de música e dança variem, não se conhece nenhuma população humana que não possua ambas.
+2.  Inervada: A música é sempre expressão de emoção, sentimentos e nervos. O corpo humano é um instrumento musical vivo, capaz de produzir sons para todas as sensações. O texto traça paralelos entre a anatomia e a música: o fluxo sanguíneo é música; a percussão cardíaca tem ritmo; e os tubos respiratórios se afinam como tubas, clarinetas e flautas.
+3.  Inesgotável: O cérebro humano decodifica o som na forma de música, sendo esta a maneira como entende a realidade. A busca humana por regularidades, padrões e ritmos nada mais é do que a exigência do cérebro por harmonia, sinfonia ou melodia — a única forma de eletrizar um neurônio. A música, junto com o oxigênio, a água e os genes, é listada como uma das pré-condições físicas básicas para a sobrevivência.

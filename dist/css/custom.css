@@ -1,0 +1,463 @@
+/* Custom CSS para scroll snap horizontal */
+.scroll-snap-x {
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scroll-snap-start {
+    scroll-snap-align: start;
+}
+
+.music-card {
+    min-width: 280px;
+    aspect-ratio: 1;
+    scroll-snap-align: start;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Estilo para as imagens do header */
+.header-image {
+    max-height: 180px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Animações suaves */
+.music-card {
+    min-height: 70px;
+    max-height: 70px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.2;
+}
+
+.music-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);
+}
+
+/* Estilos para a seção de filtros */
+.filter-group {
+    position: relative;
+}
+
+.filter-group label {
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.filter-group select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.filter-group select:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.filter-group select option {
+    background-color: #1e293b;
+    color: white;
+    padding: 8px;
+}
+
+/* Animações para os filtros */
+.filter-group {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsividade para filtros */
+@media (max-width: 768px) {
+    .filter-group {
+        margin-bottom: 1rem;
+    }
+    
+    .filter-group select {
+        font-size: 16px; /* Evita zoom no iOS */
+    }
+}
+
+/* Estilo para o botão de limpar filtros */
+#clearFilters {
+    position: relative;
+    overflow: hidden;
+}
+
+#clearFilters::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+#clearFilters:hover::before {
+    left: 100%;
+}
+
+/* Indicador visual de filtros ativos */
+.filter-active {
+    border-color: #10b981 !important;
+    box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.3) !important;
+}
+
+.filter-active::after {
+    content: '✓';
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #10b981;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Modal styles */
+#contentModal {
+    z-index: 1000;
+}
+
+#contentModal .modal-content {
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Loading spinner */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+/* Faixa de Busca - Estilos Autônomos */
+.search-section {
+    position: relative;
+    z-index: 10;
+}
+
+.search-section input[type="text"] {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(59, 130, 246, 0.5);
+    transition: all 0.3s ease;
+}
+
+.search-section input[type="text"]:focus {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(59, 130, 246, 0.8);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.search-section input[type="text"]::placeholder {
+    color: rgba(147, 197, 253, 0.7);
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .music-card {
+        min-width: 250px;
+    }
+    
+    .grid-container {
+        grid-template-rows: repeat(1, 1fr);
+    }
+    
+    .header-image {
+        max-height: 80px;
+    }
+    
+    /* Responsividade da busca */
+    .search-section {
+        padding: 2rem 0;
+    }
+    
+    .search-section input[type="text"] {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .music-card {
+        min-width: 200px;
+    }
+    
+    .header-image {
+        max-height: 60px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+    }
+}
+
+/* Focus styles for accessibility */
+.music-card:focus {
+    outline: 2px solid #f59e0b;
+    outline-offset: 2px;
+}
+
+#closeModal:focus {
+    outline: 2px solid #f59e0b;
+    outline-offset: 2px;
+}
+
+/* Button styles */
+button {
+    cursor: pointer;
+}
+
+/* Scrollbar styling */
+.scroll-snap-x::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scroll-snap-x::-webkit-scrollbar-track {
+    background: rgba(30, 64, 175, 0.1);
+}
+
+.scroll-snap-x::-webkit-scrollbar-thumb {
+    background: rgba(59, 130, 246, 0.5);
+    border-radius: 4px;
+}
+
+.scroll-snap-x::-webkit-scrollbar-thumb:hover {
+    background: rgba(59, 130, 246, 0.8);
+}
+
+/* Ensure grid container has enough width to show all items */
+#musicGrid {
+    min-width: 100%;
+    width: max-content;
+}
+
+/* Modal markdown content styles */
+.modal-metadata {
+    color: #e5e7eb;
+    padding: 20px;
+    border-bottom: 1px solid rgba(59, 130, 246, 0.3);
+    margin-bottom: 20px;
+    background: rgba(30, 64, 175, 0.1);
+    border-radius: 8px 8px 0 0;
+}
+
+.modal-metadata p {
+    margin-bottom: 8px;
+}
+
+.modal-metadata strong {
+    color: #60a5fa;
+}
+
+.modal-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.3), transparent);
+    margin: 20px 0;
+}
+
+.modal-markdown-content {
+    color: #e5e7eb;
+    padding: 0 20px 20px;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.modal-markdown-content h1 {
+    color: #3b82f6;
+    font-size: 1.5rem;
+    margin: 20px 0 16px 0;
+    border-bottom: 2px solid rgba(59, 130, 246, 0.3);
+    padding-bottom: 8px;
+}
+
+.modal-markdown-content h2 {
+    color: #60a5fa;
+    font-size: 1.25rem;
+    margin: 18px 0 14px 0;
+}
+
+.modal-markdown-content h3 {
+    color: #93c5fd;
+    font-size: 1.1rem;
+    margin: 16px 0 12px 0;
+}
+
+.modal-markdown-content p {
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.modal-markdown-content strong {
+    color: #fbbf24;
+    font-weight: 600;
+}
+
+.modal-markdown-content em {
+    color: #a78bfa;
+    font-style: italic;
+}
+
+.modal-markdown-content ul {
+    margin: 12px 0;
+    padding-left: 20px;
+}
+
+.modal-markdown-content li {
+    margin-bottom: 6px;
+    list-style-type: disc;
+    color: #d1d5db;
+}
+
+.modal-markdown-content a {
+    color: #60a5fa;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.modal-markdown-content a:hover {
+    color: #93c5fd;
+}
+
+.modal-error {
+    color: #fca5a5;
+    padding: 20px;
+    background: rgba(239, 68, 68, 0.1);
+    border-radius: 8px;
+    border-left: 4px solid #ef4444;
+}
+
+.modal-error p {
+    margin-bottom: 8px;
+}
+
+.loading {
+    text-align: center;
+    color: #60a5fa;
+    padding: 40px;
+    font-size: 16px;
+}
+
+/* Estilos para barra de progresso de carregamento */
+.loading-container {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.loading-container.hidden {
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+}
+
+.loading-container:not(.hidden) {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.loading-bar-container {
+    position: relative;
+    background: rgba(55, 65, 81, 0.8);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.loading-bar {
+    width: 0%;
+    background: linear-gradient(90deg, #3b82f6, #10b981, #3b82f6);
+    background-size: 200% 100%;
+    animation: loadingShimmer 2s ease-in-out infinite;
+    position: relative;
+    overflow: hidden;
+}
+
+.loading-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    animation: loadingGlow 1.5s ease-in-out infinite;
+}
+
+@keyframes loadingShimmer {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+@keyframes loadingGlow {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+.loading-text {
+    animation: loadingPulse 2s ease-in-out infinite;
+}
+
+@keyframes loadingPulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+.loading-percentage {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
