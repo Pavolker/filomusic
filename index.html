@@ -739,15 +739,92 @@
             }
         });
 
-        // Função para exibir citação
-        function showCitation(author) {
-            const content = getMarkdownContent(author);
+        // Utilitário: carregar e mapear citações do arquivo citacoes.md apenas uma vez
+        async function loadCitationsOnce() {
+            if (window.CITATIONS_MAP) {
+                return window.CITATIONS_MAP;
+            }
+
+            const AUTHORS = [
+                'Spinoza',
+                'Machado de Assis',
+                'Clarice Lispector',
+                'Friedrich Nietzsche',
+                'Bhagavad Gita',
+                'Tao Te Ching'
+            ];
+
+            try {
+                const res = await fetch('./citacoes.md');
+                if (!res.ok) throw new Error('Falha ao carregar citacoes.md');
+                const text = await res.text();
+
+                // Quebra em blocos por linhas em branco duplas
+                const blocks = text.split(/\n\s*\n+/).map(b => b.trim()).filter(Boolean);
+                const map = {};
+
+                for (const block of blocks) {
+                    // Tenta identificar o autor: última linha ou ocorrência no bloco
+                    const lines = block.split(/\n+/).map(l => l.trim()).filter(Boolean);
+                    const lastLine = lines[lines.length - 1] || '';
+
+                    let foundAuthor = null;
+                    for (const a of AUTHORS) {
+                        if (lastLine.toLowerCase() === a.toLowerCase()) {
+                            foundAuthor = a;
+                            break;
+                        }
+                    }
+                    if (!foundAuthor) {
+                        for (const a of AUTHORS) {
+                            if (block.toLowerCase().includes(a.toLowerCase())) {
+                                foundAuthor = a;
+                                break;
+                            }
+                        }
+                    }
+
+                    if (foundAuthor) {
+                        // Remove o nome do autor se estiver no fim
+                        let quote = block;
+                        if (lastLine.toLowerCase() === foundAuthor.toLowerCase()) {
+                            quote = lines.slice(0, -1).join('\n').trim();
+                        }
+                        map[foundAuthor] = quote;
+                    }
+                }
+
+                window.CITATIONS_MAP = map;
+                return map;
+            } catch (err) {
+                console.error('Erro ao carregar citações:', err);
+                window.CITATIONS_MAP = {};
+                return window.CITATIONS_MAP;
+            }
+        }
+
+        // Função para exibir citação (lê de citacoes.md)
+        async function showCitation(author) {
+            const map = await loadCitationsOnce();
+            const content = map[author];
+
             if (content) {
+                const html = (typeof window.markdownToHtml === 'function')
+                    ? window.markdownToHtml(content)
+                    : `<p>${content.replace(/\n/g, '<br>')}</p>`;
+
                 document.getElementById('citationModalTitle').textContent = author;
-                document.getElementById('citationModalContent').innerHTML = content;
+                document.getElementById('citationModalContent').innerHTML = html;
                 document.getElementById('citationModal').classList.remove('hidden');
                 document.body.style.overflow = 'hidden'; // Previne scroll do body
+                return;
             }
+
+            // Fallback: caso não encontre
+            document.getElementById('citationModalTitle').textContent = author;
+            document.getElementById('citationModalContent').innerHTML = '<p class="text-gray-700">Citação não encontrada.</p>';
+            document.getElementById('citationModal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
         }
 
         // Função para fechar o modal de citação
