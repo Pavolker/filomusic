@@ -2667,7 +2667,15 @@ Billy Joel
 
 
 
-[PastedGraphic2]: PastedGraphic2.png width=302px height=425px`
+[PastedGraphic2]: PastedGraphic2.png width=302px height=425px`,
+
+    "ATRAÇÃO MUSICAL.md": `ATRAÇÃO MUSICAL é uma variável que mede o apelo estético da obra. A variável tem o valor de 1 a 3 (sendo 1= pouca atração; 3 = muita atração; e 2 = mediana atração) , que define, do meu ponto de vista, a qualidade técnica e harmônica da composição, considerando ritmo, melodia e harmonia, e o quanto a música é esteticamente agradável. Esta variável se traduz no quão atraente a obra é para o ouvinte em termos técnicos, proporcionando uma compreensão de sua popularidade ou de seu valor artístico.`,
+
+    "COMPLEXIDADE EMOCIONAL.md": `A COMPLEXIDADE EMOCIONAL se refere à variedade e à profundidade das emoções que a música é capaz de evocar. A variável tem o valor de 1 a 3 (sendo 1= baixa complexidade emocional; 3 =  alta complexidade emocional; e 2 = mediana complexidade emocional). Músicas com alta complexidade emocional podem proporcionar uma experiência multifacetada, transmitindo desde sensações de alegria e euforia até sentimentos de nostalgia e melancolia. Essa variável revela a capacidade da obra de criar uma experiência emocional rica e envolvente, que transcende o prazer auditivo e leva o ouvinte a uma jornada emocional.`,
+
+    "GRAU DE INTROSPECÇÃO.md": `O GRAU DE INTROSPECÇÃO mensura o potencial da música para induzir estados de reflexão interior. A variável tem o valor de 1 a 3 (sendo 1= baixo grau de introspecção; 3 =  alto grau de introspecção; e 2 = mediano grau de introspecção) . Essa variável leva em conta o tempo, o andamento e a complexidade da obra, visto que músicas mais lentas e harmonias profundas tendem a favorecer a introspecção. Avaliando o grau de introspecção, buscamos entender o poder da obra de transportar o ouvinte a uma experiência contemplativa, proporcionando um espaço para uma conexão emocional mais profunda.`,
+
+    "GRAU DE SIGNIFICAÇÃO.md": `GRAU DE SIGNIFICAÇÃO é uma métrica que soma o valor das variáveis acima identificadas (Atração Musical, Grau de Introspecção e Complexidade Emocional). Essa variável identifica, dentro dos meus critérios uma “hierarquia de significação musical”, já que possibilita saber quais foram as musicas mais pontuadas. É evidente que as 200 músicas só estão listadas porque todas elas, de uma forma ou de outra, foram importantes em algum momento da minha vida, mas dentro desse “horizonte musical”, algumas marcaram de forma definitiva a minha consciência musical.`
 };
 
 function normalizeTitle(value) {

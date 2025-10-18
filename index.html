@@ -677,21 +677,35 @@
 
         // Função para exibir explicação dos conceitos
         function showConceptExplanation(filename) {
-            if (typeof getMarkdownContent === 'function') {
-                const content = getMarkdownContent(filename);
-                if (content) {
-                    const modal = document.getElementById('conceptModal');
-                    const title = document.getElementById('conceptModalTitle');
-                    const contentDiv = document.getElementById('conceptModalContent');
-                    
-                    if (modal && title && contentDiv) {
-                        const titleText = filename.replace('.md', '').replace(/([A-Z])/g, ' $1').trim();
-                        title.textContent = titleText;
-                        contentDiv.innerHTML = content;
-                        modal.classList.remove('hidden');
-                        document.body.style.overflow = 'hidden'; // Previne scroll do body
-                    }
+            if (typeof getMarkdownContent !== 'function') return;
+
+            let content = getMarkdownContent(filename);
+
+            // Fallback de resolução por título normalizado usando mapeamento gerado
+            if (!content && typeof window !== 'undefined' && window.MD_FILE_MAPPING && window.normalizeTitle) {
+                const base = String(filename).replace(/\.md$/i, '');
+                const norm = window.normalizeTitle(base);
+                const resolved = window.MD_FILE_MAPPING[norm];
+                if (resolved) {
+                    content = getMarkdownContent(resolved);
                 }
+            }
+
+            if (!content) return;
+
+            const modal = document.getElementById('conceptModal');
+            const title = document.getElementById('conceptModalTitle');
+            const contentDiv = document.getElementById('conceptModalContent');
+            
+            if (modal && title && contentDiv) {
+                const titleText = String(filename).replace(/\.md$/i, '');
+                title.textContent = titleText;
+                const html = (typeof window.markdownToHtml === 'function')
+                    ? window.markdownToHtml(content)
+                    : content;
+                contentDiv.innerHTML = html;
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden'; // Previne scroll do body
             }
         }
 

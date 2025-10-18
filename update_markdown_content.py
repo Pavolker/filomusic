@@ -11,6 +11,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR
 ARQUIVO_MD_DIR = ROOT_DIR / "arquivo md"
 BIBLIOTECA_DIR = ROOT_DIR / "biblioteca"
+CONCEITOS_DIR = ROOT_DIR / "conceitos"
 OUTPUT_MARKDOWN = ROOT_DIR / "js" / "markdown-content.js"
 OUTPUT_BIBLIOTECA = ROOT_DIR / "js" / "biblioteca-content.js"
 
@@ -231,8 +232,12 @@ def main() -> int:
     try:
         markdown_arquivo = read_markdown_files(ARQUIVO_MD_DIR)
         markdown_biblioteca = read_markdown_files(BIBLIOTECA_DIR)
+        markdown_conceitos = read_markdown_files(CONCEITOS_DIR)
 
-        js_content = build_js_content(markdown_arquivo)
+        # Unifica conteúdos gerais e conceitos no mesmo bundle de markdown
+        unified_markdown = {**markdown_arquivo, **markdown_conceitos}
+
+        js_content = build_js_content(unified_markdown)
         write_output(js_content)
 
         biblioteca_content = build_biblioteca_content(markdown_biblioteca)
@@ -242,8 +247,9 @@ def main() -> int:
         return 1
 
     print(
-        f"Arquivos atualizados com {len(markdown_arquivo)} markdowns (arquivo md) "
-        f"e {len(markdown_biblioteca)} markdowns (biblioteca)"
+        f"Arquivos atualizados com {len(markdown_arquivo)} markdowns (arquivo md), "
+        f"{len(markdown_conceitos)} markdowns (conceitos) e "
+        f"{len(markdown_biblioteca)} markdowns (biblioteca)"
     )
     return 0
 
