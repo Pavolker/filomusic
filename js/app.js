@@ -359,10 +359,10 @@ function setupEventListeners() {
                 if (window.youtubePlayer) {
                     window.youtubePlayer.playFromCard(filename);
                     
-                    // Scroll suave para o player
-                    const playerSection = document.querySelector('#youtubePlayer').closest('section');
-                    if (playerSection) {
-                        playerSection.scrollIntoView({ 
+                    // Scroll suave para o player compacto
+                    const compactPlayer = document.querySelector('#currentTrackInfoCompact');
+                    if (compactPlayer) {
+                        compactPlayer.closest('.flex').scrollIntoView({ 
                             behavior: 'smooth', 
                             block: 'center' 
                         });

@@ -461,3 +461,80 @@ button {
     font-family: 'Courier New', monospace;
     font-weight: bold;
 }
+
+/* Estilos para o player compacto */
+.compact-player {
+    width: 256px; /* 64 * 4 */
+    height: 256px; /* 64 * 4 */
+    display: flex;
+    flex-direction: column;
+}
+
+.compact-player h3 {
+    font-size: 1.125rem; /* text-lg */
+    margin-bottom: 0.75rem; /* mb-3 */
+}
+
+.compact-player-track-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.75rem; /* mb-3 */
+}
+
+.compact-player-track-info p {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.compact-player-controls {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem; /* space-x-2 */
+}
+
+.compact-player-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.compact-player-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.compact-player-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Responsividade para o player compacto */
+@media (max-width: 768px) {
+    .compact-player {
+        width: 224px; /* 56 * 4 */
+        height: 224px; /* 56 * 4 */
+    }
+    
+    .compact-player h3 {
+        font-size: 1rem;
+    }
+    
+    .compact-player-btn-sm {
+        width: 2rem; /* 32px */
+        height: 2rem; /* 32px */
+        padding: 0.5rem;
+    }
+    
+    .compact-player-btn-md {
+        width: 2.5rem; /* 40px */
+        height: 2.5rem; /* 40px */
+        padding: 0.75rem;
+    }
+}

@@ -1,43 +1,70 @@
-// Conteúdo dos arquivos markdown embarcado
+// Arquivo gerado automaticamente por scripts/build-content.js
+// Não edite manualmente. Execute `node scripts/build-content.js` para regenerar.
+
 const MARKDOWN_CONTENT = {
-    "1100 - CARMINA BURANA.md": `Já apresentamos mais detalhes da Carmina Burana no capítulo anterior. Vimos que Carl Off  musicou os vários poemas achados no mosteiro, mais de 300. Carmina (significa canções vulgares) Burana (diminutivo do mosteiro Beneditino) tem 22 canções, apresentadas pela primeira vez durante o nazismo, em 37. Foi comemorada também  pelos fascistas e sobreviveu a essa origem ideológica e chegou ao século XXI ainda impressionando. Escolhi a mais conhecida, a primeira, "O Fortuna, Imperatrix Mundi", tema de vários filmes, que fala das voltas da vida, sucessos e fracassos, ganhos e perdas, idas e vindas, alegrias e tristezas ou seja, o que conhecemos bem. 
+  "1100 - CARMINA BURANA.md": `
+Já apresentamos mais detalhes da Carmina Burana no capítulo anterior. Vimos que Carl Off  musicou os vários poemas achados no mosteiro, mais de 300. Carmina (significa canções vulgares) Burana (diminutivo do mosteiro Beneditino) tem 22 canções, apresentadas pela primeira vez durante o nazismo, em 37. Foi comemorada também  pelos fascistas e sobreviveu a essa origem ideológica e chegou ao século XXI ainda impressionando. Escolhi a mais conhecida, a primeira, "O Fortuna, Imperatrix Mundi", tema de vários filmes, que fala das voltas da vida, sucessos e fracassos, ganhos e perdas, idas e vindas, alegrias e tristezas ou seja, o que conhecemos bem. 
 "O Fortuna, Imperatrix Mundi" é uma das partes mais conhecidas da cantata cênica. A peça "O Fortuna" serve como uma espécie de prólogo e epílogo da obra, sendo executada no início e no final da apresentação. O texto lírico aborda a natureza mutável da sorte e do destino, personificada como uma roda que gira, elevando alguns enquanto rebaixa outros. A melodia é reconhecível e tem sido frequentemente usada em diferentes contextos culturais, desde filmes e comerciais até eventos esportivos, dada sua capacidade de evocar emoções poderosas. Musicalmente, "O Fortuna" é marcada por sua orquestração majestosa e pelo uso de um coro em plena força. A peça começa com timbres graves e uma atmosfera de suspense, que gradualmente dá lugar a um clímax arrebatador. A composição usa escalas modais, ritmos marcantes e harmonias dissonantes para criar um efeito quase hipnótico. A estrutura musical e lírica serve para enfatizar a mensagem subjacente do texto: a imprevisibilidade e a inevitabilidade da mudança, que são aspectos fundamentais da condição humana. Na década de 1970, no  Palácio das Artes, em Belo Horizonte, aos domingos se faziam apresentações gratuitas  de música clássica. Muitas vezes íamos nessas apresentações e um dia, para a nossa surpresa essa ópera foi apresentada. Fiquei tão impactado por ela que, desde então, devo ter umas 10 versões dela, além de ter visto muitas vezes ao vivo em vários lugares. 
 https://youtu.be/QEllLECo4OM
-https://youtu.be/EJC-_j3SnXk`,
+https://youtu.be/EJC-_j3SnXk
+`,
 
-    "1700 - BACH.md": `Sinfonity é uma orquestra de guitarras elétricas originada na Espanha. Fundada pelo guitarrista e compositor Pablo Salinas, a orquestra busca trazer uma nova dimensão ao repertório clássico através do uso da guitarra elétrica. Ao adotar este instrumento, tradicionalmente associado a gêneros como rock, blues e jazz, para executar composições de mestres como Bach, Mozart e Vivaldi, Sinfonity desafia as convenções tradicionais da música clássica. O grupo é composto por músicos altamente qualificados que utilizam diferentes tipos de guitarras elétricas para criar uma paleta sonora diversificada. Essa paleta permite uma reinterpretação do repertório clássico, mantendo o rigor técnico e a complexidade das composições originais, enquanto introduz novas cores e texturas. Sinfonity também abraça a tecnologia e o uso de amplificadores e efeitos, mas sempre com o intuito de enriquecer a sonoridade e o alcance emocional das obras, em vez de distorcê-las ou trivializa-las. A abordagem do grupo pode ser vista como um diálogo entre tradição e modernidade, que não apenas expande as possibilidades da guitarra elétrica, mas também oferece novas perspectivas sobre a música clássica. A singularidade do projeto Sinfonity reside na fusão de dois mundos aparentemente díspares: o rigor e a sofisticação da música clássica e a energia e a inovação associadas à guitarra elétrica. Isso cria uma experiência auditiva que é ao mesmo tempo familiar e surpreendentemente nova, expandindo os horizontes tanto da música clássica quanto do potencial expressivo da guitarra elétrica. A composição do moderno e do antigo, a guitarra e o velho Bach. Johann Sebastian Bach ; Toccata & Fugue in Dm, by Sinfonity .
-https://youtu.be/wqgQ7IYhvRg`,
+  "1700 - BACH.md": `
+Sinfonity é uma orquestra de guitarras elétricas originada na Espanha. Fundada pelo guitarrista e compositor Pablo Salinas, a orquestra busca trazer uma nova dimensão ao repertório clássico através do uso da guitarra elétrica. Ao adotar este instrumento, tradicionalmente associado a gêneros como rock, blues e jazz, para executar composições de mestres como Bach, Mozart e Vivaldi, Sinfonity desafia as convenções tradicionais da música clássica. O grupo é composto por músicos altamente qualificados que utilizam diferentes tipos de guitarras elétricas para criar uma paleta sonora diversificada. Essa paleta permite uma reinterpretação do repertório clássico, mantendo o rigor técnico e a complexidade das composições originais, enquanto introduz novas cores e texturas. Sinfonity também abraça a tecnologia e o uso de amplificadores e efeitos, mas sempre com o intuito de enriquecer a sonoridade e o alcance emocional das obras, em vez de distorcê-las ou trivializa-las. A abordagem do grupo pode ser vista como um diálogo entre tradição e modernidade, que não apenas expande as possibilidades da guitarra elétrica, mas também oferece novas perspectivas sobre a música clássica. A singularidade do projeto Sinfonity reside na fusão de dois mundos aparentemente díspares: o rigor e a sofisticação da música clássica e a energia e a inovação associadas à guitarra elétrica. Isso cria uma experiência auditiva que é ao mesmo tempo familiar e surpreendentemente nova, expandindo os horizontes tanto da música clássica quanto do potencial expressivo da guitarra elétrica. A composição do moderno e do antigo, a guitarra e o velho Bach. Johann Sebastian Bach ; Toccata & Fugue in Dm, by Sinfonity .
+https://youtu.be/wqgQ7IYhvRg
+`,
 
-    "1771 - MINUETO.md": `A interpretação feita por Bobby McFerrin, regendo a The Saint Paul Chamber Orchestra, do Minueto de Luigi Boccherini é encantadora. O Minueto de Boccherini já é uma música arrebatadora, mas o que McFerrin faz nessa sua interpretação é muito especial.  Luigi Boccherini é um  compositor e violoncelista italiano do século XVIII, que criou uma das peças mais reconhecíveis da música clássica com o "Minueto" de seu Quinteto de Cordas em Mi maior (G. 275). Composta em 1771, a obra mostra o estilo galante do período clássico, combinando elegância, leveza e sofisticação musical. O "Minueto", que se tornou a parte mais famosa do quinteto, demonstra a maestria de Boccherini em criar melodias memoráveis dentro de estruturas formais tradicionais. A peça se destaca por seu tema principal gracioso e dançante, característico do minueto como forma musical, mas elevado a um novo patamar pela genialidade do compositor. O arranjo para quinteto de cordas, com a adição de um segundo violoncelo à formação tradicional do quarteto, permite uma textura mais rica e profunda, marca registrada do estilo de Boccherini. Como violoncelista virtuoso, Boccherini tinha um entendimento profundo das possibilidades expressivas das cordas, o que se reflete na escrita elaborada e na distribuição equilibrada das vozes nesta composição. Embora tenha composto centenas de obras, o "Minueto" se tornou sua peça mais conhecida, sendo frequentemente utilizada em filmes, comerciais e adaptada para diferentes formações instrumentais, mantendo sua capacidade de encantar ouvintes mesmo após mais de dois séculos.
-Minuet - String Quintet - https://youtu.be/3FM_UID2zTs?si=mn_hNize2hwQ0DYn`,
+  "1771 - MINUETO.md": `
 
-    "1822 - ODE AN DIE FREUD.md": `Essa ode de Beethoven sempre foi  reverenciada como patrimônio do gênio humano, “Ode an die Freud” do velho Beethoven.  A "Ode an die Freude" ("Ode à Alegria" em português)  faz parte do quarto e último movimento da sua Nona Sinfonia, concluída em 1824, e foi baseada no poema homônimo escrito por Friedrich Schiller em 1785. O texto celebra a fraternidade e a unidade entre os seres humanos, e é um hino à alegria e à liberdade humanas. Beethoven incorpora a "Ode à Alegria" na sua sinfonia de uma forma inovadora: ele inclui partes para coro e solistas vocais, algo que era incomum em sinfonias até então. A peça começa com um tema simples, quase como um hino, que é gradualmente elaborado e complexificado, tanto em termos de orquestração como de harmonia. O coro entra depois de várias variações instrumentais, elevando a peça a um novo nível de intensidade e emoção. A "Ode an die Freude" é não apenas uma conquista musical, mas também um testemunho da capacidade da música de transmitir valores e ideais universais. Ela agrega  muitos dos temas que eram próximos ao coração de Beethoven: liberdade, dignidade humana e o poder da música para transcender as barreiras sociais e culturais. Através dessa composição, Beethoven deixou um legado duradouro que continua a inspirar e unir pessoas em todo o mundo. Aqui nesse vídeo é  cantada por 10 mil pessoas, conduzidas pelo maestro Sado. Espetacular! 
-http://youtu.be/xBlQZyTF_LY`,
+A interpretação feita por Bobby McFerrin, regendo a The Saint Paul Chamber Orchestra, do Minueto de Luigi Boccherini é encantadora. O Minueto de Boccherini já é uma música arrebatadora, mas o que McFerrin faz nessa sua interpretação é muito especial.  Luigi Boccherini é um  compositor e violoncelista italiano do século XVIII, que criou uma das peças mais reconhecíveis da música clássica com o "Minueto" de seu Quinteto de Cordas em Mi maior (G. 275). Composta em 1771, a obra mostra o estilo galante do período clássico, combinando elegância, leveza e sofisticação musical. O "Minueto", que se tornou a parte mais famosa do quinteto, demonstra a maestria de Boccherini em criar melodias memoráveis dentro de estruturas formais tradicionais. A peça se destaca por seu tema principal gracioso e dançante, característico do minueto como forma musical, mas elevado a um novo patamar pela genialidade do compositor. O arranjo para quinteto de cordas, com a adição de um segundo violoncelo à formação tradicional do quarteto, permite uma textura mais rica e profunda, marca registrada do estilo de Boccherini. Como violoncelista virtuoso, Boccherini tinha um entendimento profundo das possibilidades expressivas das cordas, o que se reflete na escrita elaborada e na distribuição equilibrada das vozes nesta composição. Embora tenha composto centenas de obras, o "Minueto" se tornou sua peça mais conhecida, sendo frequentemente utilizada em filmes, comerciais e adaptada para diferentes formações instrumentais, mantendo sua capacidade de encantar ouvintes mesmo após mais de dois séculos.
+Minuet - String Quintet - https://youtu.be/3FM_UID2zTs?si=mn_hNize2hwQ0DYn
 
-    "1837 - SCHERZO N2.md": `Ouvi pela primeira vez O Scherzo No.2, Op.31, tocado ao vivo, pelo pianista Cid Bylaardt, em um piano meia cauda Steinway. Esse encontro, que ocorreu no ano de 1976,  fez com que a  minha qualidade auditiva se modificasse, meu paradigma musical desse um salto de qualidade e minha percepção musical, depois da surpresa,  enriqueceu e complexificou meu entendimento sobre música. Tão grave foi esse encontro que, em 2022, me levou a escrever um livro sobre Chopin (Chopin: O Coração da Música.MDH.2022). Frédéric Chopin compôs o Scherzo nº 2 em Si bemol menor, Op. 31 em 1837, durante um período particularmente criativo de sua vida. Esta peça monumental demonstra perfeitamente o domínio do compositor sobre a forma do scherzo, que ele transformou de uma simples dança em um gênero dramático e complexo para piano solo. O Scherzo nº 2 se destaca por seus contrastes dramáticos e sua intensidade emocional. A obra começa com uma pergunta musical sombria e misteriosa que explode em uma cascata de notas apaixonadas, estabelecendo imediatamente seu caráter tempestuoso. Este contraste entre momentos de suavidade lírica e explosões de virtuosismo técnico é uma característica marcante da peça. A seção central apresenta uma citação de uma antiga canção de Natal polonesa, "Lulajże Jezuniu", demonstrando a conexão permanente de Chopin com suas raízes polonesas. Esta obra exemplifica perfeitamente o estilo romântico de Chopin, combinando virtuosismo técnico com profunda expressividade emocional. A complexidade da peça, tanto em termos técnicos quanto interpretativos, a torna um dos trabalhos mais desafiadores e gratificantes do repertório pianístico. O Scherzo nº 2 continua sendo uma das obras mais populares de Chopin, frequentemente apresentada em recitais de piano e considerada uma peça fundamental do período romântico.
-Scherzo nº 2 em Si bemol menor, Op. 31 -  https://youtu.be/RQn34klqSQI?si=5adgTzeDZJAfA7fb`,
+`,
 
-    "1842 - NABUCO.md": `Quando Henry Creswicke Rawlinson ficou dependurado (30 metros do chão) no penhasco de Behistun, hoje Iraque, decifrando um texto gravado na pedra em três línguas (persa antigo, Elamita e Babilônio) e a notícia se espalhou pelo mundo,  a cidade de Ferrara, na Itália, se sentiu parte dessa descoberta. Ferrara assumiu para si, desde o sec. XVII, com as aventuras do viajante Pietro Della Valle, a expertise sobre o conhecimento da antiga civilização da Babilônia. Afinal, foi Pietro, em 1616, quem descobriu as famosas tabuletas de barro, que ele identificou como escrita, a escrita cuneiforme, e foi o primeiro europeu a identificar o lugar onde foi a cidade Babilônia. Por isso, na cidade de Ferrara, nas noites de boemia e farra, as historias contadas pelos bêbados se referiam a jardins suspensos, mulheres maravilhosas e uma vida bem diferente daquela que conheciam. Quando, na década de 1830, Sir Austen Henry Layard, arqueólogo britânico,  começa a relatar para o mundo a descoberta da fabulosa Biblioteca de Assurbanípal, em Nínive, com suas mais de 20 000 tabuletas de escrita cuneiforme, contando a história de vários fatos históricos e mitológicos, anteriores a tudo que antes tinha sido relatado, a juventude de Ferrara entrou em delírio. Afinal, um outro ponto de vista, dos Assírios, passou a ser estudado. Eles contavam de uma outra gênese, um outro dilúvio, bem diferente do bíblico. Foi nesse clima que o jovem Temistocle Solera, filho da cidade de Ferrara, se encanta com a Babilônia. Solera pode ser descrito como um jovem complexo, no mínimo, para não dizer bem desajustado. Além de muito inteligente e culto, tinha família complicada. O pai foi preso na década de 1820 por organizar rebeliões contra os austríacos que invadiram o norte da Itália. Levaram o filho Solera à força para escola imperial em Viena. Ele estudou literatura, a música e as artes marciais. Revoltado com a manutenção do pai preso, foge da escola e se refugia em um circo. Capturado, é internado em Milão para completar seus estudos. Se junta com  colegas também rebeldes,  que faziam  seus encontros  no conservatório de musica. Foi nesse cenário que Solera começa a escrever. Conhece um empresário, Bartolomeo Merelli, que lhe promete uma oportunidade de colocar seus escritos no mercado. Naquela época, mercado para música era ópera. Diferentemente das orquestras e música de câmera que tinham pouca assistência, as óperas eram espetáculos de massa. Centenas de pessoas assistiam os espetáculos, que dominavam o cenário musical. Ter uma programação no Teatro Scala era o sonho de todo artista. Concorria nesse mercado, na década de 1830, em Milão, Giuseppe Verdi. Com 23 anos ele se casa com a filha de um poderoso empreendedor, Antonio Berezzi, que ama música e acredita que trazer o  talento de  Verdi para a sua família é um ótimo negócio. Verdi é genial, sabe tudo de música e luta para entrar no Scala. Através de Berezzi conhece Bartolomeo Merelli e assim conhece os rebeldes do conservatório de musica de Milão, entre eles o mitológico Temistocle Solera. Entre o casamento e o final da década de 1840 Verdi tenta entrar na programação do Scala com duas óperas , Oberto e Un Giorno... fracassa nas duas. E, para sua real desgraça, entre os anos de 1837 e 1840 ele perde primeiro a sua filha Virginia, depois seu filho Icilio e, em 1840, a sua esposa Marguerita. Mas Bartolomeo Merelli, o empresário, precisa de fazer dinheiro e sabe que Verdi é o caminho. Consegue assinar um contrato com Verdi para a produção de óperas, apesar da imensa tristeza e depressão do artista. Nesse processo de convencimento leva consigo o extraordinário Temistocle Solera, com suas histórias, aventuras e seus libretos. Verdi não se interessa por nada, sua tristeza é grande. Entretanto Merelli  insiste  e enfia um texto de Solera no bolso de Verdi. Conta a lenda que Verdi chega em casa, joga o texto sobre a mesa. O livro se abre justamente na página do texto "Va, pensiero sull'ali dorate". Naquela noite Verdi não dorme, o verso não lhe sai da cabeça. Acorda e começa a compor. A história de Solera ganha significado quando, ainda  garoto em Ferrara, ouve  as histórias extraordinárias da Babilônia. Solera sabe, pelas leituras e estudos, que os escritos bíblicos do velho testamento, principalmente Daniel e Jeremias, apresentam histórias falsas e absurdas sobre Nabucodonossor, o imperador babilônico que destruiu Jerusalém e levou todo o povo para a sua capital. Sabe que o imperador nunca se converteu para a religião hebraica, nunca ficou doido e nem mesmo teve nenhuma relação direta com os profetas judeus, ou buscando interpretação de sonhos ou envolvendo a sua família. Sabia que os hebreus precisavam, derrotados que foram, manter a coesão do seu povo e faziam isso com seus livros. Independente da critica absoluta que tinha contra o relato bíblico, Solera sabia da força que a história poderia ter naquele momento da historia italiana, em pleno Risorgimento, em busca da unificação. Toda a sua força poética foi dirigida para o drama de um povo que perdeu a sua pátria. Foi isso que tirou o sono de Verdi, a oportunidade histórica de colocar a arte como mobilizadora dos sentimento nacionais. E assim foi. A opera Nabuco foi um sucesso estrondoso. Verdi inicia a sua trajetória para se tornar o maior artista italiano, com mais de vinte óperas, aclamado em todo o mundo. A força do "canto dos escravos" é tão grande que se torna o segundo hino da Itália. Todas as vezes que há uma crise de identidade no país lá vão eles cantar "Va pensiero ...". A ópera Nabuco vira uma febre. As ruas de Milão são pichadas com "Viva Verdi", que esconde o acrônimo do grito de guerra do Ressurgimento italiano: Viva "Vitorio Emmanuele, Rei De Italia" (VERDI). Verdi morre com 88 anos. Rico, poderoso, divide com Wagner o planeta da música. Wagner é inovador e ousado. Verdi é tradicional e dramático. Há lugar para os dois. Vejam ai um pouco da obra do Giuseppe:
+  "1822 - ODE AN DIE FREUD.md": `
+Essa ode de Beethoven sempre foi  reverenciada como patrimônio do gênio humano, “Ode an die Freud” do velho Beethoven.  A "Ode an die Freude" ("Ode à Alegria" em português)  faz parte do quarto e último movimento da sua Nona Sinfonia, concluída em 1824, e foi baseada no poema homônimo escrito por Friedrich Schiller em 1785. O texto celebra a fraternidade e a unidade entre os seres humanos, e é um hino à alegria e à liberdade humanas. Beethoven incorpora a "Ode à Alegria" na sua sinfonia de uma forma inovadora: ele inclui partes para coro e solistas vocais, algo que era incomum em sinfonias até então. A peça começa com um tema simples, quase como um hino, que é gradualmente elaborado e complexificado, tanto em termos de orquestração como de harmonia. O coro entra depois de várias variações instrumentais, elevando a peça a um novo nível de intensidade e emoção. A "Ode an die Freude" é não apenas uma conquista musical, mas também um testemunho da capacidade da música de transmitir valores e ideais universais. Ela agrega  muitos dos temas que eram próximos ao coração de Beethoven: liberdade, dignidade humana e o poder da música para transcender as barreiras sociais e culturais. Através dessa composição, Beethoven deixou um legado duradouro que continua a inspirar e unir pessoas em todo o mundo. Aqui nesse vídeo é  cantada por 10 mil pessoas, conduzidas pelo maestro Sado. Espetacular! 
+http://youtu.be/xBlQZyTF_LY
+
+`,
+
+  "1837 - SCHERZO N2.md": `
+Ouvi pela primeira vez O Scherzo No.2, Op.31, tocado ao vivo, pelo pianista Cid Bylaardt, em um piano meia cauda Steinway. Esse encontro, que ocorreu no ano de 1976,  fez com que a  minha qualidade auditiva se modificasse, meu paradigma musical desse um salto de qualidade e minha percepção musical, depois da surpresa,  enriqueceu e complexificou meu entendimento sobre música. Tão grave foi esse encontro que, em 2022, me levou a escrever um livro sobre Chopin (Chopin: O Coração da Música.MDH.2022). Frédéric Chopin compôs o Scherzo nº 2 em Si bemol menor, Op. 31 em 1837, durante um período particularmente criativo de sua vida. Esta peça monumental demonstra perfeitamente o domínio do compositor sobre a forma do scherzo, que ele transformou de uma simples dança em um gênero dramático e complexo para piano solo. O Scherzo nº 2 se destaca por seus contrastes dramáticos e sua intensidade emocional. A obra começa com uma pergunta musical sombria e misteriosa que explode em uma cascata de notas apaixonadas, estabelecendo imediatamente seu caráter tempestuoso. Este contraste entre momentos de suavidade lírica e explosões de virtuosismo técnico é uma característica marcante da peça. A seção central apresenta uma citação de uma antiga canção de Natal polonesa, "Lulajże Jezuniu", demonstrando a conexão permanente de Chopin com suas raízes polonesas. Esta obra exemplifica perfeitamente o estilo romântico de Chopin, combinando virtuosismo técnico com profunda expressividade emocional. A complexidade da peça, tanto em termos técnicos quanto interpretativos, a torna um dos trabalhos mais desafiadores e gratificantes do repertório pianístico. O Scherzo nº 2 continua sendo uma das obras mais populares de Chopin, frequentemente apresentada em recitais de piano e considerada uma peça fundamental do período romântico.
+Scherzo nº 2 em Si bemol menor, Op. 31 -  https://youtu.be/RQn34klqSQI?si=5adgTzeDZJAfA7fb
+
+`,
+
+  "1842 - NABUCO.md": `
+Quando Henry Creswicke Rawlinson ficou dependurado (30 metros do chão) no penhasco de Behistun, hoje Iraque, decifrando um texto gravado na pedra em três línguas (persa antigo, Elamita e Babilônio) e a notícia se espalhou pelo mundo,  a cidade de Ferrara, na Itália, se sentiu parte dessa descoberta. Ferrara assumiu para si, desde o sec. XVII, com as aventuras do viajante Pietro Della Valle, a expertise sobre o conhecimento da antiga civilização da Babilônia. Afinal, foi Pietro, em 1616, quem descobriu as famosas tabuletas de barro, que ele identificou como escrita, a escrita cuneiforme, e foi o primeiro europeu a identificar o lugar onde foi a cidade Babilônia. Por isso, na cidade de Ferrara, nas noites de boemia e farra, as historias contadas pelos bêbados se referiam a jardins suspensos, mulheres maravilhosas e uma vida bem diferente daquela que conheciam. Quando, na década de 1830, Sir Austen Henry Layard, arqueólogo britânico,  começa a relatar para o mundo a descoberta da fabulosa Biblioteca de Assurbanípal, em Nínive, com suas mais de 20 000 tabuletas de escrita cuneiforme, contando a história de vários fatos históricos e mitológicos, anteriores a tudo que antes tinha sido relatado, a juventude de Ferrara entrou em delírio. Afinal, um outro ponto de vista, dos Assírios, passou a ser estudado. Eles contavam de uma outra gênese, um outro dilúvio, bem diferente do bíblico. Foi nesse clima que o jovem Temistocle Solera, filho da cidade de Ferrara, se encanta com a Babilônia. Solera pode ser descrito como um jovem complexo, no mínimo, para não dizer bem desajustado. Além de muito inteligente e culto, tinha família complicada. O pai foi preso na década de 1820 por organizar rebeliões contra os austríacos que invadiram o norte da Itália. Levaram o filho Solera à força para escola imperial em Viena. Ele estudou literatura, a música e as artes marciais. Revoltado com a manutenção do pai preso, foge da escola e se refugia em um circo. Capturado, é internado em Milão para completar seus estudos. Se junta com  colegas também rebeldes,  que faziam  seus encontros  no conservatório de musica. Foi nesse cenário que Solera começa a escrever. Conhece um empresário, Bartolomeo Merelli, que lhe promete uma oportunidade de colocar seus escritos no mercado. Naquela época, mercado para música era ópera. Diferentemente das orquestras e música de câmera que tinham pouca assistência, as óperas eram espetáculos de massa. Centenas de pessoas assistiam os espetáculos, que dominavam o cenário musical. Ter uma programação no Teatro Scala era o sonho de todo artista. Concorria nesse mercado, na década de 1830, em Milão, Giuseppe Verdi. Com 23 anos ele se casa com a filha de um poderoso empreendedor, Antonio Berezzi, que ama música e acredita que trazer o  talento de  Verdi para a sua família é um ótimo negócio. Verdi é genial, sabe tudo de música e luta para entrar no Scala. Através de Berezzi conhece Bartolomeo Merelli e assim conhece os rebeldes do conservatório de musica de Milão, entre eles o mitológico Temistocle Solera. Entre o casamento e o final da década de 1840 Verdi tenta entrar na programação do Scala com duas óperas , Oberto e Un Giorno... fracassa nas duas. E, para sua real desgraça, entre os anos de 1837 e 1840 ele perde primeiro a sua filha Virginia, depois seu filho Icilio e, em 1840, a sua esposa Marguerita. Mas Bartolomeo Merelli, o empresário, precisa de fazer dinheiro e sabe que Verdi é o caminho. Consegue assinar um contrato com Verdi para a produção de óperas, apesar da imensa tristeza e depressão do artista. Nesse processo de convencimento leva consigo o extraordinário Temistocle Solera, com suas histórias, aventuras e seus libretos. Verdi não se interessa por nada, sua tristeza é grande. Entretanto Merelli  insiste  e enfia um texto de Solera no bolso de Verdi. Conta a lenda que Verdi chega em casa, joga o texto sobre a mesa. O livro se abre justamente na página do texto "Va, pensiero sull'ali dorate". Naquela noite Verdi não dorme, o verso não lhe sai da cabeça. Acorda e começa a compor. A história de Solera ganha significado quando, ainda  garoto em Ferrara, ouve  as histórias extraordinárias da Babilônia. Solera sabe, pelas leituras e estudos, que os escritos bíblicos do velho testamento, principalmente Daniel e Jeremias, apresentam histórias falsas e absurdas sobre Nabucodonossor, o imperador babilônico que destruiu Jerusalém e levou todo o povo para a sua capital. Sabe que o imperador nunca se converteu para a religião hebraica, nunca ficou doido e nem mesmo teve nenhuma relação direta com os profetas judeus, ou buscando interpretação de sonhos ou envolvendo a sua família. Sabia que os hebreus precisavam, derrotados que foram, manter a coesão do seu povo e faziam isso com seus livros. Independente da critica absoluta que tinha contra o relato bíblico, Solera sabia da força que a história poderia ter naquele momento da historia italiana, em pleno Risorgimento, em busca da unificação. Toda a sua força poética foi dirigida para o drama de um povo que perdeu a sua pátria. Foi isso que tirou o sono de Verdi, a oportunidade histórica de colocar a arte como mobilizadora dos sentimento nacionais. E assim foi. A opera Nabuco foi um sucesso estrondoso. Verdi inicia a sua trajetória para se tornar o maior artista italiano, com mais de vinte óperas, aclamado em todo o mundo. A força do "canto dos escravos" é tão grande que se torna o segundo hino da Itália. Todas as vezes que há uma crise de identidade no país lá vão eles cantar "Va pensiero ...". A ópera Nabuco vira uma febre. As ruas de Milão são pichadas com "Viva Verdi", que esconde o acrônimo do grito de guerra do Ressurgimento italiano: Viva "Vitorio Emmanuele, Rei De Italia" (VERDI). Verdi morre com 88 anos. Rico, poderoso, divide com Wagner o planeta da música. Wagner é inovador e ousado. Verdi é tradicional e dramático. Há lugar para os dois. Vejam ai um pouco da obra do Giuseppe:
 https://youtu.be/NWduAbSvGes
 https://youtu.be/JXMdei-UTfw
 https://youtu.be/rvQvcLXHWI4
 https://youtu.be/xCFEk6Y8TmM
 https://youtu.be/KSJQ1KKOQr4
-https://youtu.be/XJI9NUi4EKQ`,
+https://youtu.be/XJI9NUi4EKQ
+`,
 
-    "1869 - RICHARD STRAUSS.md": `“Assim Falou Zaratrustra” (Also Sprach Zarathustra, Op. 30)é uma musica que se tornou a  marca de um filme, 2001 - Uma Odisséia no Espaço, do americano Stanley Kubrick . 2001 é um desses filmes de ficção, de 1968, que mostra que o futuro nunca é como imaginamos. Vi o filme várias vezes e, enquanto imaginávamos um futuro quase tosco para os telefones, exageramos bastante na ideia das viagens espaciais. Para Kubrick no ano de  2001 estaríamos indo para Jupiter.   Mas a música tema do filme é a inesquecível,  "Also sprach Zarathustra" ("Assim falou Zarathustra", em português) é um poema sinfônico de Richard Strauss, composto em 1896. A obra é inspirada no texto de Nietzsche, embora Strauss tenha declarado que sua composição não é uma interpretação literal ou uma reprodução do livro, mas sim uma "livre expressão musical de ideias". O que ouvimos na abertura de 2002 é o  prólogo, "Amanhecer”.  Musicalmente, "Assim falou Zarathustra" é notável pela sua rica orquestração e complexidade estrutural. A composição começa com uma famosa passagem para a orquestra de metais e órgão, a qual é seguida por várias seções que exploram diferentes temas, desde a busca pelo significado da vida até a complexa relação entre ciência e fé. O poema sinfônico é dividido em nove seções, cada uma destinada a representar um aspecto diferente da filosofia de Nietzsche ou da busca humana por conhecimento e transcendência. Entre elas estão "Von den Hinterweltlern" ("Dos Habitantes do Mundo de Além"), que explora a ideia da transcendência religiosa, e "Das Tanzlied" ("A Canção da Dança"), que celebra a vida e a corporeidade em um estilo quase dionisíaco. A obra culmina em uma seção intitulada "Nachtwandlerlied" ("Canção do Andarilho Noturno"), que sugere uma resolução ambígua para a busca do personagem-título. Aqui, Strauss opta por uma conclusão aberta, refletindo talvez a própria complexidade e ambiguidade do pensamento nietzschiano.
- https://youtu.be/e-QFj59PON4`,
+  "1869 - RICHARD STRAUSS.md": `
+“Assim Falou Zaratrustra” (Also Sprach Zarathustra, Op. 30)é uma musica que se tornou a  marca de um filme, 2001 - Uma Odisséia no Espaço, do americano Stanley Kubrick . 2001 é um desses filmes de ficção, de 1968, que mostra que o futuro nunca é como imaginamos. Vi o filme várias vezes e, enquanto imaginávamos um futuro quase tosco para os telefones, exageramos bastante na ideia das viagens espaciais. Para Kubrick no ano de  2001 estaríamos indo para Jupiter.   Mas a música tema do filme é a inesquecível,  "Also sprach Zarathustra" ("Assim falou Zarathustra", em português) é um poema sinfônico de Richard Strauss, composto em 1896. A obra é inspirada no texto de Nietzsche, embora Strauss tenha declarado que sua composição não é uma interpretação literal ou uma reprodução do livro, mas sim uma "livre expressão musical de ideias". O que ouvimos na abertura de 2002 é o  prólogo, "Amanhecer”.  Musicalmente, "Assim falou Zarathustra" é notável pela sua rica orquestração e complexidade estrutural. A composição começa com uma famosa passagem para a orquestra de metais e órgão, a qual é seguida por várias seções que exploram diferentes temas, desde a busca pelo significado da vida até a complexa relação entre ciência e fé. O poema sinfônico é dividido em nove seções, cada uma destinada a representar um aspecto diferente da filosofia de Nietzsche ou da busca humana por conhecimento e transcendência. Entre elas estão "Von den Hinterweltlern" ("Dos Habitantes do Mundo de Além"), que explora a ideia da transcendência religiosa, e "Das Tanzlied" ("A Canção da Dança"), que celebra a vida e a corporeidade em um estilo quase dionisíaco. A obra culmina em uma seção intitulada "Nachtwandlerlied" ("Canção do Andarilho Noturno"), que sugere uma resolução ambígua para a busca do personagem-título. Aqui, Strauss opta por uma conclusão aberta, refletindo talvez a própria complexidade e ambiguidade do pensamento nietzschiano.
+ https://youtu.be/e-QFj59PON4
 
-    "1881- BARCAROLLE.md": `Jacques Offenbach foi capaz de fazer uma música absurdamente linda, que nos arremata parta uma atmosfera de muita paz. "Barcarolle" é originalmente parte da ópera "Os Contos de Hoffmann" (1881), considerada uma das mais belas peças do repertório operístico. Esta ária para duas vozes, cujo título completo é "Belle nuit, ô nuit d'amour", representa o ponto alto do quarto ato da ópera, quando é cantada pelos personagens Giulietta e Nicklausse. A melodia, que imita o movimento suave dos gondoleiros venezianos (daí o nome "barcarolle"), cria uma atmosfera romântica e etérea através de um dueto perfeitamente equilibrado. Offenbach, que completou esta obra-prima em seu leito de morte, conseguiu capturar a essência do amor romântico em uma composição que combina simplicidade melódica com sofisticação harmônica. É interessante notar que o compositor havia utilizado esta melodia anteriormente em uma de suas obras menos conhecidas, "Die Rheinnixen". A "Barcarolle" transcendeu sua origem operística para se tornar uma das peças mais reconhecíveis da música clássica. Sua influência se estende muito além da ópera, tendo sido adaptada para diversos instrumentos e estilos musicais. A peça é frequentemente utilizada em filmes, comerciais e outros meios, demonstrando sua capacidade única de evocar romance e nostalgia, mantendo sua beleza atemporal mesmo após mais de um século de sua criação. Quando Roberto Benigni insere a Barcarolle no  filme “La Vita è Bella” (A Vida é Bela), de 1997, que ele dirigi e estrela, tanto a música, quanto o filme, ganham tonalidades absurdamente fortes. A música  é utilizada em momentos-chave para intensificar a narrativa. A música aparece como um contraponto à tragédia da história, que acompanha a vida de um pai judeu e seu filho em um campo de concentração durante a Segunda Guerra Mundial.
+`,
+
+  "1881- BARCAROLLE.md": `
+Jacques Offenbach foi capaz de fazer uma música absurdamente linda, que nos arremata parta uma atmosfera de muita paz. "Barcarolle" é originalmente parte da ópera "Os Contos de Hoffmann" (1881), considerada uma das mais belas peças do repertório operístico. Esta ária para duas vozes, cujo título completo é "Belle nuit, ô nuit d'amour", representa o ponto alto do quarto ato da ópera, quando é cantada pelos personagens Giulietta e Nicklausse. A melodia, que imita o movimento suave dos gondoleiros venezianos (daí o nome "barcarolle"), cria uma atmosfera romântica e etérea através de um dueto perfeitamente equilibrado. Offenbach, que completou esta obra-prima em seu leito de morte, conseguiu capturar a essência do amor romântico em uma composição que combina simplicidade melódica com sofisticação harmônica. É interessante notar que o compositor havia utilizado esta melodia anteriormente em uma de suas obras menos conhecidas, "Die Rheinnixen". A "Barcarolle" transcendeu sua origem operística para se tornar uma das peças mais reconhecíveis da música clássica. Sua influência se estende muito além da ópera, tendo sido adaptada para diversos instrumentos e estilos musicais. A peça é frequentemente utilizada em filmes, comerciais e outros meios, demonstrando sua capacidade única de evocar romance e nostalgia, mantendo sua beleza atemporal mesmo após mais de um século de sua criação. Quando Roberto Benigni insere a Barcarolle no  filme “La Vita è Bella” (A Vida é Bela), de 1997, que ele dirigi e estrela, tanto a música, quanto o filme, ganham tonalidades absurdamente fortes. A música  é utilizada em momentos-chave para intensificar a narrativa. A música aparece como um contraponto à tragédia da história, que acompanha a vida de um pai judeu e seu filho em um campo de concentração durante a Segunda Guerra Mundial.
 A inserção de Barcarolle sublinha a humanidade e a beleza que Guido, o personagem de Benigni, tenta preservar para proteger seu filho dos horrores ao redor. A melodia serve como um lembrete da vida antes do conflito e como uma expressão do amor e da esperança em meio à adversidade. Esse uso de uma peça clássica transporta o espectador para um lugar onde a pureza da música contrasta com a brutalidade do cenário, reforçando a dualidade do filme entre o trágico e o sublime. A escolha da música é particularmente poderosa, pois adiciona uma camada emocional à narrativa e fortalece o tema central do filme: a preservação da alegria e da inocência, mesmo em meio ao sofrimento.
 
-Belle Nuit, Ô Nuit D'amour - https://youtu.be/eTyxSjeSfCE?si=fFILpJFqonPQus90`,
+Belle Nuit, Ô Nuit D'amour - https://youtu.be/eTyxSjeSfCE?si=fFILpJFqonPQus90
+`,
 
-    "1883 - AS FLORES.md": `Marianne Crebassa canta,  “às vezes trabalha em uma espécie de transe... havia alguns momentos em que nada parecia existir ao meu redor…”, essa a mezzo-soprano francesa que me fez apaixonar mais ainda pelo "O Dueto das Flores" (Flower Duet/"Sous le dôme épais") de Léo Delibes. Linda, arrebatada como uma sibila quando canta, Marianne se faz flor cantante na ária de Debiles, da  ópera "Lakmé" (1883).  A cria "Sous le dôme épais" e uma das mais belas e reconhecíveis do repertório operístico. A composição das duas vozes femininas (soprano e mezzo-soprano) representa o momento em que Lakmé e sua serva Mallika colhem flores à beira de um rio. A música se destaca por sua melodia etérea e harmonia sofisticada, onde as duas vozes se entrelaçam de forma delicada e precisa, criando um efeito que evoca a serenidade da natureza. Delibes conseguiu capturar perfeitamente a atmosfera oriental que permeia toda a ópera, ambientada na Índia colonial, através de uma escrita vocal que combina técnica operística ocidental com sugestões de exotismo oriental. O "Dueto das Flores" transcendeu o contexto original da ópera, tornando-se uma peça independente frequentemente apresentada em concertos e recitais. Sua popularidade se estendeu além do mundo da música clássica, sendo utilizada em filmes, comerciais e adaptações modernas. A beleza intemporal desta composição demonstra a genialidade de Delibes em criar melodias que continuam encantando ouvintes mais de um século após sua criação.
+  "1883 - AS FLORES.md": `
+Marianne Crebassa canta,  “às vezes trabalha em uma espécie de transe... havia alguns momentos em que nada parecia existir ao meu redor…”, essa a mezzo-soprano francesa que me fez apaixonar mais ainda pelo "O Dueto das Flores" (Flower Duet/"Sous le dôme épais") de Léo Delibes. Linda, arrebatada como uma sibila quando canta, Marianne se faz flor cantante na ária de Debiles, da  ópera "Lakmé" (1883).  A cria "Sous le dôme épais" e uma das mais belas e reconhecíveis do repertório operístico. A composição das duas vozes femininas (soprano e mezzo-soprano) representa o momento em que Lakmé e sua serva Mallika colhem flores à beira de um rio. A música se destaca por sua melodia etérea e harmonia sofisticada, onde as duas vozes se entrelaçam de forma delicada e precisa, criando um efeito que evoca a serenidade da natureza. Delibes conseguiu capturar perfeitamente a atmosfera oriental que permeia toda a ópera, ambientada na Índia colonial, através de uma escrita vocal que combina técnica operística ocidental com sugestões de exotismo oriental. O "Dueto das Flores" transcendeu o contexto original da ópera, tornando-se uma peça independente frequentemente apresentada em concertos e recitais. Sua popularidade se estendeu além do mundo da música clássica, sendo utilizada em filmes, comerciais e adaptações modernas. A beleza intemporal desta composição demonstra a genialidade de Delibes em criar melodias que continuam encantando ouvintes mais de um século após sua criação.
 
-Dueto das Flores - https://youtu.be/C1ZL5AxmK_A?si=fIosD4d2pN0HFJiL`,
+Dueto das Flores - https://youtu.be/C1ZL5AxmK_A?si=fIosD4d2pN0HFJiL
+`,
 
-    "1933 - KONOMICHI.md": `Konomichi quer dizer minha estrada, meu caminho. É o nome de uma das musicas infantis mais cantadas no Japão. O cabeça dessa revolução musical é o genial poeta Hakushu Kitahara. Kitahara, publicou mais de 200 livros em vida, além de ser uma figura absolutamente improvável na casta e rigorosa cultura japonesa. Tão improvável que sua vida virou filme em 2019,  “This Old Road: Konomichi”, do diretor Kiyoshi Sasabe e roteiro de  Riko Sakaguchi.  A  história real contada no filme, ocorre  no período entre  1918 e 1936, quando o poeta H. Kitahara se encontra como musico K. Yamada e iniciam um dos períodos mais férteis da musica infantil no Japão. Kitahara é de uma família importante, que tinha como negócio uma tradicional marca de saquê. Mas, sendo um  bom poeta é, é também um  sujeito da noite, da farra. Sai da sua cidade natal, Kanagawa, vai para Tóquio, faz literatura inglesa, conhece os grande poetas do mundo, futuristas, simbolistas, concretistas, entre outros. Mas, não deixa de ter uma vida boêmia, cheia de casos com mulheres e muita bebida e drogas.  E, de tanto Kitahara se relacionar com mulheres,  sem levar em conta as conveniências, é pego pelo seu vizinho, namorando a bela esposa Toshiko.  Hakushu é preso por adultério. Mas os poetas da cidade se unem para tirar Kitahara da cadeia. Depois de vários dias de protestos  conseguem. Mas Kitahara não se emenda, vai novamente em busca da bela Toshiko. De tanto insistir, se casa com ela em segredo. Mas Toshiko não suporta as noitadas de Kitahara e foge.  Então  é Kitahara que se desespera, vai para a beira de um lago disposto a suicidar. Entra na água para se afogar, mas desiste dessa idéia depois de ter sido mordido no pé … por um caranguejo ! Acreditem, essa é a história.  Para por fim ao sofrimento, Kitahara se envolve com o grupo da revista infantil Akai Tori(pássaro vermelho) e inicia o movimento chamado "Doyo", considerado um dos mais criativos e importantes processos de respeito à criatividade e inteligência da criança no Japão. A "Filosofia  Doyo" diz respeito a um novo movimento que envolveu os maiores compositores do Japão, que se reuniram para criar conscientemente canções de maior qualidade para crianças. Através da revista Akai tori, várias canções e textos foram publicados e, posteriormente, esse material foi introduzido nos livros didáticos em todo o Japão, tornando-se uma parte essencial da educação musical japonesa. A cidade de Hamamatsu fica entre Nagoya e Tokyo, no meio do Japão. É uma cidade com 800 mil habitantes, cheia de fábricas de carro e de brasileiros, trabalhadores nas fábricas. Consegue somar o que há de mais tradicional na cultura japonesa, com o que há de mais moderno no mundo. Foi a primeira cidade a "importar" jogadores de vôlei para seus times, tem o centro de inteligência de design da Honda e um centro de equipamentos musicais da Yamaha, entre outras modernidades, além de um  museu de instrumentos musicais. 
+  "1933 - KONOMICHI.md": `
+
+Konomichi quer dizer minha estrada, meu caminho. É o nome de uma das musicas infantis mais cantadas no Japão. O cabeça dessa revolução musical é o genial poeta Hakushu Kitahara. Kitahara, publicou mais de 200 livros em vida, além de ser uma figura absolutamente improvável na casta e rigorosa cultura japonesa. Tão improvável que sua vida virou filme em 2019,  “This Old Road: Konomichi”, do diretor Kiyoshi Sasabe e roteiro de  Riko Sakaguchi.  A  história real contada no filme, ocorre  no período entre  1918 e 1936, quando o poeta H. Kitahara se encontra como musico K. Yamada e iniciam um dos períodos mais férteis da musica infantil no Japão. Kitahara é de uma família importante, que tinha como negócio uma tradicional marca de saquê. Mas, sendo um  bom poeta é, é também um  sujeito da noite, da farra. Sai da sua cidade natal, Kanagawa, vai para Tóquio, faz literatura inglesa, conhece os grande poetas do mundo, futuristas, simbolistas, concretistas, entre outros. Mas, não deixa de ter uma vida boêmia, cheia de casos com mulheres e muita bebida e drogas.  E, de tanto Kitahara se relacionar com mulheres,  sem levar em conta as conveniências, é pego pelo seu vizinho, namorando a bela esposa Toshiko.  Hakushu é preso por adultério. Mas os poetas da cidade se unem para tirar Kitahara da cadeia. Depois de vários dias de protestos  conseguem. Mas Kitahara não se emenda, vai novamente em busca da bela Toshiko. De tanto insistir, se casa com ela em segredo. Mas Toshiko não suporta as noitadas de Kitahara e foge.  Então  é Kitahara que se desespera, vai para a beira de um lago disposto a suicidar. Entra na água para se afogar, mas desiste dessa idéia depois de ter sido mordido no pé … por um caranguejo ! Acreditem, essa é a história.  Para por fim ao sofrimento, Kitahara se envolve com o grupo da revista infantil Akai Tori(pássaro vermelho) e inicia o movimento chamado "Doyo", considerado um dos mais criativos e importantes processos de respeito à criatividade e inteligência da criança no Japão. A "Filosofia  Doyo" diz respeito a um novo movimento que envolveu os maiores compositores do Japão, que se reuniram para criar conscientemente canções de maior qualidade para crianças. Através da revista Akai tori, várias canções e textos foram publicados e, posteriormente, esse material foi introduzido nos livros didáticos em todo o Japão, tornando-se uma parte essencial da educação musical japonesa. A cidade de Hamamatsu fica entre Nagoya e Tokyo, no meio do Japão. É uma cidade com 800 mil habitantes, cheia de fábricas de carro e de brasileiros, trabalhadores nas fábricas. Consegue somar o que há de mais tradicional na cultura japonesa, com o que há de mais moderno no mundo. Foi a primeira cidade a "importar" jogadores de vôlei para seus times, tem o centro de inteligência de design da Honda e um centro de equipamentos musicais da Yamaha, entre outras modernidades, além de um  museu de instrumentos musicais. 
 Mas a cidade tem também um"querer ser" cidade que expressa o máximo em termos de urbanidade, colocando serviços públicos de primeira qualidade para o cidadão. Por exemplo, em toda a cidade, onde houver escadas, haverá uma fonte de água, que corre paralela aos  degraus,  para gerar o som de água caindo.  A cidade foi pioneira na fabricação de piano e nunca abandonou a sua veia musical. O museu é o único público do Japão, e tem instrumentos de todo o mundo. E foi nele, com instrumentos originais dos anos de 1920 a 1930, que se gravou  "Kono Michi -This Road - Lyricism in Japanise Doyo and Shokav”, uma das obras mais importante  dos dois artistas.
 https://youtu.be/e7jW8cNL3-k
 https://youtu.be/yjBMHygnFaw
@@ -45,12 +72,17 @@ https://youtu.be/rDx4E8GxerU
 https://youtu.be/amgEmeQhIVc
 https://youtu.be/frHuL_1JU3M
 https://youtu.be/LD5O9QMsZuo
-https://youtu.be/nC9-40wKDfM`,
+https://youtu.be/nC9-40wKDfM
 
-    "1938 - CHATEAU.md": `Existem momentos  que a música proporciona que parecem como que cristalizados na memória do cosmos, como mais uma entidade celeste, tal a satisfação e o júbilo que proporcionam. Cantar com a minha mãe, Dona Luiza, o “Acaso você Chegasse” de Lupicínio Rodrigues, é uma dessas entidades celestes. Ela e eu sempre tivemos essa prática de cantar músicas antigas, clássicos como esse, porque são músicas lindas e, mais ainda, porque cantarmos juntos, sempre foi uma das felicidades que a nossa  vida nos proporcionou. Cantamos vários clássicos, mas aos poucos, com o passar dos anos, o drama cantado por Lupicinio foi se fazendo o melhor canto.  Lupicínio Rodrigues,  é um desses compositores brasileiros que merecia ter nome de território. O "Se Acaso Você Chegasse”,  um clássico do samba, uma ode da "dor de cotovelo”, é lançada em 1938. É uma pintura musical  de Lupicínio, que conecta uma história de amor e uma evidente desilusão, “se acaso você chegasse”. A perversidade da história, que parece tão singela, afinal, uma parte da música é de um amor prosaico ( “de dia me lava a roupa, de noite me beija a boca”), mas, se, provavelmente,  o meu amigo voltasse no chato para encontrar a mulher que ama, ele vai encontrar um traidor, com aquela mulher. E mais ainda, “será que teria coragem de trocar a nossa amizade” ? É de uma canalhice essa passagem. Afinal, o amigo, o grande amigo, passa a viver com a amada do outro, naquele chato e pede ainda para que o traído não troque a amizade. Lupicinio transforma uma trama perversa, em uma música sensacional.  Nascido em Porto Alegre em 1914, Lupicínio desenvolveu um estilo próprio de composição que misturava samba com elementos regionais gaúchos. "Se Acaso Você Chegasse" demonstra sua habilidade única de criar narrativas que falam diretamente ao coração do ouvinte, com letras que abordam temas como ciúme, traição e reconciliação de uma forma profundamente pessoal e universal ao mesmo tempo. A música ganhou inúmeras interpretações ao longo das décadas, sendo gravada por diversos artistas importantes da música brasileira, mas mantém sua essência original que a tornou um clássico. A composição exemplifica por que Lupicínio é considerado um dos mestres do samba-canção, com sua capacidade de criar melodias memoráveis que servem perfeitamente à dramaticidade de suas letras.
-Se Acaso Você Chegasse - https://youtu.be/74B0AOD5Ni0?si=9gSVXYAxC7JauW-6`,
+`,
 
-    "1942 - ESTA CHEGANDO.md": `Parece que todo final de noite, durante mesmo a verdadeira e última saideira, uma musica começa a tocar por si mesma, porque ela é aquele som que finaliza toda a noitada e representa a alegria de uma boa festa que finaliza: 
+  "1938 - CHATEAU.md": `
+Existem momentos  que a música proporciona que parecem como que cristalizados na memória do cosmos, como mais uma entidade celeste, tal a satisfação e o júbilo que proporcionam. Cantar com a minha mãe, Dona Luiza, o “Acaso você Chegasse” de Lupicínio Rodrigues, é uma dessas entidades celestes. Ela e eu sempre tivemos essa prática de cantar músicas antigas, clássicos como esse, porque são músicas lindas e, mais ainda, porque cantarmos juntos, sempre foi uma das felicidades que a nossa  vida nos proporcionou. Cantamos vários clássicos, mas aos poucos, com o passar dos anos, o drama cantado por Lupicinio foi se fazendo o melhor canto.  Lupicínio Rodrigues,  é um desses compositores brasileiros que merecia ter nome de território. O "Se Acaso Você Chegasse”,  um clássico do samba, uma ode da "dor de cotovelo”, é lançada em 1938. É uma pintura musical  de Lupicínio, que conecta uma história de amor e uma evidente desilusão, “se acaso você chegasse”. A perversidade da história, que parece tão singela, afinal, uma parte da música é de um amor prosaico ( “de dia me lava a roupa, de noite me beija a boca”), mas, se, provavelmente,  o meu amigo voltasse no chato para encontrar a mulher que ama, ele vai encontrar um traidor, com aquela mulher. E mais ainda, “será que teria coragem de trocar a nossa amizade” ? É de uma canalhice essa passagem. Afinal, o amigo, o grande amigo, passa a viver com a amada do outro, naquele chato e pede ainda para que o traído não troque a amizade. Lupicinio transforma uma trama perversa, em uma música sensacional.  Nascido em Porto Alegre em 1914, Lupicínio desenvolveu um estilo próprio de composição que misturava samba com elementos regionais gaúchos. "Se Acaso Você Chegasse" demonstra sua habilidade única de criar narrativas que falam diretamente ao coração do ouvinte, com letras que abordam temas como ciúme, traição e reconciliação de uma forma profundamente pessoal e universal ao mesmo tempo. A música ganhou inúmeras interpretações ao longo das décadas, sendo gravada por diversos artistas importantes da música brasileira, mas mantém sua essência original que a tornou um clássico. A composição exemplifica por que Lupicínio é considerado um dos mestres do samba-canção, com sua capacidade de criar melodias memoráveis que servem perfeitamente à dramaticidade de suas letras.
+Se Acaso Você Chegasse - https://youtu.be/74B0AOD5Ni0?si=9gSVXYAxC7JauW-6
+`,
+
+  "1942 - ESTA CHEGANDO.md": `
+Parece que todo final de noite, durante mesmo a verdadeira e última saideira, uma musica começa a tocar por si mesma, porque ela é aquele som que finaliza toda a noitada e representa a alegria de uma boa festa que finaliza: 
 "ai, ai, ai ai, ai ai ai, está chegando a hora, o dia já vem raiando, meu bem, eu tenho que ir embora" . Pouca gente sabe,  mas a dona dessa música é a improvável Carmen Costa, uma pessoa que tem uma história que beira o impossível.  Carmelita Madrigal chegou no rio em 1935, para trabalhar de empregada doméstica, morando em diversos morros do Rio e no morro de Santa Rosa, em Niterói. O primeiro emprego foi na rua Toneleiros, em Copacabana,  onde fazia coques (apanhado de cabelo enrolado em espiral ou em forma de concha, e fixado na cabeça por meio de grampos, varetas, fios elásticos etc.) ganhando 1 tostão por dia. Para ganhar mais resolve trabalhar de empregada doméstica numa casa onde a patroa tocava piano. Carmelita se entusiasma e resolve aprender violão, carregando-o debaixo do braço na travessia da barca Rio-Niterói. No final do ano consegue ser empregada na casa do então “Rei da Voz", Francisco Alves. Na época ele era o grande cantor do Brasil, chofer de taxi, o sujeito que mais gravou disco em 75 rotações, com mais de 900 músicas. Apesar de não beber, não fumar, não usar drogas, Francisco Alves era um garanhão e fazia da sua casa uma festança contínua. No meio de uma dessas farras, com a presença da elite carioca e artistas de todos os tipos, para fazer gracinha para Carmem Miranda, diz que "até a minha empregada  canta melhor do que você" ! E chama a empregada para cantar. Aquela mulata, com apenas 15 anos não deixou para menos, cantou e cantou muito. Cantou tanto que o próprio patrão, Francisco Alves passou a ser o seu maior promotor.  Em 1942 grava “Marambaia" e “Está Chegando a Hora". Já nessa época conhece e começa a gravar músicas de Luiz Gonzaga.  Em 1946, Carmen cantava na Feira de Amostras em Manaus-AM, quando conheceu Hans Van Koehler 
 um funcionário do governo norte-americano, de descendência holandesa, que trabalhava na industria da extração da borracha. Koehler encanta  Carmen, que aceita casar pouco tempo depois, indo ambos residir em New Jersey, USA, onde chegam no dia 5 julho 1946.  Carmen era a terceira mulher de Hans, e ela não demora a descobrir que Hans é  um baita de um canalha, alcoólatra e possessivo. Carmen então abandona o canalha e foge para New York, onde é ajudada por uma família de Porto Rico e acaba cantando no Triboro, um cine-teatro de Queens.  Apesar de tudo, Carmen não se separa de Hans e ambos acabam voltando para o Brasil em 1949, indo morar em Fortaleza, onde Carmen o sustenta. A gota d'agua  para a separação definitiva no entanto acontece quando ela descobre o marido com outra  mulher na sua cama.  Em 1950, na boate Mocambo, em Copacabana,  Carmen conhece aquele que seria seu grande amor: Mirabeau Pinheiro, que tocava bateria no Conjunto Residente.  Carmen e Mirabeau passaram a morar juntos na rua da Alegria em São Cristóvão. Em 1952, Carmen chegou no topo das listas sucesso,  com “Cachaça” (se você pensa que cachaça  é água, cachaça não é água, não…),  que gravou em dupla com o humorista Colé, para o qual Mirabeau tinha prometido a música. “Cachaça” foi o maior sucesso do ano, e acabou sendo incluída no filme “Carnaval Atlântida”, cantada por Colé & Grande Otelo, que faziam o papel de uma dupla de detetives.  Em 1962 Carmen conhece Dizzy Gillespie e Lionel Hampton. Em 22 de novembro de 1962, Carmen acompanhada de José Paulo e Bola Sete, participa da Noite da Bossa Nova no Carnegie Hall, junto com  Carlos Lyra, Tom Jobim, Sergio Mendes e outros.  Carmen Costa é uma das estrelas da era do rádio no Brasil, entre a década de 30 e a chegada da tv nos anos 60, divide a opinião pública com a mídia impressa. As rádios Sociedade do Rio de Janeiro, Rádio Clube do Brasil, Sociedade Rádio Educadora do Brasil, Rádio Sociedade “Mayrink Veiga", Sociedade Rádio Philips do Brasil são ouvidas pelas famílias que rodeiam os rádios. 
 https://youtu.be/iTizMY0KrvE 
@@ -58,18 +90,24 @@ https://youtu.be/mqWBQd1hkUk
 https://youtu.be/3FKwsZ-VjeY 
 https://youtu.be/8c_9i_9bwAY 
 https://youtu.be/8Qw3Q5hUCUM 
-https://youtu.be/_8VWzLuZwyw`,
+https://youtu.be/_8VWzLuZwyw 
 
-    "1945 - A VIRGEM.md": `Loira, um belo corpo, um ótimo sorriso, um rosto perfeito. Mas não fumava, não bebia, não ia às festas de Hollywood, não promovia seus filmes. Era uma devota de uma religião chamada Christian Scientist. O pianista Oscar Levant disse que conheceu Doris Day antes dela ser virgem. Quatro casamentos que nunca deram certo, casos escondidos e sempre fofocados no meio cinematográfico, acidentes trágicos, sendo que um deles quando teve a perna quebrada, tirou a possibilidade de ser dançarina, recordista mundial de bilheteria no cinema e venda de discos. Aos 45 anos deu uma banana para as gravadoras, aos 46 deu outra para Hollywood, aos 49, no auge da carreira televisiva, recusou outro contrato com a CBS.  Indiferente à fama e à fortuna, Doris Day deu bye-bye à capital da celebridade e foi viver em reclusão com seus cães em Carmel, na Califórnia. O nome artístico de Doris Mary Ann von Kappelhoff, nunca saiu  da minha cabeça. Parece que sempre conheci Doris Day. Com a sua morte e a ideia de fazer uma Dica Musical com ela, fiquei então sabendo que ela nasce em Cincinnati no dia 3 de abril de 1922. Ela se torna artista cantando em 1939, com apenas 17 anos. Em 45, com 23 anos vira estrela gravando "Sentimental Journey". Como cantora grava mais de 650 músicas entre 1947 a 1967. Ouvir Doris Day de forma organizada e buscando a suas pérolas é muito fácil. A impressão é que a loura não tinha nada de burra, pelo contrário, seu repertório é só sucesso, só musicas boas, que ela confere, com sua voz extremamente doce, uma qualidade impressionante. 
+`,
+
+  "1945 - A VIRGEM.md": `
+Loira, um belo corpo, um ótimo sorriso, um rosto perfeito. Mas não fumava, não bebia, não ia às festas de Hollywood, não promovia seus filmes. Era uma devota de uma religião chamada Christian Scientist. O pianista Oscar Levant disse que conheceu Doris Day antes dela ser virgem. Quatro casamentos que nunca deram certo, casos escondidos e sempre fofocados no meio cinematográfico, acidentes trágicos, sendo que um deles quando teve a perna quebrada, tirou a possibilidade de ser dançarina, recordista mundial de bilheteria no cinema e venda de discos. Aos 45 anos deu uma banana para as gravadoras, aos 46 deu outra para Hollywood, aos 49, no auge da carreira televisiva, recusou outro contrato com a CBS.  Indiferente à fama e à fortuna, Doris Day deu bye-bye à capital da celebridade e foi viver em reclusão com seus cães em Carmel, na Califórnia. O nome artístico de Doris Mary Ann von Kappelhoff, nunca saiu  da minha cabeça. Parece que sempre conheci Doris Day. Com a sua morte e a ideia de fazer uma Dica Musical com ela, fiquei então sabendo que ela nasce em Cincinnati no dia 3 de abril de 1922. Ela se torna artista cantando em 1939, com apenas 17 anos. Em 45, com 23 anos vira estrela gravando "Sentimental Journey". Como cantora grava mais de 650 músicas entre 1947 a 1967. Ouvir Doris Day de forma organizada e buscando a suas pérolas é muito fácil. A impressão é que a loura não tinha nada de burra, pelo contrário, seu repertório é só sucesso, só musicas boas, que ela confere, com sua voz extremamente doce, uma qualidade impressionante. 
 https://youtu.be/xDFH8jzuHMw 
 https://youtu.be/3FKA-3uRdQY 
 https://youtu.be/GUVT1NZtZPo 
 https://youtu.be/gAIIKuSI2Z0 
 https://youtu.be/ndCL6uYPHos 
 https://youtu.be/9WrEyVOPR8M 
-https://youtu.be/XI1Bs9-09rI`,
+https://youtu.be/XI1Bs9-09rI 
 
-    "1953 - CORDAS E HELICÓPTEROS.md": `Lá pelos idos de 1970 me deparo com um tal de Karlheinz Stockehausen, em uma estante da biblioteca de música erudita contemporânea. O que ouvi foi a obra "Hymnen" (Hinos), composta entre 1966 e 1967 , que incorpora leituras de textos do antropólogo francês Claude Lévi-Strauss. "Hymnen" é uma composição eletroacústica que utiliza gravações de hinos nacionais de diversas nações, transformando-os e organizando-os em uma complexa trama sonora. A obra é considerada uma das realizações seminais na música eletrônica e é conhecida pela sua abordagem pluralista e transcultural à identidade e à expressão nacional. O uso de textos de Lévi-Strauss serve para ampliar e contextualizar as questões de identidade, cultura e nação que estão no cerne da composição. Lévi-Strauss foi uma figura influente no desenvolvimento da antropologia estruturalista e suas ideias sobre a universalidade das estruturas mentais humanas e sobre o papel do simbolismo na cultura ressoam com os temas explorados por Stockhausen em "Hymnen". Deste modo, a integração dos textos de Lévi-Strauss na composição não é apenas uma escolha estética, mas também uma decisão conceitual que alinha o trabalho de Stockhausen com debates intelectuais mais amplos sobre cultura, identidade e pertencimento.  Então fui conhecer Weber, Schonberg, Bartok, entre outros. Fui então  ouvir os  LPs  desses estranhos músicos por ofício de conhecimento. Sem ter com quem discutir esse tipo de música,  minha preferência  nasceu pelo alemão da pequena cidade de Kurten, 197 km de Frankfurt.  Essa preferência se deve exatamente pelo uso dos textos do livro "Tristes Trópicos" de Levi-Strauss, na época, um dos meus luminares.  Passei a ter Karlheinz como referência. Para entender o sujeito fui obrigado a entender o movimento da música atonal. No final do sec XIX, como que seguindo a onda revolucionária do mundo social, acontecia na música a revolta contra o sistema da tonal, como se fosse um golpe de estado contra a ideologia da classe dominante, que nos impunha a droga viciante dos acordes fáceis, melodiosos e previsíveis. Sob a liderança do “Lenin" Schonberg, inicia-se o ataque contra essa música que se assovia durante o passeio matinal (essa imagem é do Egberto Gismond). A revolta dos músicos de vanguarda era contra o sistema tonal com suas regras de composição, melodia e harmonia, absolutamente agradável ao nosso cérebro. Entendiam que esse padrão não passava de  repetição dos mesmos arranjos de acordes, que permite quase que, antes mesmo de um acorde ser tocado, já sabermos o que vem e a suas sequências. A musica tonal é previsível, limitada, superficial e, por isso mesmo, se esgotou - dizia o manual da nova música. No movimento da musica atonal, Schonberg cria a música dodecafônica, aquela que propõe o uso obrigatório das 12 notas da escala cromática, em toda música, sem que nenhuma seja dominante. Então, em cada série da música, as 12 notas deveriam estar presentes e todas as outras séries deveriam obedecer esse princípio, invertendo, retrogradando e/ou criando outra série original, independente da tonalidade. Surge então uma nova música. Óbvio, a grande maioria da população preferiu a antiga. A nova não dava para dançar no sábado a noite. Mas Karlheinz vai muito além. Ele troca a série de notas por números e coloca as máquinas computadoras e digitais para gerar sons, distorcer, mesclar, multiplicar e amplificar. Os instrumentos criados e/ou planejados por ele são o máximo da complexidade e bizarrice. Mas é com eles que ele passa a usar para fazer suas músicas. Além de ser um maestro que regeu quase todas grandes peças clássicas da tradição erudita, Stockehausen se torna especialista em ondas sonoras, computação, matemática e sintetizadores. Pronto, tem a técnica dominada, Para o conteúdo, se torna especialista em antropologia, filosofia, historia e psicologia. Pronto, tem material para suas composições. Em 1969, a revista Veja reconhecia a genialidade de Stockhausen, assim como todas as grandes publicações do mundo. Ele nasce em 1928, em uma mundo em que a  música tonal não se via ameaçada pela música dodecafônica, via  nessa música ouvida por poucos, a música atonal,  a inspiração e a realização de verdadeiros mestres de sabedoria e competência. Nesse planeta Karlheinz era o máximo. Para dar conta da sua tarefa vai morar em uma  pequena fazenda em Kurten. Vive 30 anos ali mesmo naquela vila perto de Frankfurt. Em 1952 ele começa a trabalhar profissionalmente com musica. Régua e tesoura na mão, cópia e cola  fitas de rolo e assim suas composições aparecem. Nessa época  cria o "Microphonie 1", onde os  sons nascem a partir de qualquer instrumento, retrabalhados por meios digitais, que retorna com sons novos e modificados. E não parou mais de criar, até 2007, quando morre. Licht é a sua grande obra. Conta o nascimento do universo e da vida que, de acordo com a tradição Hindu, nasce e morre infinitamente. A ópera levou 27 anos para ser terminada e, para ouví-la, a audiência deverá dispor de 29 horas. Uma vida. Além desse exagero musical, Stockhausen nos brinda com a composição Helikopter- Streichquartett (quarteto de cordas com helicópteros). Todos na plateia, na frente de um telão. Lá fora, cada um dos quatro músicos se instala em um helicóptero. Então começa a peça, com as aeronaves levantando vôo e cada musico realizando a sua partitura, no seu helicóptero. Vejam abaixo um trecho dessa peça, além de outras "musicas" de um dos maiores gênios musicais de todos os tempos:
+`,
+
+  "1953 - CORDAS E HELICÓPTEROS.md": `
+Lá pelos idos de 1970 me deparo com um tal de Karlheinz Stockehausen, em uma estante da biblioteca de música erudita contemporânea. O que ouvi foi a obra "Hymnen" (Hinos), composta entre 1966 e 1967 , que incorpora leituras de textos do antropólogo francês Claude Lévi-Strauss. "Hymnen" é uma composição eletroacústica que utiliza gravações de hinos nacionais de diversas nações, transformando-os e organizando-os em uma complexa trama sonora. A obra é considerada uma das realizações seminais na música eletrônica e é conhecida pela sua abordagem pluralista e transcultural à identidade e à expressão nacional. O uso de textos de Lévi-Strauss serve para ampliar e contextualizar as questões de identidade, cultura e nação que estão no cerne da composição. Lévi-Strauss foi uma figura influente no desenvolvimento da antropologia estruturalista e suas ideias sobre a universalidade das estruturas mentais humanas e sobre o papel do simbolismo na cultura ressoam com os temas explorados por Stockhausen em "Hymnen". Deste modo, a integração dos textos de Lévi-Strauss na composição não é apenas uma escolha estética, mas também uma decisão conceitual que alinha o trabalho de Stockhausen com debates intelectuais mais amplos sobre cultura, identidade e pertencimento.  Então fui conhecer Weber, Schonberg, Bartok, entre outros. Fui então  ouvir os  LPs  desses estranhos músicos por ofício de conhecimento. Sem ter com quem discutir esse tipo de música,  minha preferência  nasceu pelo alemão da pequena cidade de Kurten, 197 km de Frankfurt.  Essa preferência se deve exatamente pelo uso dos textos do livro "Tristes Trópicos" de Levi-Strauss, na época, um dos meus luminares.  Passei a ter Karlheinz como referência. Para entender o sujeito fui obrigado a entender o movimento da música atonal. No final do sec XIX, como que seguindo a onda revolucionária do mundo social, acontecia na música a revolta contra o sistema da tonal, como se fosse um golpe de estado contra a ideologia da classe dominante, que nos impunha a droga viciante dos acordes fáceis, melodiosos e previsíveis. Sob a liderança do “Lenin" Schonberg, inicia-se o ataque contra essa música que se assovia durante o passeio matinal (essa imagem é do Egberto Gismond). A revolta dos músicos de vanguarda era contra o sistema tonal com suas regras de composição, melodia e harmonia, absolutamente agradável ao nosso cérebro. Entendiam que esse padrão não passava de  repetição dos mesmos arranjos de acordes, que permite quase que, antes mesmo de um acorde ser tocado, já sabermos o que vem e a suas sequências. A musica tonal é previsível, limitada, superficial e, por isso mesmo, se esgotou - dizia o manual da nova música. No movimento da musica atonal, Schonberg cria a música dodecafônica, aquela que propõe o uso obrigatório das 12 notas da escala cromática, em toda música, sem que nenhuma seja dominante. Então, em cada série da música, as 12 notas deveriam estar presentes e todas as outras séries deveriam obedecer esse princípio, invertendo, retrogradando e/ou criando outra série original, independente da tonalidade. Surge então uma nova música. Óbvio, a grande maioria da população preferiu a antiga. A nova não dava para dançar no sábado a noite. Mas Karlheinz vai muito além. Ele troca a série de notas por números e coloca as máquinas computadoras e digitais para gerar sons, distorcer, mesclar, multiplicar e amplificar. Os instrumentos criados e/ou planejados por ele são o máximo da complexidade e bizarrice. Mas é com eles que ele passa a usar para fazer suas músicas. Além de ser um maestro que regeu quase todas grandes peças clássicas da tradição erudita, Stockehausen se torna especialista em ondas sonoras, computação, matemática e sintetizadores. Pronto, tem a técnica dominada, Para o conteúdo, se torna especialista em antropologia, filosofia, historia e psicologia. Pronto, tem material para suas composições. Em 1969, a revista Veja reconhecia a genialidade de Stockhausen, assim como todas as grandes publicações do mundo. Ele nasce em 1928, em uma mundo em que a  música tonal não se via ameaçada pela música dodecafônica, via  nessa música ouvida por poucos, a música atonal,  a inspiração e a realização de verdadeiros mestres de sabedoria e competência. Nesse planeta Karlheinz era o máximo. Para dar conta da sua tarefa vai morar em uma  pequena fazenda em Kurten. Vive 30 anos ali mesmo naquela vila perto de Frankfurt. Em 1952 ele começa a trabalhar profissionalmente com musica. Régua e tesoura na mão, cópia e cola  fitas de rolo e assim suas composições aparecem. Nessa época  cria o "Microphonie 1", onde os  sons nascem a partir de qualquer instrumento, retrabalhados por meios digitais, que retorna com sons novos e modificados. E não parou mais de criar, até 2007, quando morre. Licht é a sua grande obra. Conta o nascimento do universo e da vida que, de acordo com a tradição Hindu, nasce e morre infinitamente. A ópera levou 27 anos para ser terminada e, para ouví-la, a audiência deverá dispor de 29 horas. Uma vida. Além desse exagero musical, Stockhausen nos brinda com a composição Helikopter- Streichquartett (quarteto de cordas com helicópteros). Todos na plateia, na frente de um telão. Lá fora, cada um dos quatro músicos se instala em um helicóptero. Então começa a peça, com as aeronaves levantando vôo e cada musico realizando a sua partitura, no seu helicóptero. Vejam abaixo um trecho dessa peça, além de outras "musicas" de um dos maiores gênios musicais de todos os tempos:
 https://youtu.be/13D1YY_BvWU
 https://youtu.be/o9xxYJ8MzSs
 https://youtu.be/6J97DeF1cPc
@@ -77,7 +115,8 @@ https://youtu.be/IzNbYQ2eXow
 https://youtu.be/v2vgBsmOuiI
 https://youtu.be/NfbS8hy4oos`,
 
-    "1954 - BARBERSHOP .md": `Arthur Godfrey foi o rei da rádio e da televisão de entretenimentos nos EUA entre 1930 e 1950, tendo a CBS como seu palco. No seu currículo consta a reprovação do calouro Elvis Presley, a obrigatoriedade de aulas de dança para toda a sua equipe, absoluto controle dos seus artistas, paixão por rádio amador, aviação e luta contra o racismo em uma época em que negros tinham que assentar nas última cadeiras do coletivo. Em 1946 recebe Janet Ertel, Alice Spielvogel, Dorothy Schwartz e Jinny Osborn, garotas vindas de Sheboygan, Wisconsin, 1500 km de Nova York, que cantavam a capella e a “musica de barbearia.” “Barbershop Quartets” é uma invenção de negros, que, em grupo de quatro, se reuniam para cantar e ganhar alguns trocamos, no início do sec.XX, nos EUA,  na frente das barbearias. Basicamente o que faziam era o chamado “overtone”: “quando vozes bem afinadas e ricas em harmônicos executam determinados acordes, esses harmônicos mais altos se combinam pra formar um som mais cheio do que a soma das partes. Por isso o overtone também é conhecido como quinta voz ou voz do anjo”.  As meninas do Chordettes se organizavam musicalmente com uma soprano lírica, a líder sendo a segunda soprano, a barítono alto e a contralto baixo. As  três primeiras vozes harmonizavam  com a melodia da uma quarta voz.  O pai de Jinny,  O. H. “King” Cole, era  presidente da “Barbershop Harmony Society” e era o sujeito que garantia a  organização da harmonia do grupo, a sincronização dos sons das palavras e a variação do andamento das músicas, nível de volume, dicção, timbre e fraseado. Cole era mestre em escolher as frases da música que seriam repetidas para dar efeito de eco, e os arranjos musicais sempre nostálgicos. As garotas fizeram sucesso no programa de rádio de Arthur Godfrey, Talent Scouts, em 1949 e passaram afazer apresentações diárias no programa. Enquanto isso gravavam seus LPs. Em 1954 chegam ao topo, com  “Mr. Sandman”, conseguem se manter até 61, quando o grupo se dissolve.
+  "1954 - BARBERSHOP .md": `
+Arthur Godfrey foi o rei da rádio e da televisão de entretenimentos nos EUA entre 1930 e 1950, tendo a CBS como seu palco. No seu currículo consta a reprovação do calouro Elvis Presley, a obrigatoriedade de aulas de dança para toda a sua equipe, absoluto controle dos seus artistas, paixão por rádio amador, aviação e luta contra o racismo em uma época em que negros tinham que assentar nas última cadeiras do coletivo. Em 1946 recebe Janet Ertel, Alice Spielvogel, Dorothy Schwartz e Jinny Osborn, garotas vindas de Sheboygan, Wisconsin, 1500 km de Nova York, que cantavam a capella e a “musica de barbearia.” “Barbershop Quartets” é uma invenção de negros, que, em grupo de quatro, se reuniam para cantar e ganhar alguns trocamos, no início do sec.XX, nos EUA,  na frente das barbearias. Basicamente o que faziam era o chamado “overtone”: “quando vozes bem afinadas e ricas em harmônicos executam determinados acordes, esses harmônicos mais altos se combinam pra formar um som mais cheio do que a soma das partes. Por isso o overtone também é conhecido como quinta voz ou voz do anjo”.  As meninas do Chordettes se organizavam musicalmente com uma soprano lírica, a líder sendo a segunda soprano, a barítono alto e a contralto baixo. As  três primeiras vozes harmonizavam  com a melodia da uma quarta voz.  O pai de Jinny,  O. H. “King” Cole, era  presidente da “Barbershop Harmony Society” e era o sujeito que garantia a  organização da harmonia do grupo, a sincronização dos sons das palavras e a variação do andamento das músicas, nível de volume, dicção, timbre e fraseado. Cole era mestre em escolher as frases da música que seriam repetidas para dar efeito de eco, e os arranjos musicais sempre nostálgicos. As garotas fizeram sucesso no programa de rádio de Arthur Godfrey, Talent Scouts, em 1949 e passaram afazer apresentações diárias no programa. Enquanto isso gravavam seus LPs. Em 1954 chegam ao topo, com  “Mr. Sandman”, conseguem se manter até 61, quando o grupo se dissolve.
 Mr. Sandman
  https://youtu.be/CX45pYvxDiA
  Lollipop
@@ -85,16 +124,19 @@ Mr. Sandman
  Born to be with you
  https://youtu.be/efvkzpkBil0
  Just Between You And Me
- https://youtu.be/cMetSnOD4A8`,
+ https://youtu.be/cMetSnOD4A8
+`,
 
-    "1956 - CÃO DE CAÇA.md": `Existem muitas músicas que  atravessam o tempo, vão cortando as várias fases da cultura, das modas, das bandas e cantores, sempre aparecendo com versões diferentes. De verdade, quando falamos muitas musicas, sabemos que não seria possível contar todos os dedos das mãos com elas. Estamos aqui exagerando, porque estamos nos referindo a essas musicas que, além de passar pelos tempos, vão ganhando qualidade de interpretação, com o tempo. De tal forma vão ganhando brilho, que quando ouvimos a música na sua forma primeira até estranhamos que tenham tido tanta fama e repercussão com aquela forma original.  Apresentamos então  uma dessas musicas, uma dessas que tiveram vários interpretes no tempo, desde Elvis Presley, quando ganha fama, passando por Jimi Hendrix, Tracy Chapman e Little Richard.  Vejam que não é pouca coisa. Mas o máximo da interpretação de Hound Dog, claro, do meu ponto de vista, se dá com a cantora Dee Dee Bridgewater. Vou mostrar todas essas versões para vcs,  começando lá na década  de 50, com a primeira versão, até a de Dee Dee, que é de 2017, com o disco "Memphis... Yes, I'm Ready" . Hound Dog é de autoria de Jerry Leiber e Mike Stoller, uma dupla que simplesmente fez a década de 50 e 60 com suas músicas. Ela foi lançada em 1952  A fantástica Big Mama Thornton fez a primeira gravação, que é muito boa. Depois vem o furacão Elvis, em 1956, jogando a música para a estratosfera. Little Richard faz a sua versão em 1964. Tracy Chapman, em 2012, apresenta no Kennedy Center, com a presença de Obama, a sua versão de Hound Dog. Mas será em 2017 que Hound Dog tem a mais perfeita e acabada interpretação com Dee Dee Bridgewater. Uma diva do jazz, Dee Dee é americana, mais que premiada, com Grammy Award e o prêmio do Tony Award, com uma obra monumental. Vamos então para o túnel do tempo de Hound Dog: 
+  "1956 - CÃO DE CAÇA.md": `
+Existem muitas músicas que  atravessam o tempo, vão cortando as várias fases da cultura, das modas, das bandas e cantores, sempre aparecendo com versões diferentes. De verdade, quando falamos muitas musicas, sabemos que não seria possível contar todos os dedos das mãos com elas. Estamos aqui exagerando, porque estamos nos referindo a essas musicas que, além de passar pelos tempos, vão ganhando qualidade de interpretação, com o tempo. De tal forma vão ganhando brilho, que quando ouvimos a música na sua forma primeira até estranhamos que tenham tido tanta fama e repercussão com aquela forma original.  Apresentamos então  uma dessas musicas, uma dessas que tiveram vários interpretes no tempo, desde Elvis Presley, quando ganha fama, passando por Jimi Hendrix, Tracy Chapman e Little Richard.  Vejam que não é pouca coisa. Mas o máximo da interpretação de Hound Dog, claro, do meu ponto de vista, se dá com a cantora Dee Dee Bridgewater. Vou mostrar todas essas versões para vcs,  começando lá na década  de 50, com a primeira versão, até a de Dee Dee, que é de 2017, com o disco "Memphis... Yes, I'm Ready" . Hound Dog é de autoria de Jerry Leiber e Mike Stoller, uma dupla que simplesmente fez a década de 50 e 60 com suas músicas. Ela foi lançada em 1952  A fantástica Big Mama Thornton fez a primeira gravação, que é muito boa. Depois vem o furacão Elvis, em 1956, jogando a música para a estratosfera. Little Richard faz a sua versão em 1964. Tracy Chapman, em 2012, apresenta no Kennedy Center, com a presença de Obama, a sua versão de Hound Dog. Mas será em 2017 que Hound Dog tem a mais perfeita e acabada interpretação com Dee Dee Bridgewater. Uma diva do jazz, Dee Dee é americana, mais que premiada, com Grammy Award e o prêmio do Tony Award, com uma obra monumental. Vamos então para o túnel do tempo de Hound Dog: 
 https://youtu.be/frsBq9MCNVg 
 https://youtu.be/lzQ8GDBA8Is 
 https://youtu.be/xbHC54c4AR4 
 https://youtu.be/NXlZz8p59UM 
-https://youtu.be/VK8zceqncww`,
+https://youtu.be/VK8zceqncww `,
 
-    "1958 - JAZZ.md": `Escrever sobre Miles Davis é enfrentar a obrigação de escolher por onde entrar nesse universo que foi a sua vida. Se uma vida foi vivida com intensidade e absoluta radicalidade, foi a vida de Miles. Negro, nascido em Santa Monica, em uma família surpreendentemente abastada, Miles não teve dificuldade em estudar e se formar. Apoiado sempre pelos pais, teve seu primeiro trompete aos treze anos.  Logo descobre que a rua 52 em Nova York é a entrada para o paraíso. Se muda para a cidade, se matricula na Juilliard School e passa a ter duas vidas. Pela manhã e tarde na escola e a noite, 52nd Street.A  52nd Street, por mais de 3  décadas, de 30 a   50, se tornou a  “Swing Street” Nova York. Lotada de clubes por todos os lados, a rua oferecia o que de melhor havia em termos de jazz. Cada clube tinha a sua caixa de som voltada para a rua, de modo que os clientes pudessem ouvir de fora o que se passava lá dentro. Por lá andaram  Harry Gibson, Dizzy Gillespie, Billie Holiday, Nat Jaffe, Marian McPartland, Thelonious Monk, Charlie Parker, Louis Prima, Art Tatum e Fats Waller, Trummy Young, entre tantos outros. Era o espaço obrigatório para os talentos musicais e seus fantásticos instrumentos. Logo que chega em NY, Miles procura o seu antigo colega de banda, Charlie “Yardbird” Parker, que frequentava o famoso clube de jazz “Birdland”. Parker, mesmo já completamente envolvido nas drogas, abre as portas para Miles, tendo o “Birdland” como ponto. O clube, sob comando de Irving Levy, tinha espaço para quase   500 pessoas,  bar, mesas, cabines, restaurante e palco para uma orquestra completa. Por lá passaram   John Coltrane,  Mariano Quartet,  Count Basie em Birdland,  Dizzy Gillespie, Thelonious Monk, Louie Bellson, Bud Powell, Johnny Smith, Stan Getz, Lester Young, além de artista como   Frank Sinatra e Ava Gardner, Gary Cooper, Marilyn Monroe, Sugar Ray Robinson, Marlene Dietrich, Joe Louis, Judy Garland.  Foi lá que Miles entendeu seu papel no mundo do Jaz, conheceu o  bebop, deu ao  cool jazz um lugar de destaque, até estabelecer novas tendências como o  jazz modal  e o jazz fusion. Sua primeira banda, formada em 48,   era um noneto, com jovens. Foi através dele que consegue o seu primeiro contrato  com a Capitol Records e a parceria essencial para o seu aprimoramento, com  Gil Evans. Em 1949 vai para Paris, onde conhece Juliette Gréco. Do meu ponto de vista o encontro mais improvável e fundamental para a formação da pessoa de Miles. Gréco, uma habitual frequentadora do   bairro de Saint-Germain-des-Prés em Paris, era uma linda garota com seus 22 anos, cantora, atriz, queridinha da nata intelectual francesa. Frequentava o Le Tabou, o cabaré da moda, ao lado de  Jean-Paul Sartre, Albert Camus, Boris Vian, Jean Cocteau, entre outros. Sartre era tão apaixonado por ela que fez a letra para uma de suas músicas  mais conhecidas , “Si tu t’imagines…”.  Pois Gréco se apaixona por Miles. E ambos passam a ser o casal mais comemorado em Paris. Gréco leva Miles para o núcleo da intelectualidade francesa, onde ele conhece e convive com Picasso e Sartre, entre outros.  Miles volta para NY mudado. A realidade americana, com o problema racial e o choque com a  falta do glamour com que vivia em Paris, gera uma depressão crônica, que ele combate com a heroína. Apesar de continuar a tocar, e ele toca muito, a droga acaba levando-o à ruína. É resgatado pelo seu pai, que o leva para a fazenda. O resgate permite que ele se livre da droga. Uma das consequências desse período como drogado, foi dar a Miles um tom carregado e triste, que repercute no seu instrumento de trabalho através da  surdina, usada no trompete, que lhe dá um som mais sombrio, leve, mas, ao mesmo tempo, um som espetacular.  A sua volta para os palcos, com essas novas características, acontece de forma triunfal em julho de 1955, no  Newport Jazz Festival. Miles, sozinho no palco, encosta a surdina no microfone e inunda o auditório com um som mágico, diferente. Na plateia, George Avakian e esposa, executivo da Columbia, era um dos emocionados participantes daquele momento. Ali se decidiu as próximas décadas da carreira de Miles. Na Columbia, Miles ficou muito rico. Teve seu parceiro de volta, o maestro Gil Evans e todas as condições técnicas e empresariais para se tornar a mais influente personalidade de jazz do mundo.
+  "1958 - JAZZ.md": `
+Escrever sobre Miles Davis é enfrentar a obrigação de escolher por onde entrar nesse universo que foi a sua vida. Se uma vida foi vivida com intensidade e absoluta radicalidade, foi a vida de Miles. Negro, nascido em Santa Monica, em uma família surpreendentemente abastada, Miles não teve dificuldade em estudar e se formar. Apoiado sempre pelos pais, teve seu primeiro trompete aos treze anos.  Logo descobre que a rua 52 em Nova York é a entrada para o paraíso. Se muda para a cidade, se matricula na Juilliard School e passa a ter duas vidas. Pela manhã e tarde na escola e a noite, 52nd Street.A  52nd Street, por mais de 3  décadas, de 30 a   50, se tornou a  “Swing Street” Nova York. Lotada de clubes por todos os lados, a rua oferecia o que de melhor havia em termos de jazz. Cada clube tinha a sua caixa de som voltada para a rua, de modo que os clientes pudessem ouvir de fora o que se passava lá dentro. Por lá andaram  Harry Gibson, Dizzy Gillespie, Billie Holiday, Nat Jaffe, Marian McPartland, Thelonious Monk, Charlie Parker, Louis Prima, Art Tatum e Fats Waller, Trummy Young, entre tantos outros. Era o espaço obrigatório para os talentos musicais e seus fantásticos instrumentos. Logo que chega em NY, Miles procura o seu antigo colega de banda, Charlie “Yardbird” Parker, que frequentava o famoso clube de jazz “Birdland”. Parker, mesmo já completamente envolvido nas drogas, abre as portas para Miles, tendo o “Birdland” como ponto. O clube, sob comando de Irving Levy, tinha espaço para quase   500 pessoas,  bar, mesas, cabines, restaurante e palco para uma orquestra completa. Por lá passaram   John Coltrane,  Mariano Quartet,  Count Basie em Birdland,  Dizzy Gillespie, Thelonious Monk, Louie Bellson, Bud Powell, Johnny Smith, Stan Getz, Lester Young, além de artista como   Frank Sinatra e Ava Gardner, Gary Cooper, Marilyn Monroe, Sugar Ray Robinson, Marlene Dietrich, Joe Louis, Judy Garland.  Foi lá que Miles entendeu seu papel no mundo do Jaz, conheceu o  bebop, deu ao  cool jazz um lugar de destaque, até estabelecer novas tendências como o  jazz modal  e o jazz fusion. Sua primeira banda, formada em 48,   era um noneto, com jovens. Foi através dele que consegue o seu primeiro contrato  com a Capitol Records e a parceria essencial para o seu aprimoramento, com  Gil Evans. Em 1949 vai para Paris, onde conhece Juliette Gréco. Do meu ponto de vista o encontro mais improvável e fundamental para a formação da pessoa de Miles. Gréco, uma habitual frequentadora do   bairro de Saint-Germain-des-Prés em Paris, era uma linda garota com seus 22 anos, cantora, atriz, queridinha da nata intelectual francesa. Frequentava o Le Tabou, o cabaré da moda, ao lado de  Jean-Paul Sartre, Albert Camus, Boris Vian, Jean Cocteau, entre outros. Sartre era tão apaixonado por ela que fez a letra para uma de suas músicas  mais conhecidas , “Si tu t’imagines…”.  Pois Gréco se apaixona por Miles. E ambos passam a ser o casal mais comemorado em Paris. Gréco leva Miles para o núcleo da intelectualidade francesa, onde ele conhece e convive com Picasso e Sartre, entre outros.  Miles volta para NY mudado. A realidade americana, com o problema racial e o choque com a  falta do glamour com que vivia em Paris, gera uma depressão crônica, que ele combate com a heroína. Apesar de continuar a tocar, e ele toca muito, a droga acaba levando-o à ruína. É resgatado pelo seu pai, que o leva para a fazenda. O resgate permite que ele se livre da droga. Uma das consequências desse período como drogado, foi dar a Miles um tom carregado e triste, que repercute no seu instrumento de trabalho através da  surdina, usada no trompete, que lhe dá um som mais sombrio, leve, mas, ao mesmo tempo, um som espetacular.  A sua volta para os palcos, com essas novas características, acontece de forma triunfal em julho de 1955, no  Newport Jazz Festival. Miles, sozinho no palco, encosta a surdina no microfone e inunda o auditório com um som mágico, diferente. Na plateia, George Avakian e esposa, executivo da Columbia, era um dos emocionados participantes daquele momento. Ali se decidiu as próximas décadas da carreira de Miles. Na Columbia, Miles ficou muito rico. Teve seu parceiro de volta, o maestro Gil Evans e todas as condições técnicas e empresariais para se tornar a mais influente personalidade de jazz do mundo.
 Milestones 
  https://youtu.be/k94zDsJ-JMU
  Blue In Green
@@ -104,12 +146,15 @@ Milestones
  It never entered my mind
  https://youtu.be/B5kUu19auNo
   When I Fall in Love
- https://youtu.be/sluzRhnr-4Q`,
+ https://youtu.be/sluzRhnr-4Q
+`,
 
-    "1958 - VOLARE, NEL BLU DIPINTO DI BLU.md": `Uma dupla de músicas tipicamente italiana.  A primeira, a alegre e cativante “Volare, Nel blu dipinto di blu’, cantada por Domenico Modugno, considerada a musica italiana mais famosa do mundo. Ganhou em 1958 o festival de Sanremo e foi a primeira  e única musica italiana a ganhar um Grammy.  A versão aqui apresentada é da Rita Pavone, que também canta a segunda música.
- https://youtu.be/COYdfuP6khM`,
+  "1958 - VOLARE, NEL BLU DIPINTO DI BLU.md": `Uma dupla de músicas tipicamente italiana.  A primeira, a alegre e cativante “Volare, Nel blu dipinto di blu’, cantada por Domenico Modugno, considerada a musica italiana mais famosa do mundo. Ganhou em 1958 o festival de Sanremo e foi a primeira  e única musica italiana a ganhar um Grammy.  A versão aqui apresentada é da Rita Pavone, que também canta a segunda música.
+ https://youtu.be/COYdfuP6khM
+`,
 
-    "1959 - ARTE DE OUVIR.md": `É muito difícil fazer vários anos na escola de música sem saber ler. Beira o impossível. Mais que fazer vários anos, passar em todos os exames, com louvor, dando a entender que todos os testes musicais foram lidos e executados conforme as partituras. David "Dave" Warren Brubeck, que nasceu em 6 de dezembro de 1920 e morreu em 5 de dezembro de 2012, prova o contrário. Primeiro, Dave não enxergava direito, segundo detestava partituras e terceiro, e o mais importante, bastava ele ouvir uma única vez, qualquer música, que ele sabia tocar. Então, para que ler ?  A mãe coloca o garoto para tocar piano desde os 4 anos, com 10 já tocava vários instrumentos. A mãe é de origem inglesa e o pais é ameríndio, todos amantes e praticantes de música. Então Dave toca e toca porque ouve tudo. Começa na escola sonhando em ser veterinário, para trabalhar com o pai na fazenda. Se depara com um professor genial que aconselha a sair do pasto, coisa que ele não tinha a menor aptidão e se mudar o outro lado do campus, onde ficava a escola de música. Dave segue o conselho do professor, passa no teste e começa a fazer o curso. Até que vem o escândalo, ele não sabe ler partitura. É expulso da escola. Mas alunos e professores se mobilizam, fazem pressão sobre a direção até que Dave é reconduzido. Mas há uma contrapartida formal e assinada pelas partes, Dave segue na escola, mas nunca poderá dar aulas. Tudo certo. Do College of Pacific Dave já começa a mostrar a que veio. Cria suas bandas, faz seus experimentos, até que a guerra bate na sua porta. Em 1942 vai para o exército. E, como Dave é um sujeito de sorte, é chamado para servir, na Bélgica, no Terceiro Exército americano, do general George Patton. Patton simplesmente prepara seu exército para atuar na Ardenhas, naquela que seria uma das batalhas mais sangrentas da segunda guerra. Quando Dave chega no local e toma pé da situação, solicita de imediato a sua participação em um evento da Cruz Vermelha em um hospital de feridos de guerra, onde se propõe a tocar piano. Patton ganha a guerra e feridos e inválidos ganham a primeira banda de Jazz do exército americano, "The Wolfpack", com seu genial pianista. A banda coloca juntos dois soldados que mudarão a história do jazz mundial, de um lado o soldado de ouvido absoluto Dave Brubeck e de outro o sopro dos anjos, o soldado saxofonista Paul Desmond. Depois de suas fabulosas batalhas no front da guerra, Dave e Paul vão focar suas vidas em estabelecer um rumo glorioso para a musica que fazem. Inicialmente tocam em três, depois oito, até acharem o equilíbrio no "Dave Brubeck Quartet". Desmond é brutal, talentoso e genial. Mas é também inseguro, ciumento e  paranoico. Exige um contrato com Dave que tem poucas clausulas, entre elas: Paul é o líder de qualquer banda em que os dois participem, nunca poderá ser demitido e tem 20% de tudo que a banda arrecada. Dave assina e Paul fica feliz.  E então o quarteto começa a fazer historia. Na bateria a arte de Joe Morello e no baixo Eugene wright. O grupo nasce em 1951 e os 4 passam uma longa temporada na boate Black Hawk de São Francisco.  Ganham grande popularidade percorrendo as universidades, gravando uma série de álbuns como Jazz em Oberlin (1953), Jazz na College of the Pacific (1953) e a estréia de Brubeck na Columbia Records, Jazz Goes to College (1954). 
+  "1959 - ARTE DE OUVIR.md": `
+É muito difícil fazer vários anos na escola de música sem saber ler. Beira o impossível. Mais que fazer vários anos, passar em todos os exames, com louvor, dando a entender que todos os testes musicais foram lidos e executados conforme as partituras. David "Dave" Warren Brubeck, que nasceu em 6 de dezembro de 1920 e morreu em 5 de dezembro de 2012, prova o contrário. Primeiro, Dave não enxergava direito, segundo detestava partituras e terceiro, e o mais importante, bastava ele ouvir uma única vez, qualquer música, que ele sabia tocar. Então, para que ler ?  A mãe coloca o garoto para tocar piano desde os 4 anos, com 10 já tocava vários instrumentos. A mãe é de origem inglesa e o pais é ameríndio, todos amantes e praticantes de música. Então Dave toca e toca porque ouve tudo. Começa na escola sonhando em ser veterinário, para trabalhar com o pai na fazenda. Se depara com um professor genial que aconselha a sair do pasto, coisa que ele não tinha a menor aptidão e se mudar o outro lado do campus, onde ficava a escola de música. Dave segue o conselho do professor, passa no teste e começa a fazer o curso. Até que vem o escândalo, ele não sabe ler partitura. É expulso da escola. Mas alunos e professores se mobilizam, fazem pressão sobre a direção até que Dave é reconduzido. Mas há uma contrapartida formal e assinada pelas partes, Dave segue na escola, mas nunca poderá dar aulas. Tudo certo. Do College of Pacific Dave já começa a mostrar a que veio. Cria suas bandas, faz seus experimentos, até que a guerra bate na sua porta. Em 1942 vai para o exército. E, como Dave é um sujeito de sorte, é chamado para servir, na Bélgica, no Terceiro Exército americano, do general George Patton. Patton simplesmente prepara seu exército para atuar na Ardenhas, naquela que seria uma das batalhas mais sangrentas da segunda guerra. Quando Dave chega no local e toma pé da situação, solicita de imediato a sua participação em um evento da Cruz Vermelha em um hospital de feridos de guerra, onde se propõe a tocar piano. Patton ganha a guerra e feridos e inválidos ganham a primeira banda de Jazz do exército americano, "The Wolfpack", com seu genial pianista. A banda coloca juntos dois soldados que mudarão a história do jazz mundial, de um lado o soldado de ouvido absoluto Dave Brubeck e de outro o sopro dos anjos, o soldado saxofonista Paul Desmond. Depois de suas fabulosas batalhas no front da guerra, Dave e Paul vão focar suas vidas em estabelecer um rumo glorioso para a musica que fazem. Inicialmente tocam em três, depois oito, até acharem o equilíbrio no "Dave Brubeck Quartet". Desmond é brutal, talentoso e genial. Mas é também inseguro, ciumento e  paranoico. Exige um contrato com Dave que tem poucas clausulas, entre elas: Paul é o líder de qualquer banda em que os dois participem, nunca poderá ser demitido e tem 20% de tudo que a banda arrecada. Dave assina e Paul fica feliz.  E então o quarteto começa a fazer historia. Na bateria a arte de Joe Morello e no baixo Eugene wright. O grupo nasce em 1951 e os 4 passam uma longa temporada na boate Black Hawk de São Francisco.  Ganham grande popularidade percorrendo as universidades, gravando uma série de álbuns como Jazz em Oberlin (1953), Jazz na College of the Pacific (1953) e a estréia de Brubeck na Columbia Records, Jazz Goes to College (1954). 
 Mas nada se compara com "Time Out". O trabalho de 59 do grupo expressa toda a capacidade e liberdade da experimentação do jazz, mas com a capacidade de agradar qualquer plateia. Ali se encontra a ousadia de combinar jazz com valsa, tornando as musicas "Take Five" e "Blue Rondo a la Turk" uma etapa indispensável para entender musica dos anos 60. Um dia todas as pessoas vão ouvir, pelo menos uma vez, jazz. Se for algo produzido por Dave vão gostar muito.  Dave faz escola assim, é muito bom, mas o sujeito soube se manter no mercado. Com seus três filhos, que vão garantir a eternização do seu nome, conseguiu manter sua marca. A família tocou muito juntos, Dave e os filhos Chris, Dan e Darius, para posteridade. 
 https://youtu.be/PHdU5sHigYQ 
 https://youtu.be/M9mNTHaizm4 
@@ -117,32 +162,47 @@ https://youtu.be/_V6wsWeMgV0
 https://youtu.be/LbdD9gPnhhM 
 https://youtu.be/s8E5A27PJHk 
 https://youtu.be/xmaC4WwspS4 
-https://youtu.be/xxb8YsJfWuQ`,
+https://youtu.be/xxb8YsJfWuQ
+`,
 
-    "1960 - TRINI LOPEZ.md": `Trini Lopez, ou Trini Lopez III, é um ícone da música latina que conquistou o mundo com sua versão de "La Bamba". Nascido em um bairro pobre chamado Little Mexico, em Dallas, sua história é um verdadeiro exemplo de superação. Filho de imigrantes mexicanos, sua família chegou a morar em um vagão de trem, única opção de moradia para muitos imigrantes da época. Seu talento musical se manifestou cedo - aos 12 anos já demonstrava proficiência com a guitarra. Aos 26 anos, sua carreira decolou com o lançamento de "If I Had a Hammer" (posteriormente regravada por Rita Pavone como "Datemi un Martello"), música que alcançou o topo das paradas em 36 países. Em 1966, aos 29 anos, consolidou seu sucesso com uma versão dançante de "La Bamba", que vendeu mais de um milhão de cópias. Com um estilo único, Trini transformou tangos e boleros tradicionais em hits dançantes que animavam pistas de dança em clubes e boates ao redor do mundo. Sua influência na música foi tão significativa que a Gibson criou uma guitarra especial em sua homenagem, a famosa Gibson Trini Lopez, que ele mantinha com orgulho em sua sala de estar. Trini Lopez faleceu em 11 de agosto de 2020, aos 83 anos, vítima de complicações da COVID-19, deixando um legado musical que continua inspirando gerações.
+  "1960 - TRINI LOPEZ.md": `
+Trini Lopez, ou Trini Lopez III, é um ícone da música latina que conquistou o mundo com sua versão de "La Bamba". Nascido em um bairro pobre chamado Little Mexico, em Dallas, sua história é um verdadeiro exemplo de superação. Filho de imigrantes mexicanos, sua família chegou a morar em um vagão de trem, única opção de moradia para muitos imigrantes da época. Seu talento musical se manifestou cedo - aos 12 anos já demonstrava proficiência com a guitarra. Aos 26 anos, sua carreira decolou com o lançamento de "If I Had a Hammer" (posteriormente regravada por Rita Pavone como "Datemi un Martello"), música que alcançou o topo das paradas em 36 países. Em 1966, aos 29 anos, consolidou seu sucesso com uma versão dançante de "La Bamba", que vendeu mais de um milhão de cópias. Com um estilo único, Trini transformou tangos e boleros tradicionais em hits dançantes que animavam pistas de dança em clubes e boates ao redor do mundo. Sua influência na música foi tão significativa que a Gibson criou uma guitarra especial em sua homenagem, a famosa Gibson Trini Lopez, que ele mantinha com orgulho em sua sala de estar. Trini Lopez faleceu em 11 de agosto de 2020, aos 83 anos, vítima de complicações da COVID-19, deixando um legado musical que continua inspirando gerações.
 La Bamba: https://youtu.be/YjAvQ22_05I
 If i Had a Hammer: https://youtu.be/SKhZdYUnMrw
-Perfidia: https://youtu.be/JhVb9VD_A7k`,
+Perfidia: https://youtu.be/JhVb9VD_A7k
+`,
 
-    "1961 - Bella Ciao.md": `Cantada entre 1943 e 1945 pela resistência italiana contra o nazismo e o fascismo, Bella Ciao  tem a alegria e a energia dos movimentos que mobilizam as pessoas pela vida justa, boa e feliz para todos.  Bella Ciao é uma canção folclórica italiana, sua origem remonta às canções de trabalho do início do século XX, utilizadas pelos trabalhadores agrícolas do Vale do Pó, no norte da Itália. No entanto, sua transformação em um hino de resistência ocorreu quando foi adotada pelos partigiani, os membros da resistência italiana contra o regime fascista de Benito Mussolini e as forças de ocupação nazistas. A canção possui uma melodia simples e cativante, o que facilita sua memorização e canto em grupo, tornando-a um eficaz instrumento de mobilização e solidariedade. As letras variam, mas a versão mais conhecida fala da despedida de um partigiano de sua amada, sabendo que ele pode não sobreviver à luta pela liberdade. O refrão "Oh Bella Ciao" tornou-se um grito universal de resistência e liberdade.
+  "1961 - Bella Ciao.md": `
+Cantada entre 1943 e 1945 pela resistência italiana contra o nazismo e o fascismo, Bella Ciao  tem a alegria e a energia dos movimentos que mobilizam as pessoas pela vida justa, boa e feliz para todos.  Bella Ciao é uma canção folclórica italiana, sua origem remonta às canções de trabalho do início do século XX, utilizadas pelos trabalhadores agrícolas do Vale do Pó, no norte da Itália. No entanto, sua transformação em um hino de resistência ocorreu quando foi adotada pelos partigiani, os membros da resistência italiana contra o regime fascista de Benito Mussolini e as forças de ocupação nazistas. A canção possui uma melodia simples e cativante, o que facilita sua memorização e canto em grupo, tornando-a um eficaz instrumento de mobilização e solidariedade. As letras variam, mas a versão mais conhecida fala da despedida de um partigiano de sua amada, sabendo que ele pode não sobreviver à luta pela liberdade. O refrão "Oh Bella Ciao" tornou-se um grito universal de resistência e liberdade.
 O impacto cultural de "Bella Ciao" reside não apenas em sua melodia e lirismo, mas também em seu poder simbólico como uma expressão musical da luta contra a opressão e a tirania. Ela serve como um lembrete tanto da especificidade histórica e cultural da resistência italiana quanto da universalidade dos ideais de liberdade e justiça.
-https://youtu.be/GhGqkyf9mc4`,
+https://youtu.be/GhGqkyf9mc4
+`,
 
-    "1961 - Rita Pavoni.md": `Duas velhas canções dos anos 60, que todos irão lembrar. A primeira é a interessante “Datemi un Martello”, da Rita Pavoni, lembram ? Rita Pavone alcançou o estrelato na década de 1960, tornando-se uma das artistas mais populares de seu país e ganhando reconhecimento internacional. Nascida em Turim, Itália, em 1945, Pavone começou sua carreira musical ainda jovem e rapidamente conquistou os corações do público italiano com sua voz poderosa e presença carismática no palco. Ela alcançou sucesso comercial com vários hits, incluindo "Cuore" e "Datemi un martello", que também foram populares fora da Itália. Além de sua carreira musical, Rita Pavone trabalhou como atriz, participando de várias produções cinematográficas e teatrais. Sua influência estende-se para além do cenário musical italiano, tendo contribuído para a difusão da música popular italiana no contexto global. Mesmo após décadas de carreira, ela continua a ser uma figura relevante na cena musical, mantendo uma base de fãs dedicada e influenciando novas gerações de artistas.
-https://youtu.be/lGIXrziSLCQ`,
+  "1961 - Rita Pavoni.md": `
+Duas velhas canções dos anos 60, que todos irão lembrar. A primeira é a interessante “Datemi un Martello”, da Rita Pavoni, lembram ? Rita Pavone alcançou o estrelato na década de 1960, tornando-se uma das artistas mais populares de seu país e ganhando reconhecimento internacional. Nascida em Turim, Itália, em 1945, Pavone começou sua carreira musical ainda jovem e rapidamente conquistou os corações do público italiano com sua voz poderosa e presença carismática no palco. Ela alcançou sucesso comercial com vários hits, incluindo "Cuore" e "Datemi un martello", que também foram populares fora da Itália. Além de sua carreira musical, Rita Pavone trabalhou como atriz, participando de várias produções cinematográficas e teatrais. Sua influência estende-se para além do cenário musical italiano, tendo contribuído para a difusão da música popular italiana no contexto global. Mesmo após décadas de carreira, ela continua a ser uma figura relevante na cena musical, mantendo uma base de fãs dedicada e influenciando novas gerações de artistas.
+https://youtu.be/lGIXrziSLCQ
 
-    "1962 - INSENSATEZ.md": `Acho que ninguém diria que a vida de Stan Getz poderia ter como trilha sonora a sua tão adorada musica "Insensatez". Mas entendo que nenhuma é mais adequada para musicar a vida de um dos maiores gênios do saxofone no sec.XX. Levou 40 anos para se livrar das drogas e bebidas. Foi preso por assaltar farmácia em busca de droga. Tomou a mulher do seu maior ídolo, João Gilberto, ali mesmo no estúdio onde gravavam "Garota de Ipanema". Quando conseguiu ficar lúcido, se depara com um câncer no fígado que o mata em 1991, com 64 anos. Stan nasce gênio. Vai para a escola e tira as melhores notas em tudo. Gosta de musica e toca todos os instrumentos.  Encontra o saxofone e se dedica e tocar tão bem que vai assumindo,  degrau por degrau,  os postos de líder nas orquestras. Com 14 anos já é destaque com seu instrumento. Toca com todos os grandes músicos entre as décadas de 1950 e 1980. Ninguém, nesses 30 anos de carreira, se destacará no jazz sem passar por Stan. Miles Davis, John Coltrane, Horace Silver, Johnny Smith, Oscar Peterson, Charlie Parker, Roy Haynes, Al Haig, Tommy Potter entre tantos outros. Como todo rei, é dado a ele a ousadia do experimento. Então, influenciado pelo jazz de fusão e "jazz elétrico", inventa usar o tal do Echoplex no seu saxofone. O equipamento permite efeitos como os produzidos pelos pedais da guitarra. Palmas, espanto e algumas vaias. Stan não é bobo e volta para o veio do rio. Abandona as novidades. Mas ninguém vai negar que a maior tacada da carreira de Stan foi encontrar a Bossa Nova. Literalmente Stan fez a festa. Ganhou intimidade com os criadores de uma nova forma de jazz,  pessoas de talento vibrante, que gostavam de festa, whisky, drogas e garotas. Ele começa a festa com um LP espetacular "Jazz Samba Encore", com as cordas de Luiz Bonfa e a voz de Maria Toledo. Claro, tem um caso com Maria.  Depois eleva muito o nível, com Tom e João, mostrando que  o sax acrescenta muito na Bossa Nova. Mas Stan é insensato. Vai com tudo para cima da linda Astrud Gilberto, esposa de João Gilberto. E assim acaba com suas amizades abaixo da linha do equador. Acabou com o casamento do João, Astrud não volta para o Brasil, fica nos EUA e Stan não fica com ninguém. Mas a música não perdeu nada com a insensatez de Stan. Na sua fase de ataque ostensivo para cima de Astrud, quando estavam gravando nos EUA, ele, do nada, pergunta inocente para o João se Astrud não poderia dar uma "palhinha" em"Garota de Ipanema". O inocente do João caiu que nem pato. Astrud deu  bem mais que uma "palhinha" para Stan, mas a sua participação em"Garota de Ipanema" ganhou o Grammy Award naquele ano. A discografia de Stan soma mais de 640 obras, entre LP, compacto, coletâneas e participações. Um monstro. É um ótimo sujeito para se ter como companhia musical, agradável, surpreendente, capaz de nos dar, na hora certa, verdadeiras obras primas. Não esqueçam desse cara. Segue ai algumas pérolas do insensato Stan Getz (graças aos deuses): 
+`,
+
+  "1962 - INSENSATEZ.md": `
+Acho que ninguém diria que a vida de Stan Getz poderia ter como trilha sonora a sua tão adorada musica "Insensatez". Mas entendo que nenhuma é mais adequada para musicar a vida de um dos maiores gênios do saxofone no sec.XX. Levou 40 anos para se livrar das drogas e bebidas. Foi preso por assaltar farmácia em busca de droga. Tomou a mulher do seu maior ídolo, João Gilberto, ali mesmo no estúdio onde gravavam "Garota de Ipanema". Quando conseguiu ficar lúcido, se depara com um câncer no fígado que o mata em 1991, com 64 anos. Stan nasce gênio. Vai para a escola e tira as melhores notas em tudo. Gosta de musica e toca todos os instrumentos.  Encontra o saxofone e se dedica e tocar tão bem que vai assumindo,  degrau por degrau,  os postos de líder nas orquestras. Com 14 anos já é destaque com seu instrumento. Toca com todos os grandes músicos entre as décadas de 1950 e 1980. Ninguém, nesses 30 anos de carreira, se destacará no jazz sem passar por Stan. Miles Davis, John Coltrane, Horace Silver, Johnny Smith, Oscar Peterson, Charlie Parker, Roy Haynes, Al Haig, Tommy Potter entre tantos outros. Como todo rei, é dado a ele a ousadia do experimento. Então, influenciado pelo jazz de fusão e "jazz elétrico", inventa usar o tal do Echoplex no seu saxofone. O equipamento permite efeitos como os produzidos pelos pedais da guitarra. Palmas, espanto e algumas vaias. Stan não é bobo e volta para o veio do rio. Abandona as novidades. Mas ninguém vai negar que a maior tacada da carreira de Stan foi encontrar a Bossa Nova. Literalmente Stan fez a festa. Ganhou intimidade com os criadores de uma nova forma de jazz,  pessoas de talento vibrante, que gostavam de festa, whisky, drogas e garotas. Ele começa a festa com um LP espetacular "Jazz Samba Encore", com as cordas de Luiz Bonfa e a voz de Maria Toledo. Claro, tem um caso com Maria.  Depois eleva muito o nível, com Tom e João, mostrando que  o sax acrescenta muito na Bossa Nova. Mas Stan é insensato. Vai com tudo para cima da linda Astrud Gilberto, esposa de João Gilberto. E assim acaba com suas amizades abaixo da linha do equador. Acabou com o casamento do João, Astrud não volta para o Brasil, fica nos EUA e Stan não fica com ninguém. Mas a música não perdeu nada com a insensatez de Stan. Na sua fase de ataque ostensivo para cima de Astrud, quando estavam gravando nos EUA, ele, do nada, pergunta inocente para o João se Astrud não poderia dar uma "palhinha" em"Garota de Ipanema". O inocente do João caiu que nem pato. Astrud deu  bem mais que uma "palhinha" para Stan, mas a sua participação em"Garota de Ipanema" ganhou o Grammy Award naquele ano. A discografia de Stan soma mais de 640 obras, entre LP, compacto, coletâneas e participações. Um monstro. É um ótimo sujeito para se ter como companhia musical, agradável, surpreendente, capaz de nos dar, na hora certa, verdadeiras obras primas. Não esqueçam desse cara. Segue ai algumas pérolas do insensato Stan Getz (graças aos deuses): 
 https://youtu.be/_1uEy-n4IsU 
 https://youtu.be/XMtBLeg4Ip0 
 https://youtu.be/rmzrNVV3xKo 
 https://youtu.be/bJbGCmZfKmM 
 https://youtu.be/6264cwFMalA 
-https://youtu.be/76F4bvPBPBw`,
+https://youtu.be/76F4bvPBPBw 
 
-    "1963 - Ronettes.md": `O grupo Ronettes, das irmãs de Ronnie Spector, Estelle e a prime Nedra, lançaram a inesquecível  “Be my Baby” de 1963.  The Ronettes é o típico “girl group’ americano que alcançou notoriedade na década de 1960. O grupo foi formado em Nova York e consistia principalmente de três cantoras: Veronica "Ronnie" Bennett, sua irmã Estelle Bennett e sua prima Nedra Talley. O maior  sucesso "Be My Baby",  foi produzido por Phil Spector e tornou-se uma das gravações mais emblemáticas da era do "Wall of Sound", uma técnica de produção musical criada por Spector. O som do grupo era caracterizado por harmonias vocais densas e melodias contagiantes, enriquecidas pela produção grandiosa de Phil Spector. A combinação desses elementos criou um estilo musical que capturava tanto a doçura quanto a complexidade emocional do amor juvenil, tornando-as um dos grupos femininos mais memoráveis da era.
-Be My Baby -  https://youtu.be/ZV5tgZlTEkQ`,
+`,
 
-    "1964 - METAFÓRICO.md": `Enquanto Pavlov se metia  nos laboratórios do  Instituto de Medicina Experimental da Academia Militar de Medicina de São Petesburgo, a partir de 1890,   investigando  a fisiologia da digestão, que o levaria  a ganhar o Prêmio Nobel em 1904, com as experiências sobre o reflexo condicionado, Freud voltava para Viena, após trabalhar com  Charcot, no hospital psiquiátrico Saltpêtrière, para, a partir de  1896, começar a estudar os sonhos e, em 1899, publicar “A Interpretação dos Sonhos”. Esses dois sujeitos foram iluminados por ideias brilhantes  na mesma década de 1890 e criaram os fundamentos  das escolas de estudo da mente que mais se antagonizaram no século XX, o behaviorismo e a psicanálise. E, por incrível que pareça, os dois  defendiam uma mesma verdade radical: a irrelevância da consciência na vida das pessoas.Para Pavlov e seus seguidores (Skinner principalmente), o comportamento é o fundamento da vida e ele se baseia em condicionamentos que não dependem da consciência. Para Freud e seus seguidores (Lacan pincipalmente), as pessoas são determinadas pelo inconsciente, que, em alguns momentos, aflora na consciência. Para ambos, a consciência funciona  basicamente com metáforas (substituição de uma palavra por outra por semelhança - chamar o Luiz de bolota, por exemplo) ou metonímias (substituição de uma palavra por outra tomando o todo pela parte - Sujeito cara de pau, por exemplo). Para Pavlov um som gera a saliva na boca de um cão, porque ele foi condicionado a relacionar aquele som com comida.  Freud, um desejo sexual pode se manifestar durante o sonho, mesmo sendo esse desejo inconsciente. João Rubinato sempre foi um gênio das metáforas e das metonímias. Tanto foi que as pessoas nem o conhecem pelo seu verdadeiro nome, mas por uma das suas metáforas, Adorinan Barbosa.  Adoniran Barbosa, é de 1910 e morre em 1982. Filho de imigrantes italianos, fez de tudo na vida,  entregador de marmitas,  varredor em uma fábrica de tecidos, metalúrgico-ajustador, porteiro, marceneiro, pedreiro e, para o bem da humanidade, compositor. Logo começa a colocar nas suas composições a vida que viu e vê nas periferias de São Paulo e nas ruas. Com seu gênio pleno de metáforas e metonímias encontra  Osvaldo Moles, produtor e escritor, que começa a escrever para ele textos de personagens humorísticos. Nascem assim  Zé Cunversa, o malandro; Jean Rubinet, o galã do cinema francês; Moisés Rabinovic, o judeu das prestações; Richard Morris, o professor de inglês; Dom Segundo Sombra, o cantor de tango-paródia; Perna Fina, o chofer italiano; e o sambista Charutinho. Verdadeiros heróis e estrelas da Radio Record, na década de 1950. Por isso João Rubinato ganha o prêmio de  melhor intérprete cômico do rádio paulista em 1950, outros tantos  prêmios Roquette Pinto. Já nessa época o heterônimo Adorinan Barbosa ganha vida e, com ele, sucessos como  “Saudosa Maloca” em 1955. Com “Trem das Onze” Adorinan se torna a maior referência do samba paulista. Por isso, ganha a parceria de Vinicius de Moraes, Aracy de Almeida,  Maysa e, sua grande promotora, Elis Regina. Trabalha também com Gal Costa, Clara Nunes, Rita Lee, João Bosco, Djavan, Beth Carvalho e Jards Macalé. Para Adorinan, a sabedoria popular se expressa na luta pela sobrevivência: “A matemática da vida lhe dá o que a escola deixou de ensinar: uma lógica irrefutável. Se havia fome e, na marmita oito bolinhos, dois lhe saciariam a fome e seis a dos clientes; se quatro, um a três; se dois, um a um” Do sambista Luís Barbosa, seu ídolo, pega o sobrenome. Do amigo,  funcionário dos Correios, pega o nome Adorinan. Ele achava que o nome João Rubinato, não era nome para sambista. O foco dos sambas de Adorinan são os personagens da periferia, da rua, da favelas. Esse é o seu produto. E o meio de divulgar seu produto é o rádio. Observando os excluídos ele cria uma nova gramática, uma nova língua, de um mundo que não tinha um embaixador com a sua competência para representá-lo:
+  "1963 - Ronettes.md": `
+O grupo Ronettes, das irmãs de Ronnie Spector, Estelle e a prime Nedra, lançaram a inesquecível  “Be my Baby” de 1963.  The Ronettes é o típico “girl group’ americano que alcançou notoriedade na década de 1960. O grupo foi formado em Nova York e consistia principalmente de três cantoras: Veronica "Ronnie" Bennett, sua irmã Estelle Bennett e sua prima Nedra Talley. O maior  sucesso "Be My Baby",  foi produzido por Phil Spector e tornou-se uma das gravações mais emblemáticas da era do "Wall of Sound", uma técnica de produção musical criada por Spector. O som do grupo era caracterizado por harmonias vocais densas e melodias contagiantes, enriquecidas pela produção grandiosa de Phil Spector. A combinação desses elementos criou um estilo musical que capturava tanto a doçura quanto a complexidade emocional do amor juvenil, tornando-as um dos grupos femininos mais memoráveis da era.
+Be My Baby -  https://youtu.be/ZV5tgZlTEkQ
+
+`,
+
+  "1964 - METAFÓRICO.md": `
+Enquanto Pavlov se metia  nos laboratórios do  Instituto de Medicina Experimental da Academia Militar de Medicina de São Petesburgo, a partir de 1890,   investigando  a fisiologia da digestão, que o levaria  a ganhar o Prêmio Nobel em 1904, com as experiências sobre o reflexo condicionado, Freud voltava para Viena, após trabalhar com  Charcot, no hospital psiquiátrico Saltpêtrière, para, a partir de  1896, começar a estudar os sonhos e, em 1899, publicar “A Interpretação dos Sonhos”. Esses dois sujeitos foram iluminados por ideias brilhantes  na mesma década de 1890 e criaram os fundamentos  das escolas de estudo da mente que mais se antagonizaram no século XX, o behaviorismo e a psicanálise. E, por incrível que pareça, os dois  defendiam uma mesma verdade radical: a irrelevância da consciência na vida das pessoas.Para Pavlov e seus seguidores (Skinner principalmente), o comportamento é o fundamento da vida e ele se baseia em condicionamentos que não dependem da consciência. Para Freud e seus seguidores (Lacan pincipalmente), as pessoas são determinadas pelo inconsciente, que, em alguns momentos, aflora na consciência. Para ambos, a consciência funciona  basicamente com metáforas (substituição de uma palavra por outra por semelhança - chamar o Luiz de bolota, por exemplo) ou metonímias (substituição de uma palavra por outra tomando o todo pela parte - Sujeito cara de pau, por exemplo). Para Pavlov um som gera a saliva na boca de um cão, porque ele foi condicionado a relacionar aquele som com comida.  Freud, um desejo sexual pode se manifestar durante o sonho, mesmo sendo esse desejo inconsciente. João Rubinato sempre foi um gênio das metáforas e das metonímias. Tanto foi que as pessoas nem o conhecem pelo seu verdadeiro nome, mas por uma das suas metáforas, Adorinan Barbosa.  Adoniran Barbosa, é de 1910 e morre em 1982. Filho de imigrantes italianos, fez de tudo na vida,  entregador de marmitas,  varredor em uma fábrica de tecidos, metalúrgico-ajustador, porteiro, marceneiro, pedreiro e, para o bem da humanidade, compositor. Logo começa a colocar nas suas composições a vida que viu e vê nas periferias de São Paulo e nas ruas. Com seu gênio pleno de metáforas e metonímias encontra  Osvaldo Moles, produtor e escritor, que começa a escrever para ele textos de personagens humorísticos. Nascem assim  Zé Cunversa, o malandro; Jean Rubinet, o galã do cinema francês; Moisés Rabinovic, o judeu das prestações; Richard Morris, o professor de inglês; Dom Segundo Sombra, o cantor de tango-paródia; Perna Fina, o chofer italiano; e o sambista Charutinho. Verdadeiros heróis e estrelas da Radio Record, na década de 1950. Por isso João Rubinato ganha o prêmio de  melhor intérprete cômico do rádio paulista em 1950, outros tantos  prêmios Roquette Pinto. Já nessa época o heterônimo Adorinan Barbosa ganha vida e, com ele, sucessos como  “Saudosa Maloca” em 1955. Com “Trem das Onze” Adorinan se torna a maior referência do samba paulista. Por isso, ganha a parceria de Vinicius de Moraes, Aracy de Almeida,  Maysa e, sua grande promotora, Elis Regina. Trabalha também com Gal Costa, Clara Nunes, Rita Lee, João Bosco, Djavan, Beth Carvalho e Jards Macalé. Para Adorinan, a sabedoria popular se expressa na luta pela sobrevivência: “A matemática da vida lhe dá o que a escola deixou de ensinar: uma lógica irrefutável. Se havia fome e, na marmita oito bolinhos, dois lhe saciariam a fome e seis a dos clientes; se quatro, um a três; se dois, um a um” Do sambista Luís Barbosa, seu ídolo, pega o sobrenome. Do amigo,  funcionário dos Correios, pega o nome Adorinan. Ele achava que o nome João Rubinato, não era nome para sambista. O foco dos sambas de Adorinan são os personagens da periferia, da rua, da favelas. Esse é o seu produto. E o meio de divulgar seu produto é o rádio. Observando os excluídos ele cria uma nova gramática, uma nova língua, de um mundo que não tinha um embaixador com a sua competência para representá-lo:
 •	 “nóis fumus e não encontremos ninguém” (Samba do Arnesto), 
 •	“nóis peguemus todas nossas coisas... din din donde nóis passemos” (Saudosa Maloca)
 •	“E fumos pro meio da rua” (Saudosa Maloca)
@@ -183,9 +243,12 @@ Tiro ao Álvaro - https://youtu.be/eUJ8YNkMOBI
  Samba do Arnesto  -  https://youtu.be/TH5zxAiq0k8
  Saudosa Maloca  -  https://youtu.be/801MQjNJvrg
  As Mariposa -  https://youtu.be/6p3Uhpw1jCA
-  Prova de Carinho  - https://youtu.be/UFaLfBiphTA`,
+  Prova de Carinho  - https://youtu.be/UFaLfBiphTA
 
-    "1964 - METEORO BLUE.md": `Dizer que Otis Redding cantava blues é como dizer que Picasso pinta quadros de cubismo. John Ford fazia  Western. Pablo Neruda escreve poemas.  Com uma pequena e determinante diferença, todos os gênios citados acima firmaram suas genialidades e obras maravilhosas ao longo de toda uma vida, em vários casos maior que meio século.  Otis, pelo contrário,  só teve míseros 26 anos para mostrar para o mundo a sua genialidade. E ninguém nunca duvidou disso. O Soul, o blues e a arte de cantar de forma geral, de 1941 a 1967, conheceram uma voz única. Além dos timbres, notas, abertura e a afinação, Otis colocava tanta emoção e profundidade no seu cantar, que é como se o canto tivesse atingido o seu ser viceral. Mas naquele domingo, 10 de dezembro, mesmo com o conselho contrário de James Brown, porque chovia e o tempo estava nublado, Otis resolve voar. Ele tinha pressa. Sua voz ficou lá , congelada no lago Monona. Ninguém pode dizer o que seria da música se esse meteoro continuasse a percorrer a Terra. Mas o que ele fez de 1958, quando começou a cantar, até 1967 foi extraordinário. Claro que, em 9 anos, não foi uma obra volumosa, mas a qualidade e a novidade da sua voz, do seu jeito de cantar e a sua capacidade de atrair o que havia de melhor em termos de músicos, é único. Parecia que todos os grandes da sua época sabiam que Otis não iria durar e todos precisavam estar próximos daquela voz. Assim fizeram Steve Cropper, Donald Duck Dunn, Al Jackson Jr, Isaac Hayes, Booker T. Jones, James Brown, Areta Franklin, entre outros. Quando, em 1965 - ele com 24 anos -, se autodenomina Otis Blue e, em 24 horas, grava sua obra prima, "Otis Blue: Otis Redding Sings Soul" nos estúdios da Stax Records, a gravadora do branco Jim Stewart, o blue atinge o seu pico de qualidade. Seu terceiro álbum, dos 6 que gravou. Único cantor negro que ficou em primeiro lugar nas paradas de sucesso depois de morto com seu álbum "The Dock of the Bay" (1968). 
+`,
+
+  "1964 - METEORO BLUE.md": `
+Dizer que Otis Redding cantava blues é como dizer que Picasso pinta quadros de cubismo. John Ford fazia  Western. Pablo Neruda escreve poemas.  Com uma pequena e determinante diferença, todos os gênios citados acima firmaram suas genialidades e obras maravilhosas ao longo de toda uma vida, em vários casos maior que meio século.  Otis, pelo contrário,  só teve míseros 26 anos para mostrar para o mundo a sua genialidade. E ninguém nunca duvidou disso. O Soul, o blues e a arte de cantar de forma geral, de 1941 a 1967, conheceram uma voz única. Além dos timbres, notas, abertura e a afinação, Otis colocava tanta emoção e profundidade no seu cantar, que é como se o canto tivesse atingido o seu ser viceral. Mas naquele domingo, 10 de dezembro, mesmo com o conselho contrário de James Brown, porque chovia e o tempo estava nublado, Otis resolve voar. Ele tinha pressa. Sua voz ficou lá , congelada no lago Monona. Ninguém pode dizer o que seria da música se esse meteoro continuasse a percorrer a Terra. Mas o que ele fez de 1958, quando começou a cantar, até 1967 foi extraordinário. Claro que, em 9 anos, não foi uma obra volumosa, mas a qualidade e a novidade da sua voz, do seu jeito de cantar e a sua capacidade de atrair o que havia de melhor em termos de músicos, é único. Parecia que todos os grandes da sua época sabiam que Otis não iria durar e todos precisavam estar próximos daquela voz. Assim fizeram Steve Cropper, Donald Duck Dunn, Al Jackson Jr, Isaac Hayes, Booker T. Jones, James Brown, Areta Franklin, entre outros. Quando, em 1965 - ele com 24 anos -, se autodenomina Otis Blue e, em 24 horas, grava sua obra prima, "Otis Blue: Otis Redding Sings Soul" nos estúdios da Stax Records, a gravadora do branco Jim Stewart, o blue atinge o seu pico de qualidade. Seu terceiro álbum, dos 6 que gravou. Único cantor negro que ficou em primeiro lugar nas paradas de sucesso depois de morto com seu álbum "The Dock of the Bay" (1968). 
 Então, vamos ouvir Otis, e não parar nunca... 
 https://youtu.be/rTVjnBo96Ug 
 https://youtu.be/qZ6OrrkeVFo 
@@ -193,9 +256,12 @@ https://youtu.be/xqVO41NKw9A
 https://youtu.be/0iPtG_O8w8g 
 https://youtu.be/yyhL0ioST_U 
 https://youtu.be/HIoQDG-iRn4 
-https://youtu.be/qD9VfaozIy8`,
+https://youtu.be/qD9VfaozIy8 
 
-    "1964 - PAUL SIMON.md": `Um dos maiores artista das ultimas 7 décadas. Aquele cara que 90% dos entrevistados da revista Rolling Stones disseram que levariam uma playlist de músicas dele para passar o resto da vida em uma ilha deserta. No futuro será visto como o  Mozart do século XX, tal a amplitude e profundidade da sua obra. Graças a raríssima sensibilidade da nossa Professora de inglês, na década de 1970,  tínhamos aula da inglês ouvindo e traduzindo "Bridge Over Troubled Waters”, que Simon lança em 70. A vida de Simon não pode ser entendida musicalmente sem falarmos de Art Garfunkel. Imaginem que os dois, com 9 anos de idade, já eram uma dupla. Trazem essa amizade até hoje,  e,  como toda amizade, já tiveram momentos de muita proximidade, quando lançam Wednesday Morning (1964) e fazem a clássica "The sound of silencie”, como já tiveram rupturas, como em 1968. Simon tem sua própria estrada musical, brilhante e cheia de produções fantásticas, como Graceland (1986) e The Rhythm of the Saints (1990), mas quando faz dupla com Garfunkel sua arte cresce exponencialmente.  Em  1983 casa com Carrie Fischer, a princesa Leia de Guerra nas Estrelas. Um casamento que não resistiu a um ataque do lado negro da força, tanto que não chegaram em 1984. Em setembro de 2018 Paul anunciou que abandona  os palcos. Perdemos o som de Simon. Esperamos que ele ainda possa nos surpreender com mais uma obra, de outra forma, nunca deixaremos de agradece-lo por ter nos ensinado "The sound of silencie”. Como se pudesse sentir as amarguras dos dias de hoje, ele cantava nessa música:
+`,
+
+  "1964 - PAUL SIMON.md": `
+Um dos maiores artista das ultimas 7 décadas. Aquele cara que 90% dos entrevistados da revista Rolling Stones disseram que levariam uma playlist de músicas dele para passar o resto da vida em uma ilha deserta. No futuro será visto como o  Mozart do século XX, tal a amplitude e profundidade da sua obra. Graças a raríssima sensibilidade da nossa Professora de inglês, na década de 1970,  tínhamos aula da inglês ouvindo e traduzindo "Bridge Over Troubled Waters”, que Simon lança em 70. A vida de Simon não pode ser entendida musicalmente sem falarmos de Art Garfunkel. Imaginem que os dois, com 9 anos de idade, já eram uma dupla. Trazem essa amizade até hoje,  e,  como toda amizade, já tiveram momentos de muita proximidade, quando lançam Wednesday Morning (1964) e fazem a clássica "The sound of silencie”, como já tiveram rupturas, como em 1968. Simon tem sua própria estrada musical, brilhante e cheia de produções fantásticas, como Graceland (1986) e The Rhythm of the Saints (1990), mas quando faz dupla com Garfunkel sua arte cresce exponencialmente.  Em  1983 casa com Carrie Fischer, a princesa Leia de Guerra nas Estrelas. Um casamento que não resistiu a um ataque do lado negro da força, tanto que não chegaram em 1984. Em setembro de 2018 Paul anunciou que abandona  os palcos. Perdemos o som de Simon. Esperamos que ele ainda possa nos surpreender com mais uma obra, de outra forma, nunca deixaremos de agradece-lo por ter nos ensinado "The sound of silencie”. Como se pudesse sentir as amarguras dos dias de hoje, ele cantava nessa música:
 "And in the naked light I saw
 Ten thousand people, maybe more
 People talking without speaking
@@ -209,20 +275,28 @@ Cecilia - https://youtu.be/a5_QV97eYqM
 The Boxer- https://youtu.be/6JUbFj0BIc4
 Mrs. Robinson - https://youtu.be/5JVPdb6Urhw
 You Can Call Me Al - https://youtu.be/uq-gYOrU8bA
-Obvious Child - https://youtu.be/9HKNAhAxMAk`,
+Obvious Child - https://youtu.be/9HKNAhAxMAk
+`,
 
-    "1964 - The Animals.md": `The Animals  é uma das boas ondas da  "British Invasion", quando diversas bandas inglesas invadem o mundo,  particularmente os Estados Unidos. O grupo foi formado em Newcastle upon Tyne, Inglaterra, e era composto inicialmente por Eric Burdon (vocais), Alan Price (órgão), Hilton Valentine (guitarra), Chas Chandler (baixo) e John Steel (bateria). O sucesso maior é The House of the Rising Sun", lançada em 1964. Esta interpretação, caracterizada por seu arranjo distinto e pela poderosa voz de Eric Burdon, atingiu o topo das paradas tanto nos Estados Unidos quanto no Reino Unido, consolidando a banda como uma das principais influências na emergente cena do rock. A banda lançou uma série de outros sucessos durante a metade dos anos 1960, incluindo "Don't Let Me Be Misunderstood", "We Gotta Get Out of This Place" e "It's My Life". Embora tenham sofrido várias mudanças de formação ao longo dos anos, a influência do grupo permanece significativa. Chas Chandler, o baixista, tornou-se posteriormente um empresário de talentos e foi fundamental na descoberta de Jimi Hendrix. Eric Burdon continuou uma carreira solo de sucesso e também se envolveu em outros projetos, incluindo a banda War. O The Animals foi introduzido no Rock and Roll Hall of Fame em 1994, e seu legado perdura como uma das bandas fundamentais que ajudaram a moldar a evolução do rock e do blues no cenário musical global.
-The Animals - The House of the Rising Sun - https://youtu.be/0sB3Fjw3Uvc`,
+  "1964 - The Animals.md": `
+The Animals  é uma das boas ondas da  "British Invasion", quando diversas bandas inglesas invadem o mundo,  particularmente os Estados Unidos. O grupo foi formado em Newcastle upon Tyne, Inglaterra, e era composto inicialmente por Eric Burdon (vocais), Alan Price (órgão), Hilton Valentine (guitarra), Chas Chandler (baixo) e John Steel (bateria). O sucesso maior é The House of the Rising Sun", lançada em 1964. Esta interpretação, caracterizada por seu arranjo distinto e pela poderosa voz de Eric Burdon, atingiu o topo das paradas tanto nos Estados Unidos quanto no Reino Unido, consolidando a banda como uma das principais influências na emergente cena do rock. A banda lançou uma série de outros sucessos durante a metade dos anos 1960, incluindo "Don't Let Me Be Misunderstood", "We Gotta Get Out of This Place" e "It's My Life". Embora tenham sofrido várias mudanças de formação ao longo dos anos, a influência do grupo permanece significativa. Chas Chandler, o baixista, tornou-se posteriormente um empresário de talentos e foi fundamental na descoberta de Jimi Hendrix. Eric Burdon continuou uma carreira solo de sucesso e também se envolveu em outros projetos, incluindo a banda War. O The Animals foi introduzido no Rock and Roll Hall of Fame em 1994, e seu legado perdura como uma das bandas fundamentais que ajudaram a moldar a evolução do rock e do blues no cenário musical global.
+The Animals - The House of the Rising Sun - https://youtu.be/0sB3Fjw3Uvc
 
-    "1965 - Petula Clark.md": `A nossa downtown era a Savassi, em Belo Horizonte. Se estávamos tristes, Savassi. Entediados, Savassi. Carentes, Savassi.  Com diz ela Petula:
+`,
+
+  "1965 - Petula Clark.md": `
+A nossa downtown era a Savassi, em Belo Horizonte. Se estávamos tristes, Savassi. Entediados, Savassi. Carentes, Savassi.  Com diz ela Petula:
 “The lights are much brighter there
 You can forget all your troubles, 
 forget all your cares”
 "Downtown" é a canção icônica da  britânica Petula Clark, lançada em 1964. A música foi escrita e produzida por Tony Hatch, e é uma das canções mais emblemáticas da década de 1960. Com seu arranjo melódico e a envolvente interpretação vocal de Clark, a faixa conquistou o público e tornou-se um sucesso internacional. O tema da canção é uma ode ao otimismo e à alegria que podem ser encontrados no ambiente urbano do centro da cidade, o "downtown". O apelo universal da música reside em sua habilidade de capturar o sentimento de liberdade e excitação que muitos associam com a vida na cidade. "Downtown" evoca imagens de ruas movimentadas, luzes brilhantes e a promessa de um refúgio emocional onde as preocupações cotidianas podem ser esquecidas, mesmo que temporariamente. A música funde elementos do pop britânico com toques do então emergente gênero do pop-rock americano, tornando-a um sucesso em ambos os lados do Atlântico. 
  https://youtu.be/Zx06XNfDvk0
-https://youtu.be/nUDIoN-_Hxs`,
+https://youtu.be/nUDIoN-_Hxs
 
-    "1966 - ATAQUE A CASA BRANCA.md": `Não deu certo. Bem que ela tentou, mas como era exagerada em tudo que fazia, depois do plano todo montado, inventou de levar na festa um dos caras mais  fichados pelos serviços de segurança do EUA. Foi barrada no baile. O plano falhou. Estamos falando de Grace Slick, que pode muito bem ser assim definida: "Amante de Jim Morrison. Amiga inseparável (enquanto viva) de Janis Joplin. Presa mais vezes que Lemmy (da banda de rock inglesa Motörhead, tido como recordista), com mais de 30 casos. Tomou mais drogas do que Winehouse. Tinha linguajar caracterizado como "boca de um caminhoneiro". E, claro, cantava muito.  A beldade começa a vida "adulta" como modelo, com seus 21 anos. Com 30 já era musa nas principais tribos psicodélicas da Califórnia, se envolvendo com todos. Como ela mesmo diz: "Eu praticamente peguei todos que estavam disponíveis. Meu único  arrependimento é que eu não peguei Jimi Hendrix ou Peter O'Toole".  Cantora da banda Jefferson Airplane, participa da lendária turnê Europeia Doors/Airplane de 1968. Logo no início da turnê, ela conta: "acaba no quarto de Morrison no Belgravia Hotel, onde brincaram e se cobriram com morangos e outras frutas de cortesia do hotel. Jim era um rapaz bem dotado, maior que a média. Mas foi só uma vez. Quando saí, eu disse: 'Me ligue se quiser'. E ele nunca fez isso. Então, aparentemente, sou uma péssima transa."  Amiga de Janis, viviam juntas, fazendo essa dupla estranha. Uma vestida com as roupas psicodélicas da época e Grace com sua pegada de modelo de passarela chick. E juntas participaram de praticamente tudo que era importante da cultura rock da época. Se relacionou com todos os grande grupos e seus artistas.  Nos festivais, Woodstock, Monterey, Altamont, entre outros, estava ela presente, doida de pedra, mas sempre modelo.Como não tinha "papa na língua" e nenhum tipo de timidez, não fazia feio nas discussões, ela conta: "Estou me preparando para cantar. Um cara na platéia grita: Hey Gracie! Tire o cinto de castidade! Eu olho diretamente para ele e digo: Ei, eu nem uso calcinha. Eu puxo minha saia para um instantâneo do castor ( -beaver - gíria para vagina), e o público explode de tanto rir. Eu posso ouvir os caras da banda atrás de mim resmungando: “Oh, Jesus".  Essa é Grace Slick, com sua voz inconfundível e uma presença impossível de não ser percebida. Bom, mas e a invasão da Casa Branca ? A história é a seguinte, colega e amiga de sala da filha de Richard Nixon, Tricia Nixon, no Finch College Finishing School em Nova York, Grace é convidada para uma festa nos jardins da Casa Branca. Sem contar para a amiguinha, ela consegue um pacote de LSD em pó e tem o objetivo de misturar o produto ou na jarra de Clericot (sangria) ou no copo dos convidados. Mas acaba levando seu amigo Abbie Hoffman, co-fundador dos Yippies, que tinha cartaz de procura-se até me viatura de periferia na cidade. Barrada, acabou salvando também a festa do presidente.  Todas essas história e outras tantas estão no fantástico livro da Grace. É de chorar de rir o que essa garota aprontou na sua juventude. 
+`,
+
+  "1966 - ATAQUE A CASA BRANCA.md": `
+Não deu certo. Bem que ela tentou, mas como era exagerada em tudo que fazia, depois do plano todo montado, inventou de levar na festa um dos caras mais  fichados pelos serviços de segurança do EUA. Foi barrada no baile. O plano falhou. Estamos falando de Grace Slick, que pode muito bem ser assim definida: "Amante de Jim Morrison. Amiga inseparável (enquanto viva) de Janis Joplin. Presa mais vezes que Lemmy (da banda de rock inglesa Motörhead, tido como recordista), com mais de 30 casos. Tomou mais drogas do que Winehouse. Tinha linguajar caracterizado como "boca de um caminhoneiro". E, claro, cantava muito.  A beldade começa a vida "adulta" como modelo, com seus 21 anos. Com 30 já era musa nas principais tribos psicodélicas da Califórnia, se envolvendo com todos. Como ela mesmo diz: "Eu praticamente peguei todos que estavam disponíveis. Meu único  arrependimento é que eu não peguei Jimi Hendrix ou Peter O'Toole".  Cantora da banda Jefferson Airplane, participa da lendária turnê Europeia Doors/Airplane de 1968. Logo no início da turnê, ela conta: "acaba no quarto de Morrison no Belgravia Hotel, onde brincaram e se cobriram com morangos e outras frutas de cortesia do hotel. Jim era um rapaz bem dotado, maior que a média. Mas foi só uma vez. Quando saí, eu disse: 'Me ligue se quiser'. E ele nunca fez isso. Então, aparentemente, sou uma péssima transa."  Amiga de Janis, viviam juntas, fazendo essa dupla estranha. Uma vestida com as roupas psicodélicas da época e Grace com sua pegada de modelo de passarela chick. E juntas participaram de praticamente tudo que era importante da cultura rock da época. Se relacionou com todos os grande grupos e seus artistas.  Nos festivais, Woodstock, Monterey, Altamont, entre outros, estava ela presente, doida de pedra, mas sempre modelo.Como não tinha "papa na língua" e nenhum tipo de timidez, não fazia feio nas discussões, ela conta: "Estou me preparando para cantar. Um cara na platéia grita: Hey Gracie! Tire o cinto de castidade! Eu olho diretamente para ele e digo: Ei, eu nem uso calcinha. Eu puxo minha saia para um instantâneo do castor ( -beaver - gíria para vagina), e o público explode de tanto rir. Eu posso ouvir os caras da banda atrás de mim resmungando: “Oh, Jesus".  Essa é Grace Slick, com sua voz inconfundível e uma presença impossível de não ser percebida. Bom, mas e a invasão da Casa Branca ? A história é a seguinte, colega e amiga de sala da filha de Richard Nixon, Tricia Nixon, no Finch College Finishing School em Nova York, Grace é convidada para uma festa nos jardins da Casa Branca. Sem contar para a amiguinha, ela consegue um pacote de LSD em pó e tem o objetivo de misturar o produto ou na jarra de Clericot (sangria) ou no copo dos convidados. Mas acaba levando seu amigo Abbie Hoffman, co-fundador dos Yippies, que tinha cartaz de procura-se até me viatura de periferia na cidade. Barrada, acabou salvando também a festa do presidente.  Todas essas história e outras tantas estão no fantástico livro da Grace. É de chorar de rir o que essa garota aprontou na sua juventude. 
 Veja agora o que ela tem de melhor em música: 
 https://youtu.be/2EdLasOrG6c 
 https://youtu.be/R_raXzIRgsA 
@@ -230,153 +304,211 @@ https://youtu.be/RVstafKZDYY
 https://youtu.be/kQekGSpOe2w 
 https://youtu.be/VX6sIgjyVZE 
 https://youtu.be/0s8Cq7gqdRw 
-https://youtu.be/eJVvHj0USyA`,
+https://youtu.be/eJVvHj0USyA 
 
-    "1966 - Johny Rivers.md": `Johnny Rivers, com sua voz característica e estilo único, marcou a história da música americana com "Poor Side of Town", lançada em 1966. A música, que alcançou o primeiro lugar na Billboard Hot 100, representou um momento crucial em sua carreira, sendo seu único hit número um nas paradas e demonstrando sua capacidade de transitar entre rock, soul e baladas. Nascido como John Henry Ramistella em Nova York, mas criado em Baton Rouge, Louisiana, Rivers desenvolveu um estilo musical próprio que misturava elementos do rock sulista com R&B. "Poor Side of Town", com sua letra tocante sobre amor através das barreiras sociais e arranjos sofisticados, mostrou um lado mais suave e melódico do artista, diferente de seus sucessos anteriores mais voltados ao rock. Rivers continua sendo uma figura respeitada na música americana, com uma carreira que inclui diversos outros hits como "Secret Agent Man" e "Summer Rain". Sua influência se estende além de suas próprias gravações - ele também foi responsável por fundar a Soul City Records, que lançou os primeiros sucessos do grupo The 5th Dimension.
+`,
+
+  "1966 - Johny Rivers.md": `
+Johnny Rivers, com sua voz característica e estilo único, marcou a história da música americana com "Poor Side of Town", lançada em 1966. A música, que alcançou o primeiro lugar na Billboard Hot 100, representou um momento crucial em sua carreira, sendo seu único hit número um nas paradas e demonstrando sua capacidade de transitar entre rock, soul e baladas. Nascido como John Henry Ramistella em Nova York, mas criado em Baton Rouge, Louisiana, Rivers desenvolveu um estilo musical próprio que misturava elementos do rock sulista com R&B. "Poor Side of Town", com sua letra tocante sobre amor através das barreiras sociais e arranjos sofisticados, mostrou um lado mais suave e melódico do artista, diferente de seus sucessos anteriores mais voltados ao rock. Rivers continua sendo uma figura respeitada na música americana, com uma carreira que inclui diversos outros hits como "Secret Agent Man" e "Summer Rain". Sua influência se estende além de suas próprias gravações - ele também foi responsável por fundar a Soul City Records, que lançou os primeiros sucessos do grupo The 5th Dimension.
 Poor Side of Town - https://youtu.be/xwbeSgEEe5M
-Positively 4th Street - https://youtu.be/Kh314bSB5lA`,
+Positively 4th Street - https://youtu.be/Kh314bSB5lA
+`,
 
-    "1966 - Leno e Lilian.md": `Essa musica é para lembrar a todos que viveram a década de 1970,  de onde viemos no tempo. Lá no fundo escuro das idades, onde ainda brilha nossa adolescência, há muitas músicas que lembram esse tempo. Uma delas será cantada pela dupla Leno e Lilian. Principalmente se for  "Eu não sabia que você existia".  A dupla era composta por Leno (Gilberto Moreira) e Lilian (Lilian Knapp). A dupla se destacou pelo talento vocal e pelas composições que frequentemente tratavam de temas românticos, seguindo a linha melódica e temática que caracterizava a Jovem Guarda.  O sucesso de Leno e Lilian foi significativo no contexto da época, pois a Jovem Guarda. A carreira da dupla teve altos e baixos, e ambos também tentaram carreiras solo. 
-https://youtu.be/goarxZaGU78`,
+  "1966 - Leno e Lilian.md": `
+Essa musica é para lembrar a todos que viveram a década de 1970,  de onde viemos no tempo. Lá no fundo escuro das idades, onde ainda brilha nossa adolescência, há muitas músicas que lembram esse tempo. Uma delas será cantada pela dupla Leno e Lilian. Principalmente se for  "Eu não sabia que você existia".  A dupla era composta por Leno (Gilberto Moreira) e Lilian (Lilian Knapp). A dupla se destacou pelo talento vocal e pelas composições que frequentemente tratavam de temas românticos, seguindo a linha melódica e temática que caracterizava a Jovem Guarda.  O sucesso de Leno e Lilian foi significativo no contexto da época, pois a Jovem Guarda. A carreira da dupla teve altos e baixos, e ambos também tentaram carreiras solo. 
+https://youtu.be/goarxZaGU78
+`,
 
-    "1966 - Mamas anda Papas.md": `O incrível “Mamas and  Papas”,  grupo que existiu por apenas 4 anos, de 1965 a 1968, lançou cinco álbuns e colocou  pelo menos dez músicas nas paradas de sucessos desse período. Formado por Denny Doherty, o compositor da turma.  Cass Elliot, que morreu de degeneração gordurosa.  John Phillips, casado com a linda do grupo.  Michelle Phillips, a linda do grupo, que  casa com John, tem uma filha com ele, e não deixa de ter um caso com Denny. Michelle Phillips ainda  convence o marido, o distraído do John, a ir morar, com toda a família, na casa do Denny. A coisa foi pro brejo quando Denny, numa noite de drogas - todas as noites eram noites de drogas afinal - conta para a Cass toda essa enrolada história. Cass estava apaixonada por ele, fica puta de raiva e joga merda no ventilador, revelando tudo para todos. Então o grupo entra em crise, o casamento acaba, mas o grupo faz um sucesso danado. Cass morre em seu apartamento em Londres, em 1974, aos 32 anos. A lenda conta  que o próprio grupo deu uma declaração de que ela havia engasgado com seu próprio vômito enquanto comia um sanduíche na cama. Ela pesava na época 108 quilos. A verdade veio pelo  legista que afirmou que ela  teve um ataque cardíaco fulminante causado pela obesidade e tensão da dieta. Mas não importa, a banda é muito boa, com um vocal de primeira linha. 
+  "1966 - Mamas anda Papas.md": `
+O incrível “Mamas and  Papas”,  grupo que existiu por apenas 4 anos, de 1965 a 1968, lançou cinco álbuns e colocou  pelo menos dez músicas nas paradas de sucessos desse período. Formado por Denny Doherty, o compositor da turma.  Cass Elliot, que morreu de degeneração gordurosa.  John Phillips, casado com a linda do grupo.  Michelle Phillips, a linda do grupo, que  casa com John, tem uma filha com ele, e não deixa de ter um caso com Denny. Michelle Phillips ainda  convence o marido, o distraído do John, a ir morar, com toda a família, na casa do Denny. A coisa foi pro brejo quando Denny, numa noite de drogas - todas as noites eram noites de drogas afinal - conta para a Cass toda essa enrolada história. Cass estava apaixonada por ele, fica puta de raiva e joga merda no ventilador, revelando tudo para todos. Então o grupo entra em crise, o casamento acaba, mas o grupo faz um sucesso danado. Cass morre em seu apartamento em Londres, em 1974, aos 32 anos. A lenda conta  que o próprio grupo deu uma declaração de que ela havia engasgado com seu próprio vômito enquanto comia um sanduíche na cama. Ela pesava na época 108 quilos. A verdade veio pelo  legista que afirmou que ela  teve um ataque cardíaco fulminante causado pela obesidade e tensão da dieta. Mas não importa, a banda é muito boa, com um vocal de primeira linha. 
 "California Dreaming”  - https://youtu.be/N-aK6JnyFmk
 "Monday, Monday” -  https://youtu.be/h81Ojd3d2rY
-Do You Wanna Dance - https://youtu.be/7fmJRpor0sA`,
+Do You Wanna Dance - https://youtu.be/7fmJRpor0sA
+`,
 
-    "1966 - Nancy Sinatra.md": `Nancy Sinatra cantando "These Boots Are Made for Walkin” quer dizer: “estou pronta para a vida, papai”. Acho que Frank precisava ouvir aquilo. Precisava ver que a garotinha  canta mesmo. Esse foi o seu maior sucesso,  lançado em 1966. Composta e produzida por Lee Hazlewood, a música é uma declaração de independência e autoafirmação, encapsulada na imagem simbólica das botas que estão "prontas para caminhar" — uma metáfora para a tomada de controle de seu próprio destino. O impacto da canção foi amplificado pela interpretação carismática de Nancy Sinatra. Sua voz assertiva e a produção musical inovadora, que incluiu uma seção de metais proeminente e uma linha de baixo memorável, deram à música uma qualidade atemporal. O videoclipe da música,  apresenta Sinatra caminhando e dançando de forma provocante, também se tornou icônico. A imagem de Nancy Sinatra com suas botas de cano alto tornou-se uma representação cultural da mulher forte e independente da época.
-These Boots Are Made for Walkin' - https://youtu.be/SbyAZQ45uww`,
+  "1966 - Nancy Sinatra.md": `
+Nancy Sinatra cantando "These Boots Are Made for Walkin” quer dizer: “estou pronta para a vida, papai”. Acho que Frank precisava ouvir aquilo. Precisava ver que a garotinha  canta mesmo. Esse foi o seu maior sucesso,  lançado em 1966. Composta e produzida por Lee Hazlewood, a música é uma declaração de independência e autoafirmação, encapsulada na imagem simbólica das botas que estão "prontas para caminhar" — uma metáfora para a tomada de controle de seu próprio destino. O impacto da canção foi amplificado pela interpretação carismática de Nancy Sinatra. Sua voz assertiva e a produção musical inovadora, que incluiu uma seção de metais proeminente e uma linha de baixo memorável, deram à música uma qualidade atemporal. O videoclipe da música,  apresenta Sinatra caminhando e dançando de forma provocante, também se tornou icônico. A imagem de Nancy Sinatra com suas botas de cano alto tornou-se uma representação cultural da mulher forte e independente da época.
+These Boots Are Made for Walkin' - https://youtu.be/SbyAZQ45uww
+`,
 
-    "1966 - ROLLING STONES.md": `Um dos casos mais dramáticos da historia do rock e, especificamente dos Rolling Stones. Trata-se da morte de Brian Jones, guitarrista da banda entre 1962 e 1969. Nesse período os Stones lançaram 4 discos e, com certeza, “Aftermath"e "Between the Buttons” colocam o grupo no cenário mundial. Nesses dois Brian fez a diferença, com guitarras, xilofones  e  outros instrumentos que nunca tinham usado.  O problema de Brian eram drogas, bebida, mulheres e toda sorte de confusão que essas misturas exageradas causam. Por isso, no início de 69 Mick e Keith anunciam que ele seria substituído por Taylor. Evidentemente Brian ficou transtornado e drogas e sexo foram, como sempre, modo de resolver o problema. Em julho de 1969 Brian é encontrado morto boiando na piscina da sua casa.  Escândalo, manchetes e uma tristeza geral se abate sobre o mundo do rock. O enterro é o encontro triste de todas as bandas. Logo a polícia londrina conclui o que seria mais obvio e esperado, droga e bebida mataram o ex Stone. Mas a história é mais complexa. A autopsia, sabe-se hoje, nunca encontrou vestígios de droga no corpo de Brian. Por que Brian foi assassinado ? A história começa com uma reforma  que ele realizava na sua casa. É tido como certo que Brian tem um caso com  a esposa do mestre de obras e entra em briga com ele, um sujeito chamado Frank Thorogood. Na briga Thorogood mata Brian e o  joga na piscina. Um triste fim para um grande talento, morre aos 27 anos. A linda “Lady Jane”, do disco Aftermath,  tem participação especial de Brian, seja nas guitarras, seja nos instrumentos que usa. Como Andrew Oldhan (empresário dos Stones) disse: "As contribuições de Brian Jones podem ser ouvidas em todas essas faixas gravadas no RCA. O que aquele cara não conseguia tocar, ele saía e aprendia. Você pode ouvir as 'cores' que ele encaixou em Lady Jane e Paint It Black.”
+  "1966 - ROLLING STONES.md": `
+Um dos casos mais dramáticos da historia do rock e, especificamente dos Rolling Stones. Trata-se da morte de Brian Jones, guitarrista da banda entre 1962 e 1969. Nesse período os Stones lançaram 4 discos e, com certeza, “Aftermath"e "Between the Buttons” colocam o grupo no cenário mundial. Nesses dois Brian fez a diferença, com guitarras, xilofones  e  outros instrumentos que nunca tinham usado.  O problema de Brian eram drogas, bebida, mulheres e toda sorte de confusão que essas misturas exageradas causam. Por isso, no início de 69 Mick e Keith anunciam que ele seria substituído por Taylor. Evidentemente Brian ficou transtornado e drogas e sexo foram, como sempre, modo de resolver o problema. Em julho de 1969 Brian é encontrado morto boiando na piscina da sua casa.  Escândalo, manchetes e uma tristeza geral se abate sobre o mundo do rock. O enterro é o encontro triste de todas as bandas. Logo a polícia londrina conclui o que seria mais obvio e esperado, droga e bebida mataram o ex Stone. Mas a história é mais complexa. A autopsia, sabe-se hoje, nunca encontrou vestígios de droga no corpo de Brian. Por que Brian foi assassinado ? A história começa com uma reforma  que ele realizava na sua casa. É tido como certo que Brian tem um caso com  a esposa do mestre de obras e entra em briga com ele, um sujeito chamado Frank Thorogood. Na briga Thorogood mata Brian e o  joga na piscina. Um triste fim para um grande talento, morre aos 27 anos. A linda “Lady Jane”, do disco Aftermath,  tem participação especial de Brian, seja nas guitarras, seja nos instrumentos que usa. Como Andrew Oldhan (empresário dos Stones) disse: "As contribuições de Brian Jones podem ser ouvidas em todas essas faixas gravadas no RCA. O que aquele cara não conseguia tocar, ele saía e aprendia. Você pode ouvir as 'cores' que ele encaixou em Lady Jane e Paint It Black.”
 Ps.  Afinal, o que leva os Stones ao tema Lady Jane ?  A pobre da Jane Grey, foi aquela que governou a Inglaterra por míseros 9 dias, aos 16 anos de idade, decapitada depois que seu pai tenta uma revolta protestante em 1554. A mãe obriga a garota  a casar. A garota casa, depois a prima, Mary Tudor, toma o trono e manda a  matar a prima. O palco de tudo era a luta entre católicos e protestantes, usando jovens como marionetes. Como diz a música, 
 “This play is run my love
  Your time has come my love
  I've pledged my troth to Lady Jane”
-https://youtu.be/XirG-qwMCMc`,
+https://youtu.be/XirG-qwMCMc
+`,
 
-    "1966 - Sergio Mendes.md": `Sergio Mendes é um dos maiores embaixadores da música brasileira no mundo. Pianista, compositor e arranjador nascido em Niterói em 1941, revolucionou a forma como a bossa nova e a música brasileira eram percebidas internacionalmente, especialmente com seu grupo Brasil '66, que transformou clássicos brasileiros em sucessos globais. "Mais Que Nada", originalmente composta por Jorge Ben Jor, ganhou projeção mundial na versão de Sergio Mendes & Brasil '66, tornando-se a primeira música em português a alcançar as paradas americanas. O arranjo inovador combinava elementos da bossa nova com jazz e pop, apresentando vocais em português e inglês, criando uma sonoridade que se tornaria a marca registrada de Mendes. Em 2006, ele revitalizou a música em uma nova versão com os Black Eyed Peas, apresentando-a para uma nova geração. A carreira de Sergio Mendes se estende por mais de cinco décadas, durante as quais ele continuou a inovar e colaborar com diversos artistas, ganhando vários Grammy Awards e mantendo vivo o espírito da música brasileira no cenário internacional. Sua capacidade de fundir ritmos brasileiros com elementos contemporâneos o mantém relevante até hoje, influenciando gerações de músicos em todo o mundo.
+  "1966 - Sergio Mendes.md": `
+Sergio Mendes é um dos maiores embaixadores da música brasileira no mundo. Pianista, compositor e arranjador nascido em Niterói em 1941, revolucionou a forma como a bossa nova e a música brasileira eram percebidas internacionalmente, especialmente com seu grupo Brasil '66, que transformou clássicos brasileiros em sucessos globais. "Mais Que Nada", originalmente composta por Jorge Ben Jor, ganhou projeção mundial na versão de Sergio Mendes & Brasil '66, tornando-se a primeira música em português a alcançar as paradas americanas. O arranjo inovador combinava elementos da bossa nova com jazz e pop, apresentando vocais em português e inglês, criando uma sonoridade que se tornaria a marca registrada de Mendes. Em 2006, ele revitalizou a música em uma nova versão com os Black Eyed Peas, apresentando-a para uma nova geração. A carreira de Sergio Mendes se estende por mais de cinco décadas, durante as quais ele continuou a inovar e colaborar com diversos artistas, ganhando vários Grammy Awards e mantendo vivo o espírito da música brasileira no cenário internacional. Sua capacidade de fundir ritmos brasileiros com elementos contemporâneos o mantém relevante até hoje, influenciando gerações de músicos em todo o mundo.
 Mais que nada -  https://youtu.be/Kb880YlYDo4
-https://youtu.be/w3KTqpX08ZU`,
+https://youtu.be/w3KTqpX08ZU
 
-    "1966 - TERNURINHA.md": `Wanderléa Charlup Boere Salim, conhecida no movimento Jovem Guarda como "Ternurinha",  é uma das poucas mulheres verdadeiramente ativas e dominantes em um dos movimentos culturais mais expressivos na década de 60/70. Com 16 anos de idade, em 1962 ela já tinha gravado um disco. Com 19 anos namora Roberto Carlos e já se torna apresentadora de programa de televisão “A Jovem Guarda”. 
+`,
+
+  "1966 - TERNURINHA.md": `
+Wanderléa Charlup Boere Salim, conhecida no movimento Jovem Guarda como "Ternurinha",  é uma das poucas mulheres verdadeiramente ativas e dominantes em um dos movimentos culturais mais expressivos na década de 60/70. Com 16 anos de idade, em 1962 ela já tinha gravado um disco. Com 19 anos namora Roberto Carlos e já se torna apresentadora de programa de televisão “A Jovem Guarda”. 
 Mas a vida da Wanderlei não é fácil, ela casa ao 16 anos com o filho do Chacrinha. No mesmo ano o marido sofre um acidente e fica paraplégico. Separa e casa com Lallo Correia, tem um filho que morreu afogado em uma piscina. Perde o pai, o irmão com AIDS e luta para tirar um câncer do útero. Tudo em um período de 30 anos. Wanderleia, Erasmo Carlos e Roberto Carlos, formam um  trio que  conseguiu aliar uma harmonia rara para três estrelas, com competência incomum na eficiência da comunicação.  Apesar de tudo Wanderleia sempre foi um destaque. Participou a Jovem  Guarda e conseguiu sobreviver a ela com uma personalidade inquestionável. Musicas como "Pare o Casamento" , "Ternura", "Prova de Fogo" , "Te Amo" são retratos de uma época que hipertrofia da visão  romântica de amores profundos,  que eram sofridos para serem conquistados, tanto quanto eram sofridos quando perdidos. Os amores tinham sempre esse acompanhamento do sofrimento, que dava ao poeta e ao músico a substância para as baladas. Felizes ou tristes faziam sucesso, porque a década de 1960 abria uma nova porta para os relacionamentos dos jovens fora da tutela da "velha guarda". Os jovens estavam conquistando as ruas e as bandeiras de novas liberdades. O amor saia das varandas das casas, saia da tutela das famílias e iniciava a jornada para ganhar a tutela de uma nova sexualidade. 
 https://youtu.be/ZUHiEf7rHTc 
 https://youtu.be/kgqkiz9TcM8 
 https://youtu.be/_DDmtHVvrPo 
 https://youtu.be/-CV4PCKyqGE 
 https://youtu.be/5ywltXN2M_g 
-https://youtu.be/ch4XwpO-v-I`,
+https://youtu.be/ch4XwpO-v-I 
+`,
 
-    "1966 - TURTLES.md": `Acho a música “Surfer Dan”, de 1967, a melhor música dos The Turtles.  Os caras de Westchester,  NY,  Mark Volman e Howard Kaylan (aka Flo e Eddie, como eles se chamavam) se encontram na vida tendo o mesmo “velho e duro Sr. Ferguson”como professor de aulas de clarinete.  Apesar de velho e duro, é o Sr Fergusonque  que lhes apresenta o   “Deep Purple”. Então os rapazes passam a ter um alvo em comum. Fazer aquilo.  A experiência do “Westchester High”,  um coral que participavam, deu a eles o vício da fama, já que o coral   ganhou todos os tipos de competições da cidade.  Então em  1963, Mark Volman, Howard Kaylan, Al Nichol,  e Chuck Portz  começam a tocar como um grupo. Ironicamente, a música deles era quase exclusivamente instrumental. Quatro caras do coral formando uma banda instrumental, Crossfires.  Na época, tinham em média 15 anos de idade, ganhando  US $ 200 por noite. Em 1964, por causa dos Beatles,   Mark e Howard largam seus saxofones e começam a cantar.  Então mudaram o nome para The Turtles.  O primeiro lançamento foi um arranjo de uma música de Bob Dylan “It Ain’t Me Babe”. Foi um sucesso imediato, subindo para o Top Five nos EUA.  Então, foram para  “a estrada”, o que significava de  sete a  oito shows, em seis dias.  Quando chegaram em  Nova York, o sonho da banda se realiza, na platéia,  Bob Dylan.  Para a turma do  The Turtles havia um slogan básico, “se os Beatles conseguem, nós também conseguimos”. Por isso, na prática,  eles se tornaram  “discípulos” da banda inglesa. Em  1967 lançam   “Happy Together”, que faz um sucesso danado.  A música  substituiu “Penny Lane” dos Beatles no número um da Billboard Hot 100. Esse foi o único sucesso  dos Turtles que permaneceu lá por três semanas. Embalados pelo sucesso, porque os  Beatles criam  a Apple, eles criam a Blimp, uma empresa de produção, que tem   The Turtles como maior objetivo.  Por causa desse sucesso, uma das fãs do grupo, Tricia Nixon, contrata o The Turtles  para se apresentar em uma festa na Casa Branca. Logo na entrada, a turma é recebida pela segurança do lugar que pisoteia o metrônomo do grupo “em busca de material suspeito”. Com eles próprios  dizem “… foi uma festa estranha. Parecia que todas as crianças tinham  a síndrome da morte súbita - sudden death syndrome (SDS) - , só se interessavam por  literatura, enquanto Tricia andava com todo o charme genuíno de uma Cinderela. Volman  caia sistematicamente  do palco e  Howard estava tentando pegar Lucy Baines Johnson”.  Mas acaba que o baile deu certo, The Turtles foi convidado também para  tocar no aniversário da filha do Presidente da US Steel em Burlingame, Califórnia. Howard realiza então sua conquista em cima de Lucy Baines Johnson.  O segundo álbum “You Baby”, mais as músicas “Grim Reaper of Love” e “Can I Get to Know You Better” colocam The Turtles bem na  Billboard Hot 100. Apesar da festa não conseguem chegar em 1970. A banda acaba nesse ano.
+  "1966 - The Youngbloods-1.md": `
+Essa é uma das músicas que toca profundamente a memória e os sentimentos de todos adolescentes da década de 1970.  A banda The Youngbloods foi formada em 1965 nos Estados Unidos. Originalmente composta por Jesse Colin Young (vocais e baixo), Jerry Corbitt (guitarra), Lowell "Banana" Levinger (guitarra e teclados) e Joe Bauer (bateria), a banda foi uma das várias que emergiram durante a explosão do rock psicodélico e do folk-rock nos anos 1960. "Get Together",  se tornou um dos hinos da contracultura e do movimento pela paz da época. Escrita por Chet Powers, também conhecido como Dino Valenti, a canção foi um apelo à unidade e ao amor em tempos de agitação social e política. Embora não tenha sido imediatamente bem-sucedida em termos de vendas quando lançada, sua inclusão em uma campanha publicitária da National Conference of Christians and Jews em 1969 catapultou a música de volta às paradas. Musicalmente, "Get Together" tem uma instrumentação rica e harmônica, além do vocal adequado de  Jesse Colin Young. A faixa incorpora elementos do folk, do rock e do pop psicodélico, tornando-se uma mistura eclética que captura o espírito da época. A mensagem da canção — um apelo à paz, ao amor e à compreensão mútua — ressoou fortemente em um período marcado pela Guerra do Vietnã, pelos movimentos pelos direitos civis e por uma crescente desconfiança em relação às instituições estabelecidas.
+The Youngbloods - Get Together - https://youtu.be/NtSa0cSgxqg
+`,
+
+  "1966 - TURTLES.md": `
+Acho a música “Surfer Dan”, de 1967, a melhor música dos The Turtles.  Os caras de Westchester,  NY,  Mark Volman e Howard Kaylan (aka Flo e Eddie, como eles se chamavam) se encontram na vida tendo o mesmo “velho e duro Sr. Ferguson”como professor de aulas de clarinete.  Apesar de velho e duro, é o Sr Fergusonque  que lhes apresenta o   “Deep Purple”. Então os rapazes passam a ter um alvo em comum. Fazer aquilo.  A experiência do “Westchester High”,  um coral que participavam, deu a eles o vício da fama, já que o coral   ganhou todos os tipos de competições da cidade.  Então em  1963, Mark Volman, Howard Kaylan, Al Nichol,  e Chuck Portz  começam a tocar como um grupo. Ironicamente, a música deles era quase exclusivamente instrumental. Quatro caras do coral formando uma banda instrumental, Crossfires.  Na época, tinham em média 15 anos de idade, ganhando  US \$ 200 por noite. Em 1964, por causa dos Beatles,   Mark e Howard largam seus saxofones e começam a cantar.  Então mudaram o nome para The Turtles.  O primeiro lançamento foi um arranjo de uma música de Bob Dylan “It Ain’t Me Babe”. Foi um sucesso imediato, subindo para o Top Five nos EUA.  Então, foram para  “a estrada”, o que significava de  sete a  oito shows, em seis dias.  Quando chegaram em  Nova York, o sonho da banda se realiza, na platéia,  Bob Dylan.  Para a turma do  The Turtles havia um slogan básico, “se os Beatles conseguem, nós também conseguimos”. Por isso, na prática,  eles se tornaram  “discípulos” da banda inglesa. Em  1967 lançam   “Happy Together”, que faz um sucesso danado.  A música  substituiu “Penny Lane” dos Beatles no número um da Billboard Hot 100. Esse foi o único sucesso  dos Turtles que permaneceu lá por três semanas. Embalados pelo sucesso, porque os  Beatles criam  a Apple, eles criam a Blimp, uma empresa de produção, que tem   The Turtles como maior objetivo.  Por causa desse sucesso, uma das fãs do grupo, Tricia Nixon, contrata o The Turtles  para se apresentar em uma festa na Casa Branca. Logo na entrada, a turma é recebida pela segurança do lugar que pisoteia o metrônomo do grupo “em busca de material suspeito”. Com eles próprios  dizem “… foi uma festa estranha. Parecia que todas as crianças tinham  a síndrome da morte súbita - sudden death syndrome (SDS) - , só se interessavam por  literatura, enquanto Tricia andava com todo o charme genuíno de uma Cinderela. Volman  caia sistematicamente  do palco e  Howard estava tentando pegar Lucy Baines Johnson”.  Mas acaba que o baile deu certo, The Turtles foi convidado também para  tocar no aniversário da filha do Presidente da US Steel em Burlingame, Califórnia. Howard realiza então sua conquista em cima de Lucy Baines Johnson.  O segundo álbum “You Baby”, mais as músicas “Grim Reaper of Love” e “Can I Get to Know You Better” colocam The Turtles bem na  Billboard Hot 100. Apesar da festa não conseguem chegar em 1970. A banda acaba nesse ano.
  Surfer Dan -  https://youtu.be/XirxdFcE3gw
  Happy Together -  https://youtu.be/mRCe5L1imxg
  You Baby -  https://youtu.be/IEmRgvhT6fE
  Let Me Be —  https://youtu.be/QkVJ_4fGzlw
  Eve Of Destruction -  https://youtu.be/u8S8gWBN9yE
- You Showed Me -  https://youtu.be/Ul3K_e-ZgiE`,
+ You Showed Me -  https://youtu.be/Ul3K_e-ZgiE
 
-    "1966 - The Youngbloods-1.md": `Essa é uma das músicas que toca profundamente a memória e os sentimentos de todos adolescentes da década de 1970.  A banda The Youngbloods foi formada em 1965 nos Estados Unidos. Originalmente composta por Jesse Colin Young (vocais e baixo), Jerry Corbitt (guitarra), Lowell "Banana" Levinger (guitarra e teclados) e Joe Bauer (bateria), a banda foi uma das várias que emergiram durante a explosão do rock psicodélico e do folk-rock nos anos 1960. "Get Together",  se tornou um dos hinos da contracultura e do movimento pela paz da época. Escrita por Chet Powers, também conhecido como Dino Valenti, a canção foi um apelo à unidade e ao amor em tempos de agitação social e política. Embora não tenha sido imediatamente bem-sucedida em termos de vendas quando lançada, sua inclusão em uma campanha publicitária da National Conference of Christians and Jews em 1969 catapultou a música de volta às paradas. Musicalmente, "Get Together" tem uma instrumentação rica e harmônica, além do vocal adequado de  Jesse Colin Young. A faixa incorpora elementos do folk, do rock e do pop psicodélico, tornando-se uma mistura eclética que captura o espírito da época. A mensagem da canção — um apelo à paz, ao amor e à compreensão mútua — ressoou fortemente em um período marcado pela Guerra do Vietnã, pelos movimentos pelos direitos civis e por uma crescente desconfiança em relação às instituições estabelecidas.
-The Youngbloods - Get Together - https://youtu.be/NtSa0cSgxqg`,
+`,
 
-    "1967 -  Lulu.md": `A  britânica Lulu, nome artístico de Marie McDonald McLaughlin Lawrie, ganhou destaque internacional com a sua interpretação da canção "To Sir, With Love" em 1967. Esta música foi tema do filme homônimo, onde Lulu também atuou ao lado de Sidney Poitier. A canção foi composta por Don Black e Mark London, e Lulu  alcançou o topo das paradas nos Estados Unidos, mantendo-se na primeira posição da Billboard Hot 100 por cinco semanas consecutivas.
+  "1967 -  Lulu.md": `
+A  britânica Lulu, nome artístico de Marie McDonald McLaughlin Lawrie, ganhou destaque internacional com a sua interpretação da canção "To Sir, With Love" em 1967. Esta música foi tema do filme homônimo, onde Lulu também atuou ao lado de Sidney Poitier. A canção foi composta por Don Black e Mark London, e Lulu  alcançou o topo das paradas nos Estados Unidos, mantendo-se na primeira posição da Billboard Hot 100 por cinco semanas consecutivas.
 O impacto de "To Sir, With Love" vai além de seu sucesso comercial. A música, que é um tributo a um professor admirado, captura a essência das relações interpessoais formadas no ambiente educacional e a influência duradoura que um educador pode ter na vida de seus alunos. Situado no contexto dos anos 1960, um período de agitação social e mudanças culturais, o filme e sua canção tema abordam questões de classe, raça e educação de uma forma que ainda ressoa até hoje.
-To Sir With Love - https://youtu.be/k8-M_wg8AI4`,
+To Sir With Love - https://youtu.be/k8-M_wg8AI4
+`,
 
-    "1967 - A volta do Boêmio.md": `Quem, entre os boêmios do Brasil, não cantou “A volta do Boêmio”, como fazia de forma recorrente o grande Nelson Gonçalves ? Era sempre assim, no final da noite, então chorosos, naquela embriaguez de vozes trôpegas e alongadas, seguíamos o canto que alguém começava:
+  "1967 - A volta do Boêmio.md": `Quem, entre os boêmios do Brasil, não cantou “A volta do Boêmio”, como fazia de forma recorrente o grande Nelson Gonçalves ? Era sempre assim, no final da noite, então chorosos, naquela embriaguez de vozes trôpegas e alongadas, seguíamos o canto que alguém começava:
 “Boemia, aqui me tens de regresso …”
 "A Volta do Boêmio" é uma das músicas mais emblemáticas na carreira de Nelson Gonçalves, um dos cantores mais icônicos da música brasileira. Composta por Adelino Moreira, a canção foi lançada em 1957 e rapidamente se tornou um clássico do gênero samba-canção.  O arranjo musical da canção é repleto de instrumentação orquestral que realça o clima emotivo da letra. No entanto, é a interpretação visceral de Nelson Gonçalves que confere à música seu caráter inesquecível. Sua voz única, com um timbre áspero e emotivo, acentua o desespero e a tristeza inerentes ao personagem boêmio que retorna ao cenário de seu passado, encontrando tudo transformado. A canção tornou-se uma espécie de hino da boemia brasileira e continua a ser venerada tanto por gerações mais antigas quanto por novos ouvintes que descobrem o poder emotivo da composição e da performance de Gonçalves. Não apenas a música ocupa um lugar de destaque no cancioneiro popular brasileiro, mas também serve como um testamento à habilidade de Nelson Gonçalves de conectar-se com uma ampla gama de emoções humanas através de sua arte.
-https://youtu.be/1D8mteRNW_8`,
+https://youtu.be/1D8mteRNW_8
 
-    "1967 - BEE GEES.md": `Se você  pensa que Bee Gees é apenas mais uma banda pop, saiba que você  está muito enganado. A família inglesa Gees, através dos três irmãos Barry, Maurice e Robin criaram um império musical que nasce na década de 60 e sobrevive até hoje. Em vários retratos do grupo é possível observar a marca BG no suéter de um deles. Robin vestia esse tipo de suéter quando ainda tinha 15 anos. Quando Roben chega aos 19 anos, o grupo já tinha uma música entre as top 20 da Inglaterra.  Barry é o mais velho, o cara que descobriu a voz de falsete, que passou a caracterizar a maior parte dos sucessos do grupo. Claro que queria mandar em tudo e por isso vivia em brigas com Robin. É o único que ainda vive. Maurice, o primeiro a morrer, irmão gêmeo de Robin. Foi o grande passificador da família. Depois da mais séria briga entre Robin e Barry, no final da década de 70, assume ser o contrapeso entre os dois egolátras. Robin é o chatinho da história, mesmo sendo um artista genial, morria de ciúmes do velho Barry. Embirrava e sempre causava problemas para o grupo. Quando brigava, cuidada da sua carreira solo, produzindo boas músicas.  A produção desses caras foi espetacular, 22 álbuns de estúdio, 2 álbuns ao vivo, 15 álbuns de compilação, 83 compactos e 4 álbuns de trilha sonoras. Desde a década de 70 esses caras são premiados, até  em 2015 ! Foram 11 Grammys.  Em 1967, com "Bee Gees' 1st", os três tinham em média 21 anos, ficaram na posição 3 nas paradas da Alemanha. Desde então, até o ultimo disco, em 2001, nunca ficaram abaixo da posição 20 no mundo. Venderam mais de 120 milhões de discos.  Quando não estavam gravando ou em shows, os Bee Gees cuidavam dos seus negócios. Robin com  uma empresa, produzindo ou empresariando outros artista e Maurice e Barry com outra, fazendo o mesmo. Assim, nas décadas de 1970 a 1990, a família esteve envolvida com lançamentos e alavancagens de artistas como M.Jacson, Adele, B. Streisand, entre outros. No final da década de 1970, considerados por alguns como uma banda morta, desgastada e sem fôlego, os Bee Gees sacam da cartola a trilha sonora de maior sucesso no cinema. Ressurgem com força para avançar nos anos 80 com muita força. Faltou alguma ? Com certeza, mas esses caras produziram muito. Qualquer lista da década de 70 dos Bee Gees tem que ter essas as músicas abaixo. 
+`,
+
+  "1967 - BEE GEES.md": `Se você  pensa que Bee Gees é apenas mais uma banda pop, saiba que você  está muito enganado. A família inglesa Gees, através dos três irmãos Barry, Maurice e Robin criaram um império musical que nasce na década de 60 e sobrevive até hoje. Em vários retratos do grupo é possível observar a marca BG no suéter de um deles. Robin vestia esse tipo de suéter quando ainda tinha 15 anos. Quando Roben chega aos 19 anos, o grupo já tinha uma música entre as top 20 da Inglaterra.  Barry é o mais velho, o cara que descobriu a voz de falsete, que passou a caracterizar a maior parte dos sucessos do grupo. Claro que queria mandar em tudo e por isso vivia em brigas com Robin. É o único que ainda vive. Maurice, o primeiro a morrer, irmão gêmeo de Robin. Foi o grande passificador da família. Depois da mais séria briga entre Robin e Barry, no final da década de 70, assume ser o contrapeso entre os dois egolátras. Robin é o chatinho da história, mesmo sendo um artista genial, morria de ciúmes do velho Barry. Embirrava e sempre causava problemas para o grupo. Quando brigava, cuidada da sua carreira solo, produzindo boas músicas.  A produção desses caras foi espetacular, 22 álbuns de estúdio, 2 álbuns ao vivo, 15 álbuns de compilação, 83 compactos e 4 álbuns de trilha sonoras. Desde a década de 70 esses caras são premiados, até  em 2015 ! Foram 11 Grammys.  Em 1967, com "Bee Gees' 1st", os três tinham em média 21 anos, ficaram na posição 3 nas paradas da Alemanha. Desde então, até o ultimo disco, em 2001, nunca ficaram abaixo da posição 20 no mundo. Venderam mais de 120 milhões de discos.  Quando não estavam gravando ou em shows, os Bee Gees cuidavam dos seus negócios. Robin com  uma empresa, produzindo ou empresariando outros artista e Maurice e Barry com outra, fazendo o mesmo. Assim, nas décadas de 1970 a 1990, a família esteve envolvida com lançamentos e alavancagens de artistas como M.Jacson, Adele, B. Streisand, entre outros. No final da década de 1970, considerados por alguns como uma banda morta, desgastada e sem fôlego, os Bee Gees sacam da cartola a trilha sonora de maior sucesso no cinema. Ressurgem com força para avançar nos anos 80 com muita força. Faltou alguma ? Com certeza, mas esses caras produziram muito. Qualquer lista da década de 70 dos Bee Gees tem que ter essas as músicas abaixo. 
 https://youtu.be/WhGbWCH6IPE 
 https://youtu.be/QHtGu0OGEpc 
 https://youtu.be/yPePasexF9w 
 https://youtu.be/RoSpaBHZ1L4 
 https://youtu.be/s88TOcjU_z4 
 https://youtu.be/2sN05AMV9gY 
-https://youtu.be/YxvBPH4sArQ`,
+https://youtu.be/YxvBPH4sArQ 
+`,
 
-    "1967 - Donovan Philips.md": `Esse sujeito aparece constantemente na companhia de grandes personagens da música, como os Beatles, Stones, Hendrix, entre outros. O sujeito chama Donovan Philips, nascido na Inglaterra em 1946.  Inicia sua carreira musical na década de 1960 e começa a ser conhecido no mundo por volta de 1966. Na Inglaterra, onde participava de vários programas de TV, começou a fazer sucesso como cantor folk, até começar a ser comparado com Bob Dylan. Logo chama atenção de importantes artistas europeus e, por sua genialidade, constrói amizades sólidas com vários deles. Com os Beatles especialmente essa amizade se torna relevante.  Além de ser um dos poucos artistas a participar de produção de letras com o grupo, teve participação decisiva no “Álbum Branco”.  Foi Donovan que estabeleceu a relação dos Beatles com Maharishi e levou  todo o grupo, inclusive esposas,  para a India. Foi ele quem ensinou Lennon a dedilhar na guitarra, já que Donovan era reconhecido como um exímio nessa arte com a  guitarra. 
+  "1967 - Donovan Philips.md": `Esse sujeito aparece constantemente na companhia de grandes personagens da música, como os Beatles, Stones, Hendrix, entre outros. O sujeito chama Donovan Philips, nascido na Inglaterra em 1946.  Inicia sua carreira musical na década de 1960 e começa a ser conhecido no mundo por volta de 1966. Na Inglaterra, onde participava de vários programas de TV, começou a fazer sucesso como cantor folk, até começar a ser comparado com Bob Dylan. Logo chama atenção de importantes artistas europeus e, por sua genialidade, constrói amizades sólidas com vários deles. Com os Beatles especialmente essa amizade se torna relevante.  Além de ser um dos poucos artistas a participar de produção de letras com o grupo, teve participação decisiva no “Álbum Branco”.  Foi Donovan que estabeleceu a relação dos Beatles com Maharishi e levou  todo o grupo, inclusive esposas,  para a India. Foi ele quem ensinou Lennon a dedilhar na guitarra, já que Donovan era reconhecido como um exímio nessa arte com a  guitarra. 
 Donovan aparece em várias histórias como um personagem  pouco identificado. Esteve com o Led Zeppelin, tanto que tem várias musicas com a participação de Page ou Plant.  É sempre um personagem ligado à música folk, de origem irlandesa, pesquisador de raízes musicais e instrumentos. Seus relacionamentos se fazem por essas características, que sempre são um insumo interessante, diferente e novo, nos vários grupos em que circulava. Isso sem deixar de acentuar a sua ótima poesia e musicalidade.  Donovan tem 36 álbuns, o último é de 2016, “Buried Trejures” e merece ser ouvido o álbum  “The Hurdy Gurdy Man”, de 1968. Apresentamos  uma música de Donovan muito conhecida, Mellow Yellow e a música  título do álbum de 68, Hurdy Gurdy. Essa música tem versos de Jorge Harrison, solo de guitarra de Jimmy Page,  bateria de John Bonham e o  baixo de  John Paul Jones, ou seja, quase toda a banda Zeppelin.
  Mellow Yellow - https://youtu.be/64mb_hUOb4g
 Hurdy Gurdy-  https://youtu.be/yMVzA4xoS-c
-Vejam aqui Robert Plant cantando Season of the Witch de Donovan -   https://youtu.be/F_bBqRLkUok`,
+Vejam aqui Robert Plant cantando Season of the Witch de Donovan -   https://youtu.be/F_bBqRLkUok
+`,
 
-    "1967 - HERMAN HERMIS.md": `Não seria agressivo dizer que essa banda nunca ganhou muito respeito pelo seu trabalho, seja pela falta de sofisticação das suas letras ou a pobre elaboração das suas músicas. Mas os caras vendiam muito e estavam sempre entre as 20 músicas mais vendidas  no mundo na década de 1960.  Diziam que Peter Noone parecia com esse personagem do desenho animado "Mr. Peabody and Sherman", tiraram o "h" e viraram os Eremitas de Herman, Herman\`s Hermits, achando que estavam sendo muito criativos e inovadores.  Hermits, como todas as bandas inglesas na época vão para os EUA. Lá, em uma apresentação fechada, já bêbados e por pura gozação tocam "Mrs. Brown, You've Got a Lovely Daughter" (vejam abaixo), uma bobagem musical, típica de bebuns que já deviam ter ido para a cama. Mas um radialista presente ouve a música e também por gozação os convida para gravar aquilo. Conclusão, os bonitinhos, limpinhos, arrumadinhos e com carinha de anjo vendiam e chegaram a vender tanto na Inglaterra que só perdiam para os Beatles e Rolling Stones. 
+  "1967 - HERMAN HERMIS.md": `Não seria agressivo dizer que essa banda nunca ganhou muito respeito pelo seu trabalho, seja pela falta de sofisticação das suas letras ou a pobre elaboração das suas músicas. Mas os caras vendiam muito e estavam sempre entre as 20 músicas mais vendidas  no mundo na década de 1960.  Diziam que Peter Noone parecia com esse personagem do desenho animado "Mr. Peabody and Sherman", tiraram o "h" e viraram os Eremitas de Herman, Herman\`s Hermits, achando que estavam sendo muito criativos e inovadores.  Hermits, como todas as bandas inglesas na época vão para os EUA. Lá, em uma apresentação fechada, já bêbados e por pura gozação tocam "Mrs. Brown, You've Got a Lovely Daughter" (vejam abaixo), uma bobagem musical, típica de bebuns que já deviam ter ido para a cama. Mas um radialista presente ouve a música e também por gozação os convida para gravar aquilo. Conclusão, os bonitinhos, limpinhos, arrumadinhos e com carinha de anjo vendiam e chegaram a vender tanto na Inglaterra que só perdiam para os Beatles e Rolling Stones. 
 https://youtu.be/lv8k0VI9tBc 
 https://youtu.be/pdw4Ed2sR9c 
 https://youtu.be/5hXQpi2Cxy8 
 https://youtu.be/oKwSGovRACk 
 https://youtu.be/8U7_r2C6Q5A 
 https://youtu.be/E2JGn1vBa_g 
-https://youtu.be/aRB4J4cWBxg`,
+https://youtu.be/aRB4J4cWBxg 
 
-    "1967 - SIMONAL.md": `O sujeito  não é nenhuma unanimidade como pessoa, mas com um pouco de atenção podemos afirmar, com certeza, de que é um gênio na música e na capacidade de comunicação. O que esse sujeito fez em quase uma década na sua carreira musical é extraordinário. Sem dúvida um dos maiores artistas brasileiros, uma das melhores vozes e uma aguçada capacidade de perceber o cenário que o envolve. Ninguém vai encontrar uma imagem do contador Rafhael Viviane fácil na internet. Contratado para arrumar as contas de Simonal em 1971, acaba, por absoluta loucura do artista, sendo sequestrado por dois policiais do DOPS, a mando de Simonal e passar por várias torturas, até assinar uma "confissão". O caso foi denunciado pela família de Viviane, foi para a imprensa e colocou Simonal na cadeia. Através de influências e muita politicagem a pena foi reduzida e acabou resultando em poucos dias de cadeia. De qualquer forma, toda a derrocada da extraordinária carreira artística de Simonal se dá a partir de 1971. Nesse ano ele se confessa delator do DOPS, um irresponsável empresário, perdulário e um sujeito capaz de cometer a atrocidade contra seu contador que, literalmente, não foi responsável pela sua falência. Simonal morre de cirrose em 2000, nesse padecimento de quase 30 anos, após esse erro catastrófico cometido. Sua carreira  começa com "Tem algo mais", em 1963, o  primeiro disco de sucesso de Simonal e a música "Balanço do Sul". Até 1971 são 8 anos de carreira meteórica, que o fazem um dos artistas mais bem pagos do Brasil na época. Ele é um dos primeiros a cantar Caetano, Chico, Bethania, Vandre. Tem na sua produção Carlos Imperial, Mieli, Bôscoli e Jo Soares, além de excelentes músicos, do porte de Cesar Camargo Mariano. Em 1969 a Shell patrocina um show de Sérgio Mendes. Mendes faz um contrato milionário por apresentação. Para esquentar o show, antes da atração principal, colocam Simonal. Ele canta 4 músicas e promove um verdadeiro êxtase coletivo com a plateia de 30 mil pessoas. Acaba o show entra a atração principal, Mendes. Mas o público não para de chamar Simonal. Tanto que Mendes manda chama-lo no camarim para que os dois possam cantar e sossegar a platéia.  Depois da apoteose do show da Shell a empresa fecha o maior contrato de publicidade já feito no Brasil com Simonal. É o ano de 1970, o topo da carreira do artista e o inicio do fim. 
+`,
+
+  "1967 - SIMONAL.md": `O sujeito  não é nenhuma unanimidade como pessoa, mas com um pouco de atenção podemos afirmar, com certeza, de que é um gênio na música e na capacidade de comunicação. O que esse sujeito fez em quase uma década na sua carreira musical é extraordinário. Sem dúvida um dos maiores artistas brasileiros, uma das melhores vozes e uma aguçada capacidade de perceber o cenário que o envolve. Ninguém vai encontrar uma imagem do contador Rafhael Viviane fácil na internet. Contratado para arrumar as contas de Simonal em 1971, acaba, por absoluta loucura do artista, sendo sequestrado por dois policiais do DOPS, a mando de Simonal e passar por várias torturas, até assinar uma "confissão". O caso foi denunciado pela família de Viviane, foi para a imprensa e colocou Simonal na cadeia. Através de influências e muita politicagem a pena foi reduzida e acabou resultando em poucos dias de cadeia. De qualquer forma, toda a derrocada da extraordinária carreira artística de Simonal se dá a partir de 1971. Nesse ano ele se confessa delator do DOPS, um irresponsável empresário, perdulário e um sujeito capaz de cometer a atrocidade contra seu contador que, literalmente, não foi responsável pela sua falência. Simonal morre de cirrose em 2000, nesse padecimento de quase 30 anos, após esse erro catastrófico cometido. Sua carreira  começa com "Tem algo mais", em 1963, o  primeiro disco de sucesso de Simonal e a música "Balanço do Sul". Até 1971 são 8 anos de carreira meteórica, que o fazem um dos artistas mais bem pagos do Brasil na época. Ele é um dos primeiros a cantar Caetano, Chico, Bethania, Vandre. Tem na sua produção Carlos Imperial, Mieli, Bôscoli e Jo Soares, além de excelentes músicos, do porte de Cesar Camargo Mariano. Em 1969 a Shell patrocina um show de Sérgio Mendes. Mendes faz um contrato milionário por apresentação. Para esquentar o show, antes da atração principal, colocam Simonal. Ele canta 4 músicas e promove um verdadeiro êxtase coletivo com a plateia de 30 mil pessoas. Acaba o show entra a atração principal, Mendes. Mas o público não para de chamar Simonal. Tanto que Mendes manda chama-lo no camarim para que os dois possam cantar e sossegar a platéia.  Depois da apoteose do show da Shell a empresa fecha o maior contrato de publicidade já feito no Brasil com Simonal. É o ano de 1970, o topo da carreira do artista e o inicio do fim. 
 https://youtu.be/z_qknpPA5JA 
 https://youtu.be/pb6gLGQiaC8 
 https://youtu.be/oSwSu8wvoLc 
 https://youtu.be/7btaYFqS4qU 
 https://youtu.be/22_FjOAWS2s 
 https://youtu.be/9URt97ncJk8 
-https://youtu.be/j6xfuSA_XEY`,
+https://youtu.be/j6xfuSA_XEY 
+`,
 
-    "1967 - The Seekers.md": `O quarteto The Seekers, australianos, lançaram de cantar “Georgy Girl”, essa música que fizeram ele serem conhecidos . "The Seekers" é um grupo musical australiano formado em 1962, conhecido por sua combinação distinta de folk, pop e influências acústicas. A formação original do grupo incluía Judith Durham nos vocais principais, Athol Guy no contrabaixo, Keith Potger na guitarra e banjo de 12 cordas e Bruce Woodley na guitarra e vocais. O grupo alcançou notoriedade internacional com hits como "I'll Never Find Another You" (1964), "A World of Our Own" (1965) e "Georgy Girl" (1966). A canção "Georgy Girl" foi particularmente emblemática, tornando-se um sucesso internacional e sendo indicada para um Oscar como Melhor Canção Original. Este sucesso marcou o auge da popularidade do grupo e é talvez a música mais conhecida associada a eles. Os vocais claros e cristalinos de Judith Durham, juntamente com as harmonias meticulosas dos outros membros, deram ao grupo um som distintivo que se destacou em meio à efervescência do rock and roll e da música pop da época. As letras frequentemente otimistas e os arranjos de fácil audição atraíram um público amplo, tornando-os um dos grupos de folk-pop mais bem-sucedidos dos anos 1960. Embora o grupo tenha se desfeito em 1968, eles se reuniram várias vezes nas décadas subsequentes para turnês e gravações, mantendo um núcleo fiel de fãs. Sua influência pode ser sentida não apenas na música popular australiana, mas também no desenvolvimento do folk-pop como um subgênero musical.
-Georgy Girl - https://youtu.be/wsIbfYEizLk`,
+  "1967 - The Seekers.md": `O quarteto The Seekers, australianos, lançaram de cantar “Georgy Girl”, essa música que fizeram ele serem conhecidos . "The Seekers" é um grupo musical australiano formado em 1962, conhecido por sua combinação distinta de folk, pop e influências acústicas. A formação original do grupo incluía Judith Durham nos vocais principais, Athol Guy no contrabaixo, Keith Potger na guitarra e banjo de 12 cordas e Bruce Woodley na guitarra e vocais. O grupo alcançou notoriedade internacional com hits como "I'll Never Find Another You" (1964), "A World of Our Own" (1965) e "Georgy Girl" (1966). A canção "Georgy Girl" foi particularmente emblemática, tornando-se um sucesso internacional e sendo indicada para um Oscar como Melhor Canção Original. Este sucesso marcou o auge da popularidade do grupo e é talvez a música mais conhecida associada a eles. Os vocais claros e cristalinos de Judith Durham, juntamente com as harmonias meticulosas dos outros membros, deram ao grupo um som distintivo que se destacou em meio à efervescência do rock and roll e da música pop da época. As letras frequentemente otimistas e os arranjos de fácil audição atraíram um público amplo, tornando-os um dos grupos de folk-pop mais bem-sucedidos dos anos 1960. Embora o grupo tenha se desfeito em 1968, eles se reuniram várias vezes nas décadas subsequentes para turnês e gravações, mantendo um núcleo fiel de fãs. Sua influência pode ser sentida não apenas na música popular australiana, mas também no desenvolvimento do folk-pop como um subgênero musical.
+Georgy Girl - https://youtu.be/wsIbfYEizLk
 
-    "1967 - The Turtles.md": `The Turtles, os americanos que colocaram   "Happy Together", nas paradas de sucesso de todo o mundo, no final da década de 60. "The Turtles" foi uma banda de rock americana formada em Los Angeles, Califórnia, em 1965. O grupo foi originalmente uma banda de surf rock chamada "The Crossfires", antes de se reinventar como "The Turtles". Eles ganharam destaque no cenário musical durante a segunda metade dos anos 1960 e são mais conhecidos por seu hit de 1967, "Happy Together", que se tornou um clássico da era do rock psicodélico e da música pop. A canção chegou ao número um na Billboard Hot 100, desbancando "Penny Lane" dos Beatles. Composta por Howard Kaylan (vocal), Mark Volman (vocal, guitarra), Al Nichol (guitarra líder), Jim Tucker (guitarra rítmica), Chuck Portz (baixo) e Don Murray (bateria), a banda teve uma série de mudanças na formação ao longo dos anos. No entanto, Kaylan e Volman permaneceram como os membros constantes e são frequentemente associados como a cara da banda. ”The Turtles" tiveram vários outros hits, incluindo "It Ain't Me Babe", uma versão da música de Bob Dylan, e "Elenore", que também entrou no top 10. Sua música combinava elementos do folk-rock com melodias pop e harmonias vocais, tornando-se representativos do som da Costa Oeste dos Estados Unidos durante essa época. A carreira da banda foi relativamente curta, com seu último álbum de estúdio sendo lançado em 1970, mas eles deixaram uma marca duradoura na história do rock e da música pop. Após o fim da banda, Kaylan e Volman continuaram a ter carreiras musicais sob o nome "Flo & Eddie", e participaram de vários projetos, incluindo colaborações com Frank Zappa.Happy Together - https://youtu.be/mRCe5L1imxg`,
+`,
 
-    "1967 - Tremeloes.md": `É  fantástica a musica “Silence is Golde” da banda inglesa Tremeloes. Talvez essa seja uma das bandas mais antigas de rock, ela foi formada em 1958. É uma banda inesquecível na história, independente do que tenha produzido, simplesmente porque foi ela que eliminou os Silvers Beatles em um concurso  da produtora Deccas em 1962. Os produtores da Decca acharam os Tremeloes melhores do que os Beatles e dispensaram os rapazes de Liverpool. A Decca continuou sendo uma gravadora média, com os Tremeloes e os Beatles racharam de ganhar dinheiro com outras produtoras. Os Tremeloes produziram algumas músicas legais, segue abaixo as melhores, mas nenhuma se comprara com Silence is Gold.
+  "1967 - The Turtles.md": `The Turtles, os americanos que colocaram   "Happy Together", nas paradas de sucesso de todo o mundo, no final da década de 60. "The Turtles" foi uma banda de rock americana formada em Los Angeles, Califórnia, em 1965. O grupo foi originalmente uma banda de surf rock chamada "The Crossfires", antes de se reinventar como "The Turtles". Eles ganharam destaque no cenário musical durante a segunda metade dos anos 1960 e são mais conhecidos por seu hit de 1967, "Happy Together", que se tornou um clássico da era do rock psicodélico e da música pop. A canção chegou ao número um na Billboard Hot 100, desbancando "Penny Lane" dos Beatles. Composta por Howard Kaylan (vocal), Mark Volman (vocal, guitarra), Al Nichol (guitarra líder), Jim Tucker (guitarra rítmica), Chuck Portz (baixo) e Don Murray (bateria), a banda teve uma série de mudanças na formação ao longo dos anos. No entanto, Kaylan e Volman permaneceram como os membros constantes e são frequentemente associados como a cara da banda. ”The Turtles" tiveram vários outros hits, incluindo "It Ain't Me Babe", uma versão da música de Bob Dylan, e "Elenore", que também entrou no top 10. Sua música combinava elementos do folk-rock com melodias pop e harmonias vocais, tornando-se representativos do som da Costa Oeste dos Estados Unidos durante essa época. A carreira da banda foi relativamente curta, com seu último álbum de estúdio sendo lançado em 1970, mas eles deixaram uma marca duradoura na história do rock e da música pop. Após o fim da banda, Kaylan e Volman continuaram a ter carreiras musicais sob o nome "Flo & Eddie", e participaram de vários projetos, incluindo colaborações com Frank Zappa.Happy Together - https://youtu.be/mRCe5L1imxg
+
+`,
+
+  "1967 - Tremeloes.md": `
+É  fantástica a musica “Silence is Golde” da banda inglesa Tremeloes. Talvez essa seja uma das bandas mais antigas de rock, ela foi formada em 1958. É uma banda inesquecível na história, independente do que tenha produzido, simplesmente porque foi ela que eliminou os Silvers Beatles em um concurso  da produtora Deccas em 1962. Os produtores da Decca acharam os Tremeloes melhores do que os Beatles e dispensaram os rapazes de Liverpool. A Decca continuou sendo uma gravadora média, com os Tremeloes e os Beatles racharam de ganhar dinheiro com outras produtoras. Os Tremeloes produziram algumas músicas legais, segue abaixo as melhores, mas nenhuma se comprara com Silence is Gold.
 Silence is golden - https://youtu.be/6KmRwCSIN4U
 Here Comes My Baby - https://youtu.be/CMy6PaZT7_g
 Angel Of The Morning - https://youtu.be/59dsnJKgXW8
 Yellow River - https://youtu.be/_2S1zT7fCVI
 Hello Buddy - https://youtu.be/RBcRjNWSfNo
-Too Late (To Be Saved) - https://youtu.be/yZlxhD-yt8k`,
+Too Late (To Be Saved) - https://youtu.be/yZlxhD-yt8k
 
-    "1968 - GERALDO VANDRE.md": `Vandré é  um importante personagem da década de 60, que praticamente criou a trilha sonora da época. Falo de Vandré, principalmente de “Para  não dizer que não falei de flores”.  A canção,  também conhecida como "Caminhando," foi composta por Geraldo Vandré e lançada em 1968. Ela rapidamente se tornou um dos mais icônicos hinos de protesto contra a ditadura militar no Brasil, que começou em 1964 e se estendeu até 1985. A música é rica em simbolismo e abordou, de maneira velada, temas sensíveis à época, como repressão política, censura e a luta pela liberdade. O impacto dessa obra foi tal que a canção foi proibida pelo regime militar e Vandré foi forçado a viver em exílio. A melodia simples, porém impactante, e a letra evocativa transformaram a canção em um hino de resistência, cantado em reuniões, manifestações e eventos políticos. "Para não dizer que não falei das Flores" transcendeu seu contexto histórico para se tornar uma expressão duradoura do desejo humano por justiça e liberdade. Além do valor intrínseco como obra musical, a canção ganhou relevância cultural e política, tornando-se uma das mais importantes manifestações artísticas contra a opressão no Brasil. Ela captura o espírito de uma geração inconformada e tornou-se, em muitos aspectos, um testamento para aqueles que lutaram contra a ditadura.
-https://youtu.be/A_2Gtz-zAzM`,
+`,
 
-    "1968 - Ian a Gadda da Vida.md": `Finalmente uma música que se perdeu nas nossas memórias, mas que foi um grande achado na época, Iron Batterfly, “Ian-A-Gadda-da-Vida”, lembram dessa ? Um meio rock sinfônico, mas com a pegada forte dessa voz meio maluca de Doug Ingle. A canção  é um marco do rock psicodélico. Com uma duração de mais de 17 minutos na sua versão original, a faixa ocupa todo o lado B do álbum homônimo. A canção é uma das mais longas a alcançar sucesso comercial e é frequentemente citada como uma das primeiras incursões do rock no território da música experimental e progressiva. Composta por Doug Ingle, vocalista e tecladista da banda, a música se caracteriza por sua estrutura prolongada, que inclui solos extensos de órgão e bateria. Acredita-se que o título estranho da canção seja um erro de pronúncia de "In the Garden of Eden," título originalmente pretendido. A história apócrifa sugere que Ingle estava muito doido quando apresentou a canção aos membros da banda, resultando no título distorcido. "In-A-Gadda-Da-Vida" foi um sucesso tanto comercial quanto crítico. Chegou a ser certificado como disco de platina e ajudou a estabelecer a reputação da Iron Butterfly como uma das principais bandas de rock psicodélico da época. Também influenciou profundamente o desenvolvimento de subgêneros do rock, incluindo o heavy metal. O impacto da canção estende-se além da sua estrutura musical inovadora e serve como um documento cultural da era da contracultura. Ela captura o espírito experimental e a busca por novas formas de expressão que caracterizaram o final dos anos 1960. 
- https://youtu.be/UIVe-rZBcm4`,
+  "1968 - GERALDO VANDRE.md": `
+Vandré é  um importante personagem da década de 60, que praticamente criou a trilha sonora da época. Falo de Vandré, principalmente de “Para  não dizer que não falei de flores”.  A canção,  também conhecida como "Caminhando," foi composta por Geraldo Vandré e lançada em 1968. Ela rapidamente se tornou um dos mais icônicos hinos de protesto contra a ditadura militar no Brasil, que começou em 1964 e se estendeu até 1985. A música é rica em simbolismo e abordou, de maneira velada, temas sensíveis à época, como repressão política, censura e a luta pela liberdade. O impacto dessa obra foi tal que a canção foi proibida pelo regime militar e Vandré foi forçado a viver em exílio. A melodia simples, porém impactante, e a letra evocativa transformaram a canção em um hino de resistência, cantado em reuniões, manifestações e eventos políticos. "Para não dizer que não falei das Flores" transcendeu seu contexto histórico para se tornar uma expressão duradoura do desejo humano por justiça e liberdade. Além do valor intrínseco como obra musical, a canção ganhou relevância cultural e política, tornando-se uma das mais importantes manifestações artísticas contra a opressão no Brasil. Ela captura o espírito de uma geração inconformada e tornou-se, em muitos aspectos, um testamento para aqueles que lutaram contra a ditadura.
+https://youtu.be/A_2Gtz-zAzM
+`,
 
-    "1968 - Nilsson.md": `Harry Nilsson. Um americano do Brooklyn, nascido em 19 41, que pode ser chamado de gênio. Um gênio  que poucos conhecem com profundidade e eu aqui assumo sem vergonha que não conhecia. Conhecia por duas ou três canções, que me levaram a elege-lo para esse livro. Por um tempo comecei a pesquisar sobre ele e o que encontrei foi surpreendente. O sujeito com menos de 18 anos, sem curso superior, foi contratado por um banco como programador de computadores (imagina aquele monstro de mainframe naquela época), mentiu na entrevista, passou no teste e começo a trabalhar. Depois descobriram a farsa, mas não o demitiram, o cara era bom mesmo. Depois ele larga tudo e vai para a música, e se torna um clássico. A maioria das pessoas  conhecem mesmo uma ou duas musicas de Nilsson, mas o  cara tem mais de15 álbuns e acreditem, ouvi os 15 e todos são muito, mas muito bom mesmo ! Além disso tem um desenho animado, vi também, The Point, muito legal e várias participações com vários cantores. Para terem idéia de importância de Nilsson, quando Paul e John foram aos EUA para lançar a gravadora APPLE em 1968, na entrevista coletiva,  perguntaram para Lennon qual era, para ele o maior cantor americano, ele respondeu Nilsson. Depois perguntaram para Paul,  e qual era a maior banda, e ele respondeu Nilsson.  Sua música "Everybody's Talkin” foi trilha sonora de  Midnight Cowboy, ganhou com ela um Grammy e teve mais um com “Without You”. Foi considerado pela revista Rolling Stones um dos 100 maiores cantores de todos os tempo. Figurinha carimbada das noitadas, quando Lennon separou dos Beatles teve com Nilsson uma das maiores jornadas de droga, sexo e rock da época. Foi capa de seção policial sendo expulso de boates  com Lennon. O seu apartamento em Londres era ponto de encontro e hospedagem da nata musical da década de 1970. Foi lá que morreu Cass Elliot do Mamas and Papas. Vale a pena ouvir Nilsson, não há disco mais ou menos, todos são bons. Chamo atenção para "Nilsson Schmilsson" (1971), "A Little Touch of Schmilsson in the Night” (1973) com a orquestra sinfônica - ótimo -, e “Aerial Ballet (68).
+  "1968 - Ian a Gadda da Vida.md": `
+Finalmente uma música que se perdeu nas nossas memórias, mas que foi um grande achado na época, Iron Batterfly, “Ian-A-Gadda-da-Vida”, lembram dessa ? Um meio rock sinfônico, mas com a pegada forte dessa voz meio maluca de Doug Ingle. A canção  é um marco do rock psicodélico. Com uma duração de mais de 17 minutos na sua versão original, a faixa ocupa todo o lado B do álbum homônimo. A canção é uma das mais longas a alcançar sucesso comercial e é frequentemente citada como uma das primeiras incursões do rock no território da música experimental e progressiva. Composta por Doug Ingle, vocalista e tecladista da banda, a música se caracteriza por sua estrutura prolongada, que inclui solos extensos de órgão e bateria. Acredita-se que o título estranho da canção seja um erro de pronúncia de "In the Garden of Eden," título originalmente pretendido. A história apócrifa sugere que Ingle estava muito doido quando apresentou a canção aos membros da banda, resultando no título distorcido. "In-A-Gadda-Da-Vida" foi um sucesso tanto comercial quanto crítico. Chegou a ser certificado como disco de platina e ajudou a estabelecer a reputação da Iron Butterfly como uma das principais bandas de rock psicodélico da época. Também influenciou profundamente o desenvolvimento de subgêneros do rock, incluindo o heavy metal. O impacto da canção estende-se além da sua estrutura musical inovadora e serve como um documento cultural da era da contracultura. Ela captura o espírito experimental e a busca por novas formas de expressão que caracterizaram o final dos anos 1960. 
+ https://youtu.be/UIVe-rZBcm4
+`,
+
+  "1968 - Nilsson.md": `
+Harry Nilsson. Um americano do Brooklyn, nascido em 19 41, que pode ser chamado de gênio. Um gênio  que poucos conhecem com profundidade e eu aqui assumo sem vergonha que não conhecia. Conhecia por duas ou três canções, que me levaram a elege-lo para esse livro. Por um tempo comecei a pesquisar sobre ele e o que encontrei foi surpreendente. O sujeito com menos de 18 anos, sem curso superior, foi contratado por um banco como programador de computadores (imagina aquele monstro de mainframe naquela época), mentiu na entrevista, passou no teste e começo a trabalhar. Depois descobriram a farsa, mas não o demitiram, o cara era bom mesmo. Depois ele larga tudo e vai para a música, e se torna um clássico. A maioria das pessoas  conhecem mesmo uma ou duas musicas de Nilsson, mas o  cara tem mais de15 álbuns e acreditem, ouvi os 15 e todos são muito, mas muito bom mesmo ! Além disso tem um desenho animado, vi também, The Point, muito legal e várias participações com vários cantores. Para terem idéia de importância de Nilsson, quando Paul e John foram aos EUA para lançar a gravadora APPLE em 1968, na entrevista coletiva,  perguntaram para Lennon qual era, para ele o maior cantor americano, ele respondeu Nilsson. Depois perguntaram para Paul,  e qual era a maior banda, e ele respondeu Nilsson.  Sua música "Everybody's Talkin” foi trilha sonora de  Midnight Cowboy, ganhou com ela um Grammy e teve mais um com “Without You”. Foi considerado pela revista Rolling Stones um dos 100 maiores cantores de todos os tempo. Figurinha carimbada das noitadas, quando Lennon separou dos Beatles teve com Nilsson uma das maiores jornadas de droga, sexo e rock da época. Foi capa de seção policial sendo expulso de boates  com Lennon. O seu apartamento em Londres era ponto de encontro e hospedagem da nata musical da década de 1970. Foi lá que morreu Cass Elliot do Mamas and Papas. Vale a pena ouvir Nilsson, não há disco mais ou menos, todos são bons. Chamo atenção para "Nilsson Schmilsson" (1971), "A Little Touch of Schmilsson in the Night” (1973) com a orquestra sinfônica - ótimo -, e “Aerial Ballet (68).
 Without You - https://youtu.be/sEd6Wkx_rCI
 Everybody's Talkin' - https://youtu.be/2AzEY6ZqkuE
 Gotta Get Up - https://youtu.be/6jRh2PRa1tU
 One - https://youtu.be/haT8g7oKnns
 Coconut - https://youtu.be/Tbgv8PkO9eo
-Me And My Arrow - https://youtu.be/U1n9QTkrkP0`,
+Me And My Arrow - https://youtu.be/U1n9QTkrkP0
+`,
 
-    "1968 - Stevie Wonder.md": `Um sujeito que nasceu sem os nervos do olho.  Digo que todos os neurônios desse cara foram mobilizados para a sua absoluta genialidade musical. Nascido Stevland Hardaway Morris em 1950, foi tratado como aleijado pela família de seis filhos. A mãe,  abandonada pelo pai teve que dar conta de toda a prole. Mas o jovem Stevland, logo aos 11 anos já foi descoberto pelo genial Berry Gordy, o empresário que fundou a gravadora  Motown, com um capital de US$ 600, e que revolucionou a musica negra no mundo, tendo na sua gravadora nada menos que Marvin Gaye, Stevie Wonder, Martha Reeves, The Supremes, The Temptations, The Jackson Five, Lionel Richie  e Michael Jackson. Berry deu ao jovem Stevie Wonder (nome artístico que ele escolheu) as condições de produzir o que a genialidade do garoto necessitava. E assim Stevie lança mais de  23 LPs, 4 gravados ao vivo, 11 compilações, 20 videos, 98 canções, 3 trilhas sonoras e mais de 19 milhões de discos vendidos. Nos 23 álbuns recebe impreterivelmente  pelo menos um disco de platina. Em 6 de agosto de 1973, com 23 anos,  logo depois do lançamento de Innervisions,  saindo de Grenville na direção de Salisbury, na Carolina do Norte, bate o carro na traseira de um caminhão. Uma semana em coma e como resultado perde o tato e o paladar . Sem problema, mais neurônios liberados para a genialidade musical. Em 1974 ganha mais um Grammy e o título de álbum do ano com o álbum Fulfillingness' First Finale. Falar da vida de Wonder nos levaria a ficar uma semana escrevendo . Assim selecionamos apenas 5 das músicas que mais gosto. Começando um uma interpretação de Blowin In The Wind, quando ele ainda era um garoto, mas já tinha alta sensibilidade social e artística. Depois 4 sucessos inesquecíveis :
+  "1968 - Stevie Wonder.md": `
+Um sujeito que nasceu sem os nervos do olho.  Digo que todos os neurônios desse cara foram mobilizados para a sua absoluta genialidade musical. Nascido Stevland Hardaway Morris em 1950, foi tratado como aleijado pela família de seis filhos. A mãe,  abandonada pelo pai teve que dar conta de toda a prole. Mas o jovem Stevland, logo aos 11 anos já foi descoberto pelo genial Berry Gordy, o empresário que fundou a gravadora  Motown, com um capital de US\$ 600, e que revolucionou a musica negra no mundo, tendo na sua gravadora nada menos que Marvin Gaye, Stevie Wonder, Martha Reeves, The Supremes, The Temptations, The Jackson Five, Lionel Richie  e Michael Jackson. Berry deu ao jovem Stevie Wonder (nome artístico que ele escolheu) as condições de produzir o que a genialidade do garoto necessitava. E assim Stevie lança mais de  23 LPs, 4 gravados ao vivo, 11 compilações, 20 videos, 98 canções, 3 trilhas sonoras e mais de 19 milhões de discos vendidos. Nos 23 álbuns recebe impreterivelmente  pelo menos um disco de platina. Em 6 de agosto de 1973, com 23 anos,  logo depois do lançamento de Innervisions,  saindo de Grenville na direção de Salisbury, na Carolina do Norte, bate o carro na traseira de um caminhão. Uma semana em coma e como resultado perde o tato e o paladar . Sem problema, mais neurônios liberados para a genialidade musical. Em 1974 ganha mais um Grammy e o título de álbum do ano com o álbum Fulfillingness' First Finale. Falar da vida de Wonder nos levaria a ficar uma semana escrevendo . Assim selecionamos apenas 5 das músicas que mais gosto. Começando um uma interpretação de Blowin In The Wind, quando ele ainda era um garoto, mas já tinha alta sensibilidade social e artística. Depois 4 sucessos inesquecíveis :
 Blowin' In The Wind - https://youtu.be/y8q1I9f1l4U
 For Once In My Life - https://youtu.be/imsB543zqSM
 Superstition - https://youtu.be/9Vjj6J7gXpY
 You Are The Sunshine Of My Life   - https://youtu.be/gUpvXuMs36o
-Don't you worry bout a thing - https://youtu.be/vJTxzsHsako`,
+Don't you worry bout a thing - https://youtu.be/vJTxzsHsako
+`,
 
-    "1968 - TEN YEAR AFTER.md": `Quando Leo Lyons, Ric Lee, Chick Churchill e Alvin Lee, em 1967, pensaram em "10 anos depois", a noção de tempo relativa a uma década parecia demasiado longínqua para os 4 jovens que entravam nos seus 20 anos. Para eles, dez anos depois era uma eternidade impossível de ser concebida. Por isso o nome da banda tinha um sentido quase que de perenidade. Quando chegam no agosto de 1969, apenas dois anos depois, e a banda explode com a performance em Woodstock, o gosto pela década tão esperada começa a mostrar as suas surpresas. "I'm Going Home" torna a banda famosa. Demanda, público, vendas, contratos e o "peso do mercado" começam a mostrar os custos do tempo. Aquele agosto exige que a banda defina se quer mesmo a perenidade e está mesmo disposta a pagar seus custos, ou se dez anos é tempo demais para o projeto. Em 71, com A "Space In Time", a banda chega a um nível de maturidade e excelência, que reforçam positivamente a aposta dos dez anos. O disco é primoroso, várias das músicas alcançam lugar importante das listada das mais ouvidas. "I'd Love To Change The World" é um sucesso. O "cara" da banda é Alvin Lee. Considerado, desde Woodstock, o guitarrista mais rápido dos EUA. O sujeito canta, compõe e garante, com sua veloz guitarra, um espetáculo de grande banda de rock. Mas Alvin tem lá seus sonhos em relação a musica. Rock é uma barato, mas gosta muito de blues e, junto com esse gosto musical, um certo problema com a "roleta russa" dos shows, turnes, espetáculos. E assim, apesar da performance incrível do resto da banda, com destaque para o baixista Leo Lyons, Alvin passa a carregar um peso em cada novo compromisso, cada show ou apresentação. E, como no soneto de Camões, podemos parafrasear, "Sete anos de cantor Alvin servia // o patrão, o pai mercado e a grana bela // mas não servia ao patrão, servia a ela // e a ela, por dez anos, não conseguiria". Em 1974 Alvin deixa o grupo. 
+  "1968 - TEN YEAR AFTER.md": `
+Quando Leo Lyons, Ric Lee, Chick Churchill e Alvin Lee, em 1967, pensaram em "10 anos depois", a noção de tempo relativa a uma década parecia demasiado longínqua para os 4 jovens que entravam nos seus 20 anos. Para eles, dez anos depois era uma eternidade impossível de ser concebida. Por isso o nome da banda tinha um sentido quase que de perenidade. Quando chegam no agosto de 1969, apenas dois anos depois, e a banda explode com a performance em Woodstock, o gosto pela década tão esperada começa a mostrar as suas surpresas. "I'm Going Home" torna a banda famosa. Demanda, público, vendas, contratos e o "peso do mercado" começam a mostrar os custos do tempo. Aquele agosto exige que a banda defina se quer mesmo a perenidade e está mesmo disposta a pagar seus custos, ou se dez anos é tempo demais para o projeto. Em 71, com A "Space In Time", a banda chega a um nível de maturidade e excelência, que reforçam positivamente a aposta dos dez anos. O disco é primoroso, várias das músicas alcançam lugar importante das listada das mais ouvidas. "I'd Love To Change The World" é um sucesso. O "cara" da banda é Alvin Lee. Considerado, desde Woodstock, o guitarrista mais rápido dos EUA. O sujeito canta, compõe e garante, com sua veloz guitarra, um espetáculo de grande banda de rock. Mas Alvin tem lá seus sonhos em relação a musica. Rock é uma barato, mas gosta muito de blues e, junto com esse gosto musical, um certo problema com a "roleta russa" dos shows, turnes, espetáculos. E assim, apesar da performance incrível do resto da banda, com destaque para o baixista Leo Lyons, Alvin passa a carregar um peso em cada novo compromisso, cada show ou apresentação. E, como no soneto de Camões, podemos parafrasear, "Sete anos de cantor Alvin servia // o patrão, o pai mercado e a grana bela // mas não servia ao patrão, servia a ela // e a ela, por dez anos, não conseguiria". Em 1974 Alvin deixa o grupo. 
 Assim termina a melhor fase do grupo. O Ten Yars After continua sem Alvin Lee. Mas não seria o mesmo. Vejam abaixo o que eles fizeram de melhor: 
 https://youtu.be/lSYFJB7o9ZQ 
 https://youtu.be/JSuHw4iitkQ 
 https://youtu.be/1K7Qr1KvEFk 
 https://youtu.be/ZTMEDzTESjc 
 https://youtu.be/3ljN9eZ599o 
-https://youtu.be/KuHrwEp8VNQ`,
+https://youtu.be/KuHrwEp8VNQ 
+`,
 
-    "1968 - Tommy James.md": `Seguimos com Tommy James e os Shondells , banda americana que nos deu  "Crimson and Clover", para não esquecer mais. Tommy James and the Shondells foi fundada em 1960, mas que alcançou seu auge nos anos 1960 e 1970.  "Crimson and Clover" foi lançada em 1968, para ser  um clássico do rock psicodélico e um dos maiores sucessos comerciais da banda, alcançando o topo das paradas dos EUA. "Crimson and Clover" representa uma espécie de amadurecimento musical para Tommy James e os Shondells, marcando uma transição do pop rock mais inocente de seus primeiros sucessos para um som mais complexo e experimental. O título da canção, que faz referência a uma flor (clover, ou trevo, em português) e à cor carmesim (crimson), evoca imagens poéticas e sentimentos de amor romântico. A canção também é notável pelo uso de técnicas de estúdio inovadoras para a época, incluindo o uso de um tremolo elétrico para criar uma qualidade sonora ondulante. O impacto de "Crimson and Clover" foi sentido não apenas nas paradas de sucesso, mas também na maneira como abriu portas para uma experimentação mais ampla no rock mainstream. Além disso, a canção se tornou um clássico atemporal, sendo regravada por vários artistas e apresentada em inúmeros filmes e programas de televisão, sempre evocando a era de mudanças e experimentações que a viu nascer.
-Crimson and Clover - https://youtu.be/GpGEeneO-t0`,
+  "1968 - Tommy James.md": `
+Seguimos com Tommy James e os Shondells , banda americana que nos deu  "Crimson and Clover", para não esquecer mais. Tommy James and the Shondells foi fundada em 1960, mas que alcançou seu auge nos anos 1960 e 1970.  "Crimson and Clover" foi lançada em 1968, para ser  um clássico do rock psicodélico e um dos maiores sucessos comerciais da banda, alcançando o topo das paradas dos EUA. "Crimson and Clover" representa uma espécie de amadurecimento musical para Tommy James e os Shondells, marcando uma transição do pop rock mais inocente de seus primeiros sucessos para um som mais complexo e experimental. O título da canção, que faz referência a uma flor (clover, ou trevo, em português) e à cor carmesim (crimson), evoca imagens poéticas e sentimentos de amor romântico. A canção também é notável pelo uso de técnicas de estúdio inovadoras para a época, incluindo o uso de um tremolo elétrico para criar uma qualidade sonora ondulante. O impacto de "Crimson and Clover" foi sentido não apenas nas paradas de sucesso, mas também na maneira como abriu portas para uma experimentação mais ampla no rock mainstream. Além disso, a canção se tornou um clássico atemporal, sendo regravada por vários artistas e apresentada em inúmeros filmes e programas de televisão, sempre evocando a era de mudanças e experimentações que a viu nascer.
+Crimson and Clover - https://youtu.be/GpGEeneO-t0
+`,
 
-    "1969 - Antonio Adolfo e A Brazuca.md": `Trata-se do Brazuca, ou melhor, Antonio Adolfo e A Brazuca, já que o principal personagem é Antonio Adolfo. A. Adolfo já em 1967 encontra  Tibério Gaspar, que faz as letras, e nascem assim uma dupla de sucesso. Eles  revolucionam  a música nacional colocando  eletrônica e técnicas nas composições bem mais sofisticadas para a época. Em 1968,  no Festival Nacional da Canção apresentam  "Sá Marina", e em 69 apresentam a linda  "Juliana", vice-campeã  do Festival Internacional da Canção. Em 1970 lançam  "BR-3", colocando Tony Tornado e Trio Ternura,  no auge do sucesso . A música fez tanto sucesso e polemica que Tornado não tinha agenda, de tanto que era requisitado. Até que, em Guarapari, em 1971,  o tal de Toni Tornado, esse negão de quase  duzentos quilos, cisma de dar um salto sobre a platéia  como faziam os grandes atores de rock. Mas quem “ amparou” a “ massa negra em queda” foi uma pobre garota, Maria da Graça Capôs. A menina foi foi esmagada por Toni. Hospitalizada, acabou paralítica e, com isso acabou também com a carreira de Tornado. Tony foi preso e só foi liberado porque Silvio Santos paga a fiança.
+  "1969 - Antonio Adolfo e A Brazuca.md": `
+Trata-se do Brazuca, ou melhor, Antonio Adolfo e A Brazuca, já que o principal personagem é Antonio Adolfo. A. Adolfo já em 1967 encontra  Tibério Gaspar, que faz as letras, e nascem assim uma dupla de sucesso. Eles  revolucionam  a música nacional colocando  eletrônica e técnicas nas composições bem mais sofisticadas para a época. Em 1968,  no Festival Nacional da Canção apresentam  "Sá Marina", e em 69 apresentam a linda  "Juliana", vice-campeã  do Festival Internacional da Canção. Em 1970 lançam  "BR-3", colocando Tony Tornado e Trio Ternura,  no auge do sucesso . A música fez tanto sucesso e polemica que Tornado não tinha agenda, de tanto que era requisitado. Até que, em Guarapari, em 1971,  o tal de Toni Tornado, esse negão de quase  duzentos quilos, cisma de dar um salto sobre a platéia  como faziam os grandes atores de rock. Mas quem “ amparou” a “ massa negra em queda” foi uma pobre garota, Maria da Graça Capôs. A menina foi foi esmagada por Toni. Hospitalizada, acabou paralítica e, com isso acabou também com a carreira de Tornado. Tony foi preso e só foi liberado porque Silvio Santos paga a fiança.
 Teletema: https://youtu.be/DbXL1v3Mmqg
-BR3 - https://youtu.be/TBsLerc4BtI`,
+BR3 - https://youtu.be/TBsLerc4BtI
 
-    "1969 - B. J. Thomas.md": `Um dos mais premiados filmes de Western, Butch Cassidy. O mais incrível desse filme é que ele diz respeito a uma história rela, muito mais interessante que o próprio filme.  Butch Cassidy e Sundance Kid realmente existiram, foram sim mortos em uma emboscada, mas não na Bolívia, mas sim no Chile, em 1905, depois de terem vivido muito tempo na Patagonia.  O interessante da história é que os dois, para se protegerem, se envolveram com a luta sindical da região, financiando sindicatos, com o dinheiro roubado nos EUA. Luis Sepúlveda escreveu um livro sobre a dupla, mostrando a incrível história dos dois bandidos. Ponto de destaque nessa história é a tal da Etta Place, tida como uma prostituta que se envolve com os dois, caso com Kid, apesar de ter ficado com Cassidy. Claramente a principal música do filme teve  sucesso bem maior que a própria fita. "Raindrops Keep Fallin' on My Head”  foi feita por  B. J. Thomas, que não é o cantor da versão do filme porque estava com garganta ruim na época. Quem canta é o letrista  Burt Bacharach . A música ganhou o Oscar de melhor canção original e o Oscar de Melhor Trilha Sonora. É inesquecível a parte do filme de  Paul Newman  com Katharine Ross, ao sim da música, fazendo acrobacias sobre a bicicleta.
-https://youtu.be/VILWkqlQLWk`,
+`,
 
-    "1969 - Jane Birkin.md": `O tal do Serge, na verdade Lucien Ginzburg, filho de imigrantes  ucranianos, feio que dói,  para a nossa mais absoluta surpresa - o que mostra que não existe mesmo divindade nenhuma nesse universo - abateu nada mais nada menos do que Brigitte Bardot, em 67, para quem fez essa música. Chegou a gravar com ela a primeira versão.  Mas a garota proibiu a divulgação porque estava casada com outro. Então nasceu a versão com a estonteante Birkin, que o canalha do Serge também abatia.  A música foi um sucesso de venda e um recorde de proibições por todo o mundo, inclusive no Brasil. Lembro de ouvir essa música como se fosse segredo de estado, escondido, com caixa acústica no ouvido. 
-https://youtu.be/j9Zw4LeSt2w`,
+  "1969 - B. J. Thomas.md": `
+Um dos mais premiados filmes de Western, Butch Cassidy. O mais incrível desse filme é que ele diz respeito a uma história rela, muito mais interessante que o próprio filme.  Butch Cassidy e Sundance Kid realmente existiram, foram sim mortos em uma emboscada, mas não na Bolívia, mas sim no Chile, em 1905, depois de terem vivido muito tempo na Patagonia.  O interessante da história é que os dois, para se protegerem, se envolveram com a luta sindical da região, financiando sindicatos, com o dinheiro roubado nos EUA. Luis Sepúlveda escreveu um livro sobre a dupla, mostrando a incrível história dos dois bandidos. Ponto de destaque nessa história é a tal da Etta Place, tida como uma prostituta que se envolve com os dois, caso com Kid, apesar de ter ficado com Cassidy. Claramente a principal música do filme teve  sucesso bem maior que a própria fita. "Raindrops Keep Fallin' on My Head”  foi feita por  B. J. Thomas, que não é o cantor da versão do filme porque estava com garganta ruim na época. Quem canta é o letrista  Burt Bacharach . A música ganhou o Oscar de melhor canção original e o Oscar de Melhor Trilha Sonora. É inesquecível a parte do filme de  Paul Newman  com Katharine Ross, ao sim da música, fazendo acrobacias sobre a bicicleta.
+https://youtu.be/VILWkqlQLWk
+`,
 
-    "1969 - MARMALADE.md": `A banda escocesa Marmelada, composta por 
+  "1969 - Jane Birkin.md": `
+O tal do Serge, na verdade Lucien Ginzburg, filho de imigrantes  ucranianos, feio que dói,  para a nossa mais absoluta surpresa - o que mostra que não existe mesmo divindade nenhuma nesse universo - abateu nada mais nada menos do que Brigitte Bardot, em 67, para quem fez essa música. Chegou a gravar com ela a primeira versão.  Mas a garota proibiu a divulgação porque estava casada com outro. Então nasceu a versão com a estonteante Birkin, que o canalha do Serge também abatia.  A música foi um sucesso de venda e um recorde de proibições por todo o mundo, inclusive no Brasil. Lembro de ouvir essa música como se fosse segredo de estado, escondido, com caixa acústica no ouvido. 
+https://youtu.be/j9Zw4LeSt2w
+`,
+
+  "1969 - MARMALADE.md": `
+A banda escocesa Marmelada, composta por 
 * Patrick Fairley (Vocais, Guitarras, 1966-1972)
 * William Junior Campbell (Vocais, Guitarras, Teclados, 1966-1971)
 * Dean Ford (Vocais, Guitarra, Gaita, 1966-1975)
@@ -389,37 +521,53 @@ Rainbow - https://youtu.be/MeMS8SuHPs0
 Ob La Di Ob La Da - https://youtu.be/Lu2mEkhcrQA
 Radancer - https://youtu.be/-WhBSKjtOHg
 Cousin Norman - https://youtu.be/8kAwQLUh3io
-Falling Apart At The Seams - https://youtu.be/-XxrSKNTd8A`,
+Falling Apart At The Seams - https://youtu.be/-XxrSKNTd8A
 
-    "1969 - Paulo Diniz.md": `Paulo Diniz, pelo nome ninguém vai lembrar dele, mas da música todos irão lembrar. Essa é uma daqueles músicas que, com certeza, esteve escondida no fundo da sua memória, esperando esse dia para vc lembrar dela e, o mais incrível da mágica das músicas, lembrar de tudo que estava associado a ela lá nos idos da década de 70.  "Quero Voltar Pra Bahia", já foi muito cantada. Cantada antes da farra pesada,  antes das cicatrizes da noite: calça suja de tombo, camisa rasgada de raspar em paredes e mãos machucadas de carregar coisas (cadeiras, latas de lixo, placas e demais objetos comuns das noites).  Então, antes da luta pesada da noite, enquanto a beberagem fazia efeito, tinha a seção musical e, durante um tempo, vinha lá a música de Paulo Diniz. Esse pernambucano fez sucesso com essa música e todos os inimigos possíveis entre os pernambucanos. Afinal, ele não quer voltar para Recife, quer voltar para a Bahia, e, na época, época de brigas e ciúmes entre as tribos nordestinas,  isso era falta grave para um pernambucano. Em 70 ele lança do disco "Quero Voltar para a Bahia", com a música título e "Piri Piri".  Ele fez ainda a bela  “Pingos de amor” e, ainda  musicou "José", de Carlos Drummond de Andrade  e  "Vou-me embora pra pasárgada", de Manuel Bandeira, duas versões que vale a pena ouvir. 
+`,
+
+  "1969 - Paulo Diniz.md": `
+Paulo Diniz, pelo nome ninguém vai lembrar dele, mas da música todos irão lembrar. Essa é uma daqueles músicas que, com certeza, esteve escondida no fundo da sua memória, esperando esse dia para vc lembrar dela e, o mais incrível da mágica das músicas, lembrar de tudo que estava associado a ela lá nos idos da década de 70.  "Quero Voltar Pra Bahia", já foi muito cantada. Cantada antes da farra pesada,  antes das cicatrizes da noite: calça suja de tombo, camisa rasgada de raspar em paredes e mãos machucadas de carregar coisas (cadeiras, latas de lixo, placas e demais objetos comuns das noites).  Então, antes da luta pesada da noite, enquanto a beberagem fazia efeito, tinha a seção musical e, durante um tempo, vinha lá a música de Paulo Diniz. Esse pernambucano fez sucesso com essa música e todos os inimigos possíveis entre os pernambucanos. Afinal, ele não quer voltar para Recife, quer voltar para a Bahia, e, na época, época de brigas e ciúmes entre as tribos nordestinas,  isso era falta grave para um pernambucano. Em 70 ele lança do disco "Quero Voltar para a Bahia", com a música título e "Piri Piri".  Ele fez ainda a bela  “Pingos de amor” e, ainda  musicou "José", de Carlos Drummond de Andrade  e  "Vou-me embora pra pasárgada", de Manuel Bandeira, duas versões que vale a pena ouvir. 
  Quero Voltar Pra Bahia https://youtu.be/74SjGhduZkk
 Pingos de amor https://youtu.be/sT4-fcLazsI
 Piri Piri https://youtu.be/431GIiR9iiw
 Jose  https://youtu.be/1L9mZIxgaq0
-Passarada  https://youtu.be/CuOXzGR4PR4`,
+Passarada  https://youtu.be/CuOXzGR4PR4
+`,
 
-    "1969 - Santana.md": `Carlos Santana e sua banda revolucionaram o rock com sua fusão única de ritmos latinos, rock psicodélico e blues. "Evil Ways", lançada em 1969 como parte do álbum de estreia "Santana", tornou-se um dos primeiros grandes sucessos da banda, apresentando ao mundo uma sonoridade que seria imitada por décadas. A música, originalmente gravada por Willie Bobo, ganhou nova vida nas mãos de Santana. O arranjo distintivo, com seu órgão Hammond hipnótico tocado por Gregg Rolie, a percussão latina contagiante de Michael Carabello e Jose Areas, e os solos de guitarra característicos de Carlos Santana, criaram uma fusão perfeita entre rock e ritmos latinos. "Evil Ways" alcançou o Top 10 nas paradas americanas e ajudou a estabelecer a banda como uma das mais inovadoras de sua época. A performance desta música no lendário festival de Woodstock em 1969 ajudou a catapultar Santana ao estrelato internacional. Desde então, a banda continuou a evoluir e influenciar gerações de músicos, com Carlos Santana sendo reconhecido como um dos guitarristas mais distintivos e influentes da história do rock.
+  "1969 - Santana.md": `
+Carlos Santana e sua banda revolucionaram o rock com sua fusão única de ritmos latinos, rock psicodélico e blues. "Evil Ways", lançada em 1969 como parte do álbum de estreia "Santana", tornou-se um dos primeiros grandes sucessos da banda, apresentando ao mundo uma sonoridade que seria imitada por décadas. A música, originalmente gravada por Willie Bobo, ganhou nova vida nas mãos de Santana. O arranjo distintivo, com seu órgão Hammond hipnótico tocado por Gregg Rolie, a percussão latina contagiante de Michael Carabello e Jose Areas, e os solos de guitarra característicos de Carlos Santana, criaram uma fusão perfeita entre rock e ritmos latinos. "Evil Ways" alcançou o Top 10 nas paradas americanas e ajudou a estabelecer a banda como uma das mais inovadoras de sua época. A performance desta música no lendário festival de Woodstock em 1969 ajudou a catapultar Santana ao estrelato internacional. Desde então, a banda continuou a evoluir e influenciar gerações de músicos, com Carlos Santana sendo reconhecido como um dos guitarristas mais distintivos e influentes da história do rock.
 Falando de Santana, evidentemente não podemos deixar de lembrar da apresentação alucinante de  Soul Sacrifice também em Woodstock
 - https://youtu.be/TeUh06ILTcQ
- - https://youtu.be/AqZceAQSJvc`,
+ - https://youtu.be/AqZceAQSJvc
 
-    "1969 - Shocking  Blue.md": `Shocking Blue, banda holandesa formada em Haia em 1967, alcançou fama mundial com "Venus", lançada em 1969. O grupo, liderado pela carismática vocalista Mariska Veres, com sua voz poderosa e presença marcante, trouxe uma energia única para a cena do rock europeu. A formação clássica se completava com Robbie van Leeuwen (guitarra/vocal), Klaasje van der Wal (baixo) e Cor van der Beek (bateria).
+`,
+
+  "1969 - Shocking  Blue.md": `
+Shocking Blue, banda holandesa formada em Haia em 1967, alcançou fama mundial com "Venus", lançada em 1969. O grupo, liderado pela carismática vocalista Mariska Veres, com sua voz poderosa e presença marcante, trouxe uma energia única para a cena do rock europeu. A formação clássica se completava com Robbie van Leeuwen (guitarra/vocal), Klaasje van der Wal (baixo) e Cor van der Beek (bateria).
 "Venus" se tornou um fenômeno global, alcançando o primeiro lugar nas paradas de diversos países, incluindo os Estados Unidos - feito raro para uma banda europeia na época. A música, com seu riff de guitarra icônico e letra cativante, vendeu milhões de cópias em todo o mundo. Sua influência foi tão significativa que ganhou uma nova vida em 1986 quando o grupo Bananarama fez um cover que também alcançou enorme sucesso. Apesar de terem produzido outros hits como "Love Buzz" (posteriormente regravada pelo Nirvana) e "Never Marry a Railroad Man", o Shocking Blue nunca conseguiu repetir o sucesso massivo de "Venus". A banda se desfez em 1974, mas deixou um legado importante para o rock dos anos 60 e 70. Mariska Veres, a voz inconfundível do grupo, faleceu em 2006, mas "Venus" continua sendo um dos clássicos mais memoráveis da era dourada do rock.
- https://youtu.be/aPEhQugz-Ew`,
+ https://youtu.be/aPEhQugz-Ew
 
-    "1969 - The  Hollies.md": `Pode-se dizer que a banda nasce quando  Harold Clarke entra na sala de alua em Ordsall, Inglaterra, em 1958 e só tem como opção a única cadeira vaga, justamente ao lado de Graham Nasch. Os dois  se identificam imediatamente pela imensa tristeza de terem perdido quase todo o time de futebol do coração, os Busby Babes, no desastre aéreo de Munique, no dia 06 de fevereiro de 58. O motivo daquela amizade, a mesma tristeza, possibilitou que, em dezembro de 62 nascesse uma das bandas de maior sucesso na Inglaterra e no mundo, The  Hollies . Completamente imersos no movimento musical mundial na década de 60, os Hollies conviveram com as principais bandas do mundo e seus integrantes. Em uma entrevista, Nash diz, “saia com Dylan tomava ácido com Hendrix, espancava Joni Mitchell  e ainda ria na cara de “Crosby, Stills e Nash”, dizendo que estar em Woodstock não era lá grande coisa”.
+`,
+
+  "1969 - The  Hollies.md": `
+Pode-se dizer que a banda nasce quando  Harold Clarke entra na sala de alua em Ordsall, Inglaterra, em 1958 e só tem como opção a única cadeira vaga, justamente ao lado de Graham Nasch. Os dois  se identificam imediatamente pela imensa tristeza de terem perdido quase todo o time de futebol do coração, os Busby Babes, no desastre aéreo de Munique, no dia 06 de fevereiro de 58. O motivo daquela amizade, a mesma tristeza, possibilitou que, em dezembro de 62 nascesse uma das bandas de maior sucesso na Inglaterra e no mundo, The  Hollies . Completamente imersos no movimento musical mundial na década de 60, os Hollies conviveram com as principais bandas do mundo e seus integrantes. Em uma entrevista, Nash diz, “saia com Dylan tomava ácido com Hendrix, espancava Joni Mitchell  e ainda ria na cara de “Crosby, Stills e Nash”, dizendo que estar em Woodstock não era lá grande coisa”.
 Long Cool Woman in a Black Dress - https://youtu.be/lP94PlEtsEQ
 Sorry Suzanne - https://youtu.be/gw4CtklIT0g
 The air that I breathe - https://youtu.be/rXYYpBts5Kc
 He Ain't Heavy He's My Brother - https://youtu.be/i7bVQXG10-w
 Bus Stop - https://youtu.be/0oQ0kiRqQLk
-Don´t Let Me Down - https://youtu.be/Kv80Am8KDbE`,
+Don´t Let Me Down - https://youtu.be/Kv80Am8KDbE
 
-    "1969 - Tommy Roe.md": `Tommy Roe, nascido em Atlanta, Geórgia, tornou-se um dos principais representantes do subgênero "bubblegum pop" no final dos anos 60. Em 1969, alcançou o auge de sua carreira com "Dizzy", uma canção que dominou as paradas de sucesso em vários países e se tornou sua assinatura musical.
+`,
+
+  "1969 - Tommy Roe.md": `
+Tommy Roe, nascido em Atlanta, Geórgia, tornou-se um dos principais representantes do subgênero "bubblegum pop" no final dos anos 60. Em 1969, alcançou o auge de sua carreira com "Dizzy", uma canção que dominou as paradas de sucesso em vários países e se tornou sua assinatura musical.
 "Dizzy", co-escrita por Roe e Freddy Weller, é um exemplo perfeito do pop alegre e descomplicado da época, com sua melodia cativante e letra que fala sobre o amor à primeira vista. A música ficou quatro semanas no topo da Billboard Hot 100 e também alcançou o primeiro lugar no Reino Unido. A produção de Steve Barri e sua estrutura musical única, com arranjos orquestrais e harmonia vocal característica, ajudaram a definir o som do final dos anos 60. Embora Roe tenha tido outros sucessos notáveis em sua carreira, como "Sheila" e "Sweet Pea", foi "Dizzy" que o imortalizou na história da música pop. Sua influência no gênero "bubblegum pop" é inegável, tendo inspirado inúmeros artistas e produtores nas décadas seguintes.
-Dizzy -  https://youtu.be/arpidGq8SlA`,
+Dizzy -  https://youtu.be/arpidGq8SlA
+`,
 
-    "1970  - A ALMA DO RITMO.md": `Quem  busca aquela essência rítmica que nasce nas ruas festivas e baladeiras de New Orleans,  vai encontrar os gênios do jazz, do soul e do rock, que entendem  que o povo dançando é uma parte fundamental do show. Essa fusão de ritmos, mais a genialidade e a coragem aventureira dos músicos negros começou a tecer um tipo de música lá na década de 60, que foi cativando cada vez mais o público. Quando se fala público aqui, não podemos esquecer que estamos em New Orleans, uma cidade moldada para a farra, o "pé na jaca" ou, usando a linguagem muito assemelhada aos boêmios de Belo Horizonte, é uma  cidade voltada para o "apagas". 
+  "1970  - A ALMA DO RITMO.md": `
+Quem  busca aquela essência rítmica que nasce nas ruas festivas e baladeiras de New Orleans,  vai encontrar os gênios do jazz, do soul e do rock, que entendem  que o povo dançando é uma parte fundamental do show. Essa fusão de ritmos, mais a genialidade e a coragem aventureira dos músicos negros começou a tecer um tipo de música lá na década de 60, que foi cativando cada vez mais o público. Quando se fala público aqui, não podemos esquecer que estamos em New Orleans, uma cidade moldada para a farra, o "pé na jaca" ou, usando a linguagem muito assemelhada aos boêmios de Belo Horizonte, é uma  cidade voltada para o "apagas". 
 
 Filho dos becos e das farras de New Orleans, Art Neville reune um grupo talentoso de músicos, em 1965, e forma uma banda que se tornará um ícone para a história da cidade e da música em geral, The Meters.  O guitarrista é Leo Nocentelli , o baixista, George Porter Jr., o baterista Joseph "Zigaboo" Modeliste e a percussão e o vocal ficam com Cyril Neville. 
 
@@ -438,9 +586,11 @@ https://youtu.be/dslNNx_EVGI
 https://youtu.be/qAG4CgkgVIQ 
 https://youtu.be/mSIwmhmQSok 
 https://youtu.be/Nd3yDoOyvbY 
-https://youtu.be/aHakhXRpAZI`,
+https://youtu.be/aHakhXRpAZI 
 
-    "1970 - BADFINGER.md": `Poucas pessoas no mundo do rock são tão odiadas quanto Stan Polley. O ódio começa no dia 24 de abril de 1975, às 9:45 da manhã, quando Pete Ham derruba o banco em que se equilibrava e minutos debatendo-se com uma corda amarrada no pescoço. Ham completaria 28 anos no dia 27 de abril. Uma festa já estava sendo preparada para festejar seu aniversário, sendo encabeçada pelos mais entusiastas em relação ao seu talento, Paul, George e Ringo, os ex-Beatles, os caras que deram todas as chances para Pete Ham e seu grupo se tornarem os novos Beatles. 
+`,
+
+  "1970 - BADFINGER.md": `Poucas pessoas no mundo do rock são tão odiadas quanto Stan Polley. O ódio começa no dia 24 de abril de 1975, às 9:45 da manhã, quando Pete Ham derruba o banco em que se equilibrava e minutos debatendo-se com uma corda amarrada no pescoço. Ham completaria 28 anos no dia 27 de abril. Uma festa já estava sendo preparada para festejar seu aniversário, sendo encabeçada pelos mais entusiastas em relação ao seu talento, Paul, George e Ringo, os ex-Beatles, os caras que deram todas as chances para Pete Ham e seu grupo se tornarem os novos Beatles. 
 
 Pete Ham, antes de armar seu suicídio na garagem da sua casa, fez questão de escrever, para a namorada e amigos, nomeando direta e claramente Polley como a causa do seu desespero e morte. O empresário tinha fugido com todo o dinheiro do grupo, deixando todos na miséria. 
 
@@ -458,9 +608,10 @@ https://youtu.be/_ZsEp9gi5Qg
 https://youtu.be/dzUqkBAv-T4 
 https://youtu.be/PPco24LS31A 
 https://youtu.be/KWbTZuEWjnc 
-https://youtu.be/jQQLFi9OjJ8`,
+https://youtu.be/jQQLFi9OjJ8 
+`,
 
-    "1970 - Bread.md": `Vamos falar de pão, música como pão que alimenta a alma. Esse foi o sentido da banda Bread, criada em 68 pelo genial David Gates e o seu colega Jimmy Griffin. Bread pode ser considerada a banda que durou pouco, cinco anos, de 68 a 73, produziu 8 álbuns, mas é difícil escolher algumas músicas considerando a quantidade  de música boa que fizeram. Gates era o líder da banda, multi-estrumentista, além de fazer as letras e músicas. Grissin não ficava devendo nada em termos de talento. Os dois juntos contribuíram para  Bread ser uma banda de muito sucesso e somente os dois acabaram com ela. 
+  "1970 - Bread.md": `Vamos falar de pão, música como pão que alimenta a alma. Esse foi o sentido da banda Bread, criada em 68 pelo genial David Gates e o seu colega Jimmy Griffin. Bread pode ser considerada a banda que durou pouco, cinco anos, de 68 a 73, produziu 8 álbuns, mas é difícil escolher algumas músicas considerando a quantidade  de música boa que fizeram. Gates era o líder da banda, multi-estrumentista, além de fazer as letras e músicas. Grissin não ficava devendo nada em termos de talento. Os dois juntos contribuíram para  Bread ser uma banda de muito sucesso e somente os dois acabaram com ela. 
 
 Quando falamos que os dois contribuíram para fazer uma grande banda, queremos de fato lembrar de Robb Royer, geralmente esquecido por causa dos dois egos de Gates e Griffin. Royer foi o sujeito que praticamente inventou a sincronia de três guitarras, alternando entre elétricas e acústicas . A sofisticação dos arranjos  do Bread passa pela mão desse sujeito.
 
@@ -473,9 +624,10 @@ Guitar Man - https://youtu.be/lVtdYKVXYhI
 Aubrey - https://youtu.be/kqXek853SDE
 Baby I'm-A Want You - https://youtu.be/vCHHHAeSBvY
 Sweet Surrender - https://youtu.be/HDZuPK63HKI
-If - https://youtu.be/IQyKMueMFGk`,
+If - https://youtu.be/IQyKMueMFGk
+`,
 
-    "1970 - CARPENTERS.md": `O xarope de Ipeca é usado para provocar vômito. É uma das principais drogas usadas para não engordar e, pior ainda, é a droga usada pelas pessoas que são acometidas pela anorexia. 
+  "1970 - CARPENTERS.md": `O xarope de Ipeca é usado para provocar vômito. É uma das principais drogas usadas para não engordar e, pior ainda, é a droga usada pelas pessoas que são acometidas pela anorexia. 
 
 Karen Carpenters morre em 1983, com 33 anos, vítima de um ataque cardíaco, em um processo de tentativa de reversão da anorexia, que a acompanhou por muitos anos. 
 
@@ -492,9 +644,10 @@ https://youtu.be/__VQX2Xn7tI
 https://youtu.be/bdkox_rD8zA 
 https://youtu.be/dPmbT5XC-q0 
 https://youtu.be/ywB8vjMnoEw 
-https://youtu.be/9fDYbvQgaIU`,
+https://youtu.be/9fDYbvQgaIU 
+`,
 
-    "1970 - GAL.md": `A família Gadelha é dessas famílias que merecia 
+  "1970 - GAL.md": `A família Gadelha é dessas famílias que merecia 
 filme, como os Corleones  que Coppola colocou na tela, mostrando a saga  geracional de uma família  da máfia. Não quero dizer  que os Gadelhas sejam  mafiosos, mas a prisão do  poderoso Buega Gadelha  em fevereiro de 2019 mostra que não são santos. Para quem conhece a Paraíba e, especificamente, Campina Grande, já comeu carne de bode no famoso “Tábua de Carne”, ali na rua Manoel Tavares,  deve ter ouvido muitas histórias dos Gadelhas e suas infinitas histórias e poder, amor, ódio,  vingança e tramoias, para se manterem “donos” de várias regiões do nordeste. 
 
 São tão donos, que a Paraíba é o único estado do Brasil em que a sede da federação das industrias não é na capital, mas no interior, Capina Grande. Eternizado na presidência da FIEP, Buega Gadelha garantiu esse feito. Tanto quanto garantiu (assim contam) que, no trajeto Campina-João Pessoa, pela BR-230, todas as placas de orientação dos motoristas indicam “Praias”, nunca João Pessoa, como final de trajeto. A capital é onde os Gadelhas estão. 
@@ -527,9 +680,11 @@ Baby  https://youtu.be/7ey65touQaY
 Você Não Entende Nada  https://youtu.be/KYw4_pCYEMY  
 London London  https://youtu.be/hriIvDO7sYc  
 Lanterna Dos Afogados  https://youtu.be/d-mT-3_p0Qg  
-SLouco  https://youtu.be/_YsqGo24g7U`,
+SLouco  https://youtu.be/_YsqGo24g7U  
 
-    "1970 - Grand Funk Railroad.md": `Terry Knight é o  foco  pouco conhecido, mas fundamental para a existência da banda Grand Funk Railroad, (nasce em 1943 e morre assassinado em 2004).  Terry nasceu para  estrelar nos palcos, sempre foi seu sonho. Para realiza-lo foi DJ em Detroit,  se apresentou como cantor  solo, como humorista, como cantor de banda. Em todas as tentativas fracassou. Chegou a ir para a Inglaterra, conheceu pessoalmente Paul Maccartney, chegou até a fazer uma musica que anuncia a sua morte (St Paul), mas nada dava certo. Até que encontra outros dois também fracassados, que também tentaram de tudo e estavam passando fome, o baterista Don Brewer e o guitarrista Mark Farner. Nada de especial tinham, mas Terry também não tinha nada e, pela primeira vez na vida,  entendeu que devia se dedicar a colocar os outros no palco e não ele. Acharam um  baixista, Mel Schacher e Terry conseguiu colocar o trio no lugar mais secundário possível, o das bandas reservas, do Festival de Altamont, em 1969, que contava com  Stones,  Led Zeppelin, Johnny Winter, Janis Joplin, entre outros. Foi nesse concerto que os Hells Angels mataram um sujeito.  Por pura sorte algumas bandas não conseguiram ajuntar seus membros de tão doidos e bêbados que estavam. E justamente a banda reserva dos reservas, Grand Funk Railroad, teve a chance de tocar para 120 mil pessoas. Don, Mark e Mel (na época Don e Mark tinham  21 anos e Mel, 18 !!!) não bebiam e nem se drogavam, estavam lá, pontualmente esperando uma chance. E tocaram.
+`,
+
+  "1970 - Grand Funk Railroad.md": `Terry Knight é o  foco  pouco conhecido, mas fundamental para a existência da banda Grand Funk Railroad, (nasce em 1943 e morre assassinado em 2004).  Terry nasceu para  estrelar nos palcos, sempre foi seu sonho. Para realiza-lo foi DJ em Detroit,  se apresentou como cantor  solo, como humorista, como cantor de banda. Em todas as tentativas fracassou. Chegou a ir para a Inglaterra, conheceu pessoalmente Paul Maccartney, chegou até a fazer uma musica que anuncia a sua morte (St Paul), mas nada dava certo. Até que encontra outros dois também fracassados, que também tentaram de tudo e estavam passando fome, o baterista Don Brewer e o guitarrista Mark Farner. Nada de especial tinham, mas Terry também não tinha nada e, pela primeira vez na vida,  entendeu que devia se dedicar a colocar os outros no palco e não ele. Acharam um  baixista, Mel Schacher e Terry conseguiu colocar o trio no lugar mais secundário possível, o das bandas reservas, do Festival de Altamont, em 1969, que contava com  Stones,  Led Zeppelin, Johnny Winter, Janis Joplin, entre outros. Foi nesse concerto que os Hells Angels mataram um sujeito.  Por pura sorte algumas bandas não conseguiram ajuntar seus membros de tão doidos e bêbados que estavam. E justamente a banda reserva dos reservas, Grand Funk Railroad, teve a chance de tocar para 120 mil pessoas. Don, Mark e Mel (na época Don e Mark tinham  21 anos e Mel, 18 !!!) não bebiam e nem se drogavam, estavam lá, pontualmente esperando uma chance. E tocaram.
  
 A banda foi considerada pela crítica a “pior banda de rock do mundo”. Era ruim em tudo, desde a péssima bateria, passando por um baixo ridículo, até o guitarrista cabeludo, totalmente americanizado, que parecia um tronco pendulando. Mas os caras fizeram um sucesso estrondoso, saíram de Altamont famosos. Com o sucesso Terry cresce e consegue achar um veio de ouro para a sua nova banda. Literalmente  Grand Funk é a grande prova da genialidade de Terry.  Um caso histórico foi a turnê do Led Zeppeling, que tinha o GFR abrindo os shows.  Em Detroit o público participava tanto da apresentação dos caras que o empresário do Led mandou desligar as luzes do palco, Terry foi no microfone e disse que o Led tinha medo do GFR e saiu com a banda. Metade do público os acompanhou. 
  
@@ -539,13 +694,14 @@ Há todo um imbróglio jurídico que se enrola por anos, mas a banda continua at
  
 I'm Your Captain - https://youtu.be/mA-CBXuTaeo
 Aimless Lady - https://youtu.be/HuwuNpn9OyA
-Locomotion - https://youtu.be/wBVgVABsf-4`,
+Locomotion - https://youtu.be/wBVgVABsf-4
+`,
 
-    "1970 - LINN ANDERSON.md": `Claro que Linn Anderson cantou muito, fez uma longa carreira. Mas nada que chegasse perto do "Rose Garden" . Música quase que icônica da década de 70, foi sucesso no mundo inteiro. Foi colocada no terceiro LP da cantora na marra, já que o marido achava que não era música para mulheres. Vejam ai o resultado: 
+  "1970 - LINN ANDERSON.md": `Claro que Linn Anderson cantou muito, fez uma longa carreira. Mas nada que chegasse perto do "Rose Garden" . Música quase que icônica da década de 70, foi sucesso no mundo inteiro. Foi colocada no terceiro LP da cantora na marra, já que o marido achava que não era música para mulheres. Vejam ai o resultado: 
 
 Lynn Anderson - I Beg Your Pardon, I Never Promised You A Rose Garden - https://youtu.be/2-eclUz-RYI`,
 
-    "1970 - Mungo Jerry.md": `Mungo Jerry entrou para a história da música com "In the Summertime", lançada em 1970. A banda britânica, liderada por Ray Dorset, criou um dos maiores hits do verão de todos os tempos, vendendo mais de 30 milhões de cópias globalmente. A música, escrita pelo próprio Dorset, foi composta em apenas dez minutos durante sua pausa do trabalho em um laboratório.
+  "1970 - Mungo Jerry.md": `Mungo Jerry entrou para a história da música com "In the Summertime", lançada em 1970. A banda britânica, liderada por Ray Dorset, criou um dos maiores hits do verão de todos os tempos, vendendo mais de 30 milhões de cópias globalmente. A música, escrita pelo próprio Dorset, foi composta em apenas dez minutos durante sua pausa do trabalho em um laboratório.
 
 "In the Summertime", com seu ritmo contagiante, piano honky-tonk e a marcante jug band percussion, capturou perfeitamente o espírito despreocupado do verão. A letra descontraída, combinada com o estilo único de Ray Dorset - que incluía suas sugestivas vocalizações e assobios - criou uma atmosfera festiva que continua ressoando décadas depois. A música se tornou um sucesso instantâneo, alcançando o topo das paradas em mais de 20 países.
 
@@ -555,7 +711,7 @@ In the Summertime - [Aqui deveria estar o link do YouTube, mas não foi fornecid
 
 Mungo Jerry, In The Summertime - https://youtu.be/wvUQcnfwUUM`,
 
-    "1970 - Pattie Boyd.md": `Foco uma garota, que deve ter sido muito maravilhosa e gostosa, para gerar tanta confusão e, essa é a nossa dica, duas das mais lindas músicas de amor do século XX. A perigosa chama Pattie Boyd. Essa modelo, em 64, com 20 anos, participa de um filme dos Beatles, "A Hard Day's Night", e fisga o tímido George, na época com 22 anos. Desmorona o gajo, coloca o cara para babar feito um idiota por ela, até que se casam, em 1966. Abatido o bezerro, ela participa de toda a ascensão dos Beatles e ganha a fantástica música Something, feita por George, para ela, que só foi publicada em 70.
+  "1970 - Pattie Boyd.md": `Foco uma garota, que deve ter sido muito maravilhosa e gostosa, para gerar tanta confusão e, essa é a nossa dica, duas das mais lindas músicas de amor do século XX. A perigosa chama Pattie Boyd. Essa modelo, em 64, com 20 anos, participa de um filme dos Beatles, "A Hard Day's Night", e fisga o tímido George, na época com 22 anos. Desmorona o gajo, coloca o cara para babar feito um idiota por ela, até que se casam, em 1966. Abatido o bezerro, ela participa de toda a ascensão dos Beatles e ganha a fantástica música Something, feita por George, para ela, que só foi publicada em 70.
  
 Something cantada por George: https://youtu.be/E9lgfa0Nh3c
  
@@ -572,12 +728,14 @@ Segue o link de Layla:  https://youtu.be/_CPVPwIOyKM
  
 E, para fechar, tendo os dois ficado sem a Patty, que, depois do Clapton já se enlaçou com outro, segue os dois tocando Something, só para aumentar a dor de cotovelo :
  
-https://youtu.be/nolnTeXt8TE`,
+https://youtu.be/nolnTeXt8TE
+`,
 
-    "1970 - Paul Maccartney.md": `- 19/03/2017 08:33:24- lembra um sábado lá dos idos de 1971, quando o Grão comprou um compacto do Paul Maccartney que ouvimos o resto do ano incansáveis . Trata-se do Another Day. Segue o link abaixo. Mas queria lembrar também o lado B desse disco. Do meu ponto de vista foi a maior surpresa, You Know My Name, lembram ? Gostei muito dessa musica, ate hoje. Vai ai tambem o link para ela.                                                                                           - Another Day: https://youtu.be/vH6v9JS26xc
-You Know my Name:  https://youtu.be/GFFB4xGfzRk`,
+  "1970 - Paul Maccartney.md": `- 19/03/2017 08:33:24- lembra um sábado lá dos idos de 1971, quando o Grão comprou um compacto do Paul Maccartney que ouvimos o resto do ano incansáveis . Trata-se do Another Day. Segue o link abaixo. Mas queria lembrar também o lado B desse disco. Do meu ponto de vista foi a maior surpresa, You Know My Name, lembram ? Gostei muito dessa musica, ate hoje. Vai ai tambem o link para ela.                                                                                           - Another Day: https://youtu.be/vH6v9JS26xc
+You Know my Name:  https://youtu.be/GFFB4xGfzRk   `,
 
-    "1970 - ROCK PESADO.md": `No dia 31 de julho de 1975 uma aliança entre as forças de segurança inglesas e a força voluntária de Ulster, grupo paramilitar da Irlanda do norte, fazem uma emboscada contra a banda Miami Showband. 
+  "1970 - ROCK PESADO.md": `
+No dia 31 de julho de 1975 uma aliança entre as forças de segurança inglesas e a força voluntária de Ulster, grupo paramilitar da Irlanda do norte, fazem uma emboscada contra a banda Miami Showband. 
 Matam 3 dos cinco participantes. 
 
 A banda foi escolhida porque era quase uma unanimidade na convulsionada Irlanda. Eram os "Beatles" locais. Adorados e capazes de mobilizar milhares de pessoas eram o alvo fácil para um massacre. Assim o mundo aceitaria que a Irlanda merecia ser tratada como insurgente e sofrer as atrocidades de uma ordem marcial inglesa implacável. 
@@ -596,9 +754,9 @@ https://youtu.be/HL8d37LyhNw
 https://youtu.be/UyRPwoTCbRY 
 https://youtu.be/E45q4c31l5w 
 https://youtu.be/v0xGXDA4Uks 
-https://youtu.be/L3WusR-LEGY`,
+https://youtu.be/L3WusR-LEGY `,
 
-    "1970 - SLADE.md": `Slade, uma das bandas mais influentes do glam rock britânico, surgiu em Wolverhampton nos anos 60, inicialmente como The 'N Betweens. Com a formação clássica de Noddy Holder (vocais), Dave Hill (guitarra), Jim Lea (baixo) e Don Powell (bateria), o grupo revolucionou a cena musical britânica dos anos 70, sendo pioneiros não apenas em seu som potente, mas também na forma peculiar de escrever os títulos de suas músicas.
+  "1970 - SLADE.md": `Slade, uma das bandas mais influentes do glam rock britânico, surgiu em Wolverhampton nos anos 60, inicialmente como The 'N Betweens. Com a formação clássica de Noddy Holder (vocais), Dave Hill (guitarra), Jim Lea (baixo) e Don Powell (bateria), o grupo revolucionou a cena musical britânica dos anos 70, sendo pioneiros não apenas em seu som potente, mas também na forma peculiar de escrever os títulos de suas músicas.
 
 "Get Down And Get With It", lançada em 1971, foi o primeiro grande sucesso da banda e estabeleceu o padrão para o que viria a seguir. A música, uma versão da canção de Little Richard "Get Down With It", ganhou nova vida com a voz poderosa de Noddy Holder e a energia crua da banda. Este single marcou o início de uma série impressionante de hits que colocaria o Slade no topo das paradas britânicas durante os anos seguintes.
 
@@ -617,9 +775,11 @@ I'm going to watch everybody work
 I said: come on baby! 
 Watch everybody do the dance Get down and get with it!
 
-https://youtu.be/u7XEjl5GNS8`,
+https://youtu.be/u7XEjl5GNS8
+`,
 
-    "1970 - TERRA RARA.md": `RARE EARTH é o tipo da banda que tocou na década de 70 com poucas referências, poucas informações, mas sempre presente. Ouvindo hoje as melhores músicas é fácil reconhecer a sua presença. Ouvindo, todos pensam em um grupo de negros, já que a banda tem tipicamente a batida de grupos negros na década de 70. Mas, vejam abaixo a composição racial da banda. 
+  "1970 - TERRA RARA.md": `
+RARE EARTH é o tipo da banda que tocou na década de 70 com poucas referências, poucas informações, mas sempre presente. Ouvindo hoje as melhores músicas é fácil reconhecer a sua presença. Ouvindo, todos pensam em um grupo de negros, já que a banda tem tipicamente a batida de grupos negros na década de 70. Mas, vejam abaixo a composição racial da banda. 
 A banda nasce pelas mãos da gravadora, que identifica uma brecha no mercado, para brancos que tocam como negros, brancos que tocam rock, com instrumentos de percussão marcantes, e guitarras destacadas. Gil Bridges, saxofone, 
 auta, voz; Peter Hoorelbeke vocal, bateria; John Parrish, baixo, trombone, vocais; Rod Richards , guitarra, vocais; Jonny James teclados, fazem esse trabalho. 
 É preciso lembrar que a Motown Records tinha, na década de 70 um elenco de artistas exclusivamente negros. Criada por Berry Gordy na década de 50, a Motown ( o nome vem de "motor town" -lembrando da cidade dos carros, Detroit) é responsável por uma verdadeira revolução na música americana e mundial, justamente por focar em ritmos tipicamente negros, como soul, blues, gospel, além de formações inovadoras, como grupos de meninas, pares, trios e sofisticação melódica. 
@@ -636,9 +796,21 @@ https://youtu.be/K9aCAneCSPg
 https://youtu.be/YhyWZeXbfH8 
 https://youtu.be/a6XTC2ofV10 
 https://youtu.be/lPoHTy5Sb3g 
- !!`,
+ !! 
 
-    "1970 - TONY ORLANDO.md": `/ 
+`,
+
+  "1970 - Three Dog Night.md": `- 08/07/2018 06:46:41-  na Austrália dormir ao lado de de cães Dingo determina a sobrevivência em noites de frio. Quanto mais cachorros, mais frio. Ter que dormir com 3 Dingos é o máximo de frio. Three Dog Night ganhou esse nome por causa dessa hist´- oria, contada pela namorada de Danny Hutton, June Fairchild. O grupo nasceu na década de 70, como um triplo vocal, formado por Danny Hutton, Chuck Negron e Cory Wells. O som era feito por Ron Morgan na guitarra, Floyd Sneed na bateria, Joe Schermie no Cory Wells Blues Band no baixo e Jimmy Greenspoon nos teclados. Começaram a tocar em 1967 e tocaram juntos até 75. Foram 12 álbuns de ouro e 21 músicas de muito sucesso.
+Hoje, como dica musical,  apresentamos 6 músicas que estavam presentes no nosso cenário  musical. Coloquem o som da casa no toco e ouçam cada uma delas e lembrem desse fantástico grupo
+Mama told me not to come - https://youtu.be/rKaQzQAlNn4
+Joy To The World - https://youtu.be/Dp7KfG9AjaY
+Shambala -  https://youtu.be/xnyh6i9NvmE
+The Show Must Go On - https://youtu.be/xtAlzo_pqys
+Old Fashioned Love Song -  https://youtu.be/AM7zb5FMmLM
+Black and White - https://youtu.be/4f65mO146Zo
+`,
+
+  "1970 - TONY ORLANDO.md": `/ 
 
 https://spark.adobe.com/video/QaX2PWiUCH3G5 
 
@@ -659,18 +831,10 @@ https://youtu.be/yGBw4pmR5ro
 https://youtu.be/3Q-m_CxQacM 
 https://youtu.be/sZddfN2BKWE 
 https://youtu.be/hUSkXERkWbw 
-https://youtu.be/S1OYuXANJJ4`,
+https://youtu.be/S1OYuXANJJ4 
+`,
 
-    "1970 - Three Dog Night.md": `- 08/07/2018 06:46:41-  na Austrália dormir ao lado de de cães Dingo determina a sobrevivência em noites de frio. Quanto mais cachorros, mais frio. Ter que dormir com 3 Dingos é o máximo de frio. Three Dog Night ganhou esse nome por causa dessa hist´- oria, contada pela namorada de Danny Hutton, June Fairchild. O grupo nasceu na década de 70, como um triplo vocal, formado por Danny Hutton, Chuck Negron e Cory Wells. O som era feito por Ron Morgan na guitarra, Floyd Sneed na bateria, Joe Schermie no Cory Wells Blues Band no baixo e Jimmy Greenspoon nos teclados. Começaram a tocar em 1967 e tocaram juntos até 75. Foram 12 álbuns de ouro e 21 músicas de muito sucesso.
-Hoje, como dica musical,  apresentamos 6 músicas que estavam presentes no nosso cenário  musical. Coloquem o som da casa no toco e ouçam cada uma delas e lembrem desse fantástico grupo
-Mama told me not to come - https://youtu.be/rKaQzQAlNn4
-Joy To The World - https://youtu.be/Dp7KfG9AjaY
-Shambala -  https://youtu.be/xnyh6i9NvmE
-The Show Must Go On - https://youtu.be/xtAlzo_pqys
-Old Fashioned Love Song -  https://youtu.be/AM7zb5FMmLM
-Black and White - https://youtu.be/4f65mO146Zo`,
-
-    "1970 - Trio Galleta.md": `- 01/07/2018 06:52:26-  um grupo argentino que fez muito sucesso no Brasil, praticamente dominando  as paradas musicais na década de 70: Trio Galleta. A maior façanha dos cara  foi ficar 14 semanas em primeiro lugar nas paradas, superando Roberto Carlos. 
+  "1970 - Trio Galleta.md": `- 01/07/2018 06:52:26-  um grupo argentino que fez muito sucesso no Brasil, praticamente dominando  as paradas musicais na década de 70: Trio Galleta. A maior façanha dos cara  foi ficar 14 semanas em primeiro lugar nas paradas, superando Roberto Carlos. 
 Formada por Carlos Iturbide : guitarras e vocal , Lolo : baixo e vocais e Juan Carlos Saporiti na bateria e vocais, eles queriam tocar, do jeito deles, suas músicas preferidas, começando com os Credeence.  Acabaram  muito pela voz de Iturbide, fazendo melhor do que os originais. Queriam uma música livre,  "Nuestra obsesión máxima es ser libres, como una canción, como los negros o los pájaros” e que tivessem muito apelo popular. Conseguiram, mesmo durando pouco.
 Com  "I've Been Hurt” quebraram a banca, surpreenderam com o sucesso. Depois, ai já deles mesmos,  “I Am So Happy”, coloca os caras nas alturas. Fizeram só  dois discos "Estoy Herido", em 1970, "I Am So Happy”,  em1971 e Galleta Soul ‎, já não como trio, mas com mais um membro.
 Então, para lembrar dos velhos tempos, aumenta o som da vitrola e manda Trio Galleta:
@@ -678,9 +842,10 @@ I've been hurt - https://youtu.be/tveZTHJMGiY
 I'm so happy - https://youtu.be/ifMuAvaPOd0
 Acércate Dulcemente - https://youtu.be/oChspiXT2XY
 Darling, darling  - https://youtu.be/tYgDFtJDAFc
-Lodi  - https://youtu.be/eXO5qZpGYNY`,
+Lodi  - https://youtu.be/eXO5qZpGYNY
+`,
 
-    "1970- Bobby Bloom.md": `Bobby Bloom, um talentoso músico e compositor de Nova York, deixou sua marca na música popular com "Heavy Makes You Happy (Sha-Na-Boom-Boom)", lançada em 1971. Embora seja mais conhecido por seu hit "Montego Bay", esta canção demonstra perfeitamente sua capacidade de fundir diferentes estilos musicais, criando um som único e contagiante.
+  "1970- Bobby Bloom.md": `Bobby Bloom, um talentoso músico e compositor de Nova York, deixou sua marca na música popular com "Heavy Makes You Happy (Sha-Na-Boom-Boom)", lançada em 1971. Embora seja mais conhecido por seu hit "Montego Bay", esta canção demonstra perfeitamente sua capacidade de fundir diferentes estilos musicais, criando um som único e contagiante.
 
 A música, com sua mistura alegre de soul, pop e elementos caribenhos, reflete o espírito otimista do início dos anos 70. Bloom tinha um talento especial para criar melodias cativantes e "Heavy Makes You Happy" é um exemplo perfeito disso, com seu refrão memorável e arranjos dançantes. A produção de Jeff Barry ajudou a dar à música aquele polimento característico da época.
 
@@ -693,9 +858,10 @@ Ps. alguém ai já ouviu a piada da árvore de natal ?
  
 Bobby Bloom, Heavy Makes You Happy: https://youtu.be/Xk649WnnQiY
  
-Montego Bay : https://youtu.be/gXjVd0TeOX0`,
+Montego Bay : https://youtu.be/gXjVd0TeOX0
+`,
 
-    "1971 -  YOU'VE GOT A FRIEND.md": `James Taylor, You've got a friend
+  "1971 -  YOU'VE GOT A FRIEND.md": `James Taylor, You've got a friend
 
 James Taylor, um dos cantores e compositores mais influentes da música americana, eternizou "You've Got a Friend" em 1971, embora a música tenha sido originalmente escrita por sua amiga próxima Carole King. A versão de Taylor, que alcançou o primeiro lugar nas paradas e ganhou um Grammy de Melhor Performance Vocal Masculina Pop, se tornou uma das interpretações definitivas da canção.
 
@@ -714,9 +880,10 @@ A smooth jazz instrumental cover of “You've Got A Friend” by the saxophonist
 Tom Jones - https://youtu.be/OWxxGkV3XbI
 ortoPilot - https://youtu.be/rkz5TegISQA
 Krzysztof Sandecki - https://youtu.be/tWyYhUvIF2c
-Boston GuitarFest - https://youtu.be/r-4hIzL0YJk`,
+Boston GuitarFest - https://youtu.be/r-4hIzL0YJk
+`,
 
-    "1971 - DUBLE FANTASY.md": `Acredito que essa viagem inicia o inacreditável processo de morte de John Lennon ! Vamos contar essa história. 
+  "1971 - DUBLE FANTASY.md": `Acredito que essa viagem inicia o inacreditável processo de morte de John Lennon ! Vamos contar essa história. 
 
 Entre 1973 e 1975 Lennon literalmente enfiou o pé na jaca. Tomou tudo e com todas. Vcs lembram do barraco armado por ele e Nilson na noite de 12 março de 1974, quando os dois, drogados e mortos de bêbados, iniciaram uma grande confusão no Troubadour Club, em Los Angeles, chegando a serem expulsos do lugar. 
 
@@ -745,9 +912,11 @@ https://youtu.be/Lt3IOdDE5iA
 https://youtu.be/84WikX09h4M 
 https://youtu.be/bJH7lC_-qDY 
 https://youtu.be/YkgkThdzX-8 
-https://youtu.be/YqB8Dm65X18`,
+https://youtu.be/YqB8Dm65X18 
+`,
 
-    "1971 - ELTON JOHN.md": `Um  dos maiores espetáculos da música pop mundial, a "Escola de Sambas Elton John". Podem achar estranho chamar o Sr. Reginald Kenneth Dwight, nascido em março de 1947, de escola de samba. Mas vejam a foto de abertura desse texto. Se há um sujeito que se empenha em ser exótico e "carnavalesco" foi o Elton. 
+  "1971 - ELTON JOHN.md": `
+Um  dos maiores espetáculos da música pop mundial, a "Escola de Sambas Elton John". Podem achar estranho chamar o Sr. Reginald Kenneth Dwight, nascido em março de 1947, de escola de samba. Mas vejam a foto de abertura desse texto. Se há um sujeito que se empenha em ser exótico e "carnavalesco" foi o Elton. 
 
 Mas, a base do talento do sujeito sempre foi inquestionável. Desde os 5 anos toca piano, só fez isso na vida. Com 15 já tinha uma banda e com 23 anos começa a montar uma das mais competentes equipes de fabricação de sucesso do mundo da música pop. 
 
@@ -775,9 +944,11 @@ https://youtu.be/Mlw1wpwojZ0
 https://youtu.be/0f0TMfQNRk8 
 https://youtu.be/Tg-Q-Acv4qs 
 https://youtu.be/1o9rLDCfO6o 
- !`,
+ ! 
+`,
 
-    "1971 - GENESIS.md": `Até o ano de 1975 o Genesis era a cara do seu criador, Peter Gabriel.  Em 1967 ele chama seus colegas de sala Tony Banks, Anthony Phillips, Mike Rutherford e Chris Stewart e cria o grupo. A sua gêneses . 
+  "1971 - GENESIS.md": `
+Até o ano de 1975 o Genesis era a cara do seu criador, Peter Gabriel.  Em 1967 ele chama seus colegas de sala Tony Banks, Anthony Phillips, Mike Rutherford e Chris Stewart e cria o grupo. A sua gêneses . 
 
 Em 75 quando sai, a criatura, o Genesis, já não mais suportava o criador.  Acharam por bem trocar a liderança por alguém muito competente e mais discreto, Phil Collins.  A criatura continuou sem o criador, mas quem viveu e ouviu o que foi criado entre 67 e 75 nunca mais esquecerá a genialidade de Gabriel e a sua capacidade de se lançar na arte da música de forma tão preponderante. 
 
@@ -792,18 +963,35 @@ https://youtu.be/_YvKoOdP-Wg
 https://youtu.be/G9qBB3mxQW4 
 https://youtu.be/Tw2adgDyKhA 
 https://youtu.be/HKIkzGGAG9s 
-https://youtu.be/YXUmKw4pFdc`,
+https://youtu.be/YXUmKw4pFdc 
 
-    "1971 - Jethro Tull.md": `Jethro Tull. Não podemos negar, quando em  1967,o gênio  Ian Anderson cria o grupo, algo de novo aconteceu na cena musical. Pilotando um instrumento improvável para o rock, a flauta transversal, com uma pegada de louco mendigo (veja a capa do Aqualung), o sujeito contribuiu e muito para a música. Tanto que, sai ano entra ano e a gente sempre ouve o Tull. Foi tão forte a chegada da banda que logo em 1968 eles são convidados para aquela maluquice dos Stones chamada Rock and Roll Circus, acha no yutube.  Em 70  fazem uma das músicas que mais gosto,  Teacher. Com o sucesso conseguem chegar no  Carnegie Hall e aprontam aquele solo imperdível de bateria com o  John Evan. Ai chegam ao máximo, do meu ponto de vista com o duplo  Living in the Past, aquele de capa de camurça que o Tata levou para casa. É exatamente  a Living in the Past que é a música do dia, pois ela revela, para mim, o DNA do grupo. Depois vem o imperdível  Aqualung, que tem a melhor música deles Wind-Up, última do lado dois. Apesar de tudo de bom que fizeram, a marca mesmo do grupo são as enormes músicas  Thick as a Brick  e  A Passion Play. Tirando a última, o yutube tem algumas verões ótimas do Thick as a Brick, a melhor delas uma filmagem no Madson Square Garden. 
+
+`,
+
+  "1971 - Jethro Tull.md": `Jethro Tull. Não podemos negar, quando em  1967,o gênio  Ian Anderson cria o grupo, algo de novo aconteceu na cena musical. Pilotando um instrumento improvável para o rock, a flauta transversal, com uma pegada de louco mendigo (veja a capa do Aqualung), o sujeito contribuiu e muito para a música. Tanto que, sai ano entra ano e a gente sempre ouve o Tull. Foi tão forte a chegada da banda que logo em 1968 eles são convidados para aquela maluquice dos Stones chamada Rock and Roll Circus, acha no yutube.  Em 70  fazem uma das músicas que mais gosto,  Teacher. Com o sucesso conseguem chegar no  Carnegie Hall e aprontam aquele solo imperdível de bateria com o  John Evan. Ai chegam ao máximo, do meu ponto de vista com o duplo  Living in the Past, aquele de capa de camurça que o Tata levou para casa. É exatamente  a Living in the Past que é a música do dia, pois ela revela, para mim, o DNA do grupo. Depois vem o imperdível  Aqualung, que tem a melhor música deles Wind-Up, última do lado dois. Apesar de tudo de bom que fizeram, a marca mesmo do grupo são as enormes músicas  Thick as a Brick  e  A Passion Play. Tirando a última, o yutube tem algumas verões ótimas do Thick as a Brick, a melhor delas uma filmagem no Madson Square Garden. 
  
 E para finalizar, surpreendentemente Anderson se junta com um quarteto de cordas e reconceitua suas melhores musicas numa obra que pode-se ouvir o dia inteiro de tão bom que ficou. Vejam ai: 
 
 https://youtu.be/rmz75Y9MOME
  
 
-https://youtu.be/EsCyC1dZiN8`,
+https://youtu.be/EsCyC1dZiN8
+`,
 
-    "1971 - LEON RUSSEL.md": `Em 1972 Leon Russell fez um projeto sobre si mesmo. Ele queria que o público pudesse ter uma visão privilegiada de sua vida de músico e astro. Para tanto, com seus próprio recursos contratou o cineasta Les Blank, que fazia  filmes sobre o mundo artístico,  para filmá-lo durante um tempo, seja em casa, no estúdio, shows - o seu dia a dia. Após dois anos de filmagens, Blanks apresentou a Russell “A Poem Is a Naked Person”. O filme nem  de longe era o que Russell queria. Cheio de cenas esquisitas, gente comendo vidro, cobras  devorando filhotes, cenas de bastidores e  pouco Leon tocando nos shows. 
+  "1971 - Led Zeppelin.md": `Uma banda que beira o exemplar, por ter todas as melhores características de uma verdadeira banda de rock. Melhor ainda, ser a base para centenas de outras. Nela nada falta, tudo de bom tem de sobra, da qualidade técnica, letra e musicalidade até a figura e atitude dos membros. Falamos do Led Zeppelin. Vendo e ouvindo os caras é impressionante. Até hoje. 
+
+Led Zeppelin, onde destacamos o cabeludo com a guitarra, na esquerda, Jimmy Page. Depois, a foto do mesmo cidadão, na frente da mansão que ele comprou em 70, a Boleskine House, que pertenceu a um tal de Aleister Crowley . A próxima foto, o tal do Aleister Crowley . E, por fim, em 2015, a Boleskine House pegando fogo e terminando com uma das boas e esquisitas histórias do rock. 
+ 
+Page, já na década de 60, se aproximou do esoterismo, especificamente das escolas panteístas européias, dominadas pela obra de Helena Blavatsky, que codificou a tradição pagã, desde os neo-platônicos até os místicos tibetanos e egípicios, organizando um conjuntos de tradições apartadas das religiões dominantes como o judaísmo, o cristianismo e o islamismo. Dessa obra nascem várias linhas de esoterismos, como a Teosofia, a Antroposofia, Rosa Cruz, entre outras. Aleister Crowley nasce desse movimento, sendo muito famoso na década de 30 (ele morre em 1947). Poderoso e imensamente influenciador, cria uma linha religiosa filosófica, chamada Thelema, que encanta o jovem Page. Na balada do Zeppelin, nada como uma doutrina que defenda o primado da sua vontade, como lei.
+ 
+Muito haveria para falar sobre essa relação do Zeppelin com o esoterismo, mas nossa dica hoje é a bela balada do disco IV, todo ele influenciado por Crowley, Stairway To Heaven. Aqui, o centro da letra é a mulher que quer comprar uma escada para o paraíso, na tradição esotérica, a mulher escalarte, Lilith para os judeus, aquela que conecta a terra com o céu . A música é quase literalmente um poema de Crowley.
+ 
+Stairway To Heaven - https://youtu.be/Ly6ZhQVnVow 
+
+Battle of Evermore - observem a guitarra de tres braços do Page -  https://youtu.be/mkLM7qd8q5g
+`,
+
+  "1971 - LEON RUSSEL.md": `Em 1972 Leon Russell fez um projeto sobre si mesmo. Ele queria que o público pudesse ter uma visão privilegiada de sua vida de músico e astro. Para tanto, com seus próprio recursos contratou o cineasta Les Blank, que fazia  filmes sobre o mundo artístico,  para filmá-lo durante um tempo, seja em casa, no estúdio, shows - o seu dia a dia. Após dois anos de filmagens, Blanks apresentou a Russell “A Poem Is a Naked Person”. O filme nem  de longe era o que Russell queria. Cheio de cenas esquisitas, gente comendo vidro, cobras  devorando filhotes, cenas de bastidores e  pouco Leon tocando nos shows. 
 
 O filme foi exibido muito pouco na época. E as poucas vezes que foi exibido, era o primeiro  longa metragem de Blanks, havia um certo  exagero nos aplausos, que Russell não gostava.  Efetivamente Russell o odiava e achava que Blanks havia ultrapassado os limites com suas loucuras artísticas e, pior que tudo, tinha esquecido quem pagou e quem deveria ser a principal personagem do filme. Não aceitando o resultado, Russell foi para a justiça e conseguiu um acordo absolutamente estranho. O filme só poderia ser exibido se Russell estivesse na plateia. Ou seja, nunca mais o filme foi exibido. E financiador e diretor nunca mais se falaram. Isso foi em 1973. 
 
@@ -822,21 +1010,13 @@ A Hard Rain’s A-Gonna Fall  https://youtu.be/y4sMSSm0x2A
 She Smiles Like A River  https://youtu.be/2c_dSAdDT0c  
 A Six Pack To Go  https://youtu.be/l2bOSsTpcl0  
 If It Wasn’t For Bad  https://youtu.be/3C5xdrITASQ  
-Hearts Have Turned To Stone  https://youtu.be/JGGy1a_YPq4`,
+Hearts Have Turned To Stone  https://youtu.be/JGGy1a_YPq4  
 
-    "1971 - Led Zeppelin.md": `Uma banda que beira o exemplar, por ter todas as melhores características de uma verdadeira banda de rock. Melhor ainda, ser a base para centenas de outras. Nela nada falta, tudo de bom tem de sobra, da qualidade técnica, letra e musicalidade até a figura e atitude dos membros. Falamos do Led Zeppelin. Vendo e ouvindo os caras é impressionante. Até hoje. 
 
-Led Zeppelin, onde destacamos o cabeludo com a guitarra, na esquerda, Jimmy Page. Depois, a foto do mesmo cidadão, na frente da mansão que ele comprou em 70, a Boleskine House, que pertenceu a um tal de Aleister Crowley . A próxima foto, o tal do Aleister Crowley . E, por fim, em 2015, a Boleskine House pegando fogo e terminando com uma das boas e esquisitas histórias do rock. 
- 
-Page, já na década de 60, se aproximou do esoterismo, especificamente das escolas panteístas européias, dominadas pela obra de Helena Blavatsky, que codificou a tradição pagã, desde os neo-platônicos até os místicos tibetanos e egípicios, organizando um conjuntos de tradições apartadas das religiões dominantes como o judaísmo, o cristianismo e o islamismo. Dessa obra nascem várias linhas de esoterismos, como a Teosofia, a Antroposofia, Rosa Cruz, entre outras. Aleister Crowley nasce desse movimento, sendo muito famoso na década de 30 (ele morre em 1947). Poderoso e imensamente influenciador, cria uma linha religiosa filosófica, chamada Thelema, que encanta o jovem Page. Na balada do Zeppelin, nada como uma doutrina que defenda o primado da sua vontade, como lei.
- 
-Muito haveria para falar sobre essa relação do Zeppelin com o esoterismo, mas nossa dica hoje é a bela balada do disco IV, todo ele influenciado por Crowley, Stairway To Heaven. Aqui, o centro da letra é a mulher que quer comprar uma escada para o paraíso, na tradição esotérica, a mulher escalarte, Lilith para os judeus, aquela que conecta a terra com o céu . A música é quase literalmente um poema de Crowley.
- 
-Stairway To Heaven - https://youtu.be/Ly6ZhQVnVow 
 
-Battle of Evermore - observem a guitarra de tres braços do Page -  https://youtu.be/mkLM7qd8q5g`,
+`,
 
-    "1971 - Lobo.md": `Roland Kent Lavoie, mais conhecido como Lobo, é um músico que conquistou o coração do público com suas baladas folk repletas de sensibilidade. Sua história começa em uma família marcada pela ausência - sua mãe, abandonada com seis filhos, havia cantado em uma banda, e seu pai, que ele nunca conheceu, era conhecido por ser um excelente guitarrista. Essa herança musical acabou moldando seu destino.
+  "1971 - Lobo.md": `Roland Kent Lavoie, mais conhecido como Lobo, é um músico que conquistou o coração do público com suas baladas folk repletas de sensibilidade. Sua história começa em uma família marcada pela ausência - sua mãe, abandonada com seis filhos, havia cantado em uma banda, e seu pai, que ele nunca conheceu, era conhecido por ser um excelente guitarrista. Essa herança musical acabou moldando seu destino.
 
 Após passar por várias bandas na década de 70, Roland decidiu seguir carreira solo, adotando o nome artístico "Lobo". Vivendo nas periferias e apreciando a vida no campo, sempre acompanhado por seu fiel pastor alemão chamado Boo, encontrou inspiração para seu primeiro grande sucesso. Ao tentar finalizar a letra de "Me and You", olhou para seu cachorro na porta de casa e acrescentou "and a Dog Named Boo" - nascendo assim um hit mundial que o colocou definitivamente no mapa da música.
 
@@ -850,7 +1030,7 @@ How Can I Tell Her About You - https://youtu.be/NfMfN1juRho
 The End Of The World - https://youtu.be/I21lfz9mcio
 Dream Lover - https://youtu.be/jYUr83olsEY`,
 
-    "1971 - MARDI GRAS.md": `O grupo Mardi Gras representa um dos mais intrigantes mistérios da música pop dos anos 70. Originários de Nova York, o grupo foi formado por Lou Burgio (vocais e bateria), Bob Azzara (órgão Farfisa e vocais), Flip Cesario (guitarra e vocais) e Noel Koward (vibrafone e vocais), mas as informações sobre seus membros são tão escassas que até mesmo a identificação precisa de cada um nas raras fotos existentes permanece incerta.
+  "1971 - MARDI GRAS.md": `O grupo Mardi Gras representa um dos mais intrigantes mistérios da música pop dos anos 70. Originários de Nova York, o grupo foi formado por Lou Burgio (vocais e bateria), Bob Azzara (órgão Farfisa e vocais), Flip Cesario (guitarra e vocais) e Noel Koward (vibrafone e vocais), mas as informações sobre seus membros são tão escassas que até mesmo a identificação precisa de cada um nas raras fotos existentes permanece incerta.
 
 A história do Mardi Gras é peculiar: lançaram apenas um álbum em 1971, que na verdade era uma compilação de quatro compactos simples lançados ao longo do mesmo ano. Curiosamente, enquanto permaneceram relativamente desconhecidos em seu país natal, conquistaram um sucesso significativo na França, onde chegaram ao topo das paradas. Este sucesso europeu os levou a colaborar com um artista identificado apenas como Laurent em 1972, resultando em duas canções bem-sucedidas.
 
@@ -864,7 +1044,7 @@ https://youtu.be/Oh-6uJH9UMc
 https://youtu.be/gwJKt8HKv8w
 https://youtu.be/F6sOjCI9GqY`,
 
-    "1971 - Middle of The Road.md": `Sally Carr  e o Middle of the Road são um fascinante exemplo do pop europeu dos anos 70. Nascida em 1945 em Muirhead, próximo a Glasgow, Sally deixou a Escócia em busca do sonho de se tornar cantora. Junto com os irmãos Ian e Eric McCredie e o baterista Ken Andrew, formou um grupo que encontraria seu destino em Roma, ao conhecer o produtor musical italiano Giacomo Tosti.
+  "1971 - Middle of The Road.md": `Sally Carr  e o Middle of the Road são um fascinante exemplo do pop europeu dos anos 70. Nascida em 1945 em Muirhead, próximo a Glasgow, Sally deixou a Escócia em busca do sonho de se tornar cantora. Junto com os irmãos Ian e Eric McCredie e o baterista Ken Andrew, formou um grupo que encontraria seu destino em Roma, ao conhecer o produtor musical italiano Giacomo Tosti.
 
 Foi em Roma que o Middle of the Road realmente nasceu como banda. O grupo alcançou um sucesso meteórico em 1971 com "Tweedle Dee Tweedle Dum", música que ganhou ainda mais popularidade ao ser associada ao lançamento do Fiat 127. A voz distintiva de Sally Carr, combinada com melodias cativantes e arranjos bem produzidos, transformou a banda em um fenômeno do pop europeu. Embora seu catálogo seja relativamente pequeno, com cerca de 20 músicas gravadas, várias delas se tornaram clássicos inesquecíveis.
 
@@ -877,7 +1057,7 @@ SOLEY SOLEY - https://youtu.be/rm_bhJ7-ddA
 Chirpy Chirpy Cheep Cheep - https://youtu.be/HSNSTerj2Kc
 Bottoms up - https://youtu.be/uSb3SIGFNVg`,
 
-    "1971 - Mouth and MacNeal .md": `Mouth & MacNeal foi uma dupla holandesa que conquistou o mundo com seu hit "How Do You Do". Formada por Willem "Big Mouth" Duyn e Maggie MacNeal (nome artístico de Sjoukje van't Spijker), a dupla surgiu em 1971 quando o produtor Hans van Hemert decidiu unir as vozes poderosas e contrastantes dos dois artistas.
+  "1971 - Mouth and MacNeal .md": `Mouth & MacNeal foi uma dupla holandesa que conquistou o mundo com seu hit "How Do You Do". Formada por Willem "Big Mouth" Duyn e Maggie MacNeal (nome artístico de Sjoukje van't Spijker), a dupla surgiu em 1971 quando o produtor Hans van Hemert decidiu unir as vozes poderosas e contrastantes dos dois artistas.
 
 O sucesso internacional veio em 1972 com "How Do You Do", uma música alegre e cativante que alcançou as paradas de sucesso em diversos países, incluindo o número 8 na Billboard Hot 100 dos Estados Unidos. A combinação única da voz grave e robusta de Willem com o timbre doce e melodioso de Maggie criou uma sonoridade característica que os diferenciava de outros artistas da época.
 
@@ -885,7 +1065,15 @@ A dupla representou os Países Baixos no Festival Eurovisão da Canção de 1974
 
 How Do You Do - https://youtu.be/uYNMKZ90jtA`,
 
-    "1971 - OPS, FOI ENGANO.md": `Parece que tudo na vida de Vincent Damon Fournier, nascido em Detroit, nos idos de 1948, foi engano. E, por causa desses tantos enganos, ele se torna um dos mais conhecidos artistas do rock mundial, sob o enganoso nome de Alice Cooper. 
+  "1971 - Oh Yoko.md": `John Lennon e sua música "Oh Yoko!" representam um momento especial na história do rock e nas memórias pessoais de muitos. Lançada em 1971 como parte do álbum "Imagine", esta canção mostra um Lennon apaixonado e em um dos momentos mais felizes de sua vida, dedicando versos despreocupados e alegres à sua esposa Yoko Ono.
+
+A música, com sua melodia simples e letra direta, captura perfeitamente o espírito dos anos 70 - uma época de experimentação musical e liberação pessoal. Lennon compôs "Oh Yoko!" em um período em que estava explorando um som mais despretensioso e pessoal, distanciando-se da complexidade dos últimos anos dos Beatles. A harmônica característica e o piano alegre criam uma atmosfera de felicidade contagiante que marcou festas e encontros de juventude.
+
+Para muitos, esta canção evoca memórias específicas de momentos especiais - festas em casas de amigos, paixões platônicas, e aquela sensação única de juventude onde tudo parecia possível. É um exemplo perfeito de como a música tem o poder de se entrelaçar com nossas memórias pessoais, criando uma trilha sonora para momentos importantes de nossas vidas.
+
+Oh Yoko! - https://youtu.be/6u2h924m4IE`,
+
+  "1971 - OPS, FOI ENGANO.md": `Parece que tudo na vida de Vincent Damon Fournier, nascido em Detroit, nos idos de 1948, foi engano. E, por causa desses tantos enganos, ele se torna um dos mais conhecidos artistas do rock mundial, sob o enganoso nome de Alice Cooper. 
 
 Dedicado jovem, estudioso de escolas católicas e até mesmo evangelistas, nunca se interessou por assuntos diversos da orientação cristã que recebia. Quando foi participar de eventos em igreja dos Mormons, nunca imaginou que aquilo era algo diferente da sua linha católica. Da mesma forma, quando chamado para ir em uma reunião dos maçons, Ordem DeMolay, ainda assim se via na mesma sina dos fundamentos tidos em casa. 
 
@@ -913,9 +1101,10 @@ https://youtu.be/PCdr0y3cccw
 https://youtu.be/WBQItc0fj7Q 
 https://youtu.be/z2kBG5dcVtU 
 https://youtu.be/mvXO1WPJOjI 
- !!!`,
+ !!! 
+`,
 
-    "1971 - OS IRMÃOS CANTAM.md": `Não aparece em nenhuma premiação ou histórias de sucesso a importância que certas pessoas podem ter na vida dos "famosos". Não é fácil encontrar o nome de Donna Cornelius, mãe de Eddie, Carter, Rose e Billie. 
+  "1971 - OS IRMÃOS CANTAM.md": `Não aparece em nenhuma premiação ou histórias de sucesso a importância que certas pessoas podem ter na vida dos "famosos". Não é fácil encontrar o nome de Donna Cornelius, mãe de Eddie, Carter, Rose e Billie. 
 
 Os filhos de Donna sempre demonstraram muito talento musical. Além do estímulos dos pais, tinham também a efervescência musical de toda a comunidade em volta da  família Cornelius em Dania Beach , Flórida, onde viviam. 
 
@@ -935,47 +1124,29 @@ https://youtu.be/D7HpY-tk0mw
 https://youtu.be/RivhQqrP5_g 
 https://youtu.be/wEmWuB7epxg 
 https://youtu.be/FqiqtYkO4aA 
-.`,
+. 
+`,
 
-    "1971 - Oh Yoko.md": `John Lennon e sua música "Oh Yoko!" representam um momento especial na história do rock e nas memórias pessoais de muitos. Lançada em 1971 como parte do álbum "Imagine", esta canção mostra um Lennon apaixonado e em um dos momentos mais felizes de sua vida, dedicando versos despreocupados e alegres à sua esposa Yoko Ono.
-
-A música, com sua melodia simples e letra direta, captura perfeitamente o espírito dos anos 70 - uma época de experimentação musical e liberação pessoal. Lennon compôs "Oh Yoko!" em um período em que estava explorando um som mais despretensioso e pessoal, distanciando-se da complexidade dos últimos anos dos Beatles. A harmônica característica e o piano alegre criam uma atmosfera de felicidade contagiante que marcou festas e encontros de juventude.
-
-Para muitos, esta canção evoca memórias específicas de momentos especiais - festas em casas de amigos, paixões platônicas, e aquela sensação única de juventude onde tudo parecia possível. É um exemplo perfeito de como a música tem o poder de se entrelaçar com nossas memórias pessoais, criando uma trilha sonora para momentos importantes de nossas vidas.
-
-Oh Yoko! - https://youtu.be/6u2h924m4IE`,
-
-    "1971 - Pop-Tops.md": `Os Pop-Tops surgiram na Espanha em meados dos anos 60, mas foi em 1971 que alcançaram reconhecimento mundial com sua versão inesquecível de "Mamy Blue". A banda, liderada pelo carismático Phil Trim, um cantor afro-caribenho nascido em Trinidad e Tobago, trouxe uma sonoridade única ao cenário musical europeu, misturando elementos de soul, pop e rock progressivo.
+  "1971 - Pop-Tops.md": `Os Pop-Tops surgiram na Espanha em meados dos anos 60, mas foi em 1971 que alcançaram reconhecimento mundial com sua versão inesquecível de "Mamy Blue". A banda, liderada pelo carismático Phil Trim, um cantor afro-caribenho nascido em Trinidad e Tobago, trouxe uma sonoridade única ao cenário musical europeu, misturando elementos de soul, pop e rock progressivo.
 
 "Mamy Blue", originalmente composta pelo francês Hubert Giraud, ganhou nova vida na interpretação dos Pop-Tops. A versão do grupo se diferenciou pela abertura dramática com órgão de igreja e pela voz potente de Phil Trim, que deu à música uma intensidade emocional única. A canção se tornou um hit internacional, alcançando as paradas de sucesso em diversos países e se transformando em um dos clássicos mais memoráveis do início dos anos 70.
 
 Apesar do enorme sucesso de "Mamy Blue", a banda não conseguiu emplacar outros hits de igual magnitude no mercado internacional. Mesmo assim, os Pop-Tops deixaram sua marca na história da música pop, principalmente através desta interpretação que se tornou a versão definitiva da música, sendo regravada por diversos artistas ao longo dos anos.
 
-Pop Tops - Mamy Blue - https://youtu.be/2J85JjlAuo`,
+Pop Tops - Mamy Blue - https://youtu.be/2J85JjlAuo
 
-    "1971 - Procol Harum.md": `Procol Harum escreveu seu nome na história da música com "A Whiter Shade of Pale", lançada em 1967. A banda, formada em Londres por Gary Brooker, Keith Reid, Matthew Fisher, Ray Royer e Dave Knights, criou nesta música uma obra-prima que misturava rock progressivo com elementos clássicos, incluindo a famosa linha de órgão inspirada em Bach.
+`,
+
+  "1971 - Procol Harum.md": `Procol Harum escreveu seu nome na história da música com "A Whiter Shade of Pale", lançada em 1967. A banda, formada em Londres por Gary Brooker, Keith Reid, Matthew Fisher, Ray Royer e Dave Knights, criou nesta música uma obra-prima que misturava rock progressivo com elementos clássicos, incluindo a famosa linha de órgão inspirada em Bach.
 
 "A Whiter Shade of Pale" foi um fenômeno imediato, vendendo mais de 10 milhões de cópias e se tornando um dos hinos da "Summer of Love". A combinação única da voz soul de Gary Brooker, a letra enigmática de Keith Reid e o memorável arranjo de órgão de Matthew Fisher criou uma atmosfera única que capturou perfeitamente o espírito da época. A música é frequentemente citada como uma das mais influentes do rock e chegou a gerar uma batalha judicial décadas depois, quando Fisher reivindicou com sucesso seus direitos autorais pelo icônico arranjo de órgão.
 
 Embora a banda tenha continuado a produzir álbuns respeitados no cenário do rock progressivo, como "Shine On Brightly" e "A Salty Dog", nunca conseguiram repetir o sucesso comercial de seu primeiro single. Mesmo assim, o Procol Harum manteve uma base de fãs fiéis e continua sendo lembrado como um dos grupos mais inovadores de sua época, transcendendo o rótulo de "one-hit wonder" através de sua significativa contribuição para a evolução do rock progressivo.
 
-Procol Harum - A Whiter Shade Of Pale - https://youtu.be/Mb3iPP-tHdA`,
+Procol Harum - A Whiter Shade Of Pale - https://youtu.be/Mb3iPP-tHdA
+`,
 
-    "1971 - THE WHO.md": `A forma como Keith Moon se torna baterista do The Who já é muito doida. Ele vai em um show da banda “High Numbers”, formada por Pete Townshend, Roger Daltrey e outros e começa a vaiar loucamente o show. Pete para o show e pergunta por que Keith xinga tanto e vaia tanto. Keith diz que o baterista é péssimo.  Pete então desafia o garoto de 17 anos a tocar melhor. Moon arrasa, o baterista é despedido e ele assume a função.
-
-Moon se relacionava com toda a sua geração de roqueiros. é fato que foi ele quem deu o nome de Led Zeppelin para o grupo de Jimmy Page. Como baterista do Who fez de tudo, bebeu todas, aprontou o que foi possível.  Dizem que em um show chegou tão atrasado que Pete, de raiva, acertou a guitarra na sua cabeça e ele passou todo o resto do show desmaiado no palco.  Outra vez, promovendo uma suruba na sua casa, foi perseguido pela polícia e jogou seu Rolls Royce em uma piscina. Em outra, querendo quebrar o quarto de um hotel, contratou dois motorista para fechar os dois lados da rua do hotel, para poder jogar as mobílias pela janela. Em outra, seguindo a onda de Pete, que quebrava as guitarras após os shows, começou a botar fogos de artificio na bateria, que explodia junto com a quebração de guitarra. 
-
-Foram então em um importantíssimo programa de TV e Moon, empolgado, colocou tantos fogos na bateria que quase explode todo o estúdio.  Ele gostava de se fantasiar  de tudo, seja mulher, mendigo, deuses ou bruxos e ia fantasiado em todos os lugares. Por fim, correndo de uma briga, já completamente bêbado,  tenta arrancar com seu carro e atropela e mata o seu querido guarda-costa e motorista .  O remorso nunca mais o larga. Morre aos 32 anos, em 78, de parada cardíaca, depois de tomar um vidor de remédio contra alcoolismo.
-
-Sua trajetória como baterista é impressionante. Com sua superatividade e adrenalina toca com uma rapidez incrível, em um dos vídeos abaixo, a bateria tinha 55 kits de pratos e tambores.  Inventava batidas e sons variados, a ponto de inventar um tambor com água e peixes, para ter um som diferenciado.
- 
-Solo de Bateria K. Moon - https://youtu.be/WT5uAIPFft8
- 
-Explosão da Bateria:  https://youtu.be/MVa4q-YVjD8
- 
-Solo da bateria com peixes : https://youtu.be/O5Up-qHTJdY`,
-
-    "1971 - The Stampeders.md": `The Stampeders, um dos grupos mais marcantes do rock canadense dos anos 70, alcançou fama internacional com "Sweet City Woman", lançada em 1971. O trio, formado por Rich Dodson, Ronnie King e Kim Berly em Calgary, Alberta, criou uma sonoridade única que mesclava rock com toques de country e folk.
+  "1971 - The Stampeders.md": `The Stampeders, um dos grupos mais marcantes do rock canadense dos anos 70, alcançou fama internacional com "Sweet City Woman", lançada em 1971. O trio, formado por Rich Dodson, Ronnie King e Kim Berly em Calgary, Alberta, criou uma sonoridade única que mesclava rock com toques de country e folk.
 
 "Sweet City Woman", com seu inconfundível banjo e harmonias vocais perfeitas, se tornou o maior sucesso da banda, alcançando o primeiro lugar nas paradas canadenses e chegando ao Top 10 nos Estados Unidos. A música, que ganhou o prêmio Juno de Single do Ano em 1971, capturou perfeitamente o espírito otimista da época com sua melodia alegre e letra cativante.
 
@@ -983,7 +1154,7 @@ Embora a banda tenha continuado ativa no cenário musical canadense por vários 
 
 Stampeders - Sweet City Woman - https://youtu.be/2CPt3eSBJiQ`,
 
-    "1971 - The Sweet.md": `A banda The Sweet, ingleses da década de 70, que fizeram uma das músicas mais icônicas da nossa época de festas nos sábados. A música é Co-co, segue link abaixo. A banda passou de musicas dançantes para um rock mais pesado, com guitarras e bateria em nível elevado, mas fez musicas que foram muito tocadas na nossa época. 
+  "1971 - The Sweet.md": `A banda The Sweet, ingleses da década de 70, que fizeram uma das músicas mais icônicas da nossa época de festas nos sábados. A música é Co-co, segue link abaixo. A banda passou de musicas dançantes para um rock mais pesado, com guitarras e bateria em nível elevado, mas fez musicas que foram muito tocadas na nossa época. 
 
 Interessante nesse grupo é que tinham  uma dupla de compositores contratados, Nicky Chinn e Mike Chapman, que fizeram pelo menos três LPs completos para  a banda. 
 
@@ -1000,9 +1171,25 @@ Little Willy - https://youtu.be/NM6I-pmV0RA
 The Ballroom Blitz - https://youtu.be/ewFBuYHldeY
 FUNNY FUNNY - https://youtu.be/dd8JHqjHJ5U
 Fox On The Run  - https://youtu.be/VP2umy6TdEU
-Blockbuster - https://youtu.be/WNXFtVWB47E`,
+Blockbuster - https://youtu.be/WNXFtVWB47E
+`,
 
-    "1971 - Tina Turner.md": `Tratar de uma unanimidade, primeiro pela qualidade artística, depois pela vida que mescla drama injustificável e sucesso continuado. Anna Mae Bullock que nasce em 1939, com 17 anos se encontra com Ike Turner, de quem herda o nome, uma carreira e uma desgraça. O nome ela não perde nunca. A carreira, ela inicia com um ótimo guitarrista e músico, Ike (um dos primeiros a distorcer uma guitarra - descoberta causada por um curto no estúdio - e tocar  música tipicamente de rock), com a banda Ike & Tina Turner, que colocam Tina no cenário mundial. É dessa fase da vida de Tina que destacamos na nossa dica, primeiro pela qualidade da música, segundo pela  interpretação viceral que ela emplaca nas músicas. 
+  "1971 - THE WHO.md": `A forma como Keith Moon se torna baterista do The Who já é muito doida. Ele vai em um show da banda “High Numbers”, formada por Pete Townshend, Roger Daltrey e outros e começa a vaiar loucamente o show. Pete para o show e pergunta por que Keith xinga tanto e vaia tanto. Keith diz que o baterista é péssimo.  Pete então desafia o garoto de 17 anos a tocar melhor. Moon arrasa, o baterista é despedido e ele assume a função.
+
+Moon se relacionava com toda a sua geração de roqueiros. é fato que foi ele quem deu o nome de Led Zeppelin para o grupo de Jimmy Page. Como baterista do Who fez de tudo, bebeu todas, aprontou o que foi possível.  Dizem que em um show chegou tão atrasado que Pete, de raiva, acertou a guitarra na sua cabeça e ele passou todo o resto do show desmaiado no palco.  Outra vez, promovendo uma suruba na sua casa, foi perseguido pela polícia e jogou seu Rolls Royce em uma piscina. Em outra, querendo quebrar o quarto de um hotel, contratou dois motorista para fechar os dois lados da rua do hotel, para poder jogar as mobílias pela janela. Em outra, seguindo a onda de Pete, que quebrava as guitarras após os shows, começou a botar fogos de artificio na bateria, que explodia junto com a quebração de guitarra. 
+
+Foram então em um importantíssimo programa de TV e Moon, empolgado, colocou tantos fogos na bateria que quase explode todo o estúdio.  Ele gostava de se fantasiar  de tudo, seja mulher, mendigo, deuses ou bruxos e ia fantasiado em todos os lugares. Por fim, correndo de uma briga, já completamente bêbado,  tenta arrancar com seu carro e atropela e mata o seu querido guarda-costa e motorista .  O remorso nunca mais o larga. Morre aos 32 anos, em 78, de parada cardíaca, depois de tomar um vidor de remédio contra alcoolismo.
+
+Sua trajetória como baterista é impressionante. Com sua superatividade e adrenalina toca com uma rapidez incrível, em um dos vídeos abaixo, a bateria tinha 55 kits de pratos e tambores.  Inventava batidas e sons variados, a ponto de inventar um tambor com água e peixes, para ter um som diferenciado.
+ 
+Solo de Bateria K. Moon - https://youtu.be/WT5uAIPFft8
+ 
+Explosão da Bateria:  https://youtu.be/MVa4q-YVjD8
+ 
+Solo da bateria com peixes : https://youtu.be/O5Up-qHTJdY
+`,
+
+  "1971 - Tina Turner.md": `Tratar de uma unanimidade, primeiro pela qualidade artística, depois pela vida que mescla drama injustificável e sucesso continuado. Anna Mae Bullock que nasce em 1939, com 17 anos se encontra com Ike Turner, de quem herda o nome, uma carreira e uma desgraça. O nome ela não perde nunca. A carreira, ela inicia com um ótimo guitarrista e músico, Ike (um dos primeiros a distorcer uma guitarra - descoberta causada por um curto no estúdio - e tocar  música tipicamente de rock), com a banda Ike & Tina Turner, que colocam Tina no cenário mundial. É dessa fase da vida de Tina que destacamos na nossa dica, primeiro pela qualidade da música, segundo pela  interpretação viceral que ela emplaca nas músicas. 
 
 Na década de 70 Tina e Ike realizam shows imperdíveis, com interpretações e lançamentos que marcam a história da música. Uma delas é “Proud Mary” . Montam um estúdio, Bolic Sound que se torna um verdadeiro cenário para todo tipo de loucura. Sexo, cocaína e beberagem era o que mais se fazia no local, sobrando pouco tempo para a música. Lá nasceram interpretações inesquecíveis, o design das “Ikettes” (as três lindas garotas que cantam e dançam com ela) e o início do martírio de Tina.
  
@@ -1012,9 +1199,10 @@ Get Back'  - https://youtu.be/D2zXS916mxI
 Honky Tonk Woman - https://youtu.be/JLBuTkIPbSA
 Proud Mary - https://youtu.be/hzQnPz6TpGc
 Simply The Best - https://youtu.be/rLi-KJJTSyc
-We Don't Need Another Hero - https://youtu.be/NVPq-_t-ANw`,
+We Don't Need Another Hero - https://youtu.be/NVPq-_t-ANw
+`,
 
-    "1971 - YES.md": `Roger Dean  inventou uma arte, um modo de pensar, colorir e delinear cenários que encantou vários bandas na década de 70. Começa fazendo marcas para produtoras, até fazer a capa do Osibisa. Mas um executivo da Atlantic Records, Phil Carson, que achou a banda ideal para que Roger Dean se tornasse o maior desenhista de capas do mundo. 
+  "1971 - YES.md": `Roger Dean  inventou uma arte, um modo de pensar, colorir e delinear cenários que encantou vários bandas na década de 70. Começa fazendo marcas para produtoras, até fazer a capa do Osibisa. Mas um executivo da Atlantic Records, Phil Carson, que achou a banda ideal para que Roger Dean se tornasse o maior desenhista de capas do mundo. 
 
 A primeira grande mudança que Dean faz é no logo do Yes. O Yes já tinha três álbuns,  Yes (1969), Time and a Word (1970) e The Yes Album (1971), quando encontram com Roger Dean em 71.  Ele faz o desenho do álbum “Fragile”  em 72 e “Close to the Edge”.
  
@@ -1030,9 +1218,11 @@ https://youtu.be/SxwqZMx22PM
 https://youtu.be/LY0c6qc95oI 
 https://youtu.be/mBLy6ovvDc4 
 https://youtu.be/Ne317y_eOYs 
-/`,
+/ 
 
-    "1972 - 5Th Dimension.md": `Fantástico grupo vocal que teve uma presença marcante na  década de 70. Ninguem  deixou de reagir de alguma forma com o musical Hair: The American Tribal Love-Rock Musical. "Aquarius / Let the Sunshine In", gravado pelo The 5th Dimension. Foi a top da Billboard em 6 semanas consecutivas, ganhou o Prêmio Grammy para Gravação do Ano, em 1970 e foi a música mais tocada nos rádios e televisões nesse  ano.
+`,
+
+  "1972 - 5Th Dimension.md": `Fantástico grupo vocal que teve uma presença marcante na  década de 70. Ninguem  deixou de reagir de alguma forma com o musical Hair: The American Tribal Love-Rock Musical. "Aquarius / Let the Sunshine In", gravado pelo The 5th Dimension. Foi a top da Billboard em 6 semanas consecutivas, ganhou o Prêmio Grammy para Gravação do Ano, em 1970 e foi a música mais tocada nos rádios e televisões nesse  ano.
 
 Mesmo os mais céticos e pragmáticos não podem deixar de reconhecer que a “era de aquários” foi muito bem empacotada na época, com todos os temperos de uma boa e saudável crença. A crença na utopia das conciliações. 5Th Dimension nos fez o favor de cantar isso.
 
@@ -1043,26 +1233,19 @@ Seguem abaixo minhas musica preferidas, por ordem de preferência:
 (Last Night) I Didn't Get To Sleep At All - https://youtu.be/GztV3yWNJJw
 Aquarius - Let The Sunshine In - https://youtu.be/oPK7ZF6jfJE
 Up Up & Away - https://youtu.be/HfxqQmWtGNM
-DAY BY DAY - https://youtu.be/GnUi8ZSBGfI`,
+DAY BY DAY - https://youtu.be/GnUi8ZSBGfI
+`,
 
-    "1972 - Al Green.md": `É inacreditável como tem sujeito que se mete em fria. A história de Al Green mostra isso. Nascido em 1946 na perdida cidade de Forrest City (hoje moram lá 14 000 pessoas, imagina na época), no Arkansas, a família Greene, comandada pelo pai, canta em igrejas. O menino Albert é o mais talentoso. Não demora muito, já como Al Green, se lança na estrada, como cantor, tentando fazer valer seu talento. Encontra um produtor, Willie Mitchell, que consegue lapidar aquele talento, tirando uma voz realmente fantástica do rapaz. Lá pelos idos de 72 consegue dar a cartada da sua vida, produz Let's Stay Together. Em 74 já é milionário. E, mais que muitos outros, droga, sexo e música tomam totalmente a sua vida. "Todos os dias era dia de bolo", como ele mesmo diz nas suas memórias. Nessa balada diária mundo afora, Al carrega garotas, que fazem parte da sua trupe da alegria, ocupando andares inteiros de hotéis, aviões, boates. Nesse grupo de amigos, amigas, músicos e empresários que o acompanham, esta a garota Mary Woodson, que entra e sai do grupo, dependendo dos lugares em que a farra acontece. Pelo que descreve o próprio Al Green, ninguém conhece ninguém  direito nessa patota. Fora o núcleo de músicos, Al e Mitchell, o resto é farra.  E a farra entre Al e Mary é da pesada. Toda as vezes que ela se encontra com o grupo os dois estão juntos, além de outras garotas também. Mas Al gosta dela e, nas bebedeiras e surubas, chama ela de noiva e diz que vai casar com ela. Tudo ia bem, até  aquela quinta feira à noite de  18 de outubro de 74. Al esta na sua casa em Menphis, com Mary e uma aeromoça. Deixa as garotas na cama e vai para o banho. Saindo da cama Mary pergunta quando vão se casar. Ele dá uma gargalhada e grita, "nunca". Vai para o chuveiro. Em um piscar de olhos ela entra no banheiro com um caldeirão de "grits" (papa de milho) fervendo e joga em cima de Al. Mary sai dali, entra em um quarto da casa e dá um tiro no ouvido. Morre ali a jovem casada,  mãe de 4 filhos,  Mary Woodson ,  que nunca revelou para o grupo quem realmente era. Depois de alguns dias na área de queimados de um hospital Al Green se torna pastor.
+  "1972 - Al Green.md": `É inacreditável como tem sujeito que se mete em fria. A história de Al Green mostra isso. Nascido em 1946 na perdida cidade de Forrest City (hoje moram lá 14 000 pessoas, imagina na época), no Arkansas, a família Greene, comandada pelo pai, canta em igrejas. O menino Albert é o mais talentoso. Não demora muito, já como Al Green, se lança na estrada, como cantor, tentando fazer valer seu talento. Encontra um produtor, Willie Mitchell, que consegue lapidar aquele talento, tirando uma voz realmente fantástica do rapaz. Lá pelos idos de 72 consegue dar a cartada da sua vida, produz Let's Stay Together. Em 74 já é milionário. E, mais que muitos outros, droga, sexo e música tomam totalmente a sua vida. "Todos os dias era dia de bolo", como ele mesmo diz nas suas memórias. Nessa balada diária mundo afora, Al carrega garotas, que fazem parte da sua trupe da alegria, ocupando andares inteiros de hotéis, aviões, boates. Nesse grupo de amigos, amigas, músicos e empresários que o acompanham, esta a garota Mary Woodson, que entra e sai do grupo, dependendo dos lugares em que a farra acontece. Pelo que descreve o próprio Al Green, ninguém conhece ninguém  direito nessa patota. Fora o núcleo de músicos, Al e Mitchell, o resto é farra.  E a farra entre Al e Mary é da pesada. Toda as vezes que ela se encontra com o grupo os dois estão juntos, além de outras garotas também. Mas Al gosta dela e, nas bebedeiras e surubas, chama ela de noiva e diz que vai casar com ela. Tudo ia bem, até  aquela quinta feira à noite de  18 de outubro de 74. Al esta na sua casa em Menphis, com Mary e uma aeromoça. Deixa as garotas na cama e vai para o banho. Saindo da cama Mary pergunta quando vão se casar. Ele dá uma gargalhada e grita, "nunca". Vai para o chuveiro. Em um piscar de olhos ela entra no banheiro com um caldeirão de "grits" (papa de milho) fervendo e joga em cima de Al. Mary sai dali, entra em um quarto da casa e dá um tiro no ouvido. Morre ali a jovem casada,  mãe de 4 filhos,  Mary Woodson ,  que nunca revelou para o grupo quem realmente era. Depois de alguns dias na área de queimados de um hospital Al Green se torna pastor.
  
 Essa trágica história evidentemente não diminui em nada o talento de Al Green. E, para trazer lembranças para nosso domingo - nenhum de nós passou a adolescência sem dançar com uma garota uma dessas música -, vão ai as inesquecíveis:
  
 Let's Stay Together - https://youtu.be/MVzYxqG9N1c 
  
-How Can You Mend a Broken Heart - https://youtu.be/K9YIq0oNiSM`,
+How Can You Mend a Broken Heart - https://youtu.be/K9YIq0oNiSM
+`,
 
-    "1972 - CREEDENCE - SAIL AWAY.md": `“Sail Away” dos Creedence Clearwater Revival (CCR)  é dessas música que marcaram um momento importante  da minha vida. Faz parte do  álbum "Mardi Gras," lançado em 1972. O último álbum de estúdio da banda e o único a ser gravado como um trio após a saída do irmão de John Fogerty, Tom Fogerty. A obra apresenta contribuições individuais mais distintas de cada um dos membros remanescentes: John Fogerty, Stu Cook e Doug Clifford.
-
-A canção "Sail Away," foi composta por Stu Cook, é a segunda música do lado B deste álbum. Ela se destaca por ser uma das poucas faixas na discografia da CCR em que John Fogerty, o principal compositor e vocalista da banda, não esteve envolvido na composição. "Sail Away" reflete uma tentativa de diversificar o som e estilo da banda, permitindo que outros membros contribuíssem com composições e vocais.
-
-O álbum "Mardi Gras" foi recebido com críticas mistas, tanto na época de seu lançamento quanto em retrospectivas. Alguns críticos e fãs consideraram a inclusão de composições de outros membros da banda como uma diluição do som coeso e característico que havia tornado a CCR famosa. No entanto, músicas como "Sail Away" oferecem um vislumbre da dinâmica interna da banda e do talento individual de seus membros.
-
- 
-https://youtu.be/pSBHYfsPAt0`,
-
-    "1972 - Carly Simon.md": `Carly Simon. Nascida em 45 essa garota se envolveu em muita, mas muitas confusão mesmo. Rica, o pai era dono da editora Simon & Schuster, super bem relacionado.  Carly é daquelas que já estava na vida da alta sociedade de partida. Einstein frequentava a sua casa. O pai vendia piano antes da editora,  fundou a empresa para vender palavras cruzadas e acabou publicando livros de bolso. Fez fortuna. Ricos, a família tinha uma mansão onde valia tudo, A mãe  fazia do empregado amante, Carly era abusada por um amigo da casa, a irmã aprendia ópera. Assim  a música surge para ela com naturalidade. Forma uma dupla com a irmã e viaja pela Europa encontrando com todos os grandes artistas da época . Sua cadernetinha de relações, casamentos e casos era longa, Kris Kristofferson, Cat Stevens, Mick Jagger, Warren Beatty, David Geffen e James Taylor passam por ela. Casa com James Taylor no auge da relação dele com heroína e outras drogas. 
+  "1972 - Carly Simon.md": `Carly Simon. Nascida em 45 essa garota se envolveu em muita, mas muitas confusão mesmo. Rica, o pai era dono da editora Simon & Schuster, super bem relacionado.  Carly é daquelas que já estava na vida da alta sociedade de partida. Einstein frequentava a sua casa. O pai vendia piano antes da editora,  fundou a empresa para vender palavras cruzadas e acabou publicando livros de bolso. Fez fortuna. Ricos, a família tinha uma mansão onde valia tudo, A mãe  fazia do empregado amante, Carly era abusada por um amigo da casa, a irmã aprendia ópera. Assim  a música surge para ela com naturalidade. Forma uma dupla com a irmã e viaja pela Europa encontrando com todos os grandes artistas da época . Sua cadernetinha de relações, casamentos e casos era longa, Kris Kristofferson, Cat Stevens, Mick Jagger, Warren Beatty, David Geffen e James Taylor passam por ela. Casa com James Taylor no auge da relação dele com heroína e outras drogas. 
 Depois que larga a irmã, vai para sua carreira solo, sempre apoiada por remédios tarja preta e seções psiquiátricas, afinal ela é ansiosa, depressiva  e tem sérios problemas de baixa estima. 
 Mas em 72 ela lança seu principal trabalho, No Secrets, terceiro álbum, com a música inesquecível  "You're So Vain”.  É impossível ouvir essa música sem voltar aos anos 70.  Sucesso total. 
 Ouvindo o vasto trabalho da Carly, é surpreendente como ela faz música boa em toda a sua carreira . Vale a pela conferir.
@@ -1072,9 +1255,20 @@ Para terminar, como se já não bastasse todas a atribulações da sua vida pess
  
 You're So Vain -  https://youtu.be/qNqXh9sZwoU
 Coming Around Again - https://youtu.be/c0A7jAVDPJU
-Haven't Got Time For The Pain - https://youtu.be/M4HLHuS3hkw`,
+Haven't Got Time For The Pain - https://youtu.be/M4HLHuS3hkw
+`,
 
-    "1972 - Daniel Boone.md": `Daniel Boone, cujo nome verdadeiro é Peter Charles Green, marcou a história da música pop com "Beautiful Sunday", lançada em 1972. O cantor britânico criou um dos hinos mais otimistas e populares da década de 70, uma música que se tornou um sucesso mundial, vendendo mais de dois milhões de cópias e alcançando as paradas em diversos países.
+  "1972 - CREEDENCE - SAIL AWAY.md": `“Sail Away” dos Creedence Clearwater Revival (CCR)  é dessas música que marcaram um momento importante  da minha vida. Faz parte do  álbum "Mardi Gras," lançado em 1972. O último álbum de estúdio da banda e o único a ser gravado como um trio após a saída do irmão de John Fogerty, Tom Fogerty. A obra apresenta contribuições individuais mais distintas de cada um dos membros remanescentes: John Fogerty, Stu Cook e Doug Clifford.
+
+A canção "Sail Away," foi composta por Stu Cook, é a segunda música do lado B deste álbum. Ela se destaca por ser uma das poucas faixas na discografia da CCR em que John Fogerty, o principal compositor e vocalista da banda, não esteve envolvido na composição. "Sail Away" reflete uma tentativa de diversificar o som e estilo da banda, permitindo que outros membros contribuíssem com composições e vocais.
+
+O álbum "Mardi Gras" foi recebido com críticas mistas, tanto na época de seu lançamento quanto em retrospectivas. Alguns críticos e fãs consideraram a inclusão de composições de outros membros da banda como uma diluição do som coeso e característico que havia tornado a CCR famosa. No entanto, músicas como "Sail Away" oferecem um vislumbre da dinâmica interna da banda e do talento individual de seus membros.
+
+ 
+https://youtu.be/pSBHYfsPAt0
+`,
+
+  "1972 - Daniel Boone.md": `Daniel Boone, cujo nome verdadeiro é Peter Charles Green, marcou a história da música pop com "Beautiful Sunday", lançada em 1972. O cantor britânico criou um dos hinos mais otimistas e populares da década de 70, uma música que se tornou um sucesso mundial, vendendo mais de dois milhões de cópias e alcançando as paradas em diversos países.
 
 "Beautiful Sunday", co-escrita por Boone e Rod McQueen, capturou perfeitamente o espírito alegre e despreocupado da época com sua melodia contagiante e letra positiva. A música se destacou por sua simplicidade e capacidade de fazer as pessoas sorrirem, tornando-se um clássico das rádios em todo o mundo. Foi particularmente bem-sucedida na Alemanha e no Japão, onde permaneceu como uma das músicas internacionais mais populares da década.
 
@@ -1085,7 +1279,7 @@ Beautiful Sunday - [Aqui deveria estar o link do YouTube, mas não foi fornecido
 Vejam ai: 
 https://youtu.be/EQ7uNXfoq5g`,
 
-    "1972 - Dave Edmunds.md": `Dave Edmunds, guitarrista galês e produtor musical renomado, alcançou sucesso mundial em 1970 com sua versão de "I Hear You Knocking". A música, originalmente gravada por Smiley Lewis em 1955, ganhou nova vida nas mãos de Edmunds, que a transformou em um rock and roll poderoso, destacando-se por seu distintivo trabalho de guitarra e produção única.
+  "1972 - Dave Edmunds.md": `Dave Edmunds, guitarrista galês e produtor musical renomado, alcançou sucesso mundial em 1970 com sua versão de "I Hear You Knocking". A música, originalmente gravada por Smiley Lewis em 1955, ganhou nova vida nas mãos de Edmunds, que a transformou em um rock and roll poderoso, destacando-se por seu distintivo trabalho de guitarra e produção única.
 
 "I Hear You Knocking" alcançou o primeiro lugar nas paradas britânicas e entrou no Top 5 americano, estabelecendo Edmunds como uma força importante no cenário do rock. Sua interpretação da música é notável pela produção inovadora, com um som denso e reverberante que se tornaria sua marca registrada. A gravação foi feita inteiramente por Edmunds, que tocou todos os instrumentos, demonstrando não apenas seu talento como guitarrista, mas também como produtor e arranjador.
 
@@ -1095,14 +1289,15 @@ I Hear You Knocking - [Aqui deveria estar o link do YouTube, mas não foi fornec
 
 https://youtu.be/hMjwb13TFCo`,
 
-    "1972 - Deep Purble.md": `Há várias histórias sobre essa música, afinal todas contam sobre uma das músicas mais amadas da história do rock, Smoke On The Water. A história comumente contada diz que o Deep Purble foi para a Suíça,  Montreux, gravar um disco, usando o caminhão estúdio dos Rolling Stones. Aproveitariam o festival de música da cidade e, ao mesmo tempo, gravariam o disco. Na noite da apresentação do Frank Zappa and The Mothers, 4 de dezembro de 1971, um maluco solta um foguete dentro do teatro, que coloca fogo em tudo. Do outro do Lago de Leman, no hotel Le Rivage, a turma do Deep Purple assiste tudo de camarote e escreve a letra e a música. 
+  "1972 - Deep Purble.md": `Há várias histórias sobre essa música, afinal todas contam sobre uma das músicas mais amadas da história do rock, Smoke On The Water. A história comumente contada diz que o Deep Purble foi para a Suíça,  Montreux, gravar um disco, usando o caminhão estúdio dos Rolling Stones. Aproveitariam o festival de música da cidade e, ao mesmo tempo, gravariam o disco. Na noite da apresentação do Frank Zappa and The Mothers, 4 de dezembro de 1971, um maluco solta um foguete dentro do teatro, que coloca fogo em tudo. Do outro do Lago de Leman, no hotel Le Rivage, a turma do Deep Purple assiste tudo de camarote e escreve a letra e a música. 
  
 Essa é a história que todo mundo conta.   O que o ninguém  conta é que havia na época uma briga séria entre Frank Zappa e os Rolling Stones. De certa forma o mundo das bandas se dividia em grupos e Zappa era sempre o ponto da discórdia ou o elemento de conflito. Então os Stones no festiva de Montreux um modo de vingar do Zappa. Ofereceram o caminhão estúdio para os calouros do Deep Purple, sob a condição deles darem uma boa prejudicada no show do Zappa. Assim,  os malucos do Deep Purple, comandados por Ritchie Blackmore - o cara que criou a inesquecível entrada da música -, foram para a plateia do show do Zappa naquela noite, claro, trebados,  e foi Ian Gillan, o vocalista, o cara que soltou o tal foguete. Como um bando de malucos, disfarçados com tocas e casacos, os caras saíram correndo do show e pegaram a lancha pilotada pelo Ian Paice, baterista, atravessaram o lago e voltaram para o Hotel Le Rivage. A música foi composta não porque estavam lá do outro lado do lago e viram a fumaça baixa no lago, mas sim porque estavam no lago, cobertos por uma fumaçada enorme, que, inclusive, ajudou na fuga. Não havia nenhuma amizade com Zappa, um gênio musical, super petulante e arrogante, que achava o Deep Purple um bando de incompetentes.  A loucura dos caras quase não causa uma tragédia. Entretanto nada de mais grave aconteceu, fora a sabotagem no show de Frank Zappa e a criação de uma das melhores músicas do rock, assim contam as crônicas .
 
  
-https://youtu.be/ikGyZh0VbPQ`,
+https://youtu.be/ikGyZh0VbPQ
+`,
 
-    "1972 - Don Mclean.md": `Um sujeito realmente diferente. Só da sua principal música ter mais de 8 minutos de duração e ser considerada uma das melhores músicas do século XX, já um fato espetacular. American Pie é realmente uma musica que devemos sempre lembrar. A melodia, a música é ótima e a letra é muito boa. O dia em que a música morreu. Que dia terrível seria esse ? O dia que as crianças gritam, os amantes choram e os sinos não tocam mais. então: 
+  "1972 - Don Mclean.md": `Um sujeito realmente diferente. Só da sua principal música ter mais de 8 minutos de duração e ser considerada uma das melhores músicas do século XX, já um fato espetacular. American Pie é realmente uma musica que devemos sempre lembrar. A melodia, a música é ótima e a letra é muito boa. O dia em que a música morreu. Que dia terrível seria esse ? O dia que as crianças gritam, os amantes choram e os sinos não tocam mais. então: 
  
 And they were singing
 "bye-bye, miss american pie. "
@@ -1137,9 +1332,10 @@ And once a page is read
 All but love is dead
 This is my belief
  
-https://youtu.be/RaxyrNVGtLQ`,
+https://youtu.be/RaxyrNVGtLQ
+`,
 
-    "1972 - Doobie Brothers.md": `The Doobie Brothers surgiram na Califórnia em 1970, trazendo uma mistura única de rock, country e R&B que definiu o som da costa oeste americana. "Listen to the Music", lançada em 1972, foi um dos primeiros grandes sucessos da banda e ajudou a estabelecer sua sonoridade característica que influenciaria gerações de músicos.
+  "1972 - Doobie Brothers.md": `The Doobie Brothers surgiram na Califórnia em 1970, trazendo uma mistura única de rock, country e R&B que definiu o som da costa oeste americana. "Listen to the Music", lançada em 1972, foi um dos primeiros grandes sucessos da banda e ajudou a estabelecer sua sonoridade característica que influenciaria gerações de músicos.
 
 A música, escrita pelo guitarrista e vocalista Tom Johnston, capturou perfeitamente a essência do som da banda com suas harmonias vocais marcantes, guitarras duplas e ritmo contagiante. Johnston compôs a canção com uma mensagem otimista sobre o poder da música em unir as pessoas e curar as divisões do mundo. Os arranjos sofisticados, incluindo a seção de cordas e a percussão latina, criaram uma textura sonora rica que se tornou marca registrada dos Doobies.
 
@@ -1151,9 +1347,13 @@ https://youtu.be/bJqk2yWUGTM
  
 Long Train Running, lembram dela ?
  
-https://youtu.be/m4tJSn0QtME`,
+https://youtu.be/m4tJSn0QtME
+ 
 
-    "1972 - FORTUNES.md": `AFORTUNADOS
+`,
+
+  "1972 - FORTUNES.md": `
+AFORTUNADOS
 Os “alunos aplicados” de uma escola de vanguarda.
 
 O casal inglês  Reg e Dorothy Calvert criaram na década de 60 o sonho de qualquer jovem interessado em música: uma escola/pensão/refúgio, Clifton Hall, na cidade de Rugby, condado de Warwickshire, Inglaterra. Nela abrigavam talentos musicais, como se fosse uma incubadora de futuras estrelas inglesas.  Reg Calvert se metia em encrencas, criou uma radio pirata, chamada Radio City. Entretanto, na luta pela viabilização da rádio, entrou em conflito com um outro dono de rádio pirata, a Radio Atlanta.  Em uma das discussões que tiveram o concorrente deu um tiro de cartucheira em Reg, matando-o
@@ -1192,17 +1392,20 @@ That Same Old Feeling
  https://youtu.be/RkL4Uj4SziQ
  
 Here It Comes Again
- https://youtu.be/72Zuq4xDI5w`,
+ https://youtu.be/72Zuq4xDI5w
+ 
+`,
 
-    "1972 - GARY GLITTER.md": `Um sujeito que não presta. Já foi preso várias vezes por pedofilia atualmente, mas na década de 70 realmente surpreendeu a todos. Para todos nós aquela batida da bateria do disco Glitter era o máximo. Somada com guitarras que cortavam o ritmo o tempo todo. O disco Glitter, veja a capa abaixo, tocou muito ali na Piaui. Vão ai duas faixas desse LP:
+  "1972 - GARY GLITTER.md": `Um sujeito que não presta. Já foi preso várias vezes por pedofilia atualmente, mas na década de 70 realmente surpreendeu a todos. Para todos nós aquela batida da bateria do disco Glitter era o máximo. Somada com guitarras que cortavam o ritmo o tempo todo. O disco Glitter, veja a capa abaixo, tocou muito ali na Piaui. Vão ai duas faixas desse LP:
 
 School Day (Ring! Ring! Goes The Bell)
 
 https://youtu.be/swlDhsEIu-c
  
-https://youtu.be/i2-1gOGMxQo`,
+https://youtu.be/i2-1gOGMxQo
+`,
 
-    "1972 - NOVOS BAIANOS.md": `"chegou a hora dessa gente bronzeada mostrar o seu valor" . Em 73 vi um show ao vivo dos Novos Baianos no colégio Promove, em Belo Horizonte, cantando Novos Baianos, Brasil Pandeiro. Novos Baianos representam um dos momentos mais criativos e revolucionários da música brasileira. Formado na Bahia no final dos anos 60, o grupo reuniu talentos extraordinários como Baby Consuelo (hoje Baby do Brasil), Pepeu Gomes, Paulinho Boca de Cantor, Moraes Moreira e Luiz Galvão, criando uma sonoridade única que mesclava rock, samba, choro e baião.
+  "1972 - NOVOS BAIANOS.md": `"chegou a hora dessa gente bronzeada mostrar o seu valor" . Em 73 vi um show ao vivo dos Novos Baianos no colégio Promove, em Belo Horizonte, cantando Novos Baianos, Brasil Pandeiro. Novos Baianos representam um dos momentos mais criativos e revolucionários da música brasileira. Formado na Bahia no final dos anos 60, o grupo reuniu talentos extraordinários como Baby Consuelo (hoje Baby do Brasil), Pepeu Gomes, Paulinho Boca de Cantor, Moraes Moreira e Luiz Galvão, criando uma sonoridade única que mesclava rock, samba, choro e baião.
 
 "Brasil Pandeiro", originalmente composta por Assis Valente em 1940, ganhou nova vida na interpretação dos Novos Baianos em 1972, como parte do histórico álbum "Acabou Chorare". A versão do grupo trouxe uma energia renovada à música, incorporando elementos do rock ao samba tradicional, com destaque para o virtuosismo de Pepeu Gomes na guitarra e os arranjos vocais característicos do grupo. Esta releitura tornou-se um marco da tropicália e do movimento de renovação da música brasileira.
 
@@ -1210,9 +1413,10 @@ O grupo viveu em comunidade durante seus anos mais produtivos, desenvolvendo um 
 
 Brasil Pandeiro - [Aqui deveria estar o link do YouTube, mas não foi fornecido no texto original]
  
-https://youtu.be/ojeJ-DCMtls`,
+https://youtu.be/ojeJ-DCMtls
+`,
 
-    "1972 - Roberta Flack.md": `A fenomenal Roberta Flack, surpreende  pela quantidade e qualidade da totalidade das músicas que ela canta. É muito bom mesmo. Com formação clássica, Roberta sempre viveu em um ambiente musical, foi para a universidade, se tornou professora, em uma carreira fulminante, com 19 anos já fazia pós-graduação . 
+  "1972 - Roberta Flack.md": `A fenomenal Roberta Flack, surpreende  pela quantidade e qualidade da totalidade das músicas que ela canta. É muito bom mesmo. Com formação clássica, Roberta sempre viveu em um ambiente musical, foi para a universidade, se tornou professora, em uma carreira fulminante, com 19 anos já fazia pós-graduação . 
 
 Já cantava e se apresentava em casas noturnas e festivais de jazz, até que Clint Eastwood a descobre e coloca a sua musica "First Time Ever I Saw Your Face”, como trilha sonora do seu filme "I Saw Your face”, em 72, Desde então Roberta alcança todos os prêmios e patamares da música internacional. Where is the Love, Killing me Softly, são verdadeiros hinos de leveza e excelência. Roberta pesquisa em todas as áreas.  De Leonard Cohen (Suzanne) até os Beatles (lança uma álbum interpretando 12 músicas deles - Roberta Let It Be), não há espectro musical que ela não experimente.  Nascida em 37, hoje com 81 anos, não tenho nenhuma dúvida em afirmar, é uma das maiores cantoras de todos os tempos. Então fiquem nesse domingo com ela, Roberta Flack e façam uma experiência, busquem uma playlist com musicas dela e se surpreendam, são todas boas !  
  
@@ -1220,9 +1424,10 @@ First Time Ever I Saw Your Face https://youtu.be/r9jmusgMgro
 Donny Hathaway - Where is the Love  https://youtu.be/ZcHPNUN-U8E
 KILLING ME SOFTLY  https://youtu.be/Dx1XtKbEtfE
 Feel like makin' love   https://youtu.be/Q1W9EwGlDv8
-Hey Jude  https://youtu.be/dIGw6W6iIMU`,
+Hey Jude  https://youtu.be/dIGw6W6iIMU
+`,
 
-    "1972 - The Temptations.md": `The Temptations, um dos grupos mais influentes da história da Motown, alcançou um de seus momentos mais marcantes em 1972 com "Papa Was a Rolling Stone". A música, escrita por Norman Whitfield e Barrett Strong, é considerada uma obra-prima do soul psicodélico, com sua introdução instrumental hipnótica de quatro minutos e sua narrativa social poderosa.
+  "1972 - The Temptations.md": `The Temptations, um dos grupos mais influentes da história da Motown, alcançou um de seus momentos mais marcantes em 1972 com "Papa Was a Rolling Stone". A música, escrita por Norman Whitfield e Barrett Strong, é considerada uma obra-prima do soul psicodélico, com sua introdução instrumental hipnótica de quatro minutos e sua narrativa social poderosa.
 
 Com Dennis Edwards nos vocais principais, apoiado pelas vozes harmônicas características do grupo, a música conta a história sombria de um pai ausente que deixa sua família em dificuldades. O arranjo inovador, produzido por Norman Whitfield, com sua linha de baixo memorável, cordas dramáticas e instrumentação complexa, estabeleceu novos padrões para a música soul. A versão do single, mesmo editada, manteve a intensidade da original de 12 minutos do álbum.
 
@@ -1234,15 +1439,16 @@ Papa Was a Rolling Stone - [Aqui deveria estar o link do YouTube, mas não foi f
 
 The Temptations  - Papa Was A Rolling Stone - https://youtu.be/nXiQtD5gcHU`,
 
-    "1972 - Timmy  Thomas.md": `Sinceramente, gosto muito dessa música, mas dos 7 álbuns  do Timmy só salva mesmo "Why Can't We Live Together”. Achei também  "What Can I Tell Her”, segue o link abaixo que também é muito boa. Timmy  Thomas era um tipo de ajudante secundário em estúdios. Em 72 trabalha uma  música usando simplesmente uma bateria eletrônica e uma percussão tipo latina, mais sua voz diferenciada. Fez um demo e foi bater no notório estúdio Dukoff Recording, comandado por  Bob Durkoff. 
+  "1972 - Timmy  Thomas.md": `Sinceramente, gosto muito dessa música, mas dos 7 álbuns  do Timmy só salva mesmo "Why Can't We Live Together”. Achei também  "What Can I Tell Her”, segue o link abaixo que também é muito boa. Timmy  Thomas era um tipo de ajudante secundário em estúdios. Em 72 trabalha uma  música usando simplesmente uma bateria eletrônica e uma percussão tipo latina, mais sua voz diferenciada. Fez um demo e foi bater no notório estúdio Dukoff Recording, comandado por  Bob Durkoff. 
 
 Bob, de uma família de artistas, era um músico de jazz, que fazia suas próprias ponteiras de sax, comandava bandas e se destacava pela sua capacidade empreendedora. Para garantir suas produções monta o estúdio Durkoff, que teve, entre outras bandas os Bee Gees. Bob gosta da música e propõe o lançamento daquele demo, do modo como Timmy montou. Assim nasce um estrondoso sucesso.
  
 Fiquem então com "Why Can't We Live Together”  - https://youtu.be/xyZOxFAmyKE
  
-e   "What Can I Tell Her” - https://youtu.be/yn98ywhwl2U`,
+e   "What Can I Tell Her” - https://youtu.be/yn98ywhwl2U 
+`,
 
-    "1972 - Todd Rundgren.md": `Todd Rundgren, gênio musical multifacetado, compositor, instrumentista e produtor, criou um dos clássicos mais perfeitos do power pop com "I Saw The Light" em 1972. A música, que abriu seu aclamado álbum duplo "Something/Anything?", foi inteiramente gravada por Rundgren, que tocou todos os instrumentos e fez todos os vocais, demonstrando seu extraordinário talento musical.
+  "1972 - Todd Rundgren.md": `Todd Rundgren, gênio musical multifacetado, compositor, instrumentista e produtor, criou um dos clássicos mais perfeitos do power pop com "I Saw The Light" em 1972. A música, que abriu seu aclamado álbum duplo "Something/Anything?", foi inteiramente gravada por Rundgren, que tocou todos os instrumentos e fez todos os vocais, demonstrando seu extraordinário talento musical.
 
 "I Saw The Light", escrita quando Rundgren tinha apenas 21 anos, captura perfeitamente a essência do pop dos anos 70, com suas harmonias vocais complexas, melodia cativante e letras que falam sobre amor à primeira vista. A produção cristalina e os arranjos sofisticados demonstram não apenas suas habilidades como compositor, mas também como produtor, função pela qual também ficou conhecido, trabalhando com artistas como Grand Funk Railroad, Meat Loaf e XTC.
 
@@ -1252,7 +1458,7 @@ I Saw The Light - [Aqui deveria estar o link do YouTube, mas não foi fornecido 
 
 Todd Rundgren, I Saw The Light (1972) - https://youtu.be/WxB4weCzqGE`,
 
-    "1972 - Yellowstone and Voice.md": `O duo holandês Yellowstone & Voice surgiu no início dos anos 70 e alcançou sucesso internacional com "Philosopher", lançada em 1972. A música, que combina elementos de rock progressivo com pop melódico, se destacou nas paradas europeias com sua melodia cativante e arranjos elaborados.
+  "1972 - Yellowstone and Voice.md": `O duo holandês Yellowstone & Voice surgiu no início dos anos 70 e alcançou sucesso internacional com "Philosopher", lançada em 1972. A música, que combina elementos de rock progressivo com pop melódico, se destacou nas paradas europeias com sua melodia cativante e arranjos elaborados.
 
 Leo Caerts (Yellowstone) e Louis Philippe (Voice) criaram uma sonoridade única que capturou o espírito da época, com sintetizadores marcantes e harmonias vocais características. "Philosopher" se diferenciou no cenário musical da época por sua produção sofisticada e letra contemplativa, elementos que não eram comuns nas músicas pop do período.
 
@@ -1260,18 +1466,20 @@ Embora o duo não tenha conseguido repetir o mesmo nível de sucesso internacion
 
 Philosopher - [Aqui deveria estar o link do YouTube, mas não foi fornecido no texto original]
 
-https://youtu.be/-lr_UMmamIg`,
+https://youtu.be/-lr_UMmamIg
+`,
 
-    "1973 - ALBERT HAMMOND.md": `“Nunca chove em Brasília”, parafraseando  a ironia  da música "It Never Rains no sul da Califórnia”. Uma música muito boa, da dupla Albert Hammond e Mike Hazllewod. O Albert, sai de Gilbraltar, para tentar a vida na Espanha, come o pão que o diabo amassou, até conseguir emplacar  o que é, do meu ponto de vista, O disco. Para aqueles que gostam de imersão em um disco, esse é surpreendente. Tem várias músicas muito boas, como "Down by the River" e "If You Gotta Break Another Heart”. 
+  "1973 - ALBERT HAMMOND.md": `“Nunca chove em Brasília”, parafraseando  a ironia  da música "It Never Rains no sul da Califórnia”. Uma música muito boa, da dupla Albert Hammond e Mike Hazllewod. O Albert, sai de Gilbraltar, para tentar a vida na Espanha, come o pão que o diabo amassou, até conseguir emplacar  o que é, do meu ponto de vista, O disco. Para aqueles que gostam de imersão em um disco, esse é surpreendente. Tem várias músicas muito boas, como "Down by the River" e "If You Gotta Break Another Heart”. 
 
 Depois de um enorme sucesso na década de 70, ainda lança o também muito bom LP The Free Electric Band, que vale a pena conferir.
 
 Depois larga tudo, para de fazer shows e se recolhe para apenas compor. Vai cuidar da família, como ele diz. Compondo, implica mais de uma dezena de músicas para vários grupos e artistas. Ou seja, o cara tinha muita bala na agulha.
  https://youtu.be/Gmq4WIjQxp0
 Down by the River - https://youtu.be/U6-IDU1MgFM
-Free Electric Band - https://youtu.be/fvKlUfVb90Y`,
+Free Electric Band - https://youtu.be/fvKlUfVb90Y
+`,
 
-    "1973 - CHARLIE RICH.md": `Charlie Rich, conhecido como "The Silver Fox" por seus cabelos prateados prematuros, marcou a história da música country com "The Most Beautiful Girl", lançada em 1973. A música, que alcançou o topo tanto das paradas country quanto das paradas pop, demonstrou a capacidade única de Rich de transitar entre diferentes gêneros musicais, misturando country, soul e pop com sua voz aveludada.
+  "1973 - CHARLIE RICH.md": `Charlie Rich, conhecido como "The Silver Fox" por seus cabelos prateados prematuros, marcou a história da música country com "The Most Beautiful Girl", lançada em 1973. A música, que alcançou o topo tanto das paradas country quanto das paradas pop, demonstrou a capacidade única de Rich de transitar entre diferentes gêneros musicais, misturando country, soul e pop com sua voz aveludada.
 
 "The Most Beautiful Girl", escrita por Norro Wilson, Billy Sherrill e Rory Bourke, permaneceu no primeiro lugar da Billboard Hot 100 por duas semanas e se tornou um hit internacional. A produção de Billy Sherrill, com seus arranjos sofisticados e a interpretação emotiva de Rich, criou um som que definiria o "countrypolitan", estilo que aproximou a música country do mainstream pop nos anos 70.
 
@@ -1279,23 +1487,25 @@ Rich, que começou sua carreira como pianista de jazz e artista da Sun Records n
 
 The Most Beautiful Girl - https://youtu.be/qLbGeZSUrhg`,
 
-    "1973 - Discos Marcos Pereira.md": `Em 1973 nasce a Discos Marcos Pereira, que lança os inesquecíveis Musica Popular Brasileira, com 4 volumes para cada região do pais. Abaixo o link com todos os discos e musicas. O link abaixo é de  Nara Leão, cantando uma musica de todas as antigas infâncias: 
+  "1973 - Discos Marcos Pereira.md": `Em 1973 nasce a Discos Marcos Pereira, que lança os inesquecíveis Musica Popular Brasileira, com 4 volumes para cada região do pais. Abaixo o link com todos os discos e musicas. O link abaixo é de  Nara Leão, cantando uma musica de todas as antigas infâncias: 
 
 https://youtu.be/tHHOIhhBvU0
 
 Discos Marcus Pereira:  https://300discos.wordpress.com/ 
 
-https://youtu.be/0pKnBgF4-W0`,
+https://youtu.be/0pKnBgF4-W0
+`,
 
-    "1973 - Elvis Presley.md": `Hoje relembro o  14 de janeiro de 1973, quando Elvis Presley realiza o primeiro show via satélite do mundo, transmitido, ao vivo, para muitos países que assisti pela Rede Tupi. "Aloha from Hawaii Via Satellite", transmitido em 14 de janeiro de 1973, representou um dos momentos mais marcantes na carreira de Elvis Presley. Foi o primeiro show de um artista solo transmitido via satélite para diversos países, alcançando uma audiência estimada em mais de 1 bilhão de pessoas. Este evento histórico mostrou Elvis no auge de sua forma artística, mesmo que sua saúde já começasse a dar sinais de deterioração.
+  "1973 - Elvis Presley.md": `Hoje relembro o  14 de janeiro de 1973, quando Elvis Presley realiza o primeiro show via satélite do mundo, transmitido, ao vivo, para muitos países que assisti pela Rede Tupi. "Aloha from Hawaii Via Satellite", transmitido em 14 de janeiro de 1973, representou um dos momentos mais marcantes na carreira de Elvis Presley. Foi o primeiro show de um artista solo transmitido via satélite para diversos países, alcançando uma audiência estimada em mais de 1 bilhão de pessoas. Este evento histórico mostrou Elvis no auge de sua forma artística, mesmo que sua saúde já começasse a dar sinais de deterioração.
 
 O show, realizado no Honolulu International Center, apresentou Elvis com um repertório diversificado que incluía seus clássicos, covers contemporâneos e, é claro, "An American Trilogy", que se tornou um dos pontos altos da apresentação. Vestindo seu agora icônico "American Eagle" jumpsuit, desenhado por Bill Belew, Elvis demonstrou por que era conhecido como "O Rei do Rock and Roll", com uma performance que mesclava carisma, poder vocal e showmanship.
 
-O especial foi um triunfo tecnológico e artístico para a época, estabelecendo novos padrões para shows televisionados. A transmissão via satélite custou mais de US$ 2,5 milhões, um valor astronômico para 1973, mas que comprovou o status de Elvis como um fenômeno global. O álbum do show alcançou o topo das paradas e continua sendo um documento importante da fase final de sua carreira.
+O especial foi um triunfo tecnológico e artístico para a época, estabelecendo novos padrões para shows televisionados. A transmissão via satélite custou mais de US\$ 2,5 milhões, um valor astronômico para 1973, mas que comprovou o status de Elvis como um fenômeno global. O álbum do show alcançou o topo das paradas e continua sendo um documento importante da fase final de sua carreira.
 
-Aloha from Hawaii - https://youtu.be/H_QnzL-23FM`,
+Aloha from Hawaii - https://youtu.be/H_QnzL-23FM
+`,
 
-    "1973 - Gladys Knight & the Pips.md": `Conta aquela velha história de alguém que vai para uma grande cidade (Los Angeles) tentar o sucesso. Apesar de toda luta nada da certo. Então descobre que aquela vida que foi deixada de lado, aquele passado que um dia foi desprezado, agora ganha valor, valor descoberto justamente pela frustração de um sonho não realizado. Então, vamos voltar para onde viemos, cantam as músicas. 
+  "1973 - Gladys Knight & the Pips.md": `Conta aquela velha história de alguém que vai para uma grande cidade (Los Angeles) tentar o sucesso. Apesar de toda luta nada da certo. Então descobre que aquela vida que foi deixada de lado, aquele passado que um dia foi desprezado, agora ganha valor, valor descoberto justamente pela frustração de um sonho não realizado. Então, vamos voltar para onde viemos, cantam as músicas. 
 
 A primeira versão dessa música feita por Jim Weatherly  com o título de "Midnight Plane to Houston”, nos faz voar de volta à meia noite para Houston. Weatherly é um ótimo cantor, tem boas músicas e um bom compositor. Fez a música (apresento ai embaixo essa versão), mas não conseguiu muita coisa com ela. Um produtor local pergunta então para ele se autorizava trabalhar um pouco mais a música e oferece-la para um outro interprete. Para a surpresa de Weatherly a música passa a se chamar "Midnight Train To Georgia” e a quem recebe a tarefa de interpretá-la é o grupo Gladys Knight & the Pips. Ou seja, vamos voltar, mas de trem mesmo e para um lugar mais distante e simples.
  
@@ -1309,17 +1519,19 @@ Neither One Of Us(Wants To Be The First To Say Goodbye) - https://youtu.be/uSw7v
  
 For Once in my Life - https://youtu.be/y0kDu6UNpqg
  
-Aqui a primeira versão da música - Jim Weatherly cantando  "Midnight Plane to Houston"  :   https://youtu.be/J3_JQr6RqWs`,
+Aqui a primeira versão da música - Jim Weatherly cantando  "Midnight Plane to Houston"  :   https://youtu.be/J3_JQr6RqWs
+`,
 
-    "1973 - Osibisa .md": `Osibisa, banda pioneira formada em Londres em 1969 por músicos vindos de Gana, Nigéria e das Antilhas, revolucionou a música mundial ao criar uma fusão única de rock, jazz, funk e ritmos africanos. "Adwoa", lançada em 1971, é um exemplo perfeito dessa mistura inovadora que a banda trouxe para o cenário musical.
+  "1973 - Osibisa .md": `Osibisa, banda pioneira formada em Londres em 1969 por músicos vindos de Gana, Nigéria e das Antilhas, revolucionou a música mundial ao criar uma fusão única de rock, jazz, funk e ritmos africanos. "Adwoa", lançada em 1971, é um exemplo perfeito dessa mistura inovadora que a banda trouxe para o cenário musical.
 
 Com uma formação liderada por Teddy Osei, Mac Tontoh e Sol Amarfio, a banda criou um som que eles chamavam de "criss-cross rhythms that explode with happiness" (ritmos cruzados que explodem de felicidade). "Adwoa" exemplifica perfeitamente esta descrição, com seus arranjos complexos de percussão africana, guitarras e metais, combinados com vocais tradicionais em dialeto ganês, criando uma experiência musical única e contagiante.
 
 A influência do Osibisa se estendeu muito além desta música. A banda foi uma das primeiras a conseguir sucesso internacional com uma fusão afro-rock, abrindo portas para muitos outros artistas africanos no mercado ocidental. Suas capas de álbum, criadas pelo artista Roger Dean (famoso por seu trabalho com o Yes), também se tornaram icônicas e ajudaram a definir a estética do rock progressivo dos anos 70.
 
-Adwoa - https://youtu.be/ZI82zloHBM8`,
+Adwoa - https://youtu.be/ZI82zloHBM8
+`,
 
-    "1973 - Paul Bryan.md": `Paul Bryan surgiu no cenário musical dos anos 70 com "Listen", uma música que capturou a essência da era disco em sua fase inicial. Embora as informações sobre Bryan sejam relativamente escassas, sua contribuição para o período de transição entre o soul e a disco music é significativa.
+  "1973 - Paul Bryan.md": `Paul Bryan surgiu no cenário musical dos anos 70 com "Listen", uma música que capturou a essência da era disco em sua fase inicial. Embora as informações sobre Bryan sejam relativamente escassas, sua contribuição para o período de transição entre o soul e a disco music é significativa.
 
 "Listen", lançada em 1975, destacou-se por seus arranjos sofisticados e produção refinada, características que se tornariam marcas registradas da disco music. A música combina elementos de soul com as batidas dançantes que começavam a dominar as pistas de dança da época. A voz suave de Bryan, combinada com cordas envolventes e uma linha de baixo marcante, criou uma atmosfera perfeita para as discotecas emergentes.
 
@@ -1327,21 +1539,23 @@ Apesar de não ter se tornado um nome tão conhecido quanto outras estrelas da e
 
 Listen -  https://youtu.be/S6G6F7zmd6g`,
 
-    "1973 - Stories.md": `Stories, uma banda de rock de Nova York, alcançou o topo das paradas americanas em 1973 com "Brother Louie", embora a música fosse originalmente gravada pelo grupo britânico Hot Chocolate. A versão do Stories, com a voz potente de Ian Lloyd, transformou a canção em um clássico dos anos 70, abordando o tema controverso do relacionamento inter-racial.
+  "1973 - Stories.md": `Stories, uma banda de rock de Nova York, alcançou o topo das paradas americanas em 1973 com "Brother Louie", embora a música fosse originalmente gravada pelo grupo britânico Hot Chocolate. A versão do Stories, com a voz potente de Ian Lloyd, transformou a canção em um clássico dos anos 70, abordando o tema controverso do relacionamento inter-racial.
 
 "Brother Louie" se destacou não apenas por sua melodia cativante e arranjos sofisticados, mas também por sua mensagem social relevante. A música conta a história de um amor proibido entre pessoas de diferentes raças, um tema ainda delicado na América dos anos 70. Com sua produção polida, incluindo cordas marcantes e um groove irresistível, a versão do Stories deu nova vida à composição original.
 
 Ironicamente, este seria o maior sucesso da banda, que se desfez pouco tempo depois. Formada inicialmente como um grupo de rock progressivo por Michael Brown (ex-Left Banke) e Ian Lloyd, o Stories passou por várias mudanças de formação antes de gravar seu hit mais conhecido. Apesar da curta duração da banda, "Brother Louie" permanece como um importante registro tanto musical quanto social da época.
 
-Brother Louie -  https://youtu.be/wmF3jDwSTmI`,
+Brother Louie -  https://youtu.be/wmF3jDwSTmI
+`,
 
-    "1973 - Suzi Quatro.md": `A baixinha Susan Kay Quatrocchio, que idealizou por toda a vida ter uma banda só de mulheres. E teve.  Em 1964 participou da Pleasure Seekers, um grupo de  garotas. Ela não era das mais bonitas, mas se destacava pela musicalidade e a boa execução que tinha do seu baixo Fender. Por incrível que pareça, seu primeiro sucesso é em 1972, "Brain Confusion", que tinha  Peter Frampton na guitarra e alcança o topo das paradas … em Portugal. Nada nos EUA e um pontinho na Inglaterra. Esse resultado em Portugal dá um novo gás na carreira de Suzi, que lança o LP Quatro em 74, com “ Can to Can” (link abaixo). O disco coloca Suzi no topo das paradas na Inglaterra e consegue coloca-la nos EUA. Depois vem "48 Crash” e a melhor versão dela, do meu ponto de vista, com Chris Norman dos Smokies,  "Stumbin ‘In”.
+  "1973 - Suzi Quatro.md": `A baixinha Susan Kay Quatrocchio, que idealizou por toda a vida ter uma banda só de mulheres. E teve.  Em 1964 participou da Pleasure Seekers, um grupo de  garotas. Ela não era das mais bonitas, mas se destacava pela musicalidade e a boa execução que tinha do seu baixo Fender. Por incrível que pareça, seu primeiro sucesso é em 1972, "Brain Confusion", que tinha  Peter Frampton na guitarra e alcança o topo das paradas … em Portugal. Nada nos EUA e um pontinho na Inglaterra. Esse resultado em Portugal dá um novo gás na carreira de Suzi, que lança o LP Quatro em 74, com “ Can to Can” (link abaixo). O disco coloca Suzi no topo das paradas na Inglaterra e consegue coloca-la nos EUA. Depois vem "48 Crash” e a melhor versão dela, do meu ponto de vista, com Chris Norman dos Smokies,  "Stumbin ‘In”.
 
 Stumblin’ In - https://youtu.be/iGaF4tKUl0o
 Can The Can -  https://youtu.be/xYoogY-UGio
-48 Crash - https://youtu.be/lk6kvVGPURA`,
+48 Crash - https://youtu.be/lk6kvVGPURA
+`,
 
-    "1973 - TAMBORES.md": `Michael Vines já tinha feito muitas coisas diferentes até que, no início da década de 90, se superou. Foi o primeiro editor de audiobooks a publicar Stephen Hawking em fitas cassetes. 
+  "1973 - TAMBORES.md": `Michael Vines já tinha feito muitas coisas diferentes até que, no início da década de 90, se superou. Foi o primeiro editor de audiobooks a publicar Stephen Hawking em fitas cassetes. 
 
 Ele forma em Inglês na Universidade de Harvard , trabalha com Robert F. Kennedy na campanha presidencial de 68, foi executivo  na indústria cinematográfica  (onde conheceu a sua linda esposa), produziu a publicidade inicial para Nixon em 1973, lançou em 70 o LP "The Best of Marcel Marceao", com 30 minutos de silencio dos dois lados e aplausos no final , já que Marcel Marceau era um mímico, que não produzia som nenhum. 
 
@@ -1361,9 +1575,9 @@ https://youtu.be/ybNW45CdrSE
 https://youtu.be/y8dNMdTSR-w 
 https://youtu.be/MSv4KCq5KWw 
 https://youtu.be/cBBhmu-fPyk 
-https://youtu.be/xTT6g6y6ex4`,
+https://youtu.be/xTT6g6y6ex4 `,
 
-    "1974 - A LOURA.md": `Ela foi abandonada pelos pais biológicos. Adotada, teve condição de se dedicar a música. Descobriu que era adotada quando tinha 4 anos, quando teve oportunidade foi buscar sua verdadeira mãe. Foi rechaçada. Descobriu que sua verdadeira família era a música e a capacidade de se reinventar. Como diziam os caminhoneiros que a assediavam nos bares de beira de estrada, ela era "the Blondie" . E assim passou a ser, a loura. 
+  "1974 - A LOURA.md": `Ela foi abandonada pelos pais biológicos. Adotada, teve condição de se dedicar a música. Descobriu que era adotada quando tinha 4 anos, quando teve oportunidade foi buscar sua verdadeira mãe. Foi rechaçada. Descobriu que sua verdadeira família era a música e a capacidade de se reinventar. Como diziam os caminhoneiros que a assediavam nos bares de beira de estrada, ela era "the Blondie" . E assim passou a ser, a loura. 
 
 Adorava Merlin Monre, aprendeu maquiagem e se fez parecida com ela. Foi garçonete no Max's Kansas City e lá conheceu Joplin, Hendrix e tantos outros famosos da sua época. 
 
@@ -1381,17 +1595,18 @@ https://youtu.be/ypWXEnK_0T8
 https://youtu.be/VoOG7LEyUJ0 
 https://youtu.be/O_WLw_0DFQQ 
 https://youtu.be/u5SmLgGnKJ4 
-https://youtu.be/TBZvGmSoxmQ`,
+https://youtu.be/TBZvGmSoxmQ `,
 
-    "1974 - Bachaman Turner Orverdrive.md": `Bachman-Turner Overdrive (BTO), formada em 1973 em Winnipeg, Canadá, conquistou reconhecimento mundial com "You Ain't Seen Nothing Yet" em 1974. A música, escrita e cantada por Randy Bachman, ex-integrante do The Guess Who, tornou-se um dos maiores sucessos do rock dos anos 70, alcançando o primeiro lugar nas paradas americanas e em vários outros países.
+  "1974 - Bachaman Turner Orverdrive.md": `Bachman-Turner Overdrive (BTO), formada em 1973 em Winnipeg, Canadá, conquistou reconhecimento mundial com "You Ain't Seen Nothing Yet" em 1974. A música, escrita e cantada por Randy Bachman, ex-integrante do The Guess Who, tornou-se um dos maiores sucessos do rock dos anos 70, alcançando o primeiro lugar nas paradas americanas e em vários outros países.
 
 A história por trás da música é tão interessante quanto seu sucesso. Randy Bachman originalmente gravou a canção como uma brincadeira, imitando a gagueira de seu irmão Gary Bachman ao cantar. A versão era apenas uma demonstração e não deveria fazer parte do álbum "Not Fragile". No entanto, quando executivos da gravadora ouviram a faixa, insistiram que ela fosse incluída, prevendo corretamente que seria um hit. O riff de guitarra marcante e o refrão com a gagueira proposital se tornaram marcas registradas da música.
 
 O BTO, com sua mistura de hard rock direto e melodias cativantes, estabeleceu-se como uma das bandas mais bem-sucedidas do Canadá. Embora tenham tido outros hits como "Taking Care of Business" e "Let It Ride", "You Ain't Seen Nothing Yet" permanece como seu maior sucesso internacional, um exemplo perfeito do rock and roll sem frescuras que caracterizou a banda.
 
-You Ain't Seen Nothing Yet - https://youtu.be/cFRk0FfaQi0`,
+You Ain't Seen Nothing Yet - https://youtu.be/cFRk0FfaQi0
+`,
 
-    "1974 - Barry Manilow.md": `Apresentamos  esses gênios musicais que ajudaram a compor o cenário musical da nossa juventude. Muitas vezes conhecemos as musicas mas não sabemos quem é o artista por trás delas. Barry Manilow é um desses casos que, pelo menos no meu caso, só fui conhecer quando pesquisei para descobrir de quem era a música Copacabana. 
+  "1974 - Barry Manilow.md": `Apresentamos  esses gênios musicais que ajudaram a compor o cenário musical da nossa juventude. Muitas vezes conhecemos as musicas mas não sabemos quem é o artista por trás delas. Barry Manilow é um desses casos que, pelo menos no meu caso, só fui conhecer quando pesquisei para descobrir de quem era a música Copacabana. 
 
 Esse sujeito é um gênio. O cara era contínuo nos estúdios da CBS em 68, quando, por uma bagunça própria desse meio artístico, mandaram ele pesquisar e trazer algumas músicas de domínio publico  para compor um musical . O sujeito foi para casa, compos toda a trilha do musical e entregou para os produtores. Todos ficaram boquiabertos. O contínuo era um gênio.  Sucesso total. Deste então o sujeito ganho tudo que havia de reconhecimento em todo o mundo. Em muitas ocasiões vendeu mais que os Beatles na Inglaterra, mais que Sinatra nos EUA, além de ser empresário, produtor e parceiro de vários artista no mundo .
 
@@ -1405,7 +1620,7 @@ Segue então abaixo as 6 grandes músicas do Barry, pelo menos no meu ponto de v
 5. Can't Take My Eyes Off Of You - https://youtu.be/kRMwplvQNqk
 6. Memory - https://youtu.be/5IzmPw_DDTI`,
 
-    "1974 - Minnie  Riperton.md": `Minnie Riperton, dotada de uma extensão vocal extraordinária que abrangia cinco oitavas e meia, criou um dos momentos mais memoráveis da música pop com "Lovin' You", lançada em 1975. A música, co-escrita por Riperton e seu marido Richard Rudolph, foi originalmente composta como uma canção de ninar para sua filha Maya (que mais tarde se tornaria a atriz Maya Rudolph).
+  "1974 - Minnie  Riperton.md": `Minnie Riperton, dotada de uma extensão vocal extraordinária que abrangia cinco oitavas e meia, criou um dos momentos mais memoráveis da música pop com "Lovin' You", lançada em 1975. A música, co-escrita por Riperton e seu marido Richard Rudolph, foi originalmente composta como uma canção de ninar para sua filha Maya (que mais tarde se tornaria a atriz Maya Rudolph).
 
 "Lovin' You" se destacou por sua simplicidade encantadora e pela demonstração do impressionante alcance vocal de Riperton, particularmente suas notas agudíssimas em whistle register (registro de apito). A produção minimalista, com piano elétrico, violão e sons de pássaros ao fundo, criou o cenário perfeito para que sua voz única brilhasse. A música alcançou o topo das paradas nos Estados Unidos e no Reino Unido, tornando-se sua assinatura musical.
 
@@ -1413,7 +1628,7 @@ Tragicamente, Riperton faleceu em 1979, aos 31 anos, vítima de câncer de mama,
 
 Loving You - Minnie Riperton, Loving you - https://youtu.be/kE0pwJ5PMDg`,
 
-    "1974 - Paper Lace.md": `Paper Lace, banda britânica de Nottingham, alcançou sucesso internacional em 1974 com "The Night Chicago Died", uma narrativa dramática sobre violência e crime na Chicago da era Al Capone. A música, escrita por Peter Callander e Mitch Murray, atingiu o primeiro lugar nas paradas americanas, embora a banda ironicamente nunca tenha visitado Chicago quando a gravou.
+  "1974 - Paper Lace.md": `Paper Lace, banda britânica de Nottingham, alcançou sucesso internacional em 1974 com "The Night Chicago Died", uma narrativa dramática sobre violência e crime na Chicago da era Al Capone. A música, escrita por Peter Callander e Mitch Murray, atingiu o primeiro lugar nas paradas americanas, embora a banda ironicamente nunca tenha visitado Chicago quando a gravou.
 
 "The Night Chicago Died" conta uma história fictícia sobre um tiroteio entre a polícia de Chicago e a gangue de Al Capone, narrada da perspectiva do filho de um policial. Apesar de algumas imprecisões históricas (como situar Capone no "East Side" quando sua base era no South Side), a música capturou a imaginação do público com sua narrativa dramática, arranjos orquestrais marcantes e refrão memorável. É interessante notar que a banda era britânica cantando sobre eventos americanos, algo comum na época.
 
@@ -1421,7 +1636,7 @@ O grupo teve outro hit notável com "Billy Don't Be a Hero", mas foi "The Night 
 
 The Night Chicago Died -  https://youtu.be/ryVh9BuwOs4`,
 
-    "1974 - Redbone.md": `Redbone, a primeira banda de rock formada inteiramente por nativos americanos a alcançar sucesso nas paradas, marcou a história da música com "Come and Get Your Love", lançada em 1974. A banda, fundada pelos irmãos Pat e Lolly Vegas, de descendência Yaqui e Shoshone, trouxe uma fusão única de rock, R&B e elementos de música nativa americana.
+  "1974 - Redbone.md": `Redbone, a primeira banda de rock formada inteiramente por nativos americanos a alcançar sucesso nas paradas, marcou a história da música com "Come and Get Your Love", lançada em 1974. A banda, fundada pelos irmãos Pat e Lolly Vegas, de descendência Yaqui e Shoshone, trouxe uma fusão única de rock, R&B e elementos de música nativa americana.
 
 "Come and Get Your Love", que alcançou o top 5 da Billboard Hot 100, é um exemplo perfeito da capacidade da banda de criar música pop contagiante sem perder suas raízes culturais. A música apresenta uma linha de baixo memorável, guitarras funky e uma melodia irresistível que se tornou instantaneamente reconhecível. Sua popularidade foi revitalizada em 2014 quando foi incluída na trilha sonora do filme "Guardiões da Galáxia", apresentando o som do Redbone para uma nova geração.
 
@@ -1429,7 +1644,7 @@ O legado do Redbone vai além de "Come and Get Your Love". A banda foi pioneira 
 
 Come and Get Your Love -  https://youtu.be/ciTV7Zfmw3I`,
 
-    "1974 - SUPERTRAMP.md": `Nossa história inicia com esse jovem, Roger Hodgson, um inglês de muita sorte. Nasce em 50 e logo mostra que é feito para música. Sua sorte começa quando encontra esse cara ai embaixo, na década de 60. 
+  "1974 - SUPERTRAMP.md": `Nossa história inicia com esse jovem, Roger Hodgson, um inglês de muita sorte. Nasce em 50 e logo mostra que é feito para música. Sua sorte começa quando encontra esse cara ai embaixo, na década de 60. 
 
 Encontrar com Stanley 'Sam' August Miesegaes, um milionário holandês dispostos a financiar uma banda de rock, é muito mais do que o bilhete sorteado da loteria. Roger Hodgson encontrou. Criou uma banda, tendo no teclado Hodgson e na bateria, adivinhem, Gilbert O´Sulivan, aquele de "Clair”. 
 
@@ -1449,14 +1664,14 @@ https://youtu.be/ke49ZeV1iXE
 https://youtu.be/dc8tbb3foR0 
 https://youtu.be/nP2xj8wkYFE 
 https://youtu.be/bKsQ9pDGMRc 
-https://youtu.be/J_NGulTmh88`,
+https://youtu.be/J_NGulTmh88 `,
 
-    "1974 - The Rubentes.md": `Os estúdios e gravadoras, sempre atentos ao mercado, quando percebem uma oportunidade e não encontram o instrumento adequado para aproveita-la, inventam o instrumento. The Rubentes é a típica invenção de estúdio, um instrumento para vender música, a partir de uma percepção que Wayne Bickerton, chefe da A&R da Polydor Records, teve. Com agilidade de chefe, contrata cantores, músicos, arranja letra e melodia, um bom investimento de marketing e lá vai " Sugar Baby Love" para o topo da parada. 
+  "1974 - The Rubentes.md": `Os estúdios e gravadoras, sempre atentos ao mercado, quando percebem uma oportunidade e não encontram o instrumento adequado para aproveita-la, inventam o instrumento. The Rubentes é a típica invenção de estúdio, um instrumento para vender música, a partir de uma percepção que Wayne Bickerton, chefe da A&R da Polydor Records, teve. Com agilidade de chefe, contrata cantores, músicos, arranja letra e melodia, um bom investimento de marketing e lá vai " Sugar Baby Love" para o topo da parada. 
 
 The Rubettes - Sugar Baby Love
 https://youtu.be/HxsNy4NoZUs`,
 
-    "1975 - 10cc .md": `10cc até que é uma banda certinha. Fez o dever de casa. Os cara são esforçados e havia talento ali. Mas o máximo que foi 10cc , “I’m Not In Love". 10cc, banda britânica conhecida por suas composições sofisticadas e produções inovadoras, criou uma obra-prima do pop com "I'm Not In Love", lançada em 1975. A música, escrita por Eric Stewart e Graham Gouldman, revolucionou as técnicas de gravação e se tornou um dos exemplos mais criativos de produção musical dos anos 70.
+  "1975 - 10cc .md": `10cc até que é uma banda certinha. Fez o dever de casa. Os cara são esforçados e havia talento ali. Mas o máximo que foi 10cc , “I’m Not In Love". 10cc, banda britânica conhecida por suas composições sofisticadas e produções inovadoras, criou uma obra-prima do pop com "I'm Not In Love", lançada em 1975. A música, escrita por Eric Stewart e Graham Gouldman, revolucionou as técnicas de gravação e se tornou um dos exemplos mais criativos de produção musical dos anos 70.
 
 O processo de gravação foi extraordinariamente complexo para a época. O backing vocal etéreo que caracteriza a música foi criado através da gravação de múltiplas camadas de vozes, usando um sistema de 16 fitas loop, onde os membros da banda cantaram "aah" por três semanas para criar um "choir" de 256 vozes. Esta técnica inovadora criou o ambiente sonoro único que se tornou a marca registrada da música. A secretária da banda, Kathy Redfern, é a voz que sussurra "be quiet, big boys don't cry" no meio da canção.
 
@@ -1471,7 +1686,7 @@ em 1975 fez o que veio fazer, uma boa música.
 
 https://youtu.be/STugQ0X1NoI`,
 
-    "1975 - ABBA.md": `A Parede de Som ! Vcs podem se perguntar o que é isso, mas foi essa estética, esse design sonoro que caracterizou uma das bandas de maior sucesso na década de 70: ABBA. 
+  "1975 - ABBA.md": `A Parede de Som ! Vcs podem se perguntar o que é isso, mas foi essa estética, esse design sonoro que caracterizou uma das bandas de maior sucesso na década de 70: ABBA. 
 
 O gênio musical que inventou a Parede de Som foi Phil Spector. Esse judeu americano identificou a força da voz feminina na década de 60 e passou a investir fortemente nessa predominância como fator de sucesso. Criou vários grupos femininos, Produziu dezenas de sucessos, sem contar sua participação na produção musical dos Beatles, John Lennon, George Harrison, Leonard Cohen, Dion DiMucci e os Ramones no final dos anos 1970. 
 
@@ -1486,9 +1701,10 @@ https://youtu.be/iUrzicaiRLU
 https://youtu.be/cvChjHcABPA 
 https://youtu.be/_HMjOiHqE18 
 https://youtu.be/iyIOl-s7JTU 
-/`,
+/ 
+`,
 
-    "1975 - Arthur Moreira.md": `Arthur Moreira Lima Interpreta Ernesto Nazareth. É disco para abrir as mentes monodimenssionais, que só entendem um tipinho básico de música. Arthur Moreira Lima, um dos mais importantes pianistas brasileiros, tem uma ligação especial com a obra de Ernesto Nazareth, considerado o pai do choro e uma das figuras mais importantes da música brasileira. Sua interpretação das composições de Nazareth é considerada referência, trazendo uma compreensão profunda tanto do aspecto erudito quanto popular presente nas obras do compositor.
+  "1975 - Arthur Moreira.md": `Arthur Moreira Lima Interpreta Ernesto Nazareth. É disco para abrir as mentes monodimenssionais, que só entendem um tipinho básico de música. Arthur Moreira Lima, um dos mais importantes pianistas brasileiros, tem uma ligação especial com a obra de Ernesto Nazareth, considerado o pai do choro e uma das figuras mais importantes da música brasileira. Sua interpretação das composições de Nazareth é considerada referência, trazendo uma compreensão profunda tanto do aspecto erudito quanto popular presente nas obras do compositor.
 
 O pianista, formado pela Academia Franz Liszt de Budapeste e medalha de bronze no Concurso Internacional Tchaikovsky de Moscou em 1965, dedicou grande parte de sua carreira a valorizar e difundir a música brasileira, com especial atenção à obra de Nazareth. Sua abordagem única consegue capturar a essência das composições de Nazareth, respeitando tanto a complexidade técnica quanto a brasilidade inerente às peças, sejam tangos, valsas ou polcas.
 
@@ -1496,17 +1712,20 @@ Moreira Lima é reconhecido por ter gravado a obra completa de Ernesto Nazareth,
 
 Arthur Moreira Lima tocando Ernesto Nazareth - [Aqui deveria estar o link do YouTube, mas não foi fornecido no texto original]
 
-https://youtu.be/1eVe-pMxsOU`,
+https://youtu.be/1eVe-pMxsOU
+`,
 
-    "1975 - Claude Bolling.md": `O Sr. Claude Bolling, francês nascido da década de 30, considerado um patrimônio musical francês.  O sujeito já nasceu genial, fez toda formação musical possível, fez orquestração, arranjo, musica para filmes, compôs, musicou e produziu uma obra sensacional de jazz, belíssima que ouvirão no link, Baroque and Blue, do LP  Suite For Flute And Jazz Piano.
+  "1975 - Claude Bolling.md": `O Sr. Claude Bolling, francês nascido da década de 30, considerado um patrimônio musical francês.  O sujeito já nasceu genial, fez toda formação musical possível, fez orquestração, arranjo, musica para filmes, compôs, musicou e produziu uma obra sensacional de jazz, belíssima que ouvirão no link, Baroque and Blue, do LP  Suite For Flute And Jazz Piano.
  
 Depois Bolling continuou encontrando gênios musicais, até Yo Yo Ma, e produziram o imperdível Lp "Suite for Cello and Jazz Piano Trio”. 
  
 Se querem ouvir jazz de primeira, encontrem o Sr. Bolling, vários CDs, inclusive com jazz band de primeira linha.
  
-Baroque and Blue -  https://youtu.be/6r_2Qql4Qq8`,
+Baroque and Blue -  https://youtu.be/6r_2Qql4Qq8
+ 
+`,
 
-    "1975 - IMPROVISADOR.md": `IMPROVISADOR
+  "1975 - IMPROVISADOR.md": `IMPROVISADOR
 “Não esqueça disso ... faço por você”
 
 A menina de 17 anos, em pé na frente da porta do passageiro do Renault 4, chorava copiosamente, soluçando. Caia uma chuva torrencial e ela, toda molhada, não parava de implorar, dizendo “pelo amor de deus”. Dentro do carro Keith Jarrett a ouvia, com apenas a metade do vidro aberto, para não ficar ensopado também. Deveria pensar - “como fui cair em uma armadilha dessas”. Por fim, mais para se livrar daquele escândalo e da dor que sentia nas costas, afinal algumas pessoas já paravam na rua para ver a cena, ele fala “Não se esqueça disso, vou fazer por você”. Ela ajoelha na porta do carro, segurando a beirada do vidro e agradece. 
@@ -1552,9 +1771,12 @@ Over the Rainbow
  https://youtu.be/CpFBHn2HfLQ
  
 The Sun Whose Rays (Live At Teatro La Fenice
- https://youtu.be/3uxWhwCKZN4`,
+ https://youtu.be/3uxWhwCKZN4
+ 
 
-    "1975 - MALDITO.md": `O sujeito sob no palco do VII Festival Internacional da Canção em 1972, no dia 16 de setembro, e canta uma música de vanguarda, "Cabeça".  O Festival já não tem o peso dos outros. Poucas estrelas se inscrevem, mesmo tendo Raul Seixas e Mutantes. 
+`,
+
+  "1975 - MALDITO.md": `O sujeito sob no palco do VII Festival Internacional da Canção em 1972, no dia 16 de setembro, e canta uma música de vanguarda, "Cabeça".  O Festival já não tem o peso dos outros. Poucas estrelas se inscrevem, mesmo tendo Raul Seixas e Mutantes. 
 
 Walter Franco ganha a maior vaia de todos os festivais, mas o júri, na sua reunião para a decisão, presidido por Nara Leão, dá como vencedora a música "Cabeça". Mas o próprio júri não dura até o dia seguinte para apresentar o resultado. É destituído pelo governo militar. O júri substituto dá o prêmio para "Fio Maravilha", de Jorge Ben.  Da vaia estrondosa, da destituição do júri, da musica premiada e 
 censurada nasce o  primeiro disco de Walter Franco, "Ou Não" e, ao mesmo tempo, a sua fama de maldito -na linguagem da musica, aquele que não se curva aos modismos e segue sua arte independente de agradar “o público". Assim ele vai produzindo seus trabalhos. 
@@ -1575,9 +1797,21 @@ https://youtu.be/xaQXWYSSN7o
 https://youtu.be/UCzLZJ_0OTY 
 https://youtu.be/sZ8yqsFwBTs 
 https://youtu.be/0dA1G5YMt3Q 
-https://youtu.be/7NFA3RII6oc`,
+https://youtu.be/7NFA3RII6oc 
+`,
 
-    "1976 - BELLE E SABASTIAN.md": `Pode ser que a banda Belle & Sebastian tenha esse nome por causa do livro livro infantil da escritora francesa Cécile Aubry que conta a história do menino Sébastien e sua cachorra Belle, durante a segunda guerra mundial. Ou pode serque esse nome seja a expressão de um caso amoroso entre o fundador da banda, Stuart Murdoch, o "Sebastian" e a violoncelista Isobel Campbell, a "Belle", que se encantaram com a história de Aubry, lida entre uma transa e outra. 
+  "1976 - Bellamy Brothers.md": `Nesse caso, sei que vão me criticar e dizer de injustiça. A Homer e David, os Bellamy Brothers, são uma das duplas mais populares dos EUA. Certo, reconheço. Essa semana mesmo ouvi um LP deles todo dedicado ao natal, que me impressionou muito. Os Bellamy Brothers, dupla formada pelos irmãos David e Homer Bellamy da Flórida, alcançaram sucesso mundial em 1976 com "Let Your Love Flow". A música, curiosamente, não foi escrita por eles, mas por Larry E. Williams, que na época era roadie do Neil Diamond. A canção tem uma história interessante: foi oferecida primeiro ao próprio Diamond, que a recusou.
+
+"Let Your Love Flow" capturou perfeitamente o espírito otimista dos anos 70, com sua melodia contagiante e letra positiva sobre amor e liberdade. A música alcançou o topo das paradas em vários países e estabeleceu os Bellamy Brothers no cenário musical internacional. O som misturava elementos de country, pop e soft rock, criando um apelo universal que transcendia gêneros musicais.
+
+Embora os Bellamy Brothers tenham posteriormente se voltado mais para o country tradicional, com sucessos como "If I Said You Had a Beautiful Body Would You Hold It Against Me", foi "Let Your Love Flow" que os projetou internacionalmente. A música continua sendo um clássico atemporal, frequentemente tocada em rádios de todo o mundo e utilizada em filmes e comerciais, representando perfeitamente o som suave e otimista do pop dos anos 70.
+
+Let Your Love Flow - [Aqui deveria estar o link do YouTube, mas não foi fornecido no texto original]
+
+https://youtu.be/FQQj2rQBFvA`,
+
+  "1976 - BELLE E SABASTIAN.md": `
+Pode ser que a banda Belle & Sebastian tenha esse nome por causa do livro livro infantil da escritora francesa Cécile Aubry que conta a história do menino Sébastien e sua cachorra Belle, durante a segunda guerra mundial. Ou pode serque esse nome seja a expressão de um caso amoroso entre o fundador da banda, Stuart Murdoch, o "Sebastian" e a violoncelista Isobel Campbell, a "Belle", que se encantaram com a história de Aubry, lida entre uma transa e outra. 
 
 A banda é criada por StuartMurdoch e Stuart  David, colegas do Stow College, em Glasgow, naEscócia, em 1996. Murdoch é um hiperativo que não dorme e, por isso, tem vários planos e projetos e mandamento o tempo todo.Centenas de musicas inacabadas e um borboleteamento constante entre várias possibilidades, oque lhe dava umar de perdido.Apresenta seus trabalhos paraDavid, que lhe dá a solução: uma banda. 
 
@@ -1594,19 +1828,11 @@ https://youtu.be/GuKuw71YBbI
 https://youtu.be/Rgb8am3NQU0 
 https://youtu.be/3vS1Hf3CVGs 
 https://youtu.be/hX4pIJPuXvw 
-https://youtu.be/uGnhY2bNyMM`,
+https://youtu.be/uGnhY2bNyMM 
 
-    "1976 - Bellamy Brothers.md": `Nesse caso, sei que vão me criticar e dizer de injustiça. A Homer e David, os Bellamy Brothers, são uma das duplas mais populares dos EUA. Certo, reconheço. Essa semana mesmo ouvi um LP deles todo dedicado ao natal, que me impressionou muito. Os Bellamy Brothers, dupla formada pelos irmãos David e Homer Bellamy da Flórida, alcançaram sucesso mundial em 1976 com "Let Your Love Flow". A música, curiosamente, não foi escrita por eles, mas por Larry E. Williams, que na época era roadie do Neil Diamond. A canção tem uma história interessante: foi oferecida primeiro ao próprio Diamond, que a recusou.
+`,
 
-"Let Your Love Flow" capturou perfeitamente o espírito otimista dos anos 70, com sua melodia contagiante e letra positiva sobre amor e liberdade. A música alcançou o topo das paradas em vários países e estabeleceu os Bellamy Brothers no cenário musical internacional. O som misturava elementos de country, pop e soft rock, criando um apelo universal que transcendia gêneros musicais.
-
-Embora os Bellamy Brothers tenham posteriormente se voltado mais para o country tradicional, com sucessos como "If I Said You Had a Beautiful Body Would You Hold It Against Me", foi "Let Your Love Flow" que os projetou internacionalmente. A música continua sendo um clássico atemporal, frequentemente tocada em rádios de todo o mundo e utilizada em filmes e comerciais, representando perfeitamente o som suave e otimista do pop dos anos 70.
-
-Let Your Love Flow - [Aqui deveria estar o link do YouTube, mas não foi fornecido no texto original]
-
-https://youtu.be/FQQj2rQBFvA`,
-
-    "1977 - RAUL SEIXAS.md": `O sujeito fora de curva da MPB, capaz de juntar musica e letras diferentes e sempre interessantes. Trata-se do Raulzito, aquele do imperdível Krig a Bandolo de 73. Um gênio, com músicas inesquecíveis, como Gita, Maluco Beleza, etc. Eu gosto mesmo de  RAUL SEIXAS, Medo da Chuva, um hino para os poligâmicos. 
+  "1977 - RAUL SEIXAS.md": `O sujeito fora de curva da MPB, capaz de juntar musica e letras diferentes e sempre interessantes. Trata-se do Raulzito, aquele do imperdível Krig a Bandolo de 73. Um gênio, com músicas inesquecíveis, como Gita, Maluco Beleza, etc. Eu gosto mesmo de  RAUL SEIXAS, Medo da Chuva, um hino para os poligâmicos. 
 
 Raul Seixas, um dos artistas mais singulares e importantes da música brasileira, lançou "Medo da Chuva" em 1973, como parte do álbum "Krig-ha, Bandolo!". A música representa perfeitamente a capacidade do Maluco Beleza de combinar rock com elementos da cultura brasileira, criando uma sonoridade única que o diferenciava de qualquer outro artista da época.
 
@@ -1618,9 +1844,10 @@ Medo da Chuva - [Aqui deveria estar o link do YouTube, mas não foi fornecido no
 
  O Dia que a Terra Parou, um sonho que podia se realizar. Nessa,  a melhor parte para mim era "o professor não foi para a escola porque não havia o que ensinar".  Segue ai uma, só para estimular ouvir todas: 
  
-https://youtu.be/4syrZTW2aiI`,
+https://youtu.be/4syrZTW2aiI
+`,
 
-    "1978 - BANDEIRA DE AÇO.md": `Fui pela primeira vez para São Luiz em 1982, para ficar uma semana no departamento de filosofia da Universidade Federal do Maranhão. Na época, a turma da filosofia da UFMG (Renato Caporali, Vitor Purri, Vicente Jau, Jesus Santiago, Newton Bignoto e eu), estávamos participando do cenário nacional dos cursos de filosofia através da criação da Sociedade de Estudos e Atividades Filosóficas (SEAF), contra uma outra organização de filósofos, a Associação dos Filósofos Católicos, comandada pelo Miguel Reale, principalmente. 
+  "1978 - BANDEIRA DE AÇO.md": `Fui pela primeira vez para São Luiz em 1982, para ficar uma semana no departamento de filosofia da Universidade Federal do Maranhão. Na época, a turma da filosofia da UFMG (Renato Caporali, Vitor Purri, Vicente Jau, Jesus Santiago, Newton Bignoto e eu), estávamos participando do cenário nacional dos cursos de filosofia através da criação da Sociedade de Estudos e Atividades Filosóficas (SEAF), contra uma outra organização de filósofos, a Associação dos Filósofos Católicos, comandada pelo Miguel Reale, principalmente. 
 
 Em 81, em um encontro em Mossoró, começamos a estabelecer essas relações com os departamentos de filosofia do nordeste. Em 82 a Profa Maria José e um graduando de filosofia, o Raimundo, além das atividades do departamento, ficaram encarregados de me apresentar as belezas de São Luiz. Durante os 5 dias que fiquei na cidade recebi uma aula da cultura maranhense. Seja culinária, musical, artística, urbana. 
 
@@ -1644,9 +1871,11 @@ https://youtu.be/Q5J0OJx74ig
 https://youtu.be/UpU-PKm9xFk 
 https://youtu.be/ky85EYTLIbw 
 https://youtu.be/BPR6XOBQURU 
-https://youtu.be/cB-TdlhDnd4`,
+https://youtu.be/cB-TdlhDnd4 
 
-    "1978 - KATE BUSCH .md": `Na década de 70, a maioria dos músicos diziam: “essa é foda”, ela, Kate Busch. Kate nasce em 1960 e sempre  teve essa marca (“essa é foda”) desde que o David Gilmour, do Pink Floyd, se deparou com a garota, claro se envolveu com ela e passou a promove-la de todas as formas. Nada que tenha prejudicado o mundo da música, ao contrário, a menina é gênio mesmo. 
+`,
+
+  "1978 - KATE BUSCH .md": `Na década de 70, a maioria dos músicos diziam: “essa é foda”, ela, Kate Busch. Kate nasce em 1960 e sempre  teve essa marca (“essa é foda”) desde que o David Gilmour, do Pink Floyd, se deparou com a garota, claro se envolveu com ela e passou a promove-la de todas as formas. Nada que tenha prejudicado o mundo da música, ao contrário, a menina é gênio mesmo. 
 
 Kate teve sempre a postura típica dos gênios, fugindo dos padrões logo no início da sua carreia. Por in, teve um contrato com uma produtora em 76, quando ainda tinha 18 anos. Apesar do contrato, meta de todas as bandas, ela se recusa a gravar enquanto não terminar todas as suas formações, piano, teatro, dança. Em 78 lança seu primeiro disco, alcança o top da parada inglesa e é a primeira mulher a compor, interpretar, gravar e alcançar o topo da parada. 
 
@@ -1662,9 +1891,11 @@ https://youtu.be/rYSCHKmvcIY
 https://youtu.be/VjEq-r2agqc 
 https://youtu.be/6xckBwPdo1c 
 https://youtu.be/qWYt4r9HTao 
-https://youtu.be/V3XAeg3B0To`,
+https://youtu.be/V3XAeg3B0To 
 
-    "1979 - Boney M.md": `Frank Farian, nascido Frank Reuther em 1941. Esse sujeito, produtor, compositor, músico profissional “inventou” em 73 a banda Boney M. Formada por três lindas garotas, Liz, Marcia e Maize, as duas últimas modelos e Bobby Farrell, também modelo. O Negócio de Frank era simples, com essa linha de cantores muito bonitos, vozes bem ensaiadas e coreografia contratada, a banda simplesmente executava as músicas que ele compunha e executava a sugestiva coreografia. Cada detalhe dos seus “funcionários" era pensado e  regido por ele. Desta forma, em 76 Frank lança o primeiro disco de Bonne M, Take the Heat off Me (1976), um sucesso mundial, que dá caminho para mais três discos de sucesso, Love for Sale (1977), Nightflight to Venus (1978) eOceans of Fantasy (1979).  
+`,
+
+  "1979 - Boney M.md": `Frank Farian, nascido Frank Reuther em 1941. Esse sujeito, produtor, compositor, músico profissional “inventou” em 73 a banda Boney M. Formada por três lindas garotas, Liz, Marcia e Maize, as duas últimas modelos e Bobby Farrell, também modelo. O Negócio de Frank era simples, com essa linha de cantores muito bonitos, vozes bem ensaiadas e coreografia contratada, a banda simplesmente executava as músicas que ele compunha e executava a sugestiva coreografia. Cada detalhe dos seus “funcionários" era pensado e  regido por ele. Desta forma, em 76 Frank lança o primeiro disco de Bonne M, Take the Heat off Me (1976), um sucesso mundial, que dá caminho para mais três discos de sucesso, Love for Sale (1977), Nightflight to Venus (1978) eOceans of Fantasy (1979).  
 
 Não quero aqui dizer que as garotas Liz, Marcia e Maize não cantavam bem, cantavam e muito, tanto que todas tiveram carreira longa depois do fim da Boney M.  Mas a  fórmula de lindas garotas e um sujeito sensual dançando um ritmo altamente cativante toma as paradas. 
 As garotas de Frank são Liz Mitchell, uma linda jamaicana, Marcia Barrett, também jamaicana e Maizie Williams, australiana. Já Bobby Farrell é nascido em Aruba. 
@@ -1679,9 +1910,10 @@ Ma Baker  https://youtu.be/9c5yPIQ3LQI
 Sunny  https://youtu.be/yD8DcgpLp_w
 Brown Girl In the Ring  https://youtu.be/GiX2PbrBXCQ
 Hooray! Hooray! It's a Holi-Holiday  https://youtu.be/ModISbNyQ8I
-Gotta Go Home  https://youtu.be/5ww-pQynEDI`,
+Gotta Go Home  https://youtu.be/5ww-pQynEDI
+`,
 
-    "1979 - POLONAISE.md": `POLONAISE
+  "1979 - POLONAISE.md": `POLONAISE
 
 Elżbieta Czyżewska e Wiesław Gołas, fizeram um filme inesquecível,  “Żona dla Australijczyka” (Esposa de um Australiano), de 1963.  Elżbieta faz o papel da solista do Grupo Folclórico Mazowsze. O filme conta a história de um soldado australiano que vai para a Polônia procurar sua esposa. Durante a procura se apaixona por uma linda dançarina, que ele só vê de longe, no palco. Entretanto, quando a conhece a dançarina se surpreende ao reconhecer a sua procurada esposa.
 
@@ -1699,9 +1931,11 @@ https://youtu.be/9eX1rdq8KDA
 https://youtu.be/oTqbBT2_qVo
 https://youtu.be/gHQTyOeHbDg
 https://youtu.be/g7dPeWMoT4c
-https://youtu.be/5N1gPgQsp7I`,
+https://youtu.be/5N1gPgQsp7I
+`,
 
-    "1979 - ZIGGY STARDUST.md": `Ziggy Stardust nasceu oficialmente em 4 de fevereiro 1972. Ziggy é um homem das estrelas e, antes de salvar o mundo, veio salvar a carreira estreante de David Bowie. 
+  "1979 - ZIGGY STARDUST.md": `
+Ziggy Stardust nasceu oficialmente em 4 de fevereiro 1972. Ziggy é um homem das estrelas e, antes de salvar o mundo, veio salvar a carreira estreante de David Bowie. 
 
 É preciso saber que Bowie sempre foi um artista multimidia. Ele não queria ser só compositor, cantor, instrumentista. Ele queria ser ator, escritor, performático, diretor, design. Foi um dos primeiros artistas do rock a fazer efetivamente espetáculo, no sentido teatral do termo, transformando suas apresentações em shows. Mais do que isso, como um Fernando Pessoa do rock, criou vários personagens, como heterônimos, que incorporou efetivamente, como se ele fosse. 
 
@@ -1725,9 +1959,10 @@ https://youtu.be/6MZQvoDz7H4
 https://youtu.be/tF6cM-_CHic 
 https://youtu.be/AZKcl4-tcuo 
 https://youtu.be/zGcLw_bkh9U 
-https://youtu.be/iARDYHakmC0`,
+https://youtu.be/iARDYHakmC0 
+`,
 
-    "1980 - LEGIÃO URBANA.md": `Essa é a vida, irreversível, intransigente e inflexível. Estamos nesse rumo, por destino biológico. É possível dar a esse destino sentidos diversos, com afeição e carinho. As variáveis são infinitas. Espero que tenhamos vivido as melhores dentro do que foi, como filhos e como pais, agora. Para dar um adorno musical a essa complexa vivência, vai ai uma boa musica para iniciar o dia.
+  "1980 - LEGIÃO URBANA.md": `Essa é a vida, irreversível, intransigente e inflexível. Estamos nesse rumo, por destino biológico. É possível dar a esse destino sentidos diversos, com afeição e carinho. As variáveis são infinitas. Espero que tenhamos vivido as melhores dentro do que foi, como filhos e como pais, agora. Para dar um adorno musical a essa complexa vivência, vai ai uma boa musica para iniciar o dia.
 
 A Legião Urbana, uma das bandas mais influentes do rock brasileiro, lançou "Pais e Filhos" em 1989, como parte do álbum "As Quatro Estações". A música, composta por Renato Russo, Dado Villa-Lobos e Marcelo Bonfá, se tornou um dos hinos mais importantes da banda, abordando as complexas relações familiares e os conflitos entre gerações.
 
@@ -1736,9 +1971,10 @@ A canção nasceu de uma história trágica que Renato Russo leu no jornal, sobr
 "Pais e Filhos" se destaca não apenas pela letra contundente, característica de Renato Russo, mas também pela construção musical elaborada, com a guitarra marcante de Dado Villa-Lobos e a base rítmica precisa de Marcelo Bonfá. A música continua reverberando com novas gerações, provando sua universalidade e atemporalidade ao abordar questões familiares que permanecem relevantes.
 
 Legião Urbana,  Pais E Filhos 
-https://youtu.be/bvIMBVBRpJU`,
+https://youtu.be/bvIMBVBRpJU
+`,
 
-    "1980 - TOWSHEND.md": `Sempre tive Pete Townshend como um ícone. Mais que todos os outros artistas, achava que Pete encarnava a minha concepção do que deveria ser o Rock. Uma performance instrumental impecável, como ele conseguia fazer com sua guitarra; inovação e criatividade, como ele conseguia fazer, usando pela primeira vez o sintetizador; uma profundidade que não dispensava o erudito, como ele conseguiu fazer com Tommy, e uma selvageria explosiva, como ele conseguia fazer ao quebrar suas guitarras após os shows. 
+  "1980 - TOWSHEND.md": `Sempre tive Pete Townshend como um ícone. Mais que todos os outros artistas, achava que Pete encarnava a minha concepção do que deveria ser o Rock. Uma performance instrumental impecável, como ele conseguia fazer com sua guitarra; inovação e criatividade, como ele conseguia fazer, usando pela primeira vez o sintetizador; uma profundidade que não dispensava o erudito, como ele conseguiu fazer com Tommy, e uma selvageria explosiva, como ele conseguia fazer ao quebrar suas guitarras após os shows. 
 
 Mas tudo isso começou a ficar abalado quando, em 2003 ele é preso pela polícia britânica, sob a acusação de ter acessado um site de pornografia infantil na internet. Ele admite que o fez — não por ser pedófilo, mas como pesquisa sobre abuso infantil, tema para o qual sempre foi sensível, graças à própria história de vida.
 
@@ -1762,9 +1998,10 @@ Squeeze Box -  https://youtu.be/j_QRJ5DqKbA
 Face The Face -  https://youtu.be/9kxKBa5zAjs
 I Am An Animal - https://youtu.be/_Gzz8DI1Q94
 A Little Is Enough - https://youtu.be/_WjDpIv905s
-Slit Skirts - https://youtu.be/nAL7RYHKrlA`,
+Slit Skirts - https://youtu.be/nAL7RYHKrlA
+ `,
 
-    "1981 - UNDER PRESSURE.md": `A história dela é muito interessante. Trata do encontro em um estúdio da Suíça de Fred Mercure e David Bowie, que estavam gravando discos. Encontram pela noite, cheiram e fumam de tudo e cismam de fazer uma música. Dai surge Under Pressure. Vejam a história oficial:
+  "1981 - UNDER PRESSURE.md": `A história dela é muito interessante. Trata do encontro em um estúdio da Suíça de Fred Mercure e David Bowie, que estavam gravando discos. Encontram pela noite, cheiram e fumam de tudo e cismam de fazer uma música. Dai surge Under Pressure. Vejam a história oficial:
  
 “A música foi escrita durante a época em que Bowie foi convidado a atuar com vocais de apoio numa música que o Queen estava gravando que, mais tarde seria "Cool Cat". David não gostou de sua participação e pediu que o grupo não lançasse a faixa com seus vocais. Mais tarde, sugeriu que fizessem uma música em parceria. Então, "Under Pressure" surgiu através de um riff de John Deacon numa jam session do grupo com Bowie, que escreveu praticamente sozinho a letra. Durante a mixagem da canção, a banda entrou em discussão com David Bowie, e o músico ameaçou impedir o lançamento da canção. Porém, foi lançada”.
  
@@ -1783,26 +2020,29 @@ A musica me parece atualíssima frente ao momento que estamos vivendo. A histór
  Vejam agora três interpretamos diferentes.
  1- a primeira, a mais estranha: https://youtu.be/s3uj6YX8Lv0
  2- A versão oficial do Queen: https://youtu.be/a01QQZyl-_I
- 3- E, finalmente, a versão do Bowie com Annie Lennox, preparando um espetáculo  para homenagear o Fred: https://youtu.be/0VLS-P9m0BM`,
+ 3- E, finalmente, a versão do Bowie com Annie Lennox, preparando um espetáculo  para homenagear o Fred: https://youtu.be/0VLS-P9m0BM
+ `,
 
-    "1982 - TOTO.md": `Um grupo que nasce experiente, com alto nível técnico e com os dois principais fundadores sendo filhos de músicos respeitados e talentosos. David Patch, tecladista,  é filho de um importante arranjador . O baterista Jeff Porcaro, com seis anos já era reconhecido por todos como fenômeno, tendo a família, pai e irmãos,  todos envolvidos com música.  Jeff, até sua morte em 92 sempre esteve entre os dez melhores ritmista e bateristas do mundo, tendo tocado com praticamente todos grandes nomes da música americana. Esses dois, típicos “recursos indispensáveis” dos estúdios, em 77 resolveram criar sua própria banda. Já com décadas de experiência, montam uma banda madura. Não há uma musica deles deste então que não tenha excelência de execução e qualidade.  Nos ensaios Porcaro marcava as fitas demos com pequenas palavras que inventava e uma delas Toto, foi lembrada quando se perguntaram qual seria o nome da banda: Toto. 
+  "1982 - TOTO.md": `Um grupo que nasce experiente, com alto nível técnico e com os dois principais fundadores sendo filhos de músicos respeitados e talentosos. David Patch, tecladista,  é filho de um importante arranjador . O baterista Jeff Porcaro, com seis anos já era reconhecido por todos como fenômeno, tendo a família, pai e irmãos,  todos envolvidos com música.  Jeff, até sua morte em 92 sempre esteve entre os dez melhores ritmista e bateristas do mundo, tendo tocado com praticamente todos grandes nomes da música americana. Esses dois, típicos “recursos indispensáveis” dos estúdios, em 77 resolveram criar sua própria banda. Já com décadas de experiência, montam uma banda madura. Não há uma musica deles deste então que não tenha excelência de execução e qualidade.  Nos ensaios Porcaro marcava as fitas demos com pequenas palavras que inventava e uma delas Toto, foi lembrada quando se perguntaram qual seria o nome da banda: Toto. 
 Em 82 lançam o Toto IV, com Africa e Rosanna, que se tornam clássicas no mundo da música. Rosanna inspirada na descontraída namorada de David Patch.
 
 Seguem ai as melhores do Toto :
 Africa - https://youtu.be/FTQbiNvZqaY
 Rosanna - https://youtu.be/qmOLtTGvsbM
  I'll Be Over You - https://youtu.be/r7XhWUDj-Ts
-Hold The Line -  https://youtu.be/htgr3pvBr-I`,
+Hold The Line -  https://youtu.be/htgr3pvBr-I
+`,
 
-    "1983 VIOLENTE FEMMES.md": `Violent Femmes, banda formada em Milwaukee em 1981, alcançou sucesso duradouro com "Blister in the Sun", lançada em seu álbum de estreia homônimo de 1983. A música, escrita pelo vocalista Gordon Gano quando ainda estava no ensino médio, se tornou um hino do rock alternativo com seu som acústico distintivo e energia punk folk.
+  "1983 VIOLENTE FEMMES.md": `Violent Femmes, banda formada em Milwaukee em 1981, alcançou sucesso duradouro com "Blister in the Sun", lançada em seu álbum de estreia homônimo de 1983. A música, escrita pelo vocalista Gordon Gano quando ainda estava no ensino médio, se tornou um hino do rock alternativo com seu som acústico distintivo e energia punk folk.
 
 A combinação única de instrumentação acústica (incluindo o baixo acústico de Brian Ritchie e a bateria minimalista de Victor DeLorenzo) com a voz ansiosa e característica de Gano criou uma sonoridade completamente original para a época. "Blister in the Sun", com seu riff de abertura instantaneamente reconhecível e letra enigmática, se tornou um sucesso cult que cresceu organicamente através de rádios universitárias e shows ao vivo.
 
 Curiosamente, a música ganhou ainda mais popularidade na década de 1990, sendo usada em filmes e comerciais, e continua sendo um favorito em festas universitárias até hoje. Embora o Violent Femmes tenha produzido muitas outras músicas importantes em sua carreira, "Blister in the Sun" permanece como sua marca registrada, um exemplo perfeito de como uma música aparentemente simples pode capturar perfeitamente o espírito do rock alternativo.
 
-Blister in the Sun - http://youtu.be/JE-dqW4uBEE`,
+Blister in the Sun - http://youtu.be/JE-dqW4uBEE
+`,
 
-    "1984 - FELIZ NATAL.md": `John Lennon lançou "Happy Xmas (War Is Over)" em 1971, uma música que se tornou um dos clássicos natalinos mais significativos da história. A canção foi criada em colaboração com Yoko Ono e o Plastic Ono Band, com a participação especial do Harlem Community Choir, que trouxe um elemento coral marcante para a gravação.
+  "1984 - FELIZ NATAL.md": `John Lennon lançou "Happy Xmas (War Is Over)" em 1971, uma música que se tornou um dos clássicos natalinos mais significativos da história. A canção foi criada em colaboração com Yoko Ono e o Plastic Ono Band, com a participação especial do Harlem Community Choir, que trouxe um elemento coral marcante para a gravação.
 
 A música surgiu como uma evolução natural da campanha pela paz que Lennon e Yoko vinham promovendo desde 1969, quando realizaram seus famosos "bed-ins". Phil Spector foi o produtor da gravação, trazendo seu característico "Wall of Sound" para criar a atmosfera festiva e ao mesmo tempo significativa que a música requeria. O resultado foi uma combinação perfeita entre uma canção de Natal e uma mensagem de paz universal.
 
@@ -1810,9 +2050,10 @@ Lançada inicialmente nos Estados Unidos em dezembro de 1971 e no Reino Unido um
 
 Lennon - https://youtu.be/4lINLhw7iv0   - 
 A outra, também feliz natal, do Queen, muito boa - 
-https://youtu.be/6V5mtUff6ik`,
+https://youtu.be/6V5mtUff6ik
+`,
 
-    "1986 - LA GUITARRA.md": `Federico García Lorca é um dos poetas espanhóis mais festejados e querido. Morreu castigado e fuzilado pelos franquistas em  1936, quando tinha 38 anos. Em vida deixou 12 obras, que se tornaram mundiais enquanto ele ainda vivia. Depois da sua morte se tornaram clássicos da poesia humana.  
+  "1986 - LA GUITARRA.md": `Federico García Lorca é um dos poetas espanhóis mais festejados e querido. Morreu castigado e fuzilado pelos franquistas em  1936, quando tinha 38 anos. Em vida deixou 12 obras, que se tornaram mundiais enquanto ele ainda vivia. Depois da sua morte se tornaram clássicos da poesia humana.  
 Nos Poemas do Canto Fundo, com textos de 1921-1922, encontramos 
 
 “La Guitarra
@@ -1859,15 +2100,16 @@ Eleanor Rigby -  https://youtu.be/aGoGyGSnVuA
  Jumping Jack -  https://youtu.be/WwLGR3eLoKM
  Yesterday -  https://youtu.be/6un_ppzMk8M`,
 
-    "1988 - SATIE.md": `Erik Satie, compositor francês conhecido por sua excentricidade e inovação musical, criou "Le Tango Perpétuel" (também conhecido como "Tango Perpétuel" ou "Tango Perpétuo") como parte de suas experimentações com formas musicais populares. Satie, que viveu entre 1866 e 1925, foi um dos compositores mais originais e influentes da música moderna, frequentemente desafiando as convenções de sua época.
+  "1988 - SATIE.md": `Erik Satie, compositor francês conhecido por sua excentricidade e inovação musical, criou "Le Tango Perpétuel" (também conhecido como "Tango Perpétuel" ou "Tango Perpétuo") como parte de suas experimentações com formas musicais populares. Satie, que viveu entre 1866 e 1925, foi um dos compositores mais originais e influentes da música moderna, frequentemente desafiando as convenções de sua época.
 
 Esta peça demonstra perfeitamente a capacidade de Satie de pegar uma forma de dança popular - neste caso o tango - e transformá-la em algo único e levemente surreal. Como sugere o título, a música tem uma qualidade circular, perpétua, criando uma sensação de movimento contínuo que é característica do estilo do compositor. O humor sutil e a ironia, marcas registradas de Satie, estão presentes na forma como ele brinca com as convenções do tango tradicional.
 
 A influência de Satie se estendeu muito além de seu tempo, inspirando movimentos como o minimalismo e o surrealismo musical. Suas composições, incluindo "Le Tango Perpétuel", continuam sendo interpretadas e admiradas, demonstrando como sua abordagem única à música permanece relevante e fascinante para músicos e ouvintes contemporâneos.
 
-Le Tango Perpétuel -  https://youtu.be/OEuJ-7tx8rw`,
+Le Tango Perpétuel -  https://youtu.be/OEuJ-7tx8rw
+`,
 
-    "1988 - WILBURYS.md": `Acho que a melhor tradução para  “We’ll bury them in the mix”,  que traduzem como  “nós os ocultaremos na mixagem”, é “corrigimos na mixagem”. Afinal é isso que os engenheiros fazem na mesa de som, quando vão produzir um disco. Claro, vão ocultar, mesclar, justapor, alterar, mas tudo isso são correções, melhoramentos.  Wilburys é a forma da turma da música dizer “We’ll bury them in the mix”.  
+  "1988 - WILBURYS.md": `Acho que a melhor tradução para  “We’ll bury them in the mix”,  que traduzem como  “nós os ocultaremos na mixagem”, é “corrigimos na mixagem”. Afinal é isso que os engenheiros fazem na mesa de som, quando vão produzir um disco. Claro, vão ocultar, mesclar, justapor, alterar, mas tudo isso são correções, melhoramentos.  Wilburys é a forma da turma da música dizer “We’ll bury them in the mix”.  
 Essa foi a inspiração que George Harrison teve quando, em 1988, se encontra com uma turma de primeira linha para, em princípio, apenas gravar o lado B do seu compacto, que continha “This is Love”. 
 
 Toda essa história é muito interessante. Pois começa exatamente desse jeito. George precisa gravar apenas uma faixa para seu compacto, tipo “disco de trabalho”, que lançará o seu LP “Cloud Nine”. Esse LP, nono álbum do ex-Beatle, surge depois de um longo afastamento de George do mercado. Por isso ele cuida com dedicação da sua produção.  Em abril de 1988, ele  estava em Los Angeles almoçando com  com Jeff Lynne (do  Electric Light Orchestra e Roy Orbison (o The Big O, roqueiro da velha guarda), empenhados em resolver o problema do Lado B do compacto de George. Não havia estúdio profissional disponível para a gravação.  Harrison então liga para Bob Dylan e pede emprestado o estúdio da sua garagem, em Malibu. 
@@ -1892,7 +2134,7 @@ Handle With Care -  https://youtu.be/1o4s1KVJaVA
  She’s My Baby -  https://youtu.be/BnD0H4VeHuY
  Nobody’s Child  -  https://youtu.be/6SqF56nj2LU`,
 
-    "1990 - ENIGMA.md": `O clima sempre lembra catacumbas, templos iluminados por velas, um ar místico sempre presente, como se o absoluto se desse travestido de batidas de ritmo de salão e ecos de canto gregoriano. Esse é o cenário musical do Projeto Enigma. 
+  "1990 - ENIGMA.md": `O clima sempre lembra catacumbas, templos iluminados por velas, um ar místico sempre presente, como se o absoluto se desse travestido de batidas de ritmo de salão e ecos de canto gregoriano. Esse é o cenário musical do Projeto Enigma. 
 
 O romeno Michael Cretu, genial musico, compositor e arranjador, depois de fazer seu nome e sua conta bancária com participações em várias produções da cena musical européia, cria esse modalidade chamada projeto musical. Não é uma banda, é um template, uma forma de um tipo de musica que ele vai chamando outros músicos para participar. Ele sempre .  Bem, ele sozinho não. Ele e a sua bela Sandra Cretu. 
 
@@ -1909,9 +2151,9 @@ https://youtu.be/Fe6nc8su-yk
 https://youtu.be/4F9DxYhqmKw 
 https://youtu.be/HuV2ID4PVgA 
 https://youtu.be/Xqb18bqNtEw 
-https://youtu.be/HjK30nhy7CU`,
+https://youtu.be/HjK30nhy7CU `,
 
-    "1991 - O CEARENCE DO ESCRACHO.md": `Formado em arquitetura, nascido Marcondes Falcão Maia em 57, da cidade de Pereiro, interior do Ceará, esse sujeito é capaz de criar uma figura impar no cenário da música brasileira, fazendo da gozação e do escracho o seu sucesso. 
+  "1991 - O CEARENCE DO ESCRACHO.md": `Formado em arquitetura, nascido Marcondes Falcão Maia em 57, da cidade de Pereiro, interior do Ceará, esse sujeito é capaz de criar uma figura impar no cenário da música brasileira, fazendo da gozação e do escracho o seu sucesso. 
 
 Para um Brasil sisudo e careta, metido a sábio e empertigado, Falcão arrasa com sua irreverência gozadora, cheia de inteligência cínica, para mostrar o ridículo dessa cultura. 
 
@@ -1933,33 +2175,36 @@ https://youtu.be/XOR6LkgNWbQ
 https://youtu.be/Es6o4xmHOMc 
 https://youtu.be/a0E0SK6d5Ks 
 https://youtu.be/c2qTPZ3jZtI 
-https://youtu.be/3CRJXlqZ7wE`,
+https://youtu.be/3CRJXlqZ7wE `,
 
-    "1991 - TEREZA SALGUEIRO.md": `Tereza Salgueiro, uma das vozes mais marcantes da música portuguesa contemporânea, ficou mundialmente conhecida como vocalista do Madredeus antes de seguir carreira solo. Sua interpretação de "Estrada do Monte" demonstra perfeitamente a singularidade de seu timbre cristalino e sua capacidade única de transmitir emoção através da música tradicional portuguesa.
+  "1991 - TEREZA SALGUEIRO.md": `Tereza Salgueiro, uma das vozes mais marcantes da música portuguesa contemporânea, ficou mundialmente conhecida como vocalista do Madredeus antes de seguir carreira solo. Sua interpretação de "Estrada do Monte" demonstra perfeitamente a singularidade de seu timbre cristalino e sua capacidade única de transmitir emoção através da música tradicional portuguesa.
 
 A cantora, nascida em Lisboa em 1969, traz para "Estrada do Monte" toda a profundidade e melancolia características do fado, mesmo que sua abordagem transcenda as fronteiras deste gênero musical. Sua voz, reconhecida internacionalmente pela pureza e precisão, dá nova vida à canção, criando uma atmosfera que mistura tradição portuguesa com elementos contemporâneos.
 
 Tereza Salgueiro se destaca por sua capacidade de interpretar músicas tradicionais com uma sensibilidade moderna, mantendo o respeito pela essência da música portuguesa. Em "Estrada do Monte", ela demonstra por que é considerada uma das grandes intérpretes de sua geração, trazendo delicadeza e força em uma performance que exemplifica a evolução da música portuguesa no cenário mundial. Ouçam  a voz da linda Tereza Salgueiro quando ainda fazia parte do Madredeus, cantando  Estrada do Monte. 
 
-Estrada do Monte - https://youtu.be/MMENlXLVrZI`,
+Estrada do Monte - https://youtu.be/MMENlXLVrZI
+`,
 
-    "1992 - BOBBY MACFERIN.md": `É  imperdível a interpretação do mágico Bobby Macferin e o inacreditável YoYo Ma da música "Hush Little Baby". Bobby McFerrin (note a correção no sobrenome) revolucionou a forma como entendemos a voz humana como instrumento musical. Sua versão de "Hush Little Baby", uma tradicional canção de ninar americana, demonstra perfeitamente sua capacidade única de criar paisagens sonoras completas usando apenas sua voz.
+  "1992 - BOBBY MACFERIN.md": `É  imperdível a interpretação do mágico Bobby Macferin e o inacreditável YoYo Ma da música "Hush Little Baby". Bobby McFerrin (note a correção no sobrenome) revolucionou a forma como entendemos a voz humana como instrumento musical. Sua versão de "Hush Little Baby", uma tradicional canção de ninar americana, demonstra perfeitamente sua capacidade única de criar paisagens sonoras completas usando apenas sua voz.
 
 McFerrin, vencedor de dez prêmios Grammy, é conhecido por sua extraordinária extensão vocal de quatro oitavas e sua habilidade de criar múltiplas vozes e sons simultaneamente. Em "Hush Little Baby", ele transforma uma simples canção de ninar em uma experiência musical complexa e rica, usando técnicas vocais inovadoras que incluem percussão vocal, harmonias e diferentes timbres, tudo produzido apenas com sua voz.
 
 Embora seja mais conhecido pelo hit "Don't Worry, Be Happy", suas interpretações de músicas tradicionais como "Hush Little Baby" mostram sua verdadeira maestria musical. McFerrin consegue manter a doçura e o conforto inerentes à canção de ninar original enquanto adiciona camadas de complexidade musical que demonstram por que ele é considerado um dos artistas vocais mais inovadores de todos os tempos.
 
-Hush Little Baby - https://youtu.be/GczSTQ2nv94`,
+Hush Little Baby - https://youtu.be/GczSTQ2nv94
+`,
 
-    "1993 - ISRAEL KAMAKAWIWO'OLE.md": `Israel "Iz" Kamakawiwo'ole, cantor havaiano que faleceu precocemente em 1997 aos 38 anos, criou uma das versões mais tocantes e memoráveis de "Over the Rainbow/What a Wonderful World". A gravação, feita em uma única tomada às 3 horas da manhã em 1988, tornou-se um fenômeno mundial, trazendo a cultura havaiana para o cenário internacional.
+  "1993 - ISRAEL KAMAKAWIWO'OLE.md": `Israel "Iz" Kamakawiwo'ole, cantor havaiano que faleceu precocemente em 1997 aos 38 anos, criou uma das versões mais tocantes e memoráveis de "Over the Rainbow/What a Wonderful World". A gravação, feita em uma única tomada às 3 horas da manhã em 1988, tornou-se um fenômeno mundial, trazendo a cultura havaiana para o cenário internacional.
 
 Acompanhado apenas por seu ukulele, Iz transformou completamente a clássica canção de "O Mágico de Oz", combinando-a com "What a Wonderful World" de Louis Armstrong. Sua voz doce e gentil, contrastando com sua figura física imponente (chegou a pesar 343 kg), trouxe uma nova dimensão emocional à música. A simplicidade do arranjo e a sinceridade de sua interpretação criaram uma versão que se tornou tão icônica quanto a original de Judy Garland.
 
 A música ganhou ainda mais popularidade após sua morte, sendo utilizada em diversos filmes, programas de TV e comerciais. Iz, que era um fervoroso defensor da independência e cultura havaianas, acabou se tornando um símbolo do Havaí moderno. Sua versão de "Over the Rainbow" continua tocando corações ao redor do mundo, representando a beleza e a simplicidade da música havaiana e o espírito 'aloha' que ele tanto defendia.
 
-Over The Rainbow -  https://youtu.be/Z26BvHOD_sg`,
+Over The Rainbow -  https://youtu.be/Z26BvHOD_sg
+`,
 
-    "1997 - CANTORA DE RUA.md": `Rachelle Garniez é de  1965, a artista que toca de tudo, além de ser cantora e compositora e fazer apresentações nas ruas de Nova York.  Vendo as suas performances, fica claro que a figura é ousada. Em um vídeo TED faz uma apresentação com um sujeito em que o som sai da boca de ambos em um longo beijo. 
+  "1997 - CANTORA DE RUA.md": `Rachelle Garniez é de  1965, a artista que toca de tudo, além de ser cantora e compositora e fazer apresentações nas ruas de Nova York.  Vendo as suas performances, fica claro que a figura é ousada. Em um vídeo TED faz uma apresentação com um sujeito em que o som sai da boca de ambos em um longo beijo. 
 
 O pai, Bernard Bernard Garniez, é professor de literatura francesa na Universidade de Nova York. A mãe,  Nancy Garniez, é especialista em música clássica,  pianista e foi quem incentivou a filha a não estudar nada de música formal, nada de teoria, nada de partitura e se dedicar exclusivamente à  música intuitiva e experiências musicais. Com  17 anos, Rachelle se torna cantora de performista de rua em Nova York, depois roda a Europa, principalmente  Itália e Espanha
 
@@ -1976,19 +2221,21 @@ https://youtu.be/vdinvb4YeE4
 https://youtu.be/XWnzOTcfiag
 https://youtu.be/ftV-uWgjNB4`,
 
-    "1997 - DEEP FOREST.md": `Deep Forest, projeto musical criado pelos músicos franceses Michel Sanchez e Eric Mouquet em 1992, revolucionou a música eletrônica ao fundir sons étnicos com batidas modernas. "Sweet Lullaby" foi seu primeiro grande sucesso mundial, mas "Green and Blue", lançada posteriormente, demonstra a evolução de seu som único e inovador.
+  "1997 - DEEP FOREST.md": `Deep Forest, projeto musical criado pelos músicos franceses Michel Sanchez e Eric Mouquet em 1992, revolucionou a música eletrônica ao fundir sons étnicos com batidas modernas. "Sweet Lullaby" foi seu primeiro grande sucesso mundial, mas "Green and Blue", lançada posteriormente, demonstra a evolução de seu som único e inovador.
 
 "Green and Blue" exemplifica perfeitamente a abordagem característica do Deep Forest: a mistura de samples de músicas tradicionais de diferentes culturas com elementos de música eletrônica contemporânea. A dupla criou uma paisagem sonora rica e envolvente, onde sintetizadores e beats eletrônicos se entrelaçam harmoniosamente com vocais e instrumentos tradicionais de diversas partes do mundo.
 
 O projeto Deep Forest foi pioneiro no que mais tarde seria conhecido como "world music eletrônica", influenciando inúmeros artistas e produtores. Seu trabalho não apenas popularizou a fusão de músicas étnicas com eletrônica, mas também levantou importantes discussões sobre apropriação cultural e preservação musical, sempre buscando colaborar e creditar apropriadamente as fontes originais de suas samples.
 
-Green and Blue - https://youtu.be/3L-sy5GEYZQ`,
+Green and Blue - https://youtu.be/3L-sy5GEYZQ
+`,
 
-    "1997 - ZE COCO DO RIACHAO.md": `É, com certeza reconhecida pelo mundo, um dos maiores gênios da musica universal, já chamado de Beethoven do  Norte. Sua humildade se contrasta com sua genialidade. Mas ele não só garantiu a universalização da musica do sertão, mas garantiu um lugar de dignidade para a viola. A dica de hoje é Ze Coco do Riachão.
+  "1997 - ZE COCO DO RIACHAO.md": `É, com certeza reconhecida pelo mundo, um dos maiores gênios da musica universal, já chamado de Beethoven do  Norte. Sua humildade se contrasta com sua genialidade. Mas ele não só garantiu a universalização da musica do sertão, mas garantiu um lugar de dignidade para a viola. A dica de hoje é Ze Coco do Riachão.
  
-https://youtu.be/qB2Yj7TIBm0`,
+https://youtu.be/qB2Yj7TIBm0
+`,
 
-    "1998 - NINHO DA MÚSICA.md": `Quando, na pesquisa sobre Ramin Djawadi, aparece o nome da escola em que ele se formou, Berklee College, fica claro o tamanho e a força da escola. Achei que seria muito legal fazer uma pesquisa sobre essa instituição. 
+  "1998 - NINHO DA MÚSICA.md": `Quando, na pesquisa sobre Ramin Djawadi, aparece o nome da escola em que ele se formou, Berklee College, fica claro o tamanho e a força da escola. Achei que seria muito legal fazer uma pesquisa sobre essa instituição. 
 
 Depois de ler a história e o depoimento de várias pessoas, não há nenhuma dúvida em afirmar, é um verdadeiro ninho de músicos e musicas. Absurdamente grande, competente, capaz de efetivamente impactar o cenário musical do mundo com seus professores e, o resultado de um ensino competente, seus alunos. 
 
@@ -2012,25 +2259,28 @@ https://youtu.be/hbcW7nxcP3E
 https://youtu.be/ggPooXtzUD0 
 https://youtu.be/BS2-qoNHhxY 
 https://youtu.be/ILZCJuT4lh0 
-https://youtu.be/ivBg3C-U82c`,
+https://youtu.be/ivBg3C-U82c `,
 
-    "2001 - GOTAN PROJET.md": `Releitura do tango feita pelo Gotan Projet, um grupo de pessoas de várias partes do mundo, inclusive argentinos, que deram um tapa na velha musica portenha. Gotan Project, grupo formado em Paris em 1999, revolucionou a forma como o tango é visto e ouvido ao fundir o gênero tradicional argentino com música eletrônica. "Santa María (del Buen Ayre)", lançada em 2001 como parte do álbum "La Revancha del Tango", é um exemplo perfeito desta fusão inovadora.
+  "2001 - GOTAN PROJET.md": `Releitura do tango feita pelo Gotan Projet, um grupo de pessoas de várias partes do mundo, inclusive argentinos, que deram um tapa na velha musica portenha. Gotan Project, grupo formado em Paris em 1999, revolucionou a forma como o tango é visto e ouvido ao fundir o gênero tradicional argentino com música eletrônica. "Santa María (del Buen Ayre)", lançada em 2001 como parte do álbum "La Revancha del Tango", é um exemplo perfeito desta fusão inovadora.
 
 O trio, formado pelo francês Philippe Cohen Solal, o argentino Eduardo Makaroff e o suíço Christoph H. Müller, criou em "Santa María" uma atmosfera única que respeita as raízes do tango enquanto o transporta para a modernidade. A música combina samples de bandoneon, cordas e piano típicos do tango com beats eletrônicos e programações sofisticadas. A voz sensual de Cristina Vilallonga adiciona uma camada extra de autenticidade à fusão, navegando perfeitamente entre tradição e modernidade.
 
 "Santa María" se tornou um marco na música eletrônica contemporânea, provando que é possível modernizar ritmos tradicionais sem perder sua essência. O Gotan Project não apenas revitalizou o interesse pelo tango entre um público mais jovem, mas também criou um novo subgênero que influenciou diversos artistas e produtores ao redor do mundo.
 
-Santa María -  http://youtu.be/UYjXm63DKQ0?list=PLDC7DAE8D3E6CD119`,
+Santa María -  http://youtu.be/UYjXm63DKQ0?list=PLDC7DAE8D3E6CD119
+`,
 
-    "2001 - PEAKY BLINDERS.md": `Nick Cave and The Bad Seeds criaram com "Red Right Hand", lançada em 1994 no álbum "Let Love In", uma das músicas mais atmosféricas e sombriamente poéticas do rock alternativo. O título foi inspirado no poema épico "Paradise Lost" de John Milton, onde a "mão direita vermelha" se refere à vingança divina.
+  "2001 - PEAKY BLINDERS.md": `Nick Cave and The Bad Seeds criaram com "Red Right Hand", lançada em 1994 no álbum "Let Love In", uma das músicas mais atmosféricas e sombriamente poéticas do rock alternativo. O título foi inspirado no poema épico "Paradise Lost" de John Milton, onde a "mão direita vermelha" se refere à vingança divina.
 
 A música, que ganhou ainda mais popularidade ao ser usada como tema da série "Peaky Blinders", é um exemplo perfeito do estilo narrativo único de Cave. Com sua voz grave e teatral, ele conta uma história sinistra sobre um homem misterioso e poderoso, enquanto a banda cria uma atmosfera densa e ameaçadora com sinos, órgão e uma linha de baixo hipnótica. A produção, com seus arranjos elaborados e atmosfera gótica, exemplifica perfeitamente a capacidade de Cave de criar verdadeiras paisagens sonoras cinematográficas.
 
 "Red Right Hand" se tornou uma das músicas mais emblemáticas de Nick Cave, demonstrando sua habilidade única de combinar storytelling gótico com música atmosférica. A canção continua influenciando artistas e sendo descoberta por novas gerações, especialmente após sua inclusão em várias trilhas sonoras importantes, provando a atemporalidade de sua narrativa sombria e sua produção distintiva.
 
-Red Right Hand -  http://youtu.be/KGD2N5hJ2e0`,
+Red Right Hand -  http://youtu.be/KGD2N5hJ2e0 
+`,
 
-    "2002 - BAJOFONDO.md": `A primeira vez que fui em Montevidéu foi em abril de 2010. Um colega de trabalho de Porto Alegre  cuidou da viagem, já que os gaúchos diziam que o Uruguai era área deles e faziam questão de organizar a viagem. Medeiros  ficou de me pegar no aeroporto, por sinal um dos mais bonitos da América do Sul. Chegando, lá estava o Medeiros com um coche alugado. Disse que tudo estava arrumado, agenda confirmada e que ele, para o nosso bem financeiro, tinha arrumado um hotel "em conta" para economizarmos nossa diária. Esse negócio de "hotel em conta" me arrepia, prefiro comer pão na padaria do que economizar no hotel. Tudo que temia aconteceu, uma verdadeira espelunca era a economia do Medeiros. Fui obrigado a apresentar meu dicionário de xingamentos para ele  logo nas nossas primeira horas em Montevidéu. Ainda mais depois que constatei que não havia como mudar. Medeiros  tinha um problema, percebi logo, falava feito uma matraca e não havia um fato no mundo que não o levava para seu assunto amado, a Segunda Guerra Mundial. Tanto era maluco o tal do Medeiros, que ele reconhecia nazista na rua: "Volker, presta atenção naquele senhor ali do lado, é a cara do Tromalla". Era assim o  tempo todo, sempre seguido de uns 5 xingamentos de ofensaa familiares da minha parte. Mas o Medeiros tinha lá suas virtudes. Mostrou a primeira virtude quando contratou, para a nossa manhã inicial, dois professores da Universidad de la República, para passar 4 horas apresentando e discutindo a situação do Uruguai, sua história, problemas e perspectivas. Os professores  nos deram uma verdadeira aula. A segunda virtude do Martin foi comprar entrada para um show, na primeira noite da visita, de uma banda Uruguaia. Não parei de xingar o Martin com sua mania de achar nazistas, mas nunca mais esqueci da banda que fomos ver. Bajofondo. 
+  "2002 - BAJOFONDO.md": `
+A primeira vez que fui em Montevidéu foi em abril de 2010. Um colega de trabalho de Porto Alegre  cuidou da viagem, já que os gaúchos diziam que o Uruguai era área deles e faziam questão de organizar a viagem. Medeiros  ficou de me pegar no aeroporto, por sinal um dos mais bonitos da América do Sul. Chegando, lá estava o Medeiros com um coche alugado. Disse que tudo estava arrumado, agenda confirmada e que ele, para o nosso bem financeiro, tinha arrumado um hotel "em conta" para economizarmos nossa diária. Esse negócio de "hotel em conta" me arrepia, prefiro comer pão na padaria do que economizar no hotel. Tudo que temia aconteceu, uma verdadeira espelunca era a economia do Medeiros. Fui obrigado a apresentar meu dicionário de xingamentos para ele  logo nas nossas primeira horas em Montevidéu. Ainda mais depois que constatei que não havia como mudar. Medeiros  tinha um problema, percebi logo, falava feito uma matraca e não havia um fato no mundo que não o levava para seu assunto amado, a Segunda Guerra Mundial. Tanto era maluco o tal do Medeiros, que ele reconhecia nazista na rua: "Volker, presta atenção naquele senhor ali do lado, é a cara do Tromalla". Era assim o  tempo todo, sempre seguido de uns 5 xingamentos de ofensaa familiares da minha parte. Mas o Medeiros tinha lá suas virtudes. Mostrou a primeira virtude quando contratou, para a nossa manhã inicial, dois professores da Universidad de la República, para passar 4 horas apresentando e discutindo a situação do Uruguai, sua história, problemas e perspectivas. Os professores  nos deram uma verdadeira aula. A segunda virtude do Martin foi comprar entrada para um show, na primeira noite da visita, de uma banda Uruguaia. Não parei de xingar o Martin com sua mania de achar nazistas, mas nunca mais esqueci da banda que fomos ver. Bajofondo. 
 
 Nunca ninguém do grupo brigou pelo fato da banda ser chamada de uruguaia, as brigas sempre foram por causa de Verônica. Por mais estranho que pareça, todos diziam : "a banda é uruguaia". Mesmo sendo Gustavo Santaolalla, o fundador e líder do grupo,  um filho de El Palomar, periferia de Buenos Aires, e o autor de  duas trilhas ganhadoras de oscar (“Brokeback Mountain” e “Babel”). 
 
@@ -2050,18 +2300,22 @@ https://youtu.be/GnekEPW4Okg
 https://youtu.be/ygp-Mﬁ_Kro 
 https://youtu.be/7nwI_tcwPso 
 https://youtu.be/pnlFp3Fg44o 
-https://youtu.be/8InfXQVA1-Q`,
+https://youtu.be/8InfXQVA1-Q 
 
-    "2002 - EPITÁFIO.md": `Os Titãs, uma das bandas mais importantes do rock brasileiro, lançaram "Epitáfio" em 2001 como parte do álbum "A Melhor Banda de Todos os Tempos da Última Semana". A música, composta por Sérgio Britto, se destaca na discografia da banda por sua abordagem mais reflexiva e filosófica, diferente do som mais agressivo pelo qual o grupo ficou conhecido nos anos 80.
+
+`,
+
+  "2002 - EPITÁFIO.md": `Os Titãs, uma das bandas mais importantes do rock brasileiro, lançaram "Epitáfio" em 2001 como parte do álbum "A Melhor Banda de Todos os Tempos da Última Semana". A música, composta por Sérgio Britto, se destaca na discografia da banda por sua abordagem mais reflexiva e filosófica, diferente do som mais agressivo pelo qual o grupo ficou conhecido nos anos 80.
 
 "Epitáfio" apresenta uma letra que reflete sobre a vida, o tempo e os arrependimentos, com versos que se tornaram emblemáticos como "Devia ter amado mais, ter chorado mais, ter visto o sol nascer". A simplicidade da melodia, combinada com arranjos delicados e a interpretação sensível de Britto, criou uma das baladas mais tocantes do rock nacional. A música consegue transmitir uma mensagem universal sobre a importância de viver intensamente e aproveitar cada momento.
 
 Lançada em um momento de transformação da banda, que já havia passado por várias mudanças em sua formação original, "Epitáfio" demonstrou a maturidade musical dos Titãs e sua capacidade de se reinventar. A canção transcendeu o público habitual da banda, tornando-se um hino sobre a reflexão da existência humana e conquistando pessoas de diferentes gerações e gostos musicais.
 
 
- https://youtu.be/EaaZyrEshrY`,
+ https://youtu.be/EaaZyrEshrY
+`,
 
-    "2002 - SALIR CORRIENDO.md": `A letra é profunda e arrebatadora. A temática é devastadora. A mensagem é dura e simples: 
+  "2002 - SALIR CORRIENDO.md": `A letra é profunda e arrebatadora. A temática é devastadora. A mensagem é dura e simples: 
 
 Salir Corriendo: 
 Si tienes miedo, si estás sufriendo
@@ -2079,9 +2333,10 @@ https://youtu.be/aqJU8K5qHX8
 https://youtu.be/NFary9e9jo0 
 https://youtu.be/gQ2Vgj_bL04 
 https://youtu.be/JPpi6ZA16Mg 
-https://youtu.be/dJVxoMvhRbY`,
+https://youtu.be/dJVxoMvhRbY 
+`,
 
-    "2003 - CARINHOSO.md": `Marisa Monte, uma das vozes mais importantes da música brasileira contemporânea, trouxe uma interpretação única para "Carinhoso", clássico composto por Pixinguinha e João de Barro (Braguinha) em 1916/1937. Sua versão consegue honrar a tradição enquanto adiciona uma sensibilidade moderna à canção.
+  "2003 - CARINHOSO.md": `Marisa Monte, uma das vozes mais importantes da música brasileira contemporânea, trouxe uma interpretação única para "Carinhoso", clássico composto por Pixinguinha e João de Barro (Braguinha) em 1916/1937. Sua versão consegue honrar a tradição enquanto adiciona uma sensibilidade moderna à canção.
 
 A música, originalmente um choro instrumental de Pixinguinha que ganhou letra de Braguinha anos depois, recebeu de Marisa um tratamento delicado e respeitoso. Sua interpretação, com seu timbre cristalino e sua dicção perfeita, traz à tona toda a doçura e o lirismo da composição. O arranjo mantém a essência da música original, mas é atualizado com a sofisticação característica das produções de Marisa Monte.
 
@@ -2089,9 +2344,19 @@ A música, originalmente um choro instrumental de Pixinguinha que ganhou letra d
 
 http://youtu.be/C-Gg8HH1UzM. 
 
-Sei bem que todos já ouvimos tantas outras, mas achei essa uma das melhores. A melhor voz com o melhor acompanhamento, Paulinho da Viola, e o despojamento, quase que desleixado do vídeo, para amplificar a beleza da canção e interpretação. Boa forma de iniciar um maravilhoso domingo para todos.`,
+Sei bem que todos já ouvimos tantas outras, mas achei essa uma das melhores. A melhor voz com o melhor acompanhamento, Paulinho da Viola, e o despojamento, quase que desleixado do vídeo, para amplificar a beleza da canção e interpretação. Boa forma de iniciar um maravilhoso domingo para todos.
+`,
 
-    "2007 - MOINHO.md": `Quando descobriu que a Creusa (filha adotiva,  afilhada da primeira esposa  Deolinda) estava na prostituição, Cartola escreve “O Mundo é um Moinho”, em 1943, mas a música só foi gravada por Cartola em 1976. Creusa foi embora, ainda menina, não tinha 17 anos, querendo fazer da sua vida algo melhor do que aquela que Deolinda e Cartola lhe davam. 
+  "2007 - Miranda! .md": `Miranda!, banda argentina formada em 2001, se tornou um dos nomes mais importantes do pop rock latino moderno com "Perfecta", lançada em 2007. A música, que faz parte do álbum "El Disco de Tu Corazón", exemplifica perfeitamente o estilo único da banda em misturar electropop com elementos do new wave dos anos 80.
+
+Liderada por Ale Sergi e Juliana Gattas, cujas vozes se complementam de forma única, a banda trouxe em "Perfecta" uma história de amor e idealização com uma produção que combina sintetizadores vibrantes, batidas dançantes e melodias cativantes. A química vocal entre Ale e Juliana, marca registrada do Miranda!, é especialmente notável nesta canção, onde suas vozes se entrelaçam criando harmonias memoráveis.
+
+A música se tornou um dos maiores sucessos da banda, consolidando o Miranda! como um dos grupos mais influentes do pop latino contemporâneo. "Perfecta" representa perfeitamente a capacidade do grupo de criar pop sofisticado que homenageia os anos 80 enquanto mantém uma sonoridade atual e única, influenciando uma nova geração de artistas latino-americanos.
+
+ https://g.co/kgs/IVOJhW
+`,
+
+  "2007 - MOINHO.md": `Quando descobriu que a Creusa (filha adotiva,  afilhada da primeira esposa  Deolinda) estava na prostituição, Cartola escreve “O Mundo é um Moinho”, em 1943, mas a música só foi gravada por Cartola em 1976. Creusa foi embora, ainda menina, não tinha 17 anos, querendo fazer da sua vida algo melhor do que aquela que Deolinda e Cartola lhe davam. 
 
 A música retrata momentos da vida de Angenor de Oliveira (1908 - 1980), o sujeito que foi infectado pelo pai “o micróbio do samba me  foi injetado pelo velho. Eu era  garoto quando saía com toda a família  no Rancho dos Arrepiados e ele,  com sua voz, que era boa, chegou à ala do Satanás”. 
 Cartola teve a sua infância salpicada de samba, já que seu pai tocava cavaquinho profissionalmente no “bando 4”. Foi ai que aprendeu a tocar  cavaquinho.  “Eu aprendi a tocar violão sozinho. Meu pai tocava e eu ficava olhando pros dedos dele. Quando saía pra trabalhar eu pegava o violão e repetia o que ele fazia. Quando saí de casa já arranhava um pouco. Comecei com o cavaquinho, mas depois passei para o violão.” 
@@ -2136,17 +2401,11 @@ Sim
  https://youtu.be/V2WR_np0Zxs
  
 A sorrir
- https://youtu.be/FeaExw4L5kA`,
+ https://youtu.be/FeaExw4L5kA
+ 
+`,
 
-    "2007 - Miranda! .md": `Miranda!, banda argentina formada em 2001, se tornou um dos nomes mais importantes do pop rock latino moderno com "Perfecta", lançada em 2007. A música, que faz parte do álbum "El Disco de Tu Corazón", exemplifica perfeitamente o estilo único da banda em misturar electropop com elementos do new wave dos anos 80.
-
-Liderada por Ale Sergi e Juliana Gattas, cujas vozes se complementam de forma única, a banda trouxe em "Perfecta" uma história de amor e idealização com uma produção que combina sintetizadores vibrantes, batidas dançantes e melodias cativantes. A química vocal entre Ale e Juliana, marca registrada do Miranda!, é especialmente notável nesta canção, onde suas vozes se entrelaçam criando harmonias memoráveis.
-
-A música se tornou um dos maiores sucessos da banda, consolidando o Miranda! como um dos grupos mais influentes do pop latino contemporâneo. "Perfecta" representa perfeitamente a capacidade do grupo de criar pop sofisticado que homenageia os anos 80 enquanto mantém uma sonoridade atual e única, influenciando uma nova geração de artistas latino-americanos.
-
- https://g.co/kgs/IVOJhW`,
-
-    "2007 - O REI DA NOITE.md": `Ramin Djawdi é um homem bom. Mais que talentoso, beira a genialidade. Sua origem iraniana (por parte de pai) e alemã, por parte de mãe, não lhe trouxeram nenhum problema na sua carreira que inicia no Berklee College of Music, de Boston, Massachusetts, em 1984. 
+  "2007 - O REI DA NOITE.md": `Ramin Djawdi é um homem bom. Mais que talentoso, beira a genialidade. Sua origem iraniana (por parte de pai) e alemã, por parte de mãe, não lhe trouxeram nenhum problema na sua carreira que inicia no Berklee College of Music, de Boston, Massachusetts, em 1984. 
 
 A melhor escola independente de música do mundo: Berklee College of Music. Ele chega em Berklee apenas com sua guitarra, querendo se aprofundar nesse instrumento. Na escola amplia sua visão, aprende piano e encontra o cinema. Em 1988 quando sai da escola, já sai consagrado. “A música que eu estava escrevendo se prestava para filmar ... então a música de cinema virou uma grande paixão. Berklee me mostrou que eu poderia fazer as duas coisas“. 
 
@@ -2167,9 +2426,11 @@ https://youtu.be/QwQmZ53nrJs
 https://youtu.be/u1YuVtrjJaA 
 https://youtu.be/MRIAKDFcOTo 
 https://youtu.be/xCZdSLVH25Y 
-https://youtu.be/x_JMAIBtWdw`,
+https://youtu.be/x_JMAIBtWdw 
 
-    "2007 - SER DIFERENTE.md": `Architecture in Helsinki não é um querer ser diferente,  é um ser diferente. Quando Cameron Bird, Gus Franklin, Jamie Mildren, Sam Perry, Kelli Sutherland se reuniram no início de 2000, já eram jovens diferentes. Todos multinstrumentistas, todos muito criativos e todos muito empolgados em fazer um som diferente. 
+`,
+
+  "2007 - SER DIFERENTE.md": `Architecture in Helsinki não é um querer ser diferente,  é um ser diferente. Quando Cameron Bird, Gus Franklin, Jamie Mildren, Sam Perry, Kelli Sutherland se reuniram no início de 2000, já eram jovens diferentes. Todos multinstrumentistas, todos muito criativos e todos muito empolgados em fazer um som diferente. 
 
 Northcote, bairro de Melbourne, Australia, foi o espaço escolhido para  o laboratório da banda. Então foi só começar a experimentar. 
 
@@ -2181,9 +2442,11 @@ https://youtu.be/MXIzyquw-kc
 https://youtu.be/sZjpWs1h7pU 
 https://youtu.be/JNGOG3A7P3E 
 https://youtu.be/IxjcszKEcHE 
-https://youtu.be/aWMJkvjWqx4`,
+https://youtu.be/aWMJkvjWqx4 
 
-    "2008 - ANDREAS SCHOLL.md": `Andreas Scholl, aclamado contratenor alemão, traz uma interpretação magistral de "Venus' Birds", demonstrando por que é considerado um dos maiores contratenores da atualidade. Sua voz excepcional, que cobre uma extensão rara para vozes masculinas, traz uma qualidade etérea e delicada a esta peça barroca.
+`,
+
+  "2008 - ANDREAS SCHOLL.md": `Andreas Scholl, aclamado contratenor alemão, traz uma interpretação magistral de "Venus' Birds", demonstrando por que é considerado um dos maiores contratenores da atualidade. Sua voz excepcional, que cobre uma extensão rara para vozes masculinas, traz uma qualidade etérea e delicada a esta peça barroca.
 
 Scholl, nascido em 1967, é reconhecido mundialmente por sua técnica impecável e profunda compreensão do repertório barroco. Sua interpretação de "Venus' Birds" exemplifica perfeitamente sua capacidade de combinar precisão técnica com expressividade emocional. O controle vocal que demonstra nesta peça, especialmente nos ornamentos e nas passagens mais delicadas, é um testemunho de seu extraordinário domínio vocal.
 
@@ -2191,9 +2454,10 @@ Como um dos principais expoentes da música antiga no cenário atual, Scholl tra
 
 Mesmo focando em um CD desse artista, English Folksongs & Lute Songs, esse merece atenção de todos, trata-se do fabuloso Andreas Scholl. O alemão é um espetacular contratenor, que nos impressiona com a amplitude da voz, segue ai um link que mostra a qualidade desse cantor
  
- https://youtu.be/7KwHErv7Ryk`,
+ https://youtu.be/7KwHErv7Ryk
+`,
 
-    "2008 - CARL DOUGLAS.md": `Carl Douglas abriu uma das portas do mercado americano, para um outro tipo de música, fora da onda do Reggae e as ondas típicas da Jamaica. Ele faz som americano para o público americano, a partir das regras do mercado americano. Fez sucesso. A estampa das música e do sujeito caíram como uma luva para os idos de 74. 
+  "2008 - CARL DOUGLAS.md": `Carl Douglas abriu uma das portas do mercado americano, para um outro tipo de música, fora da onda do Reggae e as ondas típicas da Jamaica. Ele faz som americano para o público americano, a partir das regras do mercado americano. Fez sucesso. A estampa das música e do sujeito caíram como uma luva para os idos de 74. 
 
 Carl Douglas alcançou fama mundial instantânea em 1974 com "Kung Fu Fighting", uma música que capturou perfeitamente a febre das artes marciais que dominava a cultura pop da época, impulsionada pelos filmes de Bruce Lee. O que muitos não sabem é que a música foi gravada em apenas dez minutos, como lado B de um single, e acabou se tornando um dos maiores sucessos da era disco.
 
@@ -2202,9 +2466,11 @@ A música, produzida por Biddu, foi gravada nos últimos minutos de uma sessão 
 Embora Carl Douglas tenha lançado outros singles e álbuns, ele acabou se tornando conhecido como um "one-hit wonder", pois nunca conseguiu repetir o sucesso massivo de "Kung Fu Fighting". No entanto, a música continua sendo um clássico da era disco, frequentemente utilizada em filmes, programas de TV e comerciais, mantendo viva a lembrança daquele momento único da cultura pop dos anos 70.
 
 Carl Douglas, KUNG FU FIGHTING - 
-https://youtu.be/LSn199eagt8`,
+https://youtu.be/LSn199eagt8 
 
-    "2008 - Julieta Venegas.md": `Em 2008, quando conheci a música Me Voy e outras músicas dela, escrevi para Julieta e disse que queria escrever um texto sobre o tempo na sua obra. Julieta não me respondeu. Deve ter achado uma bobagem, mas não deixei de gostar muito das suas música. Julieta Venegas me fez pesquisar a musica mexicana bem elaborada  e descobri que há muita coisa boa por lá. Ela tem formação clássica de piano e aparece tocando música popular com boas letras, empunhando a sua acordeon Gabbanelli. 
+`,
+
+  "2008 - Julieta Venegas.md": `Em 2008, quando conheci a música Me Voy e outras músicas dela, escrevi para Julieta e disse que queria escrever um texto sobre o tempo na sua obra. Julieta não me respondeu. Deve ter achado uma bobagem, mas não deixei de gostar muito das suas música. Julieta Venegas me fez pesquisar a musica mexicana bem elaborada  e descobri que há muita coisa boa por lá. Ela tem formação clássica de piano e aparece tocando música popular com boas letras, empunhando a sua acordeon Gabbanelli. 
 
 Julieta Venegas, cantora e compositora mexicana nascida em Long Beach, Califórnia, alcançou um dos pontos mais altos de sua carreira com "Me Voy", lançada em 2006 como parte do álbum "Limón y Sal". A música exemplifica perfeitamente a evolução artística de Venegas, que começou no rock alternativo e desenvolveu um estilo único que mescla pop latino com elementos de folk e música tradicional mexicana.
 
@@ -2220,17 +2486,19 @@ Mas   Julieta VenegasMe Voy (https://youtu.be/y8rBC6GCUjg ), é icônica, muitas
 Que lastima pero adios
 Me despido de ti y me voy
 Que lastima pero adios
-Me despido de ti"`,
+Me despido de ti"
+`,
 
-    "2009 - ARNALDO ANTUNES.md": `Extraordinário artista que é Arnaldo Antunes. Alguns sentem antipatia pelo elemento, mas ninguém pode duvidar da sua competência. Lendo sobre ele é impressionante a participação dele no cenário musical e artístico brasileiro hoje, seja incentivando jovens, seja fazendo parcerias no mundo todo. Arnaldo Antunes, um dos artistas mais versáteis e inovadores da música brasileira, lançou "A Casa é Sua" demonstrando sua capacidade única de criar canções que são ao mesmo tempo simples e profundamente poéticas. O ex-integrante dos Titãs, que construiu uma sólida carreira solo, traz nesta música sua característica forma de observar o cotidiano com olhos de poeta.
+  "2009 - ARNALDO ANTUNES.md": `Extraordinário artista que é Arnaldo Antunes. Alguns sentem antipatia pelo elemento, mas ninguém pode duvidar da sua competência. Lendo sobre ele é impressionante a participação dele no cenário musical e artístico brasileiro hoje, seja incentivando jovens, seja fazendo parcerias no mundo todo. Arnaldo Antunes, um dos artistas mais versáteis e inovadores da música brasileira, lançou "A Casa é Sua" demonstrando sua capacidade única de criar canções que são ao mesmo tempo simples e profundamente poéticas. O ex-integrante dos Titãs, que construiu uma sólida carreira solo, traz nesta música sua característica forma de observar o cotidiano com olhos de poeta.
 
 "A Casa é Sua" representa perfeitamente o estilo singular de Antunes, onde letra e melodia se complementam de maneira orgânica. A música, com sua letra minimalista e arranjo delicado, fala sobre pertencimento e acolhimento de uma forma que só Arnaldo consegue fazer. Sua voz grave e marcante, combinada com a produção limpa e precisa, cria uma atmosfera íntima e acolhedora que reflete perfeitamente o tema da canção.
 
 Como poeta, compositor e artista visual, Arnaldo Antunes sempre trouxe para sua música elementos de diferentes linguagens artísticas. Em "A Casa é Sua", ele consegue criar uma experiência que transcende a simples canção pop, transformando um tema aparentemente simples em uma reflexão poética sobre espaço, pertencimento e relacionamentos.
 
-https://youtu.be/82aj1Bg8FpA`,
+https://youtu.be/82aj1Bg8FpA
+`,
 
-    "2009 - NÃO DESONRE MEU NOME.md": `Não sei bem porque a música da Pitty foi tão importante quando prestei atenção nela. De fato devo ter ouvido essa música em algum momento antes dela fazer algum sentido, mas lá pelos idos de 2012, ela não só fez sentido como definitivamente me contou uma história que parecia ser a minha história. Música tem isso, o outro mundo que ela remete pode muito bem ser exatamente o seu mundo, desenhado por melodias, trombes e tons. 
+  "2009 - NÃO DESONRE MEU NOME.md": `Não sei bem porque a música da Pitty foi tão importante quando prestei atenção nela. De fato devo ter ouvido essa música em algum momento antes dela fazer algum sentido, mas lá pelos idos de 2012, ela não só fez sentido como definitivamente me contou uma história que parecia ser a minha história. Música tem isso, o outro mundo que ela remete pode muito bem ser exatamente o seu mundo, desenhado por melodias, trombes e tons. 
 
 “Me Adora” conta uma história de paradoxos, alguém que partiu, que rompeu com você e que pode até mesmo te desonrar, mas que não reconhece que te adora. E mais, vai embora sim e não vai perceber. Exatamente porque esse “te adora” é apenas um enorme desejo que tudo volte a dar certo, que algo de muito importante que aconteceu permaneça. Apesar das evidências de que a destruição já tomou conta da relação. Afinal, “você nem me ouve até o fim, injustamente julga por prazer”, o que é a prova de que sim, é possível que você já desonra o meu nome.
 
@@ -2240,7 +2508,7 @@ Pitty canta essa música com a força justa de quem vive esse tormento profundam
 
 Pitty - Me Adora - https://youtu.be/66PrK9b_WD8?si=CvNbEXhXydbEnf4c`,
 
-    "2011 - A DURGA DA MARIMBA.md": `A Deusa Durga é como umas das principais divindades da Índia e tem um papel muito importante como guerreira e protetora do mundo, sendo por isso conhecida como uma Deusa Guerreira. A Deusa Durga aparece com muitas faces e muitos nomes em várias ocorrências de sua mitologia. Ela é representada normalmente como uma bela mulher com dois ou três olhos e oito ou dez braços, segurando uma arma divina em cada mão.
+  "2011 - A DURGA DA MARIMBA.md": `A Deusa Durga é como umas das principais divindades da Índia e tem um papel muito importante como guerreira e protetora do mundo, sendo por isso conhecida como uma Deusa Guerreira. A Deusa Durga aparece com muitas faces e muitos nomes em várias ocorrências de sua mitologia. Ela é representada normalmente como uma bela mulher com dois ou três olhos e oito ou dez braços, segurando uma arma divina em cada mão.
 
 Kuniko Kato é dessas artistas que, além do som fantástico que produz, enche também os olhos com a sua performance. Não é estranho, portanto, fazer essa referência a deusa Durga. Kuniko tem oito braços. Ela faz uma dança, como se fosse uma dançarina marcial, com suas poses de ataque e, ao mesmo tempo, com uma sensualidade, resultante do conjunto, do cenário que ela cria. Som, movimentos, golpes, levezas, curvas.
 
@@ -2257,9 +2525,10 @@ https://youtu.be/cPP72DVK6ck
 https://youtu.be/myL42eqsfpM
 https://youtu.be/_-yERhrWQbo
 https://youtu.be/NwQwfaTv6OI
-https://youtu.be/bL-WpW06x0A`,
+https://youtu.be/bL-WpW06x0A
+`,
 
-    "2012 - NOVO SOM EM MINAS.md": `Se Minas são muitas, com suas várias porteiras, ninguém vai negar que, para cada porteira, uma banda, um cantor, um artista nasce ali. Para cada turma de músicos, em cada década, um novo “Clube de Esquina” surge, estabelecendo um novo patamar de qualidade, que depois é seguido por todo o Brasil. De Clara Nunes, até Samuel Rosa, passando por Aguinaldo Timóteo, Alexandre Pires e Fernanda Takai Minas sempre esteve no topo da cena musical brasileira. Alguns, como Milton Nascimento, conseguem afetar o mundo. 
+  "2012 - NOVO SOM EM MINAS.md": `Se Minas são muitas, com suas várias porteiras, ninguém vai negar que, para cada porteira, uma banda, um cantor, um artista nasce ali. Para cada turma de músicos, em cada década, um novo “Clube de Esquina” surge, estabelecendo um novo patamar de qualidade, que depois é seguido por todo o Brasil. De Clara Nunes, até Samuel Rosa, passando por Aguinaldo Timóteo, Alexandre Pires e Fernanda Takai Minas sempre esteve no topo da cena musical brasileira. Alguns, como Milton Nascimento, conseguem afetar o mundo. 
 
 Às vezes a força da musica mineira é tão forte que até o poder se rende a ela, como na imagem de Lô Borges, Fernando Brant, Márcio Borges, Milton Nascimento e o presidente Juscelino Kubitschek em Diamantina, em 1967. 
 
@@ -2277,9 +2546,11 @@ https://youtu.be/52M9bqpHGAg
 https://youtu.be/k5Ns71zkLDY 
 https://youtu.be/1fu4EooHRks 
 https://youtu.be/rHPEXn6kc60 
-https://youtu.be/oAHL7N-qtmY`,
+https://youtu.be/oAHL7N-qtmY 
 
-    "2012 - O SOM DO MERCADO.md": `Quando, Maurice de Gant em 1207, tem autorização para criar um mercado na cidade, do norte da Inglaterra, Leeds, o primeiro mercado inglês, não se imaginava que a tecelagem e a industria têxtil iria marcar aquele lugar. Lugar de mercado é lugar de gente e lugar de muita gente é lugar onde corre notícias, cultura, arte e ... música. 
+`,
+
+  "2012 - O SOM DO MERCADO.md": `Quando, Maurice de Gant em 1207, tem autorização para criar um mercado na cidade, do norte da Inglaterra, Leeds, o primeiro mercado inglês, não se imaginava que a tecelagem e a industria têxtil iria marcar aquele lugar. Lugar de mercado é lugar de gente e lugar de muita gente é lugar onde corre notícias, cultura, arte e ... música. 
 
 Liam O´Donnnnell chega em Leeds jovem, mas já cheio de talento e capacidade de absorver as novidades e dinâmicas das gentes dessa cidade mercado. Não demora muito para criar a sua banda que, em 2010 já tinha a sua primeira música boa. 
 
@@ -2295,9 +2566,11 @@ https://youtu.be/KYseDEizrF0
 https://youtu.be/7T-QdSAUCWM 
 https://youtu.be/Tv2daq1zH90 
 https://youtu.be/_Vr1eTxBxOA 
-https://youtu.be/mHNzIgabgGU`,
+https://youtu.be/mHNzIgabgGU 
 
-    "2013 - BARBARA.md": `"Você tem medo de que ?", perguntou Bárbara Eugênia,  nua, para um público boquiaberto. Eu acho que, estando ela nua, na minha frente, não teria medo de nada. A ousadia dessa cantora, com seus arranjos e ritmos melódicos inspiradores, encoraja as pessoas, nunca amedronta. 
+`,
+
+  "2013 - BARBARA.md": `"Você tem medo de que ?", perguntou Bárbara Eugênia,  nua, para um público boquiaberto. Eu acho que, estando ela nua, na minha frente, não teria medo de nada. A ousadia dessa cantora, com seus arranjos e ritmos melódicos inspiradores, encoraja as pessoas, nunca amedronta. 
 
 Foi lá no no teatro Sesc Belenzinho, em São Paulo, no dia 31 de outubro de 2015, que ela cismou de se apresentar nua, ao lado dos cantores Peri Pane e Tatá Aeroplano. Ela precisava de um escândalo para dar atenção ao disco "Frou Frou". Conseguiu o que queria. 
 
@@ -2313,9 +2586,11 @@ https://youtu.be/Nr5xeHMIGDQ
 https://youtu.be/UerCkk8L3Mk 
 https://youtu.be/lvb8VzzcehE 
 https://youtu.be/t7kvAKQc2sw 
-https://youtu.be/EzwFuBaDHsk`,
+https://youtu.be/EzwFuBaDHsk 
 
-    "2013 - MÚSICA LAGOM.md": `“Não é demais, não é muito pouco, é apenas lagom. . . “ o que significa algo como "apenas certo". Essa é a definição de Stina Wappling para a sua beleza e para o que é a sua banda, a Nonono. 
+`,
+
+  "2013 - MÚSICA LAGOM.md": `“Não é demais, não é muito pouco, é apenas lagom. . . “ o que significa algo como "apenas certo". Essa é a definição de Stina Wappling para a sua beleza e para o que é a sua banda, a Nonono. 
 
 A beleza de Stina é parte do sucesso dessa banda, que nasce em 2014 em Estocolmo. Ela estudou psicologia na Universidade de Brighton e trabalhou como enfermeira psiquiátrica de pacientes com transtornos mentais. Mas os deuses tiraram a garota dessa encrenca e a  levaram para o mundo da música. Acredito que nenhum paciente se sentiu prejudicado e o mundo começou a ficar deslumbrado com ela. 
 
@@ -2333,9 +2608,11 @@ https://youtu.be/ydvrRRWFkgw
 https://youtu.be/3UWuiaHzJhY 
 https://youtu.be/dAyQKU-zg2E 
 UM DOMINGO LAGOM PARA TODOS. 
-/`,
+/ 
+`,
 
-    "2013 - VOZES DAFRICA.md": `“Deus! Ó Deus! Onde estás que não respondes? Em que mundo, em qu’estrela tu t’escondes, Embuçado nos céus? Há dois mil anos te mandei meu grito, Que embalde desde então corre o infinito... Onde estás, Senhor Deus”. No poema de 1868 Castro Alvez quer  entender a dor da África, grita para a divindade procurando saber como é possível tanto sofrimento. 
+  "2013 - VOZES DAFRICA.md": `
+“Deus! Ó Deus! Onde estás que não respondes? Em que mundo, em qu’estrela tu t’escondes, Embuçado nos céus? Há dois mil anos te mandei meu grito, Que embalde desde então corre o infinito... Onde estás, Senhor Deus”. No poema de 1868 Castro Alvez quer  entender a dor da África, grita para a divindade procurando saber como é possível tanto sofrimento. 
 
 Rokia Traoré, em 1997, quando lança o seu primeiro álbum, "Mouneissa", ainda pergunta a mesma coisa. Nascida no Mali em 1974, ela é do grupo étnico Bamana. Se torna guitarrista quando estudante universitária, descobre na música uma forma de levar sua pergunta para o mundo. Depois do primeiro trabalho vieram "Wanita" em 2000, "Bowmboï" em 2003, "Tchamantché" em 2008, "Beautiful Africa" em 2013 e "Né So" em 2016. Apesar de falar francês e inglês, compõe na sua língua natal, Bambara, e usa, além da guitarra, violão, balafon, além de "N´Goni" (guitarra maliana), conjugados com instrumentos clássicos como a harpa. 
 
@@ -2352,9 +2629,11 @@ https://youtu.be/mok4ﬁlTILs
 https://youtu.be/UNK0T_F31_k 
 https://youtu.be/MNNiPINy0Bg 
 https://youtu.be/acdxX8_m97Q 
-https://youtu.be/pMG0hxE1sgc`,
+https://youtu.be/pMG0hxE1sgc 
 
-    "2014 - ANDRES CALAMARO.md": `Andrés Calamaro, figura essencial do rock em espanhol, apresentou "La Parte de Adelante" demonstrando sua capacidade única de combinar letras profundas com melodias memoráveis. O músico argentino, que ganhou reconhecimento inicial como membro do Los Rodríguez antes de sua aclamada carreira solo, traz nesta música sua característica forma de contar histórias através de metáforas e observações agudas da vida.
+`,
+
+  "2014 - ANDRES CALAMARO.md": `Andrés Calamaro, figura essencial do rock em espanhol, apresentou "La Parte de Adelante" demonstrando sua capacidade única de combinar letras profundas com melodias memoráveis. O músico argentino, que ganhou reconhecimento inicial como membro do Los Rodríguez antes de sua aclamada carreira solo, traz nesta música sua característica forma de contar histórias através de metáforas e observações agudas da vida.
 
 A música, com seu arranjo que mistura elementos de rock e pop com toques de música latina, exemplifica perfeitamente o estilo característico de Calamaro. Sua voz rouca e expressiva, que se tornou uma das mais reconhecíveis do rock latino, dá vida a versos que exploram temas como perspectiva e posicionamento na vida, característicos de sua escrita inteligente e reflexiva.
 
@@ -2368,9 +2647,10 @@ De tu suspirar”.
 
 Um tango de Gardel, cantado pelo competente Andres Calamaro, que merece atenção (vejam, por exemplo, La parte de adelante). 
 
-Segue o link: https://g.co/kgs/J6fR8V`,
+Segue o link: https://g.co/kgs/J6fR8V
+`,
 
-    "2014 - MUSICA DO NORTE.md": `Pode-se dizer que a banda ainda não saiu do berço. Em relação à maturidade de uma banda, nem bem nasceu. Nem sabemos se esses caras vão continuar juntos até que o próximo inverno chegue. Mas o que já fizeram  é muito bom. "The Gardener & The Three" nasce em 2013, na Suíça 
+  "2014 - MUSICA DO NORTE.md": `Pode-se dizer que a banda ainda não saiu do berço. Em relação à maturidade de uma banda, nem bem nasceu. Nem sabemos se esses caras vão continuar juntos até que o próximo inverno chegue. Mas o que já fizeram  é muito bom. "The Gardener & The Three" nasce em 2013, na Suíça 
 Manuel Felder, o grandão simpático, canta, Lucas Pfeifer  com os teclados, Daniel Fet com a bateria, Patrik Muggli com a guitarra e o baixo com Philippe Jüttner . 
 Em 2014 vieram com "Revolution EP", em 2017 "Mossbo", agora em 2019 "LAXA". Com MOSSBO são colocados no cenário mundial. 
 
@@ -2383,9 +2663,10 @@ https://youtu.be/9gS-zwjckdU
 https://youtu.be/HvMKWHRg_Ow 
 https://youtu.be/2E7xjBfdGgQ 
 https://youtu.be/kbpw9kV9fIE 
-.`,
+. 
+`,
 
-    "2014 - TENGO MIEDO.md": `Dizem que antes do tango havia a Copla. E que a Copla era o modo de dizer das tragédia de um amor impossível ou de um amor que não deu certo. 
+  "2014 - TENGO MIEDO.md": `Dizem que antes do tango havia a Copla. E que a Copla era o modo de dizer das tragédia de um amor impossível ou de um amor que não deu certo. 
 
 Copla ou cobla, verso e música originária da Espanha, típica da Andaluzia, remete a etimologia copula, o enlace amoroso. No caso, a música fala de um amor que se perde ou que é possível perder. Antonio Molina, Imperio Argentina, Concha Piquer, RocioJurado, Marife de Triana, Isabel Pantoja são tidos como os cantores de copla da Espanha.
 
@@ -2399,9 +2680,10 @@ https://youtu.be/xdoRbovqRQg
 https://youtu.be/hOkAPTRZfo0 
 https://youtu.be/MRLqWt1sD0E 
 https://youtu.be/nKKNVHAtjFk 
-https://youtu.be/wYfcdrQ7w28`,
+https://youtu.be/wYfcdrQ7w28 
+`,
 
-    "2014 - YIRA, YIRA.md": `MOMO Morello (note a grafia correta), guitarrista argentino conhecido por seu virtuosismo e criatividade, trouxe uma interpretação única para "Yira, Yira", tango clássico composto por Enrique Santos Discépolo em 1929. Sua versão instrumental demonstra como é possível reinterpretar um clássico do tango através de uma perspectiva contemporânea e inovadora.
+  "2014 - YIRA, YIRA.md": `MOMO Morello (note a grafia correta), guitarrista argentino conhecido por seu virtuosismo e criatividade, trouxe uma interpretação única para "Yira, Yira", tango clássico composto por Enrique Santos Discépolo em 1929. Sua versão instrumental demonstra como é possível reinterpretar um clássico do tango através de uma perspectiva contemporânea e inovadora.
 
 Com sua técnica excepcional na guitarra, Morello consegue capturar toda a melancolia e dramaticidade inerentes ao tango original, enquanto adiciona elementos de rock e jazz fusion. Sua interpretação respeita a essência da composição de Discépolo, mas a transporta para um novo território sonoro, demonstrando a versatilidade tanto do músico quanto da própria música argentina.
 
@@ -2414,9 +2696,10 @@ Verás que nada es amor
 Que al mundo nada le importa
 Yira, yira
  
-https://youtu.be/un36sZDi7-Y`,
+https://youtu.be/un36sZDi7-Y
+`,
 
-    "2015 - ARQUITETO DO SOM.md": `Incautos podem pensar que o Sr. Pannes, tem aqui destaque pelo  fato de se chamar Volker, Volker Pannes. Mas não, foi  a genialidade  de Volker que me chama atenção.  Não sou eu que lhe dou esse adjetivo,  é  o mercado. O Sr. Volker Pannes é um dos sócios da prestigiada agência Alemã, sediada em Berlim, ShakeUp & Sound Design.
+  "2015 - ARQUITETO DO SOM.md": `Incautos podem pensar que o Sr. Pannes, tem aqui destaque pelo  fato de se chamar Volker, Volker Pannes. Mas não, foi  a genialidade  de Volker que me chama atenção.  Não sou eu que lhe dou esse adjetivo,  é  o mercado. O Sr. Volker Pannes é um dos sócios da prestigiada agência Alemã, sediada em Berlim, ShakeUp & Sound Design.
 
 A empresa é especializada em trilha musical, design de som e pós-produção de áudio para filmes, gráficos em movimento, eventos e aplicativos interativos. Um negócio extremamente especializado e sofisticado, já que trata exatamente da aderência de uma mensagem publicitária a uma determinada trilha sonora. A empresa consegue agregar valor a qualquer peça publicitária ao ..."acertar o tom exato e o humor acústico", tornando o resultado espetacular. A empresa trabalha para marcas como: Deutsche Telekom, SAP, MINI, Mercedes Benz e Lufthansa, Nikon, entre tantas outras.
  
@@ -2455,9 +2738,11 @@ Vejam outras obras do sujeito:
 https://youtu.be/PKeqPwlN_xI
 https://youtu.be/3zCe0H0GhhA
 https://www.behance.net/gallery/17016819/Standox
-https://www.behance.net/gallery/17049523/The-Sound-of-Nanotech`,
+https://www.behance.net/gallery/17049523/The-Sound-of-Nanotech
 
-    "2015 - PAMPLAMOOSE.md": `Pamplemousse é a toranja ou a grapefruit, aquela espécie cítrica grande criada pela mistura de pomelo com laranja. Jack Conte e Nataly Dawn são assim, um cruzamento de muita competência técnica do Jack, com a musicalidade da Nataly. Os dois tocam de tudo, desde chocalho até cítara, passando por todos os eletrônicos. Fazem boas músicas, mas acrescentaram algo realmente diferente no modo de divulgar as suas músicas. Algo chamado “video song”. Fazer clip de música todos fizeram, os Beatles foram grandes inovadores nessa área. 
+`,
+
+  "2015 - PAMPLAMOOSE.md": `Pamplemousse é a toranja ou a grapefruit, aquela espécie cítrica grande criada pela mistura de pomelo com laranja. Jack Conte e Nataly Dawn são assim, um cruzamento de muita competência técnica do Jack, com a musicalidade da Nataly. Os dois tocam de tudo, desde chocalho até cítara, passando por todos os eletrônicos. Fazem boas músicas, mas acrescentaram algo realmente diferente no modo de divulgar as suas músicas. Algo chamado “video song”. Fazer clip de música todos fizeram, os Beatles foram grandes inovadores nessa área. 
 
 Mas os “videosongs “  do Pamplemousse são diferentes. E é fortemente recomendável   ouvir nossa seleção musical vendo as músicas. O que Jack e Nataly fizeram de diferente foi “mostrar o que é tocado”. Simples assim. Os vídeos do grupo não são produções de cenários e representações, o som dos instrumentos tocados são filmados enquanto são tocados. O grande barato da produção é que o arranjo da música, pressupondo essas tomadas, é feito de tal forma que os cortes, as mudanças de uma execução e outra, estão no ritmo e acabam dando um efeito de muita qualidade como resultado. A nossa primeira dica,  “Pretty Woman” do  Roy Orbison, é incrível, e mostra toda a potencialidade da proposta.  
 
@@ -2491,9 +2776,11 @@ Superstition
  https://youtu.be/7QLSNwFBFyI
  
 Beat It
- https://youtu.be/meT2eqgDjiM`,
+ https://youtu.be/meT2eqgDjiM
+ 
+`,
 
-    "2016 - JAZZ VINTAGE.md": `Vintage é um termo que vem do mundo do vinho, quando as condições perfeitas permitem uma boa colheita. Na moda, que fez a popularidade do termo, diz respeito à volta dos anos 20, ou a um período do início do século XX, quando, dizem os modistas, algo “clássico” foi criado no vestuário. Acaba que vintage fala do antigo próximo, como diz a especialista da tendência, Jennifer Le Zotte, no seu livro “From Goodwill to Grunge: A History of Secondhand Styles and Alternative Economies”. 
+  "2016 - JAZZ VINTAGE.md": `Vintage é um termo que vem do mundo do vinho, quando as condições perfeitas permitem uma boa colheita. Na moda, que fez a popularidade do termo, diz respeito à volta dos anos 20, ou a um período do início do século XX, quando, dizem os modistas, algo “clássico” foi criado no vestuário. Acaba que vintage fala do antigo próximo, como diz a especialista da tendência, Jennifer Le Zotte, no seu livro “From Goodwill to Grunge: A History of Secondhand Styles and Alternative Economies”. 
 
 Adrien Chevalier, nasce na  Provence, no meio de uma família de violinistas. Por isso mesmo vai para o  Conservatório Clássico de Avignon, onde estudou por 12 anos. Quando chega em Paris, já vem com uma carga de jazz cigano. Com sua habilidade técnica no violino, não é difícil Adrien chamar atenção. Afinal o cara é bonito e talentoso. Não demora ele encontra  Tatiana Eva-Marie. 
 
@@ -2526,9 +2813,14 @@ Moon Over New Orleans
  https://youtu.be/vntkGnpDphQ
  
  Qu’est ce qu’on attend pour être heureux (Ray Ventura)
- https://youtu.be/5uNC2HVbmNA`,
+ https://youtu.be/5uNC2HVbmNA
+ 
 
-    "2016- LA LA LAND.md": `"City of Stars", interpretada por Ryan Gosling no filme "La La Land" (2016), se tornou um dos momentos mais memoráveis do cinema musical contemporâneo. A música, composta por Justin Hurwitz com letra de Benj Pasek e Justin Paul, ganhou o Oscar de Melhor Canção Original e capturou perfeitamente a essência nostálgica e romântica do filme.
+
+
+`,
+
+  "2016- LA LA LAND.md": `"City of Stars", interpretada por Ryan Gosling no filme "La La Land" (2016), se tornou um dos momentos mais memoráveis do cinema musical contemporâneo. A música, composta por Justin Hurwitz com letra de Benj Pasek e Justin Paul, ganhou o Oscar de Melhor Canção Original e capturou perfeitamente a essência nostálgica e romântica do filme.
 
 Gosling, que interpretou o pianista de jazz Sebastian, demonstrou uma vulnerabilidade musical surpreendente em sua performance. Sua voz suave e melancólica, combinada com o acompanhamento minimalista de piano, cria uma atmosfera intimista que reflete os sonhos, esperanças e dúvidas de seu personagem. É interessante notar que Gosling aprendeu a tocar piano especificamente para o papel, praticando intensivamente por meses para realizar as cenas do filme.
 
@@ -2542,9 +2834,10 @@ A sua cinematografia é estilizada, com sequências de dança e músicas origina
 
 O que distingue "La La Land" é seu enfoque dual: enquanto presta homenagem aos musicais clássicos através de sua estética e estrutura narrativa, o filme também lida com temas contemporâneos como a busca da realização pessoal, o sacrifício e a complexidade das relações amorosas na modernidade. Sua capacidade de equilibrar o escapismo característico dos musicais com um retrato crível dos desafios da vida artística conferiu a "La La Land" um lugar destacado na história recente do cinema, capturando tanto o espírito nostálgico quanto as aspirações da época em que foi produzido.
  
-https://youtu.be/NS0_AOuBF9A`,
+https://youtu.be/NS0_AOuBF9A
+`,
 
-    "2019 - A MUSA.md": `Ela já foi considerada uma das melhores pianista clássica do mundo, apesar de gostar de tocar com pouca roupa. Por isso lota auditórios com amantes da música clássica e da beleza feminina. 
+  "2019 - A MUSA.md": `Ela já foi considerada uma das melhores pianista clássica do mundo, apesar de gostar de tocar com pouca roupa. Por isso lota auditórios com amantes da música clássica e da beleza feminina. 
 
 Não há nenhum estranhamento,  para quem vê Lola,  imaginar que sua grande vantagem é ter um corpo de modelo. Ledo engano, o corpo de Lola é a sua terceira grande vantagem em relação a todas pianistas da sua geração - ela é de 1985 -, seja da Russia, onde nasceu, ou de todo mundo. A primeira grande vantagem de Lola é que ela é sim uma extraordinária pianista. Sem sombra de dúvidas, um talento natural, que beira o prodígio. Outra vantagem, é a sua inteligência, que demostra na forma como gerencia a sua carreira, desde a decisão de sair da Russia, se naturalizar americana e se destacar, pelo prodígio pianístico, mais a estética de execução do piano, somada com a beleza do seu corpo.
 
@@ -2567,9 +2860,10 @@ https://youtu.be/84nCfp0BF34
 https://youtu.be/6f4BUnt3i1I
 https://youtu.be/gHQTyOeHbDg
 https://youtu.be/QlMdq9z9VA8
-https://youtu.be/96eYoiN7qKo`,
+https://youtu.be/96eYoiN7qKo
+`,
 
-    "2019 - M A N T R A.md": `Quando estudava na Faculdade de Letras da UFMG, em 1977, o Prof. Rubens Romanelli ainda lecionava. Sujeito super sério, não demostrava ser um dos maiores pesquisadores de línguas antigas do Brasil, falava 4 idiomas e lia 8. Romanelli é de Divinópolis.  Na época que o conhecemos tinha 64 anos, dava algumas aulas na pós-graduação e, no resto do tempo, se dedicava à sua obra inacabada “Origens do Léxico Português. Revisão Crítica dos Dicionários Etimológicos da Língua Portuguesa com vistas à Etimologia, Ortografia, Ortofonia e Lexiogenia”. 
+  "2019 - M A N T R A.md": `Quando estudava na Faculdade de Letras da UFMG, em 1977, o Prof. Rubens Romanelli ainda lecionava. Sujeito super sério, não demostrava ser um dos maiores pesquisadores de línguas antigas do Brasil, falava 4 idiomas e lia 8. Romanelli é de Divinópolis.  Na época que o conhecemos tinha 64 anos, dava algumas aulas na pós-graduação e, no resto do tempo, se dedicava à sua obra inacabada “Origens do Léxico Português. Revisão Crítica dos Dicionários Etimológicos da Língua Portuguesa com vistas à Etimologia, Ortografia, Ortofonia e Lexiogenia”. 
 
 Ele morre em 1978, tendo chegado até a letra “c” do Étimos Indo-Europeus, o sub-item Vocábulos de origem Índo iraniana, divididos em dois Ramos: o Índico (Sânscrito e Neo-Ãrico) e o Iraniano (Avéstico e Persa). Um esforço de crítica monumental, para um sujeito que datilografava tudo que produzia, para evitar erros. No seu trabalho, chegou a enfrentar a palavra mantra (um adiantamento por causa das suas convicções espíritas), se referindo a um outro gênio da área, chamado P.T. Srinivas Iyengar.
 
@@ -2609,9 +2903,10 @@ https://youtu.be/xb-Go2fLdPY
 Sanskrit Mealtime
 https://youtu.be/BGFcu_iCr90
 Sanskrit Prayer to Dhanwantari
-https://youtu.be/GXd9K9LKKNM`,
+https://youtu.be/GXd9K9LKKNM
+`,
 
-    "2020 - DYLAN - AS MÚSICAS DA MÚSICA.md": `Em uma única música, ele cita 24 outras. Por que ? Algumas delas merecem ser ouvidas.
+  "2020 - DYLAN - AS MÚSICAS DA MÚSICA.md": `Em uma única música, ele cita 24 outras. Por que ? Algumas delas merecem ser ouvidas.
 
 Não sou um especialista em Bob Dylan, por isso procurei alguém que me explicasse porque o sujeito lançou  “Murder Most Foul” no dia 26/03/2020. Qual o sentido dessa música, com esse tema, justamente agora ? Agora, em plena pandemia do coronavirus no mundo, fazendo o seu trabalho “most foul”?
  
@@ -2669,71 +2964,354 @@ Billy Joel
 
 [PastedGraphic2]: PastedGraphic2.png width=302px height=425px`,
 
-    "ATRAÇÃO MUSICAL.md": `ATRAÇÃO MUSICAL é uma variável que mede o apelo estético da obra. A variável tem o valor de 1 a 3 (sendo 1= pouca atração; 3 = muita atração; e 2 = mediana atração) , que define, do meu ponto de vista, a qualidade técnica e harmônica da composição, considerando ritmo, melodia e harmonia, e o quanto a música é esteticamente agradável. Esta variável se traduz no quão atraente a obra é para o ouvinte em termos técnicos, proporcionando uma compreensão de sua popularidade ou de seu valor artístico.`,
+  "ATRAÇÃO MUSICAL.md": `
+ATRAÇÃO MUSICAL é uma variável que mede o apelo estético da obra. A variável tem o valor de 1 a 3 (sendo 1= pouca atração; 3 = muita atração; e 2 = mediana atração) , que define, do meu ponto de vista, a qualidade técnica e harmônica da composição, considerando ritmo, melodia e harmonia, e o quanto a música é esteticamente agradável. Esta variável se traduz no quão atraente a obra é para o ouvinte em termos técnicos, proporcionando uma compreensão de sua popularidade ou de seu valor artístico.`,
 
-    "COMPLEXIDADE EMOCIONAL.md": `A COMPLEXIDADE EMOCIONAL se refere à variedade e à profundidade das emoções que a música é capaz de evocar. A variável tem o valor de 1 a 3 (sendo 1= baixa complexidade emocional; 3 =  alta complexidade emocional; e 2 = mediana complexidade emocional). Músicas com alta complexidade emocional podem proporcionar uma experiência multifacetada, transmitindo desde sensações de alegria e euforia até sentimentos de nostalgia e melancolia. Essa variável revela a capacidade da obra de criar uma experiência emocional rica e envolvente, que transcende o prazer auditivo e leva o ouvinte a uma jornada emocional.`,
+  "COMPLEXIDADE EMOCIONAL.md": `A COMPLEXIDADE EMOCIONAL se refere à variedade e à profundidade das emoções que a música é capaz de evocar. A variável tem o valor de 1 a 3 (sendo 1= baixa complexidade emocional; 3 =  alta complexidade emocional; e 2 = mediana complexidade emocional). Músicas com alta complexidade emocional podem proporcionar uma experiência multifacetada, transmitindo desde sensações de alegria e euforia até sentimentos de nostalgia e melancolia. Essa variável revela a capacidade da obra de criar uma experiência emocional rica e envolvente, que transcende o prazer auditivo e leva o ouvinte a uma jornada emocional.`,
 
-    "GRAU DE INTROSPECÇÃO.md": `O GRAU DE INTROSPECÇÃO mensura o potencial da música para induzir estados de reflexão interior. A variável tem o valor de 1 a 3 (sendo 1= baixo grau de introspecção; 3 =  alto grau de introspecção; e 2 = mediano grau de introspecção) . Essa variável leva em conta o tempo, o andamento e a complexidade da obra, visto que músicas mais lentas e harmonias profundas tendem a favorecer a introspecção. Avaliando o grau de introspecção, buscamos entender o poder da obra de transportar o ouvinte a uma experiência contemplativa, proporcionando um espaço para uma conexão emocional mais profunda.`,
+  "GRAU DE INTROSPECÇÃO.md": `O GRAU DE INTROSPECÇÃO mensura o potencial da música para induzir estados de reflexão interior. A variável tem o valor de 1 a 3 (sendo 1= baixo grau de introspecção; 3 =  alto grau de introspecção; e 2 = mediano grau de introspecção) . Essa variável leva em conta o tempo, o andamento e a complexidade da obra, visto que músicas mais lentas e harmonias profundas tendem a favorecer a introspecção. Avaliando o grau de introspecção, buscamos entender o poder da obra de transportar o ouvinte a uma experiência contemplativa, proporcionando um espaço para uma conexão emocional mais profunda.`,
 
-    "GRAU DE SIGNIFICAÇÃO.md": `GRAU DE SIGNIFICAÇÃO é uma métrica que soma o valor das variáveis acima identificadas (Atração Musical, Grau de Introspecção e Complexidade Emocional). Essa variável identifica, dentro dos meus critérios uma “hierarquia de significação musical”, já que possibilita saber quais foram as musicas mais pontuadas. É evidente que as 200 músicas só estão listadas porque todas elas, de uma forma ou de outra, foram importantes em algum momento da minha vida, mas dentro desse “horizonte musical”, algumas marcaram de forma definitiva a minha consciência musical.`
+  "GRAU DE SIGNIFICAÇÃO.md": `GRAU DE SIGNIFICAÇÃO é uma métrica que soma o valor das variáveis acima identificadas (Atração Musical, Grau de Introspecção e Complexidade Emocional). Essa variável identifica, dentro dos meus critérios uma “hierarquia de significação musical”, já que possibilita saber quais foram as musicas mais pontuadas. É evidente que as 200 músicas só estão listadas porque todas elas, de uma forma ou de outra, foram importantes em algum momento da minha vida, mas dentro desse “horizonte musical”, algumas marcaram de forma definitiva a minha consciência musical.`,
+
+  "1- Dedicatória para a Musa.md": `1- Dedicatória para a Musa
+
+A obra é dedicada a Euterpe, a Musa patrona da música e da poesia lírica, cujo nome é interpretado como "a doadora de prazer". O termo "música" deriva do grego antigo "mousikē", que significa a arte das Musas. Na Grécia antiga, mousikē englobava não apenas a música em si, mas também a poesia e a dança, sendo vista como uma forma elevada de expressão artística e uma manifestação do divino e do conhecimento.
+
+O livro intitula-se “Filosofia da Música” porque se propõe a ir além da mera "crítica musical" (análise de qualidade e contexto), abordando a música sob uma perspectiva mais profunda e universal da filosofia.`,
+
+  "10- Memória e o Refrão como Estratégia de Mercado.md": `10- Memória e o Refrão como Estratégia de Mercado
+
+A música está fundamentalmente vinculada à memória humana. Donald Knuth, aclamado cientista da computação e "mestre dos algoritmos", aborda a importância do refrão para aliviar a carga sobre a memória.
+
+Knuth, em seu artigo de 1977, "The Complexity of Songs", aborda essa questão sob um aspecto antropológico e mercadológico. Ele explica, de um ponto de vista prático, que músicas de comprimento 'n' geralmente requerem um texto de comprimento '~n', o que exige um "espaço considerável na memória" para aprender muitas canções. Nossos ancestrais, contudo, inventaram o conceito de refrão, que reduz a complexidade espacial da música para 'cn' (onde 'c < 1'), facilitando a memorização.
+
+Essa redução da complexidade, segundo Knuth, é um processo fundamental do que constitui o "apelo de mercado". A "música de mercado" baseia-se em expressões moldadas especificamente para facilitar a memorização e a repetição.
+
+Essa ideia de que o refrão é um dispositivo ancestral que garante e facilita a memorização foi levantada anteriormente por Gustav Thurau em 1899, em seu livro sobre o refrão na canção francesa. Portanto, a "música estribilhada" tende à simplificação por causa da finalidade de ser memorizável.
+
+Knuth também faz uma afirmação provocadora, sugerindo que "o advento das drogas modernas levou à necessidade de ainda menos memória".`,
+
+  "11- Repetição e Sucesso Matematicamente Demonstrados.md": `11- Repetição e Sucesso Matematicamente Demonstrados
+
+A instrumentalização da música pop para se tornar "memorável" foi analisada por Colin Morris, um programador, em seu estudo sobre a repetitividade das letras pop.
+
+Morris aplicou o algoritmo Lempel-Ziv a 15.000 músicas retiradas da Billboard Hot 100, abrangendo o período de 1958 até 2017. O algoritmo Lempel-Ziv é uma técnica de compressão que detecta padrões repetidos, substituindo-os por ponteiros. Pela lógica do algoritmo, quanto menor o tamanho final do arquivo da letra após a compressão, maior a quantidade de refrões e repetições na música.
+
+O estudo demonstrou matematicamente que o sucesso—as músicas que "pregam na memória"—são justamente aquelas com "muita repetição".
+
+A maioria das músicas analisadas (ao longo de 59 anos) tendeu para "muita repetição". O nível de repetição aumentou acentuadamente ao longo das décadas, especialmente nas músicas "top 10".
+
+Exemplos de músicas da década de 1970 ilustram esse ponto: "Wrap Your Arms Around Me" (KC And The Sunshine Band, 1977) tinha apenas 12% de sua letra composta por palavras únicas, enquanto "You Should Be Dancing" (Bee Gees) tinha 23%. Artistas com menor nível de repetição incluíam John Denver e Steely Dan, enquanto aqueles com "muita repetição" incluíam Guess Who e Jackson 5.`,
+
+  "12- A História.md": `12- A História
+
+A história da música é notavelmente diferente da história de outras artes, pois grande parte do seu passado mais remoto se perdeu. Devido à ausência de registros escritos antigos e à natureza oral de muitas formas de música tradicional, não se pode determinar qual é a música mais antiga conhecida da humanidade.
+
+ A Escassez de Registros Antigos
+
+Pouco se sabe sobre a música de períodos como o Paleolítico e o Neolítico, ou até mesmo sobre o que era ouvido na época de Platão (século IV a.C.). Estudiosos sugerem que a música vocal pode ser a forma mais antiga, criada para comunicação e expressão emocional pelos seres humanos.
+
+No entanto, artefatos arqueológicos sugerem que a música é parte da vida humana há milênios. Um exemplo é um osso de mamute com marcas de perfuração (o que sugere um instrumento musical primitivo), datado de aproximadamente 43.000 anos, encontrado na Ucrânia, sendo considerado o primeiro instrumento musical conhecido.
+
+ Sobrevivências da Música Grega Antiga
+
+Ainda que a música grega seja crucial, o clássico An Outline of the History of Music, de Karl Nef, atesta que apenas cerca de dez composições gregas sobreviveram, sendo algumas delas fragmentárias. O texto apresenta quatro exemplos notáveis de música grega que resistiram ao tempo:
+
+1.  A Primeira Ode de Vitória Pítia de Píndaro (478 a.C.): Uma ode famosa dedicada a um atleta vitorioso. O poema louva a força física, as habilidades esportivas, a virtude moral e a coragem do atleta.
+2.  Coro do Orestes de Eurípides (408 a.C.): Uma peça de teatro grega que sobreviveu de forma mutilada. O Coro (composto pelas Danaidas) funciona como um comentário emocional sobre a tragédia, expressando dor e sofrimento causados pela violência e vingança, e questionando a decisão de Orestes.
+3.  Dois Hinos de Delfos a Apolo (c. 138 e c. 128 a.C.): Estes hinos, gravados na parede da Casa do Tesouro dos Atenienses em Delfos, celebram o deus Apolo, suas qualidades divinas, como sabedoria e habilidade musical, e seu papel no oráculo de Delfos.
+4.  Epitáfio de Seikilos (Século I d.C.): Encontrado em uma lápide funerária em Tralles, Ásia Menor, é a música mais antiga conhecida que sobreviveu completa com notação musical. A canção, curta e com melodia simples, é uma canção funerária que reflete sobre a finitude da vida e a importância de aproveitá-la. É um exemplo valioso da música funerária na Grécia antiga.`,
+
+  "13- A Playlist Gregoriana.md": `13- A Playlist Gregoriana
+
+A Igreja Católica, especialmente durante os séculos IV a IX, atuou como a "grande mídia" para a preservação e transmissão da música sacra, culminando na padronização do Canto Gregoriano.
+
+A música sacra da Igreja existe desde o início do século III, mas os fragmentos mais antigos que sobreviveram são pouco legíveis. O Bispo de Milão, Ambrósio, entre 374 e 397, foi fundamental ao inserir músicas nos rituais da missa. Um exemplo disso é o hino "Te Deum Laudamus". Ambrósio, que é descrito como um guerreiro mais do que um religioso, estabeleceu um padrão musical que se tornaria, por séculos, a principal "playlist" do catolicismo: o Canto Gregoriano. A organização dessa programação musical coube ao Papa Gregório I, a partir de 590.
+
+ O Antifonário: A Plataforma de Distribuição
+
+A mídia central e o que é considerado um dos primeiros “data warehouse” (armazém de dados) da música foi o antifonário.  O antifonário é o livro que contém os cânticos que acompanham as etapas de uma missa ou de rituais católicos.  O chamado "Gregorian Antiphonary" foi resultado de uma reforma feita pelo Papa Gregório I, que estabeleceu regras rigorosas para o canto durante os cultos.  Para garantir que fosse seguido e para evitar roubo, o "Gregorian Antiphonary" era amarrado com corrente no altar das igrejas.
+
+Em termos atuais, o "Gregorian Antiphonary" funcionou como a primeira plataforma de distribuição de música, seguindo o fluxo (streaming) da missa. Graças a essa "tecnologia", as bases do Canto Gregoriano foram transmitidas até a atualidade.
+
+A preservação e difusão do Canto Gregoriano foram alcançadas através da exigência de sua repetição em todas as instituições católicas (igrejas e mosteiros) nas mesmas horas do dia e com o mesmo ritual.
+
+O esforço enérgico de Carlos Magno foi crucial para que o método romano de canto fosse estabelecido em toda a Francônia. Ele consultou o Papa Adriano (784-791 d.C.) sobre o assunto, resultando no surgimento de escolas renomadas ligadas a catedrais e mosteiros, onde os louvores a Deus ressoavam em uma "tensão uniforme" diariamente e a cada hora do dia.
+
+Embora o antifonário original tenha se perdido, manuscritos chegaram ao reinado de Carlos Magno. Com base neles, foi montada outra plataforma de preservação no Fürstabtei St. Gallen (Abadia de São Galo), o "St. Gallen Antiphonary".
+
+A tradição do Canto Gregoriano em St. Gall é contada através da história de dois cantores enviados pelo Papa a Carlos Magno, Petrus e Romanus. Romanus, adoecendo durante a viagem, foi acolhido pelos monges de St. Gall e, em gratidão, deixou-lhes uma cópia autêntica do antifonário romano, lançando as bases para o desenvolvimento da escola de canto local. De fato, os manuscritos mais antigos e preciosos do canto gregoriano desde o século IX são preservados na Abadia de St. Gall.`,
+
+  "14- A Playlist dos Goliardos.md": `14-  A Playlist dos Goliardos
+
+A emergência de uma cultura musical secular e pagã na Europa medieval, associada aos estudantes e clérigos itinerantes, em contraste com a supremacia da música católica da época foi um dos fatores mais marcantes da música ocidental.
+
+O surgimento dessa nova música está intimamente ligado ao desenvolvimento das primeiras universidades.  No início dos anos 1000, grupos de estudantes estrangeiros chamados "universitates scholarium" ou "nações" formaram-se em Bolonha para organizar estudos e se proteger das leis da cidade que os tratavam como bandidos. Esses grupos se uniram no Studium de Bolonha, que se tornou a "Alma Mater Studiorum" em 1088.
+
+Processos semelhantes levaram à fundação das universidades de Paris (cerca de 1150) e Oxford (cerca de 1096). Esses três polos formaram o "triângulo universitário medieval", um caminho por onde transitavam estudantes, professores e, notavelmente, os "clelici vagi" ou "goliardos".  Os goliardos eram bandidos, vagabundos e fugitivos de conventos, seitas e igrejas. Devido à sua formação inicial católica, eles possuíam conhecimento de cantos e músicas.
+
+Nos locais de descanso e bebidas (estalagens e cantinas) que existiam nesse triângulo, os goliardos criaram suas próprias músicas.  Essas músicas eram pagãs, não sacras, e celebravam o prazer, o sexo, a vida e o vinho.
+
+ O primeiro goliardo autêntico é considerado magister Hugo de Orléans (c.1093-1160), com poesias sobre amor, vinho e lamentos sobre pobreza e velhice. O inglês Walther Map (c. 1140-1209) é atribuído a versos violentos contra o celibato.
+
+ A Playlist: Carmina Burana
+
+Um dos  conjuntos de canções e poemas escritos por esses vagabundos é conhecido como Carmina Burana.  Carmina significa "canções vulgares". O conjunto de canções e poemas, que se originou na Abadia de Seckau, na Áustria, foi descoberto em 1803.  A coleção, datada do início do século XIII, é formada por mais de 1000 canções e poemas, escritos em latim, alemão e francês medieval. 
+
+Carl Orff teve contato com o material em 1934 e, entre 1935 e 1936, escolheu 24 canções para musicar, criando uma "cantata cênica".  A Carmina Burana de Orff é dividida em três seções — Primavera, Na Taverna e A Corte do Amor — e é precedida e finalizada por uma invocação à Fortuna. A obra foi apresentada pela primeira vez em Frankfurt em 1937, durante o nazismo, e, apesar de sua origem ideológica, sobreviveu para ser prestigiada no século XXI.`,
+
+  "15- Madrigal.md": `15- Madrigal
+
+O Madrigal faz parte de um vasto repertório musical erudito, muitas vezes negligenciado pelo mercado, que tende a reforçar apenas as poucas obras mais tocadas de quatro grandes compositores (Bach, Beethoven, Mozart e Chopin). O Madrigal pode ser definido  como uma das "fantásticas experiências musicais escondidas" que exige um esforço para vencer a barreira do mercado.
+
+O Madrigal é um gênero musical que surgiu no século XIII, sendo produzido fora das igrejas e, por vezes, dentro delas. É considerado a origem da ópera e o ponto de partida de diversos componentes da música erudita predominante nos séculos XVIII e XIX.
+
+A palavra madrigal deriva do latim matricale ou matricaria, que significa "útero". Essa palavra latina remete à vagina, prazer, gestação, festa, alegria, e também ao gênero de plantas que inclui a camomila, de onde se extraem remédios e chás.
+
+A principal característica do Madrigal é a utilização de um texto, um poema declamado, acompanhado pela música. A função primordial da música é interpretar o sentimento expresso pelo texto. Se o texto fala de raiva, a música deve expressar raiva; se fala de alegria, deve "musicar" esse sentimento.
+
+Essa relação entre emoção e música foi formalizada na Teoria dos Afetos (Teoria dos Afetos), com a qual o compositor Claudio Monteverdi teve contato por volta de 1590. Baseada nos trabalhos de Platão e Aristóteles sobre retórica, a teoria estabelecia que determinado tipo de música era capaz de gerar emoções específicas, de acordo com uma matriz de relações. Essa filosofia é resumida na citação de Monteverdi: "a palavra é mestre da harmonia". As maiores inovações e criações do Madrigal são atribuídas a Claudio Monteverdi, um dos maiores compositores italianos.
+
+Monteverdi, filho de um barbeiro-cirurgião de Cremona (cidade ligada à produção de laticínios), aprendeu música na igreja local. Ele conseguiu uma grande produção musical, passando de Mântua para Veneza, onde se tornou mestre na Basílica de São Marcos. Sua vasta obra inclui desde pequenas peças, como o Madrigali a Cinque Voci de 1587, até a obra L’Orfeo de 1607, que é descrita como quase uma ópera.`,
+
+  "16- Bach.md": `16- Bach
+
+Johann Sebastian Bach, nascido em Eisenach em 1685, é considerado um dos maiores compositores de todos os tempos, com uma contribuição imensa para a música. Bach nasceu em uma família que já era estruturada como uma empresa, liderada pelo músico municipal (Ratsmusikant) Johann Ambrosius Bach, o patriarca. Esta família fornecia organistas e gaiteiros para toda a Turíngia desde o século XVII. Tantos artistas ilustres floresceram nesta linhagem que os músicos em geral, na Turíngia da época, eram simplesmente chamados de “os Bachs”. Johann Sebastian, que ficou órfão aos dez anos, foi morar com seu irmão Johann Christoph, organista em Ohrdruf.
+
+ Sua vida iniciou-se e desenvolveu-se inteiramente na música. Aos 15 anos (1700), Bach começou sua própria dinâmica musical, atuando como cantor soprano no coro de alunos do Michaeligymnasium em Lüneburg. Ele viajou intensamente para aprimorar-se, indo a Hamburgo para ouvir o organista Reinken, a Celle para conhecer uma orquestra tipo parisiense de Lully, e a Lübeck para encontrar o organista Buxtehude. Após concorrer a um lugar na orquestra privada do príncipe Johann Ernst em Weimar, ele serviu como organista em Arnstadt e, posteriormente, em Mühlhausen, onde se casou com sua prima Maria Barbara Bach.
+
+Em 1717, já como Kapellmeister na corte do príncipe Leopoldo de Anhalt, em Cöthen, Bach escreveu os “Concertos de Brandemburgo”. Em um curto período, ele vivenciou a morte de sua primeira esposa (1720), o reencontro com o amor ao se casar com Anna Magdalena Wülken (1721), e atingiu o máximo de sua genialidade musical.
+
+Em 1722, Bach compôs “Das wohltemperierte Klavier” (O Cravo Bem Temperado). Esta obra, um conjunto de 24 prelúdios e fugas, tinha como objetivo demonstrar as possibilidades musicais do sistema de temperamento equitativo, uma variação da técnica de afinação utilizada em instrumentos de teclado. O sistema divide a oitava musical em 12 semitons iguais, permitindo que todas as escalas (maiores e menores) sejam tocadas com precisão, sem dissonâncias desagradáveis. Antes da afinação temperada, era necessário um cravo diferente para cada tonalidade. Com essa técnica, Bach conseguiu utilizar todas as 24 tonalidades possíveis em suas composições.
+
+Ele repetiu esse feito em 1744 com o volume dois, totalizando mais 24 prelúdios e fugas. O sistema de afinação também permitia que a música de Bach fosse tocada em vários instrumentos (cravo, piano, órgão) sem a necessidade de reajuste para cada um.
+
+Apesar de sua genialidade, a vida de Bach não foi fácil. Em 1730, ele relatou que seus ganhos anuais eram de setecentos táleres, mas essa receita dependia das "acidências" (referindo-se às taxas por funerais ou corpos sepultados), diminuindo se os ares estivessem bons (menos mortes). Ele também mencionou que o custo de vida era excessivamente elevado em seu posto, exigindo centenas de táleres a mais do que o necessário para uma vida modesta em outras localidades da Turíngia.
+
+Bach é um dos quatro grandes compositores (junto com Beethoven, Mozart e Chopin) cujas obras são mais reforçadas pelo "mercado". Ele possui um conjunto catalogado de 1128 obras, além de outra centena de fragmentos.
+
+Suas maiores contribuições para a música, que o marcam como um dos principais representantes do estilo Barroco (1600-1750), incluem:
+
+	1.	O aperfeiçoamento e o desenvolvimento da forma de fuga.
+	2.	O domínio do contraponto (a técnica de combinar várias vozes ou temas musicais harmoniosamente), utilizando-o em obras como "A Arte da Fuga," "O Cravo Bem Temperado" e a "Missa em Si Menor".
+	3.	A criação de obras-primas da música sacra, incluindo a "Missa em Si Menor," as "Paixões" e as "Cantatas".
+	4.	O uso de elementos típicos do estilo barroco, como o contraste rítmico e harmônico.`,
+
+  "17 - Ópera.md": `17 - Ópera
+
+A ópera é  um tipo de teatro musical que combina música, canto, dança e drama para narrar uma história, buscando criar uma experiência imersiva para o público.
+
+O consenso é que a ópera se originou com Jacopo Peri, que escreveu a ópera "Dafne" em 1597 e a apresentou em Florença, Itália. Quase 50 anos depois, L'Incoronazione di Poppea (1643) de Claudio Monteverdi ajudou a estruturar a ópera como um estilo musical de sucesso. Monteverdi, um dos maiores compositores italianos, também produziu o Madrigal L’Orfeo (1607), que é descrito como quase uma ópera, indicando a ligação entre os gêneros. Outras obras importantes incluem Dido and Aeneas (1689) de Henry Purcell, e Orfeu e Eurídice (1762) de Christoph Willibald Gluck, que definiu as potencialidades desse tipo de música.
+
+O gênero musical dominante no século XVII foi a ópera, não a religiosidade mística, sendo o período de maior sucesso a era barroca (século XVII e XVIII), especialmente na Itália.
+
+Compositores notáveis do período incluem:
+
+Barroco: Claudio Monteverdi, Alessandro Scarlatti e Georg Friedrich Händel. Händel, inclusive, teve estabilidade financeira devido ao sucesso de suas óperas e oratórios.
+Século XIX: Wolfgang Amadeus Mozart, Christoph Willibald Gluck, Ludwig van Beethoven e Gioachino Rossini. Mozart, inclusive, é o compositor com mais óperas executadas no mundo, com 7.769 apresentações entre 2018 e 2022.
+
+A ópera abrange uma grande diversidade técnica e de produção:
+
+Libreto: A qualidade da ópera depende da qualidade técnica, começando pelo libreto, que é a história inicial.
+
+Extremos de Duração: Existem óperas de proporções épicas, como Die Meistersinger von Nürnberg (1868) de Richard Wagner, que teve uma execução sem cortes com 5 horas e 15 minutos de duração. Por outro lado, existem óperas curtas, como A Libertação de Teseu (1929) de Darius Milhaud, que dura apenas sete minutos.
+
+Custos: A ópera é uma arte dispendiosa. As maiores companhias de ópera nos EUA têm orçamentos multimilionários, como a Metropolitan Opera, com US\$ 300 milhões. Os custos de produção são altíssimos; o Ciclo do Anel (Ring) de Wagner, produzido pela Metropolitan Opera, custou US\$ 40 milhões.
+
+A ópera continua a desempenhar um papel significativo, dialogando com outros estilos e formatos, o que redefine os limites do gênero.
+
+Musical: O musical The Phantom of the Opera, de Andrew Lloyd Webber, que é baseado na ópera, completou 10.000 apresentações no Majestic Theatre em Nova York em 2013, sendo o espetáculo mais antigo da Broadway.
+
+Ópera Rock: Uma das fusões mais marcantes é a "ópera rock", que usa narrativas extensas e temas épicos da ópera tradicional no contexto da música rock. A banda The Who é um expoente influente dessa tendência com o álbum Tommy (1969), considerado o primeiro álbum de "ópera rock". Essa obra utilizou estruturas musicais e narrativas contínuas para criar uma história coesa, sendo adaptada para teatro e cinema.
+
+Inovação e Alcance: A ópera moderna explora o formato, incorporando eletrônica, dança contemporânea e influências de jazz e pop. Além disso, o uso de transmissões ao vivo e plataformas digitais ampliou seu alcance global.
+
+A ópera caminha na direção de convergência com outras formas de arte, como o rock, mantendo seu fundamento dramático e estético, e provando ser um meio de expressão relevante que explora a condição humana e busca constante inovação.`,
+
+  "18- O Preço da Música Clássica.md": `18- O Preço da Música Clássica
+
+A magnitude financeira e logística que envolve a produção e execução da música erudita, esconde os altos custos operacionais das orquestras e companhias de ópera, e a escala colossal das obras executadas.
+
+A música clássica, especialmente as sinfonias e óperas, exige partituras de proporções imensas:
+
+	•	 A Nona Sinfonia de Beethoven possui 465 páginas em três volumes encadernados.
+	•	A ópera La Traviata de Giuseppe Verdi tem 440 páginas.
+	•	A ópera Don Giovanni de Wolfgang Amadeus Mozart tem 320 páginas.
+	•	A ópera mais longa é Die Meistersinger von Nürnberg de Richard Wagner, que, em uma execução normal sem cortes, envolveu 5 horas e 15 minutos de música.
+
+A administração de uma orquestra em uma grande cidade dos EUA pode exceder US\$ 50 milhões por ano. A receita de ingressos geralmente cobre apenas 30% a 40% desse valor, sendo o restante dependente de contribuições de caridade, visto que quase não há financiamento governamental disponível nos EUA.
+
+Exemplos de orçamentos e custos de produção:
+
+O custo médio para executar a Nona Sinfonia de Beethoven em Nova York pode variar de US\$ 50.000 a US\$ 100.000, considerando orquestra, coro, ensaios e aluguel de espaço.
+
+A Metropolitan Opera (EUA) possui o maior orçamento entre as companhias de ópera, atingindo US\$ 300 milhões.
+
+O custo da programação do Ciclo do Anel (Ring) de Wagner para o Metropolitan Opera chegou a US\$ 40 milhões.
+
+O pessoal é um fator de custo significativo:
+
+Uma orquestra sinfônica clássica geralmente conta com 70 pessoas no palco. Um músico clássico que trabalha gasta, em média, US\$ 500.000 em despesas de educação e manutenção de instrumentos (palhetas, cordas, bocais, etc.), excluindo despesas de vida e viagem. O custo de pessoal para uma orquestra atinge um valor de US\$ 35.000.000 por ano.
+
+Em decorrência desses altos custos, o público precisa desembolsar valores variados para ouvir ópera ou orquestra ao vivo. Na Royal Opera House em Londres, os ingressos variam de US\$ 3 (o lugar mais barato) a US\$ 155 (o mais caro). No Metropolitan Opera, em Nova York, os ingressos começam em US\$ 3,69. Em Viena, na Vienna State Opera, os melhores assentos chegam a US\$ 300.
+
+Apesar do alto custo de reprodução, alguns compositores dominam o cenário global de apresentações. Os seis compositores com mais óperas executadas no mundo são Bizet, Donizetti, Mozart, Puccini, Rossini e Verdi. Entre 2018 e 2022, foram realizadas 26.605 apresentações de óperas desses compositores.
+   
+O grande campeão de apresentações nesse período é Mozart, com 7.769 apresentações (o equivalente a 4 apresentações todos os dias, durante 5 anos). Puccini ficou muito próximo, com 7.419 apresentações. Surpreendentemente, o ano de 2021, em meio à pandemia de COVID-19, teve o maior número de apresentações (6.289), enquanto 2020 teve o menor (4.070).`,
+
+  "19- A Industria da Música.md": `19- A Indústria da Música
+A industrialização da música representa uma profunda transformação na arte musical, que passou de uma forma de produção artesanal — acessível apenas durante performances ao vivo e irrepetíveis — para um bem de consumo duradouro e global. Essa mudança radical foi impulsionada pelo advento das tecnologias de gravação e reprodução sonora no final do século XIX, começando com o fonógrafo e evoluindo para discos, fitas cassete, CDs e, posteriormente, plataformas digitais.
+A gravação permitiu que uma única performance fosse ouvida repetidamente e, crucialmente, que a música fosse arquivada, replicada e distribuída em escala global, mantendo a integridade do desempenho original. Isso inseriu a música na lógica de produção em massa, assemelhando-se a uma linha de produção, onde artistas e músicos gravavam em estúdios, aperfeiçoando performances por meio de processos controlados de edição e mixagem para se alinhar aos gostos de mercados específicos.
+Com a industrialização, uma sofisticada estrutura de negócios emergiu, incluindo gravadoras, agentes e distribuidores que operam em larga escala para gerenciar, promover e lucrar com o produto musical. A distribuição se expandiu através de lojas de discos e, mais tarde, por plataformas de streaming, tornando a música conveniente e instantânea para os consumidores.
+O modelo industrializado levou a uma abordagem mais "formatada" da música. As produções são ajustadas para serem mais atraentes, memorizáveis, e padronizadas para atender a mercados massificados e expectativas comerciais. Isso resultou em um fluxo constante de lançamentos e na criação de fenômenos globais, mas também na padronização e no consumo efêmero, onde o foco se desloca da singularidade artística para a produção de hits de alta rotatividade.
+A industrialização transformou a música em arte e produto, crescendo exponencialmente em acessibilidade e popularidade, mas também gerando um processo de mercantilização que desafia noções tradicionais de autenticidade e altera o papel cultural da música.
+A industrialização resultou em um crescimento colossal no volume de música comercializada.
+O crescimento pode ser segmentado em marcos tecnológicos e mercadológicos:
+	•	Primeira metade do século XX (1900-1950) -  Fonógrafo, Discos de 78 RPM - 50 mil a 100 mil gravações
+	•	Décadas de 1950 e 1960 -  Vinil 33 RPM, Single 45 RPM -  300 mil a 500 mil músicas  
+	•	Décadas de 1970 e 1980- Fitas Cassete -  500 mil a 1 milhão de músicas 
+	•	Décadas de 1990 e 2000 -  CD, MP3, iTunes -  1 milhão a 2 milhões de músicas
+	•	Décadas de 2010 e 2020 -  Streaming (Spotify, Apple Music) - Mais de 10 milhões (2010s)
+Estima-se que, entre 1900 e 2020, a indústria musical tenha comercializado aproximadamente 20 a 30 milhões de músicas. O ritmo se acelerou drasticamente no século XXI devido à democratização dos processos de gravação e distribuição, com mais de 60 mil novas músicas sendo lançadas diariamente nas plataformas digitais na década de 2020, projetando um volume superior a 15 milhões de novas músicas até o final dessa década.`,
+
+  "2- Para uma conceituação.md": `2- Para uma conceituação
+
+A  música é  um fenômeno complexo, presente em todas as culturas humanas conhecidas, mas que resiste a uma definição simples como sendo uma "linguagem universal", visto que, segundo Bruno Nettl, existem poucos universais na música. Em sua descrição mais abrangente, a música pode ser entendida como "som organizado no tempo, destinado ou percebido como experiência estética".
+
+O que verdadeiramente une as diversas manifestações musicais é a utilização de sistemas organizados de contrastes de alturas e timbres.`,
+
+  "3- Elementos Fundamentais da Música.md": `3- Elementos Fundamentais da Música
+
+A complexidade e a riqueza da experiência musical dependem fundamentalmente da interação entre elementos como o tom e o timbre:
+
+1.  Tom (Pitch):
+O tom é a propriedade perceptual que permite ordenar sons em uma escala do baixo ao alto. Seu correlato físico é a frequência, medida em Hertz. O tom se refere às características perceptuais da altura e duração de um som musical, sendo definido pela frequência fundamental de um som periódico. Em termos práticos, o tom fornece a "localização" da nota musical em termos de altura e duração, sendo um dos fundamentos essenciais da melodia e da harmonia.
+
+Relacionada ao tom, a tonalidade é um elemento que estabelece uma hierarquia entre os tons, criando noções de estabilidade, desenvolvimento e resolução, características proeminentes a partir do período Barroco.
+
+2.  Timbre:
+
+O timbre é a qualidade sonora que possibilita distinguir diferentes fontes sonoras ou instrumentos musicais, mesmo quando produzem a mesma nota. Esta qualidade é determinada por diversos fatores, incluindo o espectro harmônico e não-harmônico do som, e o envelope de amplitude (que abrange o ataque, decaimento, sustentação e liberação — ADSR).
+
+Enquanto o tom fornece a localização, o timbre oferece o "colorido" ou a "textura" da nota.
+
+A interação é complexa: o timbre pode influenciar diretamente a percepção do tom, alterando as qualidades emocionais ou expressivas da mesma nota dependendo do instrumento. Em conjunto, tom e timbre trabalham para criar a identidade única de cada nota musical, sendo cruciais para a expressividade musical e a experiência auditiva.`,
+
+  "4- Natureza e Filosofia da Música.md": `4- Natureza e Filosofia da Música
+
+A música é um fenômeno profundamente ligado à cognição e à experiência humana. Um aspecto fascinante de sua natureza é sua efemeridade: sem sistemas de notação ou gravação, ela se perde imediatamente após a execução. Por isso, ela é fundamentalmente conectada à memória e à mente humana.
+
+Do ponto de vista filosófico, a música é vista como algo que transcende as limitações da linguagem e da razão, possuindo o poder de moldar tanto o ethos cultural quanto o individual. Ela representa uma forma única de expressão metafísica e emocional.
+
+Historicamente, o termo grego antigo "mousikē", do qual deriva a palavra "música" (a arte das Musas), englobava não apenas a música como é entendida hoje, mas também a poesia e a dança, refletindo sua visão elevada como manifestação do divino e do conhecimento. De fato, sua presença constante em todas as culturas humanas revela sua importância fundamental como meio de expressão, comunicação e experiência estética.`,
+
+  "5- Música, Memória e Filosofia.md": `5- Música, Memória e Filosofia
+
+A música é um "ser de momentos". Sem notação ou gravação, ela se perde imediatamente após sua execução, tornando-se fundamentalmente conectada à memória e à mente humana. A memória de vida do autor está profundamente vinculada a alguma forma de música.
+
+A natureza da música tem sido objeto de reflexão filosófica ao longo da história:
+
+Platão concebia a música como base para a educação de jovens, afirmando que a Filosofia é "a música mais nobre" e que a educação começa com a música. Aristóteles distinguiu a música instrumental da cantada. Ele notou que a música retira a racionalidade do ouvinte, pois o prazer que a acompanha anula a atividade raciocinativa.
+
+A capacidade da música de evocar o passado é destacada pela citação de Marcel Proust, que descreve como o aroma e o sabor permanecem, como almas, "levando sem se submeterem, sobre suas gotículas quase impalpáveis, o imenso edifício das recordações". Essa experiência é traduzida no texto como a incrível emoção de reviver tempos antigos ao ouvir novamente as músicas daqueles momentos.`,
+
+  "6- Acessibilidade Musical e o Projeto Pessoal.md": `6- Acessibilidade Musical e o Projeto Pessoal
+
+O interesse do autor pela música se expandiu para diversos gêneros (do erudito à percussão). A experiência de audição musical mudou radicalmente com o tempo:
+
+Na década de 1970, a audição dependia do rádio ou da radiola (tocador de LP). LPs eram caros, custando cerca de 5,2% do salário mínimo da época, limitando o acesso a coleções. Na década de 1980, o CD impulsionou o som digital e ajudou a reduzir o preço dos LPs. No final do século XX, a internet (com o formato MP3, Winamp, Napster, Soundcloud e, posteriormente, Spotify e congêneres) revolucionou a acessibilidade, disponibilizando praticamente todas as músicas a custo quase zero.
+
+Em julho de 2016, o autor iniciou um projeto de escrita para delinear o "Horizonte Musical" de sua juventude, focado principalmente na década de 1970. Durante 212 semanas, foram produzidos 200 textos, identificando, ouvindo, estudando e analisando mais de 1055 músicas.
+
+Embora essa amostra de 1055 músicas represente um universo irrisório (aproximadamente 0,13% da produção mundial estimada da década de 1970), ela é representativa do mundo musical do autor.`,
+
+  "7- A Relação Humana com a Música Inerente, Inervada e Inesgotável.md": `7- A Relação Humana com a Música: Inerente, Inervada e Inesgotável
+
+A relação da música com os humanos é descrita como inerente, inervada e inesgotável:
+
+1.  Inerente: Não existe ser humano sem música. O próprio discurso é primeiramente dado na forma de música, complementando a ideia estruturalista de que a linguagem é estruturante para a humanidade. De fato, embora as formas de música e dança variem, não se conhece nenhuma população humana que não possua ambas.
+2.  Inervada: A música é sempre expressão de emoção, sentimentos e nervos. O corpo humano é um instrumento musical vivo, capaz de produzir sons para todas as sensações. O texto traça paralelos entre a anatomia e a música: o fluxo sanguíneo é música; a percussão cardíaca tem ritmo; e os tubos respiratórios se afinam como tubas, clarinetas e flautas.
+3.  Inesgotável: O cérebro humano decodifica o som na forma de música, sendo esta a maneira como entende a realidade. A busca humana por regularidades, padrões e ritmos nada mais é do que a exigência do cérebro por harmonia, sinfonia ou melodia — a única forma de eletrizar um neurônio. A música, junto com o oxigênio, a água e os genes, é listada como uma das pré-condições físicas básicas para a sobrevivência.`,
+
+  "8- Extremos da Sensação Musical.md": `8- Extremos da Sensação Musical
+
+A música demonstra ter uma vasta gama de efeitos na cognição e na saúde:
+
+O neurologista Oliver Sacks, em "Alucinações Musicais," relata casos extremos de pacientes que desenvolvem sintomas graves como medo, fobia, náusea, amnésia, dores e horrores provocados pela música.
+
+Por outro lado, Sacks também documenta pacientes que experimentam orgasmo ao ouvir música, largam tudo por ela, enxergam notas musicais ou transformam o que imaginam em música. Essas observações apenas ilustram as infinitas dimensões da música e sua interação com os humanos.`,
+
+  "9- A Transição Histórica da Música.md": `9- A Transição Histórica da Música
+
+Há uma evidente  mudança no papel da música das culturas tradicionais para a modernidade:
+
+Música Tradicional (Transcendência): Em culturas tradicionais, a música era considerada transcendente. O músico (como o xamã) era um ouvinte de uma música para o absoluto, transmitindo-a para a sociedade com seu "ouvido que ouve o absoluto". Em contraste, o mundo profano e mundano (o corpo) deveria ter uma música ouvida no corpo, pelo corpo e com o corpo.
+
+Música Moderna (Imanência): Com a diminuição gradual da transcendência, uma nova música começou a surgir, resultado de um ouvido voltado para o mundo, a temporalidade, a tonalidade e o próprio indivíduo.
+      
+Este conflito é simbolizado por Sebastian Bach, que assinava suas músicas como Soli Deo Gloria ("Para a glória de Deus").  O marco da modernidade é a dúvida de Beethoven ("Existe um deus?") em 1813, que preparou o terreno para a constatação de Nietzsche de que "Deus morreu" em 1888.  A nova música, decorrente dessa fundação moderna, evoluiu do Romantismo ao formalismo, e do tonal ao atonal (de Beethoven a Anton Webern).
+   
+Abertura e Alienação: Embora a música contemporânea tenha abraçado experimentações radicais (como as de Schoenberg ou Stockhausen), há uma incompatibilidade entre a ousadia desses gênios e a relação das pessoas comuns com a música, sugerindo que vivemos numa "cultura de alienações" onde a autoria de grandes obras não é atribuída a indivíduos comuns.`
 };
 
 function normalizeTitle(value) {
-    if (!value && value !== 0) {
-        return '';
-    }
+  if (!value && value !== 0) {
+    return '';
+  }
 
-    const stringValue = String(value)
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/\s+/g, ' ')
-        .trim()
-        .toUpperCase();
+  const stringValue = String(value)
+    .normalize('NFD')
+    .replace(/[\̀-\ͯ]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toUpperCase();
 
-    return stringValue;
+  return stringValue;
 }
 
 function buildMarkdownMapping() {
-    const mapping = {};
+  const mapping = {};
 
-    Object.keys(MARKDOWN_CONTENT).forEach((fileName) => {
-        if (typeof fileName !== 'string') {
-            return;
-        }
+  Object.keys(MARKDOWN_CONTENT).forEach((fileName) => {
+    if (typeof fileName !== 'string') {
+      return;
+    }
 
-        if (!fileName.toLowerCase().endsWith('.md')) {
-            return;
-        }
+    if (!fileName.toLowerCase().endsWith('.md')) {
+      return;
+    }
 
-        const titlePart = fileName
-            .replace(/\.md$/i, '')
-            .replace(/^\s*\d+\s*-\s*/, '')
-            .trim();
+    const titlePart = fileName
+      .replace(/\.md$/i, '')
+      .replace(/^\s*\d+\s*-\s*/, '')
+      .trim();
 
-        if (!titlePart) {
-            return;
-        }
+    if (!titlePart) {
+      return;
+    }
 
-        const normalizedTitle = normalizeTitle(titlePart);
-        if (!normalizedTitle) {
-            return;
-        }
+    const normalizedTitle = normalizeTitle(titlePart);
+    if (!normalizedTitle) {
+      return;
+    }
 
-        mapping[normalizedTitle] = fileName;
-    });
+    mapping[normalizedTitle] = fileName;
+  });
 
-    return mapping;
+  return mapping;
 }
 
 function getMarkdownContent(filename) {
-    return MARKDOWN_CONTENT[filename] || null;
+  return MARKDOWN_CONTENT[filename] || null;
 }
 
 const MD_FILE_MAPPING = buildMarkdownMapping();
 
 if (typeof window !== 'undefined') {
-    window.getMarkdownContent = getMarkdownContent;
-    window.MARKDOWN_CONTENT = MARKDOWN_CONTENT;
-    window.MD_FILE_MAPPING = MD_FILE_MAPPING;
-    window.normalizeTitle = normalizeTitle;
+  window.getMarkdownContent = getMarkdownContent;
+  window.MARKDOWN_CONTENT = MARKDOWN_CONTENT;
+  window.MD_FILE_MAPPING = MD_FILE_MAPPING;
+  window.normalizeTitle = normalizeTitle;
 }
+
+// Nota: export removido porque o arquivo é carregado como script regular, não como módulo ES6

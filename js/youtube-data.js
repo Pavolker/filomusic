@@ -1,5 +1,5 @@
-// Dados das URLs do YouTube incorporados diretamente no JavaScript
-// Gerado automaticamente a partir do arquivo youtube/urls-data.json
+// Arquivo gerado automaticamente por scripts/build-content.js
+// Não edite manualmente. Execute `node scripts/build-content.js` para regenerar.
 
 const YOUTUBE_URLS_DATA = {
   "1700 - BACH": [
@@ -10,7 +10,7 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/EJC-_j3SnXk"
   ],
   "1822 - ODE AN DIE FREUD": [
-    "http://youtu.be/xBlQZyTF_LY"
+    "https://youtu.be/xBlQZyTF_LY"
   ],
   "1837 - SCHERZO N2": [
     "https://youtu.be/RQn34klqSQI"
@@ -87,7 +87,7 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/SKhZdYUnMrw",
     "https://youtu.be/JhVb9VD_A7k"
   ],
-  "1954 - BARBERSHOP ": [
+  "1954 - BARBERSHOP": [
     "https://youtu.be/CX45pYvxDiA",
     "https://youtu.be/OknqXjB4BOc",
     "https://youtu.be/efvkzpkBil0",
@@ -514,7 +514,7 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/HSNSTerj2Kc",
     "https://youtu.be/uSb3SIGFNVg"
   ],
-  "1971 - Mouth and MacNeal ": [
+  "1971 - Mouth and MacNeal": [
     "https://youtu.be/uYNMKZ90jtA"
   ],
   "1971 - OPS, FOI ENGANO": [
@@ -571,7 +571,6 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/VP2umy6TdEU",
     "https://youtu.be/WNXFtVWB47E"
   ],
-  "1971 - Pop-Tops": [],
   "1971 - Tina Turner": [
     "https://youtu.be/D2zXS916mxI",
     "https://youtu.be/JLBuTkIPbSA",
@@ -673,7 +672,7 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/tHHOIhhBvU0",
     "https://youtu.be/0pKnBgF4-W0"
   ],
-  "1973 - Osibisa ": [
+  "1973 - Osibisa": [
     "https://youtu.be/ZI82zloHBM8"
   ],
   "1973 - Stories": [
@@ -739,7 +738,7 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/bKsQ9pDGMRc",
     "https://youtu.be/J_NGulTmh88"
   ],
-  "1975 - 10cc ": [
+  "1975 - 10cc": [
     "https://youtu.be/STugQ0X1NoI"
   ],
   "1975 - ABBA": [
@@ -800,7 +799,7 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/ModISbNyQ8I",
     "https://youtu.be/5ww-pQynEDI"
   ],
-  "1978 - KATE BUSCH ": [
+  "1978 - KATE BUSCH": [
     "https://youtu.be/BW3gKKiTvjs",
     "https://youtu.be/rYSCHKmvcIY",
     "https://youtu.be/VjEq-r2agqc",
@@ -868,7 +867,7 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/6un_ppzMk8M"
   ],
   "1983 VIOLENTE FEMMES": [
-    "http://youtu.be/JE-dqW4uBEE"
+    "https://youtu.be/JE-dqW4uBEE"
   ],
   "1978 - BANDEIRA DE AÇO": [
     "https://youtu.be/yOO2VFPo8iI",
@@ -930,7 +929,7 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/ivBg3C-U82c"
   ],
   "2001 - PEAKY BLINDERS": [
-    "http://youtu.be/KGD2N5hJ2e0"
+    "https://youtu.be/KGD2N5hJ2e0"
   ],
   "2002 - BAJOFONDO": [
     "https://youtu.be/NnFidFbwQSA",
@@ -952,9 +951,8 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/OEuJ-7tx8rw"
   ],
   "2003 - CARINHOSO": [
-    "http://youtu.be/C-Gg8HH1UzM"
+    "https://youtu.be/C-Gg8HH1UzM"
   ],
-  "2007 - Miranda! ": [],
   "2007 - SER DIFERENTE": [
     "https://youtu.be/fqGRNbK8bps",
     "https://youtu.be/MXIzyquw-kc",
@@ -998,7 +996,7 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/LSn199eagt8"
   ],
   "2001 - GOTAN PROJET": [
-    "http://youtu.be/UYjXm63DKQ0"
+    "https://youtu.be/UYjXm63DKQ0"
   ],
   "2009 - ARNALDO ANTUNES": [
     "https://youtu.be/82aj1Bg8FpA"
@@ -1095,7 +1093,6 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/acdxX8_m97Q",
     "https://youtu.be/pMG0hxE1sgc"
   ],
-  "2014 - ANDRES CALAMARO": [],
   "2019 - A MUSA": [
     "https://youtu.be/TRZ5X5pPNis",
     "https://youtu.be/84nCfp0BF34",
@@ -1127,7 +1124,9 @@ const YOUTUBE_URLS_DATA = {
     "https://youtu.be/kMdOsk3fVAE"
   ]
 };
-// Disponibiliza os dados globalmente
+
 if (typeof window !== 'undefined') {
-    window.YOUTUBE_URLS_DATA = YOUTUBE_URLS_DATA;
+  window.YOUTUBE_URLS_DATA = YOUTUBE_URLS_DATA;
 }
+
+// Nota: export removido porque o arquivo é carregado como script regular, não como módulo ES6

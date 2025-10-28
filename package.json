@@ -1,6 +1,6 @@
 {
   "name": "musica-carrosel",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Aplicação de carrossel de música com player do YouTube",
   "main": "index.html",
   "scripts": {

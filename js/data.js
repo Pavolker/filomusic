@@ -1,209 +1,2211 @@
-// Dados musicais incorporados diretamente no JavaScript
-// Gerado automaticamente a partir do arquivo MUSICA_9.csv
+// Arquivo gerado automaticamente por scripts/build-content.js
+// Não edite manualmente. Execute `node scripts/build-content.js` para regenerar.
 
-const CSV_DATA = `DATA;TÍTULO;AUTOR;MUSICA;GENERO;ATRAÇÃO MUSICAL;GRAU DE INTROSPECÇÃO;COMPLEXIDADE EMOCIONAL;GRAU DE SIGNIFICAÇÃO
-1100; CARMINA BURANA;CARL OFF;O FORTUNA, IMPERATRIX MUNDI;Clássica;3;3;3;9
-1700; BACH; BACH;TOCCATA & FUGUE IN DM;Clássica;3;3;3;9
-1771;MINUETO;BOCCHERINI;MINUET - STRING QUINTET;Clássica;3;3;3;9
-1822; ODE AN DIE FREUD;BEETHOVEN; ODE AN DIE FREUD;Clássica;3;3;3;9
-1837;SCHERZO N2;CHOPIN;SCHERZO Nº 2 EM SI BEMOL MENOR;Clássica;3;3;3;9
-1842; NABUCO;GIUSEPPE VERDI;VA PENSIERO ...;Clássica;1;3;3;7
-1869; RICHARD STRAUSS; RICHARD STRAUSS;ALSO SPRACH ZARATHUSTRA;Clássica;1;3;3;7
-1881;BARCAROLLE;JACQUES OFFENBACH;BELLE NUIT, Ô NUIT D'AMOUR;Clássica;3;3;3;9
-1883;AS FLORES;FLOWER DUET;LÉO DELIBES;Clássica;3;3;3;9
-1933; KONOMICHI;H.KITAHARA; KONOMKONO MICHI -THIS ROAD ICHI;Étnica;1;3;2;6
-1938;CHATEAU;LUPICÍNIO RODRIUES;SE ACASO VOCÊ CHEGASSE;Samba;3;1;1;5
-1942; ESTA CHEGANDO;CARMEN COSTA;ESTÁ CHEGANDO A HORA;Samba;2;2;1;5
-1945; A VIRGEM;DORIS DAY;SENTIMENTAL JOURNEY;Jazz;2;1;1;4
-1953; CORDAS E HELICÓPTEROS;STOCKEHAUSEN;HELIKOPTER- STREICHQUARTETT ;Clássica;1;1;3;5
-1954; BARBERSHOP ;CHORDETTES;MR. SANDMAN;Pop Rock;1;1;1;3
-1956; CÃO DE CAÇA;BIG MAMA THORNTON;HOUND DOG;Pop Rock;3;2;1;6
-1958; JAZZ;MILES DAVIS;MILESTONES ;Jazz;2;3;3;8
-1958; VOLARE, NEL BLU DIPINTO DI BLU;DOMENICO MODUGNO; VOLARE, NEL BLU DIPINTO DI BLU;Pop Rock;2;2;2;6
-1959; ARTE DE OUVIR;"DAVID ""DAVE"" WARREN BRUBECK";TAKE FIVE;Jazz;2;3;3;8
-1960; TRINI LOPEZ; TRINI LOPEZ;LA BAMBA;Pop Rock;3;1;1;5
-1961; BELLA CIAO;RITA PAVONE; BELLA CIAO;Pop Rock;2;3;2;7
-1961; RITA PAVONI; RITA PAVONI;DATEMI UN MARTELLO;Pop Rock;2;1;1;4
-1962; INSENSATEZ; STAN GETZ ;GAROTA DE IPANEMA;MPB;3;3;2;8
-1963; RONETTES; RONETTES;BE MY BABY;Pop Rock;2;1;1;4
-1964; PAUL SIMON; PAUL SIMON;LATE IN THE EVENING;Pop Rock;3;3;2;8
-1964; METAFÓRICO;ADORINAN BARBOSA;TIRO AO ÁLVARO;Samba;2;2;2;6
-1964; THE ANIMALS; THE ANIMALS;THE HOUSE OF THE RISING SUN;Rock;3;1;1;5
-1964; METEORO BLUE;OTIS REDDING;OTIS BLUE: OTIS REDDING SINGS SOUL;Rock/Pop;2;2;1;5
-1965; PETULA CLARK; PETULA CLARK;DOWNTOWN;Pop Rock;2;2;1;5
-1966; THE YOUNGBLOODS; THE YOUNGBLOODS;GET TOGETHER ;Pop Rock;3;3;2;8
-1966; MAMAS ANDA PAPAS; MAMAS ANDA PAPAS;CALIFORNIA DREAMING;Pop Rock;3;2;1;6
-1966; ROLLING STONES; ROLLING STONES;LADY JANE;Rock;3;2;1;6
-1966; JOHNY RIVERS; JOHNY RIVERS;POOR SIDE OF TOWN;Pop Rock;2;2;1;5
-1966; SERGIO MENDES; SERGIO MENDES;MAS QUE NADA;Jazz;2;2;1;5
-1966; TURTLES; TURTLES;SURFER DAN;Rock Progressivo;3;1;1;5
-1966; ATAQUE A CASA BRANCA;GRACE SLICK;WHITE RABBIT;Rock Progressivo;2;2;1;5
-1966; TERNURINHA;WANDERLEIA;PARE O CASAMENTO;MPB;3;1;1;5
-1966; LENO E LILIAN; LENO E LILIAN;EU NÃO SABIA QUE VOCÊ EXISTIA;MPB;2;1;1;4
-1966; NANCY SINATRA; NANCY SINATRA;THESE BOOTS ARE MADE FOR WALKIN;Pop Rock;2;1;1;4
-1967; DONOVAN PHILIPS; DONOVAN PHILIPS;MELLOW YELLOW;Rock;3;2;2;7
-1967; THE SEEKERS; THE SEEKERS;GEORGY GIRL;Pop Rock;3;2;1;6
-1967; A VOLTA DO BOÊMIO;NELSON GONÇALVES; A VOLTA DO BOÊMIO;Samba;2;2;2;6
-1967; BEE GEES; BEE GEES;I STARTED A JOKE;Pop Rock;2;2;1;5
-1967; HERMAN HERMIS; HERMAN HERMIS;MY SENTIMENTAL FRIEND;Pop Rock;3;1;1;5
-1967; SIMONAL; SIMONAL;NEM VEM QUE NÃO TEM;Pop Rock;3;1;1;5
-1967; THE TURTLES; THE TURTLES;HAPPY TOGETHER;Rock;3;1;1;5
-1967; TREMELOES; TREMELOES;SILENCE IS GOLDEN;Rock;3;1;1;5
-1967;LULU;LULU;TO SIR WITH LOVE;Pop Rock;3;1;1;5
-1968; NILSSON; NILSSON;WITHOUT YOU;Rock;3;2;2;7
-1968; GERALDO VANDRE; GERALDO VANDRE;PARA  NÃO DIZER QUE NÃO FALEI DE FLORES;MPB;2;2;2;6
-1968; STEVIE WONDER; STEVIE WONDER;SUPERSTITION;Rock;3;2;1;6
-1968; IAN A GADDA DA VIDA;IRON BUTTERFLY; IAN A GADDA DA VIDA;Rock Progressivo;2;2;2;6
-1968; TEN YEAR AFTER; TEN YEAR AFTER;I'D LOVE TO CHANGE THE WORLD;Rock;3;1;1;5
-1968; TOMMY JAMES; TOMMY JAMES;CRIMSON AND CLOVER;Rock Progressivo;2;1;1;4
-1969; ANTONIO ADOLFO E A BRAZUCA; ANTONIO ADOLFO E A BRAZUCA;TELETEMA;MPB;3;2;2;7
-1969; B. J. THOMAS; B. J. THOMAS;RAINDROPS KEEP FALLIN' ON MY HEAD;Pop Rock;2;3;1;6
-1969; JANE BIRKIN; JANE BIRKIN;JE T'AIME;Pop Rock;2;2;2;6
-1969; PAULO DINIZ; PAULO DINIZ;QUERO VOLTAR PRA BAHIA;MPB;3;2;1;6
-1969; SHOCKING  BLUE; SHOCKING  BLUE;VENUS;Rock;3;1;2;6
-1969; MARMALADE; MARMALADE;REFLECTIONS OF MY LIFE;Rock;3;1;1;5
-1969; THE  HOLLIES; THE  HOLLIES;LONG COOL WOMAN IN A BLACK DRESS;Rock;3;1;1;5
-1969; TOMMY ROE; TOMMY ROE;DIZZY;Rock;3;1;1;5
-1969; SANTANA; SANTANA;SOUL SACRIFICE;Rock/Pop;2;1;1;4
-1970; GAL; GAL;BABY;MPB;3;2;2;7
-1970; GRAND FUNK RAILROAD; GRAND FUNK RAILROAD;I'M YOUR CAPTAIN;Rock;3;2;2;7
-1970; BADFINGER; BADFINGER; NO MATTER WHAT;Rock;3;1;2;6
-1970; CARPENTERS; CARPENTERS;CLOSE TO YOU;Pop Rock;2;3;1;6
-1970; PAUL MACCARTNEY; PAUL MACCARTNEY;ANOTHER DAY;Rock/Pop;3;2;1;6
-1970; PATTIE BOYD;GEORGE HARRISON;SOMETHING;Rock/Pop;2;3;1;6
-1970; ROCK PESADO;MIAMI SHOWBAND;CLAP YOUR HANDS;Rock;3;2;1;6
-1970; TERRA RARA;RARE EARTH;HEY BIG BROTHER ;Rock;3;2;1;6
-1970; BOBBY BLOOM; BOBBY BLOOM;HEAVY MAKES YOU HAPPY;Rock/Pop;3;1;1;5
-1970; BREAD; BREAD;EVERYTHING I OWN;Pop Rock;2;2;1;5
-1970; LINN ANDERSON; LINN ANDERSON;ROSE GARDEN;Rock/Pop;3;1;1;5
-1970; MUNGO JERRY; MUNGO JERRY;IN THE SUMMERTIME;Rock;3;1;1;5
-1970; SLADE; SLADE;GET DOWN AND GET WITH IT;Rock;3;1;1;5
-1970; TONY ORLANDO; TONY ORLANDO;CANDIDA;Rock/Pop;3;1;1;5
-1970; TRIO GALLETA; TRIO GALLETA;I'VE BEEN HURT;Rock/Pop;3;1;1;5
-1970;A ALMA DO RITMO;THE METERS;CHICKEN STRUT;Rock/Pop;3;1;1;5
-1970; THREE DOG NIGHT; THREE DOG NIGHT;MAMA TOLD ME NOT TO COME;Rock/Pop;2;1;1;4
-1971; LED ZEPPELIN; LED ZEPPELIN;OVER THE HILLS AND FAR AWAY ;Rock;3;2;2;7
-1971; MARDI GRAS; MARDI GRAS;TOO BUSY THINKING ABOUT MY BABY;Rock;3;2;2;7
-1971; THE SWEET; THE SWEET;CO-CO;Rock;3;3;1;7
-1971; THE WHO; THE WHO;BABA O'RILEY;Rock;3;2;2;7
-1971; YES; YES;ROUND ABOUT ;Rock Progressivo;3;2;2;7
-1971; YOU'VE GOT A FRIEND;CAROLE KING; YOU'VE GOT A FRIEND;Rock;3;2;2;7
-1971; DUBLE FANTASY;JOHN LENNON; DUBLE FANTASY;Rock/Pop;2;3;2;7
-1971; OH YOKO;JOHN LENNON; OH YOKO;Rock/Pop;3;2;2;7
-1971; ELTON JOHN; ELTON JOHN;CROCODILE ROCK;Rock/Pop;3;2;1;6
-1971; GENESIS; GENESIS;THE KNIFE;Rock Progressivo;2;2;2;6
-1971; JETHRO TULL; JETHRO TULL;PASSION PLAY;Rock Progressivo;2;2;2;6
-1971; TINA TURNER; TINA TURNER;GET BACK;Rock/Pop;3;2;1;6
-1971; OPS, FOI ENGANO;ALICE COOPER;KILLER;Rock;3;1;2;6
-1971; LEON RUSSEL; LEON RUSSEL;A SONG FOR YOU;Rock/Pop;2;2;1;5
-1971; LOBO; LOBO;ME AND YOU AND A DOG NAMED BOO;Rock/Pop;2;2;1;5
-1971; MIDDLE OF THE ROAD; MIDDLE OF THE ROAD;SACRAMENTO;Rock/Pop;3;1;1;5
-1971; MOUTH AND MACNEAL ; MOUTH AND MACNEAL ;HOW DO YOU DO;Rock/Pop;3;1;1;5
-1971; POP TOPS; POP TOPS;MAMY BLUE;Rock;3;1;1;5
-1971; PROCOL HARUM; PROCOL HARUM;A WHITER SHADE OF PALE;Rock;3;1;1;5
-1971; THE STAMPEDERS; THE STAMPEDERS;SWEET CITY WOMAN;Rock;3;1;1;5
-1971; OS IRMÃOS CANTAM;CORNELIUS  BROTHERS & SISTER ROSE;TREAT HER LIKE A LADY;Rock/Pop;2;1;1;4
-1972; DON MCLEAN; DON MCLEAN;AMERICAN PIE;Pop Rock;3;2;2;7
-1972; DOOBIE BROTHERS; DOOBIE BROTHERS;LISTEN TO THE MUSIC;Rock;3;2;2;7
-1972; NOVOS BAIANOS; NOVOS BAIANOS;BRASIL PANDEIRO;MPB;3;2;2;7
-1972; YELLOWSTONE AND VOICE; YELLOWSTONE AND VOICE;PHILOSOPHER;Rock/Pop;3;3;1;7
-1972; 5TH DIMENSION; 5TH DIMENSION;AQUARIUS / LET THE SUNSHINE IN;Rock/Pop;2;3;1;6
-1972; AL GREEN; AL GREEN;LET'S STAY TOGETHER;Rock/Pop;2;2;2;6
-1972; CREEDENCE ; CREEDENCE ;SAIL AWAY;Rock;3;2;1;6
-1972; DEEP PURBLE; DEEP PURBLE;SMOKE ON THE WATER;Rock/Pop;3;2;1;6
-1972; ROBERTA FLACK; ROBERTA FLACK;KILLING ME SOFTLY;Rock/Pop;2;2;2;6
-1972; CARLY SIMON; CARLY SIMON;YOU'RE SO VAIN;Rock/Pop;2;2;1;5
-1972; DANIEL BOONE; DANIEL BOONE;BEAUTIFUL SUNDAY;Rock/Pop;3;1;1;5
-1972; FORTUNES; FORTUNES;YOU GOT YOUR TROUBLES;Rock/Pop;3;1;1;5
-1972; GARY GLITTER; GARY GLITTER;SCHOOL DAY;Rock/Pop;3;1;1;5
-1972; THE TEMPTATIONS; THE TEMPTATIONS;PAPA WAS A ROLLING STONE;Rock/Pop;3;1;1;5
-1972; TIMMY  THOMAS; TIMMY  THOMAS;WHY CAN'T WE LIVE TOGETHER;Rock/Pop;3;1;1;5
-1972; DAVE EDMUNDS; DAVE EDMUNDS;I HEAR YOU KNOCKING;Rock/Pop;2;1;1;4
-1972; TODD RUNDGREN; TODD RUNDGREN;I SAW THE LIGHT;Rock/Pop;2;1;1;4
-1973; DISCOS MARCOS PEREIRA;NARA LEÃO;CALIX BENTO;MPB;3;3;2;8
-1973; GLADYS KNIGHT & THE PIPS; GLADYS KNIGHT & THE PIPS;MIDNIGHT PLANE TO HOUSTON;Rock/Pop;3;2;2;7
-1973; OSIBISA ; OSIBISA ;ADWOA;Pop Rock;3;2;2;7
-1973; SUZI QUATRO; SUZI QUATRO;STUMBIN 'IN;Rock/Pop;3;2;2;7
-1973; TAMBORES;INCREDIBLE BONGO BAND;BONGO ROCK;Rock/Pop;3;2;1;6
-1973; ELVIS PRESLEY; ELVIS PRESLEY;BURNING LOVE ;Rock/Pop;3;1;1;5
-1973; ALBERT HAMMOND; ALBERT HAMMOND;IF YOU GOTTA BREAK ANOTHER HEART;Rock/Pop;2;1;1;4
-1973; CHARLIE RICH; CHARLIE RICH;THE MOST BEAUTIFUL GIRL;Rock/Pop;2;1;1;4
-1973; PAUL BRYAN; PAUL BRYAN;LISTEN;Rock/Pop;2;1;1;4
-1973; STORIES; STORIES;BROTHER LOUIE;Rock/Pop;2;1;1;4
-1974; SUPERTRAMP; SUPERTRAMP;SCHOOL;Rock Progressivo;3;2;2;7
-1974; BACHAMAN TURNER ORVERDRIVE; BACHAMAN TURNER ORVERDRIVE;YOU AIN'T SEEN NOTHIN YET;Rock;3;1;1;5
-1974; BARRY MANILOW; BARRY MANILOW;MANDY;Rock/Pop;3;1;1;5
-1974; MINNIE  RIPERTON; MINNIE  RIPERTON;LOVING YOU;Rock/Pop;2;2;1;5
-1974; PAPER LACE; PAPER LACE;THE NIGHT CHICAGO DIED;Rock/Pop;3;1;1;5
-1974; REDBONE; REDBONE;COME AND GET YOUR LOVE;Rock/Pop;3;1;1;5
-1974; THE RUBENTES; THE RUBENTES;SUGAR BABY LOVE;Rock/Pop;3;1;1;5
-1974; A LOURA;BLONDIE;HEART OF GLASS;Rock/Pop;3;1;1;5
-1975; IMPROVISADOR;KEITH JARRETT;THE KÖLN CONCERT;Jazz;3;3;3;9
-1975; ARTHUR MOREIRA; ARTHUR MOREIRA;APANHEI-TE, CAVAQUINHO;MPB;2;3;3;8
-1975; MALDITO;WALTER FRANCO;SERRA DO LUAR ;MPB;2;3;2;7
-1975; CLAUDE BOLLING; CLAUDE BOLLING;BAROQUE AND BLUE;Jazz;1;2;3;6
-1975; ABBA; ABBA;FERNANDO;Pop Rock;3;1;1;5
-1975; 10CC ; 10CC ;I'M NOT IN LOVE;Rock/Pop;2;1;1;4
-1976; BELLAMY BROTHERS; BELLAMY BROTHERS;LET YOUR LOVE FLOW;Rock/Pop;3;2;1;6
-1976; BELLE E SABASTIAN; BELLE E SABASTIAN;ANOTHER SUNNY DAY;Rock/Pop;2;1;1;4
-1977; RAUL SEIXAS; RAUL SEIXAS;MEDO DA CHUVA;Rock/Pop;3;3;3;9
-1978; KATE BUSCH ; KATE BUSCH ;WUTHERING HEIGHTS;Rock/Pop;2;3;2;7
-1978; BANDEIRA DE AÇO; BANDEIRA DE AÇO;BANDEIRA DE AÇO;MPB;2;2;2;6
-1979; ZIGGY STARDUST;DAVID BOWIE;STARMAN;Rock/Pop;2;2;3;7
-1979; BONEY M; BONEY M;RIVERS OF BABYLON;Rock/Pop;3;1;1;5
-1979; POLONAISE;MAZOWSZE;LAURA I FILON;Étnica;1;2;2;5
-1980; LEGIÃO URBANA; LEGIÃO URBANA;PAIS E FILHOS;Rock/Pop;2;2;2;6
-1980; TOWSHEND;THE WHO;BEHIND BLUE EYES;Rock;3;2;1;6
-1981; UNDER PRESSURE;DAVID BOWIE; UNDER PRESSURE;Rock;3;3;2;8
-1982; TOTO; TOTO;AFRICA ;Rock;3;2;1;6
-1983;VIOLENTE FEMMES;VIOLENTE FEMMES;BLISTER IN THE SUN;Rock;3;1;1;5
-1984; FELIZ NATAL;JOHN LENNON;HAPPY XMAS;Pop Rock;3;3;2;8
-1986; LA GUITARRA;STANLEY JORDAN;ELEANOR RIGBY;Jazz;2;2;2;6
-1988; WILBURYS; WILBURYS; HANDLE WITH CARE;Rock;3;2;2;7
-1988; SATIE;ERIK SATIE; LE TANGO PREPÉTUAL;Tango;1;2;2;5
-1990; ENIGMA; ENIGMA;RETURN TO INNOCENCE;Rock Progressivo;2;3;3;8
-1991; TEREZA SALGUEIRO; TEREZA SALGUEIRO;ESTRADA DO MONTE;Étnica;3;3;3;9
-1991; O CEARENCE DO ESCRACHO;FALCÃO;BONITO, LINDO E JOIADO;MPB;3;1;1;5
-1992; BOBBY MACFERIN; BOBBY MACFERIN;HUSH LITTLE BABY;Pop Rock;3;2;1;6
-1993; ISRAEL KAMAKAWIWO'OLE; ISRAEL KAMAKAWIWO'OLE;OVER THE RAINBOW;Pop Rock;3;3;1;7
-1997; DEEP FOREST; DEEP FOREST;GREEN & BLUE;Folk Rock;3;3;2;8
-1997; ZE COCO DO RIACHAO; ZE COCO DO RIACHAO;VÔO DAS GARÇAS;MPB;1;3;3;7
-1997; CANTORA DE RUA;RACHELLE GARNIEZ;SERENADE;Pop Rock;3;2;1;6
-1998; NINHO DA MÚSICA;NAÏKA;BEFORE HE FALLS;Pop Rock;2;2;1;5
-2001; PEAKY BLINDERS;NICK CAVE AND THE BAD SEEDS;RED RIGHT HAND;Rock/Pop;3;2;1;6
-2001; GOTAN PROJET; GOTAN PROJET;SANTA MARÍA ;Tango;2;2;1;5
-2002; EPITÁFIO;TITÃS;EPITÁFIO;MPB;2;3;2;7
-2002; BAJOFONDO; BAJOFONDO;A FAVORITA;Rock/Pop;2;2;2;6
-2002; SALIR CORRIENDO;EVA AMARAL; SALIR CORRIENDO;Pop Rock;3;2;1;6
-2003; CARINHOSO;MARISA MONTE; CARINHOSO;MPB;2;2;2;6
-2007; MOINHO;CARTOLA;O MUNDO É UM MOINHO;Samba;2;3;2;7
-2007; O REI DA NOITE;HAMIN DJAWADI;GAME OF THRONES MAIN TITLE;Clássica;1;3;3;7
-2007; SER DIFERENTE;ARCHITECTURE IN HELSINKI;ESCAPEE;Rock/Pop;3;2;1;6
-2007; MIRANDA! ; MIRANDA! ;PERFECTA;Pop Rock;2;2;1;5
-2008; ANDREAS SCHOLL; ANDREAS SCHOLL;VENUS' BIRDS;Clássica;3;3;3;9
-2008; JULIETA VENEGAS; JULIETA VENEGAS;ME VOY;Pop Rock;3;2;2;7
-2008; CARL DOUGLAS; CARL DOUGLAS;KUNG FU FIGHTING;Pop Rock;3;1;1;5
-2009;NÃO DESONRE O MEU NOME;PITTY;ME ADORA;Rock/Pop;3;3;3;9
-2009; ARNALDO ANTUNES; ARNALDO ANTUNES;A CASA É SUA;MPB;3;2;2;7
-2011; A DURGA DA MARIMBA;KUNIKO KATO;STEVE REICH SIX MARIMBAS COUNTERPOINT;Jazz;1;3;3;7
-2012; NOVO SOM EM MINAS;ETCOETERA;ALMA;MPB;2;2;2;6
-2012; O SOM DO MERCADO;VARIOUS CRUELTIES;GREAT UNKNOWN;Rock/Pop;2;2;1;5
-2013; VOZES DAFRICA;ROKIA TRAORÉ;TU VOLES;Pop Rock;2;3;2;7
-2013; BARBARA;BÁRBARA EUGÊNIA;YOU WISH, YOU GET IT;MPB;3;1;2;6
-2013; MÚSICA LAGOM;NONONO;MASTERPIECE;Rock/Pop;3;2;1;6
-2014; TENGO MIEDO;MARIA RODES; TENGO MIEDO;Pop Rock;2;2;3;7
-2014; ANDRES CALAMARO; ANDRES CALAMARO;LA PARTE DE ADELANTE;Pop Rock;2;2;2;6
-2014; MUSICA DO NORTE;THE GARDENER & THE TREE;POSTCARDS;Pop Rock;3;2;1;6
-2014; YIRA, YIRA;MONO MORELLO; YIRA, YIRA;Tango;1;2;2;5
-2015; ARQUITETO DO SOM;VOLKER PANNES;OPERA BIRD SONG;Jazz;1;3;2;6
-2015; PAMPLAMOOSE; PAMPLAMOOSE; OH, PRETTY WOMAN;Rock/Pop;3;1;1;5
-2016; JAZZ VINTAGE;AVALON JAZZ BAND;MÉNILMONTANT;Jazz;2;2;3;7
-2016; LA LA LAND;RYAN GOSLING;CITY OF STARS;Rock/Pop;2;2;1;5
-2019; M A N T R A;GAIEA SANSKRI;BHOJANAM MANTRA;Étnica;1;3;3;7
-2019;A MUSA;LOLA ASTANOVA;LA CAMPANELLA;Clássica;1;3;3;7
-2020; DYLAN  - AS MÚSICAS DA MÚSICA;NAT KING COLE;NATURE BOY;Rock/Pop;2;3;2;7`;
+const MUSIC_DATA = [
+  {
+    "data": "1100",
+    "título": "CARMINA BURANA",
+    "autor": "CARL OFF",
+    "musica": "O FORTUNA, IMPERATRIX MUNDI",
+    "genero": "Clássica",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "1700",
+    "título": "BACH",
+    "autor": "BACH",
+    "musica": "TOCCATA & FUGUE IN DM",
+    "genero": "Clássica",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "1771",
+    "título": "MINUETO",
+    "autor": "BOCCHERINI",
+    "musica": "MINUET - STRING QUINTET",
+    "genero": "Clássica",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "1822",
+    "título": "ODE AN DIE FREUD",
+    "autor": "BEETHOVEN",
+    "musica": "ODE AN DIE FREUD",
+    "genero": "Clássica",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "1837",
+    "título": "SCHERZO N2",
+    "autor": "CHOPIN",
+    "musica": "SCHERZO Nº 2 EM SI BEMOL MENOR",
+    "genero": "Clássica",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "1842",
+    "título": "NABUCO",
+    "autor": "GIUSEPPE VERDI",
+    "musica": "VA PENSIERO ...",
+    "genero": "Clássica",
+    "atração musical": "1",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1869",
+    "título": "RICHARD STRAUSS",
+    "autor": "RICHARD STRAUSS",
+    "musica": "ALSO SPRACH ZARATHUSTRA",
+    "genero": "Clássica",
+    "atração musical": "1",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1881",
+    "título": "BARCAROLLE",
+    "autor": "JACQUES OFFENBACH",
+    "musica": "BELLE NUIT, Ô NUIT D'AMOUR",
+    "genero": "Clássica",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "1883",
+    "título": "AS FLORES",
+    "autor": "FLOWER DUET",
+    "musica": "LÉO DELIBES",
+    "genero": "Clássica",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "1933",
+    "título": "KONOMICHI",
+    "autor": "H.KITAHARA",
+    "musica": "KONOMKONO MICHI -THIS ROAD ICHI",
+    "genero": "Étnica",
+    "atração musical": "1",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1938",
+    "título": "CHATEAU",
+    "autor": "LUPICÍNIO RODRIUES",
+    "musica": "SE ACASO VOCÊ CHEGASSE",
+    "genero": "Samba",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1942",
+    "título": "ESTA CHEGANDO",
+    "autor": "CARMEN COSTA",
+    "musica": "ESTÁ CHEGANDO A HORA",
+    "genero": "Samba",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1945",
+    "título": "A VIRGEM",
+    "autor": "DORIS DAY",
+    "musica": "SENTIMENTAL JOURNEY",
+    "genero": "Jazz",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1953",
+    "título": "CORDAS E HELICÓPTEROS",
+    "autor": "STOCKEHAUSEN",
+    "musica": "HELIKOPTER- STREICHQUARTETT",
+    "genero": "Clássica",
+    "atração musical": "1",
+    "grau de introspecção": "1",
+    "complexidade emocional": "3",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1954",
+    "título": "BARBERSHOP",
+    "autor": "CHORDETTES",
+    "musica": "MR. SANDMAN",
+    "genero": "Pop Rock",
+    "atração musical": "1",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "3"
+  },
+  {
+    "data": "1956",
+    "título": "CÃO DE CAÇA",
+    "autor": "BIG MAMA THORNTON",
+    "musica": "HOUND DOG",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1958",
+    "título": "JAZZ",
+    "autor": "MILES DAVIS",
+    "musica": "MILESTONES",
+    "genero": "Jazz",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "8"
+  },
+  {
+    "data": "1958",
+    "título": "VOLARE, NEL BLU DIPINTO DI BLU",
+    "autor": "DOMENICO MODUGNO",
+    "musica": "VOLARE, NEL BLU DIPINTO DI BLU",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1959",
+    "título": "ARTE DE OUVIR",
+    "autor": "DAVID \"DAVE\" WARREN BRUBECK",
+    "musica": "TAKE FIVE",
+    "genero": "Jazz",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "8"
+  },
+  {
+    "data": "1960",
+    "título": "TRINI LOPEZ",
+    "autor": "TRINI LOPEZ",
+    "musica": "LA BAMBA",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1961",
+    "título": "BELLA CIAO",
+    "autor": "RITA PAVONE",
+    "musica": "BELLA CIAO",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1961",
+    "título": "RITA PAVONI",
+    "autor": "RITA PAVONI",
+    "musica": "DATEMI UN MARTELLO",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1962",
+    "título": "INSENSATEZ",
+    "autor": "STAN GETZ",
+    "musica": "GAROTA DE IPANEMA",
+    "genero": "MPB",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "8"
+  },
+  {
+    "data": "1963",
+    "título": "RONETTES",
+    "autor": "RONETTES",
+    "musica": "BE MY BABY",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1964",
+    "título": "PAUL SIMON",
+    "autor": "PAUL SIMON",
+    "musica": "LATE IN THE EVENING",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "8"
+  },
+  {
+    "data": "1964",
+    "título": "METAFÓRICO",
+    "autor": "ADORINAN BARBOSA",
+    "musica": "TIRO AO ÁLVARO",
+    "genero": "Samba",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1964",
+    "título": "THE ANIMALS",
+    "autor": "THE ANIMALS",
+    "musica": "THE HOUSE OF THE RISING SUN",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1964",
+    "título": "METEORO BLUE",
+    "autor": "OTIS REDDING",
+    "musica": "OTIS BLUE: OTIS REDDING SINGS SOUL",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1965",
+    "título": "PETULA CLARK",
+    "autor": "PETULA CLARK",
+    "musica": "DOWNTOWN",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1966",
+    "título": "THE YOUNGBLOODS",
+    "autor": "THE YOUNGBLOODS",
+    "musica": "GET TOGETHER",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "8"
+  },
+  {
+    "data": "1966",
+    "título": "MAMAS ANDA PAPAS",
+    "autor": "MAMAS ANDA PAPAS",
+    "musica": "CALIFORNIA DREAMING",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1966",
+    "título": "ROLLING STONES",
+    "autor": "ROLLING STONES",
+    "musica": "LADY JANE",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1966",
+    "título": "JOHNY RIVERS",
+    "autor": "JOHNY RIVERS",
+    "musica": "POOR SIDE OF TOWN",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1966",
+    "título": "SERGIO MENDES",
+    "autor": "SERGIO MENDES",
+    "musica": "MAS QUE NADA",
+    "genero": "Jazz",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1966",
+    "título": "TURTLES",
+    "autor": "TURTLES",
+    "musica": "SURFER DAN",
+    "genero": "Rock Progressivo",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1966",
+    "título": "ATAQUE A CASA BRANCA",
+    "autor": "GRACE SLICK",
+    "musica": "WHITE RABBIT",
+    "genero": "Rock Progressivo",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1966",
+    "título": "TERNURINHA",
+    "autor": "WANDERLEIA",
+    "musica": "PARE O CASAMENTO",
+    "genero": "MPB",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1966",
+    "título": "LENO E LILIAN",
+    "autor": "LENO E LILIAN",
+    "musica": "EU NÃO SABIA QUE VOCÊ EXISTIA",
+    "genero": "MPB",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1966",
+    "título": "NANCY SINATRA",
+    "autor": "NANCY SINATRA",
+    "musica": "THESE BOOTS ARE MADE FOR WALKIN",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1967",
+    "título": "DONOVAN PHILIPS",
+    "autor": "DONOVAN PHILIPS",
+    "musica": "MELLOW YELLOW",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1967",
+    "título": "THE SEEKERS",
+    "autor": "THE SEEKERS",
+    "musica": "GEORGY GIRL",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1967",
+    "título": "A VOLTA DO BOÊMIO",
+    "autor": "NELSON GONÇALVES",
+    "musica": "A VOLTA DO BOÊMIO",
+    "genero": "Samba",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1967",
+    "título": "BEE GEES",
+    "autor": "BEE GEES",
+    "musica": "I STARTED A JOKE",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1967",
+    "título": "HERMAN HERMIS",
+    "autor": "HERMAN HERMIS",
+    "musica": "MY SENTIMENTAL FRIEND",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1967",
+    "título": "SIMONAL",
+    "autor": "SIMONAL",
+    "musica": "NEM VEM QUE NÃO TEM",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1967",
+    "título": "THE TURTLES",
+    "autor": "THE TURTLES",
+    "musica": "HAPPY TOGETHER",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1967",
+    "título": "TREMELOES",
+    "autor": "TREMELOES",
+    "musica": "SILENCE IS GOLDEN",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1967",
+    "título": "LULU",
+    "autor": "LULU",
+    "musica": "TO SIR WITH LOVE",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1968",
+    "título": "NILSSON",
+    "autor": "NILSSON",
+    "musica": "WITHOUT YOU",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1968",
+    "título": "GERALDO VANDRE",
+    "autor": "GERALDO VANDRE",
+    "musica": "PARA  NÃO DIZER QUE NÃO FALEI DE FLORES",
+    "genero": "MPB",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1968",
+    "título": "STEVIE WONDER",
+    "autor": "STEVIE WONDER",
+    "musica": "SUPERSTITION",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1968",
+    "título": "IAN A GADDA DA VIDA",
+    "autor": "IRON BUTTERFLY",
+    "musica": "IAN A GADDA DA VIDA",
+    "genero": "Rock Progressivo",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1968",
+    "título": "TEN YEAR AFTER",
+    "autor": "TEN YEAR AFTER",
+    "musica": "I'D LOVE TO CHANGE THE WORLD",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1968",
+    "título": "TOMMY JAMES",
+    "autor": "TOMMY JAMES",
+    "musica": "CRIMSON AND CLOVER",
+    "genero": "Rock Progressivo",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1969",
+    "título": "ANTONIO ADOLFO E A BRAZUCA",
+    "autor": "ANTONIO ADOLFO E A BRAZUCA",
+    "musica": "TELETEMA",
+    "genero": "MPB",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1969",
+    "título": "B. J. THOMAS",
+    "autor": "B. J. THOMAS",
+    "musica": "RAINDROPS KEEP FALLIN' ON MY HEAD",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1969",
+    "título": "JANE BIRKIN",
+    "autor": "JANE BIRKIN",
+    "musica": "JE T'AIME",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1969",
+    "título": "PAULO DINIZ",
+    "autor": "PAULO DINIZ",
+    "musica": "QUERO VOLTAR PRA BAHIA",
+    "genero": "MPB",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1969",
+    "título": "SHOCKING  BLUE",
+    "autor": "SHOCKING  BLUE",
+    "musica": "VENUS",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1969",
+    "título": "MARMALADE",
+    "autor": "MARMALADE",
+    "musica": "REFLECTIONS OF MY LIFE",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1969",
+    "título": "THE  HOLLIES",
+    "autor": "THE  HOLLIES",
+    "musica": "LONG COOL WOMAN IN A BLACK DRESS",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1969",
+    "título": "TOMMY ROE",
+    "autor": "TOMMY ROE",
+    "musica": "DIZZY",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1969",
+    "título": "SANTANA",
+    "autor": "SANTANA",
+    "musica": "SOUL SACRIFICE",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1970",
+    "título": "GAL",
+    "autor": "GAL",
+    "musica": "BABY",
+    "genero": "MPB",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1970",
+    "título": "GRAND FUNK RAILROAD",
+    "autor": "GRAND FUNK RAILROAD",
+    "musica": "I'M YOUR CAPTAIN",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1970",
+    "título": "BADFINGER",
+    "autor": "BADFINGER",
+    "musica": "NO MATTER WHAT",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1970",
+    "título": "CARPENTERS",
+    "autor": "CARPENTERS",
+    "musica": "CLOSE TO YOU",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1970",
+    "título": "PAUL MACCARTNEY",
+    "autor": "PAUL MACCARTNEY",
+    "musica": "ANOTHER DAY",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1970",
+    "título": "PATTIE BOYD",
+    "autor": "GEORGE HARRISON",
+    "musica": "SOMETHING",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1970",
+    "título": "ROCK PESADO",
+    "autor": "MIAMI SHOWBAND",
+    "musica": "CLAP YOUR HANDS",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1970",
+    "título": "TERRA RARA",
+    "autor": "RARE EARTH",
+    "musica": "HEY BIG BROTHER",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1970",
+    "título": "BOBBY BLOOM",
+    "autor": "BOBBY BLOOM",
+    "musica": "HEAVY MAKES YOU HAPPY",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1970",
+    "título": "BREAD",
+    "autor": "BREAD",
+    "musica": "EVERYTHING I OWN",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1970",
+    "título": "LINN ANDERSON",
+    "autor": "LINN ANDERSON",
+    "musica": "ROSE GARDEN",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1970",
+    "título": "MUNGO JERRY",
+    "autor": "MUNGO JERRY",
+    "musica": "IN THE SUMMERTIME",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1970",
+    "título": "SLADE",
+    "autor": "SLADE",
+    "musica": "GET DOWN AND GET WITH IT",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1970",
+    "título": "TONY ORLANDO",
+    "autor": "TONY ORLANDO",
+    "musica": "CANDIDA",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1970",
+    "título": "TRIO GALLETA",
+    "autor": "TRIO GALLETA",
+    "musica": "I'VE BEEN HURT",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1970",
+    "título": "A ALMA DO RITMO",
+    "autor": "THE METERS",
+    "musica": "CHICKEN STRUT",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1970",
+    "título": "THREE DOG NIGHT",
+    "autor": "THREE DOG NIGHT",
+    "musica": "MAMA TOLD ME NOT TO COME",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1971",
+    "título": "LED ZEPPELIN",
+    "autor": "LED ZEPPELIN",
+    "musica": "OVER THE HILLS AND FAR AWAY",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1971",
+    "título": "MARDI GRAS",
+    "autor": "MARDI GRAS",
+    "musica": "TOO BUSY THINKING ABOUT MY BABY",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1971",
+    "título": "THE SWEET",
+    "autor": "THE SWEET",
+    "musica": "CO-CO",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "1",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1971",
+    "título": "THE WHO",
+    "autor": "THE WHO",
+    "musica": "BABA O'RILEY",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1971",
+    "título": "YES",
+    "autor": "YES",
+    "musica": "ROUND ABOUT",
+    "genero": "Rock Progressivo",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1971",
+    "título": "YOU'VE GOT A FRIEND",
+    "autor": "CAROLE KING",
+    "musica": "YOU'VE GOT A FRIEND",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1971",
+    "título": "DUBLE FANTASY",
+    "autor": "JOHN LENNON",
+    "musica": "DUBLE FANTASY",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1971",
+    "título": "OH YOKO",
+    "autor": "JOHN LENNON",
+    "musica": "OH YOKO",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1971",
+    "título": "ELTON JOHN",
+    "autor": "ELTON JOHN",
+    "musica": "CROCODILE ROCK",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1971",
+    "título": "GENESIS",
+    "autor": "GENESIS",
+    "musica": "THE KNIFE",
+    "genero": "Rock Progressivo",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1971",
+    "título": "JETHRO TULL",
+    "autor": "JETHRO TULL",
+    "musica": "PASSION PLAY",
+    "genero": "Rock Progressivo",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1971",
+    "título": "TINA TURNER",
+    "autor": "TINA TURNER",
+    "musica": "GET BACK",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1971",
+    "título": "OPS, FOI ENGANO",
+    "autor": "ALICE COOPER",
+    "musica": "KILLER",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1971",
+    "título": "LEON RUSSEL",
+    "autor": "LEON RUSSEL",
+    "musica": "A SONG FOR YOU",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1971",
+    "título": "LOBO",
+    "autor": "LOBO",
+    "musica": "ME AND YOU AND A DOG NAMED BOO",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1971",
+    "título": "MIDDLE OF THE ROAD",
+    "autor": "MIDDLE OF THE ROAD",
+    "musica": "SACRAMENTO",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1971",
+    "título": "MOUTH AND MACNEAL",
+    "autor": "MOUTH AND MACNEAL",
+    "musica": "HOW DO YOU DO",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1971",
+    "título": "POP TOPS",
+    "autor": "POP TOPS",
+    "musica": "MAMY BLUE",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1971",
+    "título": "PROCOL HARUM",
+    "autor": "PROCOL HARUM",
+    "musica": "A WHITER SHADE OF PALE",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1971",
+    "título": "THE STAMPEDERS",
+    "autor": "THE STAMPEDERS",
+    "musica": "SWEET CITY WOMAN",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1971",
+    "título": "OS IRMÃOS CANTAM",
+    "autor": "CORNELIUS  BROTHERS & SISTER ROSE",
+    "musica": "TREAT HER LIKE A LADY",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1972",
+    "título": "DON MCLEAN",
+    "autor": "DON MCLEAN",
+    "musica": "AMERICAN PIE",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1972",
+    "título": "DOOBIE BROTHERS",
+    "autor": "DOOBIE BROTHERS",
+    "musica": "LISTEN TO THE MUSIC",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1972",
+    "título": "NOVOS BAIANOS",
+    "autor": "NOVOS BAIANOS",
+    "musica": "BRASIL PANDEIRO",
+    "genero": "MPB",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1972",
+    "título": "YELLOWSTONE AND VOICE",
+    "autor": "YELLOWSTONE AND VOICE",
+    "musica": "PHILOSOPHER",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "1",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1972",
+    "título": "5TH DIMENSION",
+    "autor": "5TH DIMENSION",
+    "musica": "AQUARIUS / LET THE SUNSHINE IN",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1972",
+    "título": "AL GREEN",
+    "autor": "AL GREEN",
+    "musica": "LET'S STAY TOGETHER",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1972",
+    "título": "CREEDENCE",
+    "autor": "CREEDENCE",
+    "musica": "SAIL AWAY",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1972",
+    "título": "DEEP PURBLE",
+    "autor": "DEEP PURBLE",
+    "musica": "SMOKE ON THE WATER",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1972",
+    "título": "ROBERTA FLACK",
+    "autor": "ROBERTA FLACK",
+    "musica": "KILLING ME SOFTLY",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1972",
+    "título": "CARLY SIMON",
+    "autor": "CARLY SIMON",
+    "musica": "YOU'RE SO VAIN",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1972",
+    "título": "DANIEL BOONE",
+    "autor": "DANIEL BOONE",
+    "musica": "BEAUTIFUL SUNDAY",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1972",
+    "título": "FORTUNES",
+    "autor": "FORTUNES",
+    "musica": "YOU GOT YOUR TROUBLES",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1972",
+    "título": "GARY GLITTER",
+    "autor": "GARY GLITTER",
+    "musica": "SCHOOL DAY",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1972",
+    "título": "THE TEMPTATIONS",
+    "autor": "THE TEMPTATIONS",
+    "musica": "PAPA WAS A ROLLING STONE",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1972",
+    "título": "TIMMY  THOMAS",
+    "autor": "TIMMY  THOMAS",
+    "musica": "WHY CAN'T WE LIVE TOGETHER",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1972",
+    "título": "DAVE EDMUNDS",
+    "autor": "DAVE EDMUNDS",
+    "musica": "I HEAR YOU KNOCKING",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1972",
+    "título": "TODD RUNDGREN",
+    "autor": "TODD RUNDGREN",
+    "musica": "I SAW THE LIGHT",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1973",
+    "título": "DISCOS MARCOS PEREIRA",
+    "autor": "NARA LEÃO",
+    "musica": "CALIX BENTO",
+    "genero": "MPB",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "8"
+  },
+  {
+    "data": "1973",
+    "título": "GLADYS KNIGHT & THE PIPS",
+    "autor": "GLADYS KNIGHT & THE PIPS",
+    "musica": "MIDNIGHT PLANE TO HOUSTON",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1973",
+    "título": "OSIBISA",
+    "autor": "OSIBISA",
+    "musica": "ADWOA",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1973",
+    "título": "SUZI QUATRO",
+    "autor": "SUZI QUATRO",
+    "musica": "STUMBIN ‘IN",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1973",
+    "título": "TAMBORES",
+    "autor": "INCREDIBLE BONGO BAND",
+    "musica": "BONGO ROCK",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1973",
+    "título": "ELVIS PRESLEY",
+    "autor": "ELVIS PRESLEY",
+    "musica": "BURNING LOVE",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1973",
+    "título": "ALBERT HAMMOND",
+    "autor": "ALBERT HAMMOND",
+    "musica": "IF YOU GOTTA BREAK ANOTHER HEART",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1973",
+    "título": "CHARLIE RICH",
+    "autor": "CHARLIE RICH",
+    "musica": "THE MOST BEAUTIFUL GIRL",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1973",
+    "título": "PAUL BRYAN",
+    "autor": "PAUL BRYAN",
+    "musica": "LISTEN",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1973",
+    "título": "STORIES",
+    "autor": "STORIES",
+    "musica": "BROTHER LOUIE",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1974",
+    "título": "SUPERTRAMP",
+    "autor": "SUPERTRAMP",
+    "musica": "SCHOOL",
+    "genero": "Rock Progressivo",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1974",
+    "título": "BACHAMAN TURNER ORVERDRIVE",
+    "autor": "BACHAMAN TURNER ORVERDRIVE",
+    "musica": "YOU AIN'T SEEN NOTHIN YET",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1974",
+    "título": "BARRY MANILOW",
+    "autor": "BARRY MANILOW",
+    "musica": "MANDY",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1974",
+    "título": "MINNIE  RIPERTON",
+    "autor": "MINNIE  RIPERTON",
+    "musica": "LOVING YOU",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1974",
+    "título": "PAPER LACE",
+    "autor": "PAPER LACE",
+    "musica": "THE NIGHT CHICAGO DIED",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1974",
+    "título": "REDBONE",
+    "autor": "REDBONE",
+    "musica": "COME AND GET YOUR LOVE",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1974",
+    "título": "THE RUBENTES",
+    "autor": "THE RUBENTES",
+    "musica": "SUGAR BABY LOVE",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1974",
+    "título": "A LOURA",
+    "autor": "BLONDIE",
+    "musica": "HEART OF GLASS",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1975",
+    "título": "IMPROVISADOR",
+    "autor": "KEITH JARRETT",
+    "musica": "THE KÖLN CONCERT",
+    "genero": "Jazz",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "1975",
+    "título": "ARTHUR MOREIRA",
+    "autor": "ARTHUR MOREIRA",
+    "musica": "APANHEI-TE, CAVAQUINHO",
+    "genero": "MPB",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "8"
+  },
+  {
+    "data": "1975",
+    "título": "MALDITO",
+    "autor": "WALTER FRANCO",
+    "musica": "SERRA DO LUAR",
+    "genero": "MPB",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1975",
+    "título": "CLAUDE BOLLING",
+    "autor": "CLAUDE BOLLING",
+    "musica": "BAROQUE AND BLUE",
+    "genero": "Jazz",
+    "atração musical": "1",
+    "grau de introspecção": "2",
+    "complexidade emocional": "3",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1975",
+    "título": "ABBA",
+    "autor": "ABBA",
+    "musica": "FERNANDO",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1975",
+    "título": "10CC",
+    "autor": "10CC",
+    "musica": "I'M NOT IN LOVE",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1976",
+    "título": "BELLAMY BROTHERS",
+    "autor": "BELLAMY BROTHERS",
+    "musica": "LET YOUR LOVE FLOW",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1976",
+    "título": "BELLE E SABASTIAN",
+    "autor": "BELLE E SABASTIAN",
+    "musica": "ANOTHER SUNNY DAY",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "4"
+  },
+  {
+    "data": "1977",
+    "título": "RAUL SEIXAS",
+    "autor": "RAUL SEIXAS",
+    "musica": "MEDO DA CHUVA",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "1978",
+    "título": "KATE BUSCH",
+    "autor": "KATE BUSCH",
+    "musica": "WUTHERING HEIGHTS",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1978",
+    "título": "BANDEIRA DE AÇO",
+    "autor": "BANDEIRA DE AÇO",
+    "musica": "BANDEIRA DE AÇO",
+    "genero": "MPB",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1979",
+    "título": "ZIGGY STARDUST",
+    "autor": "DAVID BOWIE",
+    "musica": "STARMAN",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "3",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1979",
+    "título": "BONEY M",
+    "autor": "BONEY M",
+    "musica": "RIVERS OF BABYLON",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1979",
+    "título": "POLONAISE",
+    "autor": "MAZOWSZE",
+    "musica": "LAURA I FILON",
+    "genero": "Étnica",
+    "atração musical": "1",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1980",
+    "título": "LEGIÃO URBANA",
+    "autor": "LEGIÃO URBANA",
+    "musica": "PAIS E FILHOS",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1980",
+    "título": "TOWSHEND",
+    "autor": "THE WHO",
+    "musica": "BEHIND BLUE EYES",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1981",
+    "título": "UNDER PRESSURE",
+    "autor": "DAVID BOWIE",
+    "musica": "UNDER PRESSURE",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "8"
+  },
+  {
+    "data": "1982",
+    "título": "TOTO",
+    "autor": "TOTO",
+    "musica": "AFRICA",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1983",
+    "título": "VIOLENTE FEMMES",
+    "autor": "VIOLENTE FEMMES",
+    "musica": "BLISTER IN THE SUN",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1984",
+    "título": "FELIZ NATAL",
+    "autor": "JOHN LENNON",
+    "musica": "HAPPY XMAS",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "8"
+  },
+  {
+    "data": "1986",
+    "título": "LA GUITARRA",
+    "autor": "STANLEY JORDAN",
+    "musica": "ELEANOR RIGBY",
+    "genero": "Jazz",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1988",
+    "título": "WILBURYS",
+    "autor": "WILBURYS",
+    "musica": "HANDLE WITH CARE",
+    "genero": "Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1988",
+    "título": "SATIE",
+    "autor": "ERIK SATIE",
+    "musica": "LE TANGO PREPÉTUAL",
+    "genero": "Tango",
+    "atração musical": "1",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1990",
+    "título": "ENIGMA",
+    "autor": "ENIGMA",
+    "musica": "RETURN TO INNOCENCE",
+    "genero": "Rock Progressivo",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "8"
+  },
+  {
+    "data": "1991",
+    "título": "TEREZA SALGUEIRO",
+    "autor": "TEREZA SALGUEIRO",
+    "musica": "ESTRADA DO MONTE",
+    "genero": "Étnica",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "1991",
+    "título": "O CEARENCE DO ESCRACHO",
+    "autor": "FALCÃO",
+    "musica": "BONITO, LINDO E JOIADO",
+    "genero": "MPB",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "1992",
+    "título": "BOBBY MACFERIN",
+    "autor": "BOBBY MACFERIN",
+    "musica": "HUSH LITTLE BABY",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1993",
+    "título": "ISRAEL KAMAKAWIWO'OLE",
+    "autor": "ISRAEL KAMAKAWIWO'OLE",
+    "musica": "OVER THE RAINBOW",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "1",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1997",
+    "título": "DEEP FOREST",
+    "autor": "DEEP FOREST",
+    "musica": "GREEN & BLUE",
+    "genero": "Folk Rock",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "8"
+  },
+  {
+    "data": "1997",
+    "título": "ZE COCO DO RIACHAO",
+    "autor": "ZE COCO DO RIACHAO",
+    "musica": "VÔO DAS GARÇAS",
+    "genero": "MPB",
+    "atração musical": "1",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "7"
+  },
+  {
+    "data": "1997",
+    "título": "CANTORA DE RUA",
+    "autor": "RACHELLE GARNIEZ",
+    "musica": "SERENADE",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "1998",
+    "título": "NINHO DA MÚSICA",
+    "autor": "NAÏKA",
+    "musica": "BEFORE HE FALLS",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "2001",
+    "título": "PEAKY BLINDERS",
+    "autor": "NICK CAVE AND THE BAD SEEDS",
+    "musica": "RED RIGHT HAND",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "2001",
+    "título": "GOTAN PROJET",
+    "autor": "GOTAN PROJET",
+    "musica": "SANTA MARÍA",
+    "genero": "Tango",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "2002",
+    "título": "EPITÁFIO",
+    "autor": "TITÃS",
+    "musica": "EPITÁFIO",
+    "genero": "MPB",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "2002",
+    "título": "BAJOFONDO",
+    "autor": "BAJOFONDO",
+    "musica": "A FAVORITA",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "2002",
+    "título": "SALIR CORRIENDO",
+    "autor": "EVA AMARAL",
+    "musica": "SALIR CORRIENDO",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "2003",
+    "título": "CARINHOSO",
+    "autor": "MARISA MONTE",
+    "musica": "CARINHOSO",
+    "genero": "MPB",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "2007",
+    "título": "MOINHO",
+    "autor": "CARTOLA",
+    "musica": "O MUNDO É UM MOINHO",
+    "genero": "Samba",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "2007",
+    "título": "O REI DA NOITE",
+    "autor": "HAMIN DJAWADI",
+    "musica": "GAME OF THRONES MAIN TITLE",
+    "genero": "Clássica",
+    "atração musical": "1",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "7"
+  },
+  {
+    "data": "2007",
+    "título": "SER DIFERENTE",
+    "autor": "ARCHITECTURE IN HELSINKI",
+    "musica": "ESCAPEE",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "2007",
+    "título": "MIRANDA!",
+    "autor": "MIRANDA!",
+    "musica": "PERFECTA",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "2008",
+    "título": "ANDREAS SCHOLL",
+    "autor": "ANDREAS SCHOLL",
+    "musica": "VENUS' BIRDS",
+    "genero": "Clássica",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "2008",
+    "título": "JULIETA VENEGAS",
+    "autor": "JULIETA VENEGAS",
+    "musica": "ME VOY",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "2008",
+    "título": "CARL DOUGLAS",
+    "autor": "CARL DOUGLAS",
+    "musica": "KUNG FU FIGHTING",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "2009",
+    "título": "NÃO DESONRE O MEU NOME",
+    "autor": "PITTY",
+    "musica": "ME ADORA",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "9"
+  },
+  {
+    "data": "2009",
+    "título": "ARNALDO ANTUNES",
+    "autor": "ARNALDO ANTUNES",
+    "musica": "A CASA É SUA",
+    "genero": "MPB",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "2011",
+    "título": "A DURGA DA MARIMBA",
+    "autor": "KUNIKO KATO",
+    "musica": "STEVE REICH SIX MARIMBAS COUNTERPOINT",
+    "genero": "Jazz",
+    "atração musical": "1",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "7"
+  },
+  {
+    "data": "2012",
+    "título": "NOVO SOM EM MINAS",
+    "autor": "ETCOETERA",
+    "musica": "ALMA",
+    "genero": "MPB",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "2012",
+    "título": "O SOM DO MERCADO",
+    "autor": "VARIOUS CRUELTIES",
+    "musica": "GREAT UNKNOWN",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "2013",
+    "título": "VOZES DAFRICA",
+    "autor": "ROKIA TRAORÉ",
+    "musica": "TU VOLES",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  },
+  {
+    "data": "2013",
+    "título": "BARBARA",
+    "autor": "BÁRBARA EUGÊNIA",
+    "musica": "YOU WISH, YOU GET IT",
+    "genero": "MPB",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "2013",
+    "título": "MÚSICA LAGOM",
+    "autor": "NONONO",
+    "musica": "MASTERPIECE",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "2014",
+    "título": "TENGO MIEDO",
+    "autor": "MARIA RODES",
+    "musica": "TENGO MIEDO",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "3",
+    "grau de significação": "7"
+  },
+  {
+    "data": "2014",
+    "título": "ANDRES CALAMARO",
+    "autor": "ANDRES CALAMARO",
+    "musica": "LA PARTE DE ADELANTE",
+    "genero": "Pop Rock",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "2014",
+    "título": "MUSICA DO NORTE",
+    "autor": "THE GARDENER & THE TREE",
+    "musica": "POSTCARDS",
+    "genero": "Pop Rock",
+    "atração musical": "3",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "6"
+  },
+  {
+    "data": "2014",
+    "título": "YIRA, YIRA",
+    "autor": "MONO MORELLO",
+    "musica": "YIRA, YIRA",
+    "genero": "Tango",
+    "atração musical": "1",
+    "grau de introspecção": "2",
+    "complexidade emocional": "2",
+    "grau de significação": "5"
+  },
+  {
+    "data": "2015",
+    "título": "ARQUITETO DO SOM",
+    "autor": "VOLKER PANNES",
+    "musica": "OPERA BIRD SONG",
+    "genero": "Jazz",
+    "atração musical": "1",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "6"
+  },
+  {
+    "data": "2015",
+    "título": "PAMPLAMOOSE",
+    "autor": "PAMPLAMOOSE",
+    "musica": "OH, PRETTY WOMAN",
+    "genero": "Rock/Pop",
+    "atração musical": "3",
+    "grau de introspecção": "1",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "2016",
+    "título": "JAZZ VINTAGE",
+    "autor": "AVALON JAZZ BAND",
+    "musica": "MÉNILMONTANT",
+    "genero": "Jazz",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "3",
+    "grau de significação": "7"
+  },
+  {
+    "data": "2016",
+    "título": "LA LA LAND",
+    "autor": "RYAN GOSLING",
+    "musica": "CITY OF STARS",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "2",
+    "complexidade emocional": "1",
+    "grau de significação": "5"
+  },
+  {
+    "data": "2019",
+    "título": "M A N T R A",
+    "autor": "GAIEA SANSKRI",
+    "musica": "BHOJANAM MANTRA",
+    "genero": "Étnica",
+    "atração musical": "1",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "7"
+  },
+  {
+    "data": "2019",
+    "título": "A MUSA",
+    "autor": "LOLA ASTANOVA",
+    "musica": "LA CAMPANELLA",
+    "genero": "Clássica",
+    "atração musical": "1",
+    "grau de introspecção": "3",
+    "complexidade emocional": "3",
+    "grau de significação": "7"
+  },
+  {
+    "data": "2020",
+    "título": "DYLAN  - AS MÚSICAS DA MÚSICA",
+    "autor": "NAT KING COLE",
+    "musica": "NATURE BOY",
+    "genero": "Rock/Pop",
+    "atração musical": "2",
+    "grau de introspecção": "3",
+    "complexidade emocional": "2",
+    "grau de significação": "7"
+  }
+];
 
-// Disponibilizar globalmente
 if (typeof window !== 'undefined') {
-    window.CSV_DATA = CSV_DATA;
+  window.musicData = MUSIC_DATA;
 }
+
+// Nota: export removido porque o arquivo é carregado como script regular, não como módulo ES6
