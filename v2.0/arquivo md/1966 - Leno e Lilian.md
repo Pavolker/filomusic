@@ -1,0 +1,3 @@
+
+Essa musica é para lembrar a todos que viveram a década de 1970,  de onde viemos no tempo. Lá no fundo escuro das idades, onde ainda brilha nossa adolescência, há muitas músicas que lembram esse tempo. Uma delas será cantada pela dupla Leno e Lilian. Principalmente se for  "Eu não sabia que você existia".  A dupla era composta por Leno (Gilberto Moreira) e Lilian (Lilian Knapp). A dupla se destacou pelo talento vocal e pelas composições que frequentemente tratavam de temas românticos, seguindo a linha melódica e temática que caracterizava a Jovem Guarda.  O sucesso de Leno e Lilian foi significativo no contexto da época, pois a Jovem Guarda. A carreira da dupla teve altos e baixos, e ambos também tentaram carreiras solo. 
+https://youtu.be/goarxZaGU78

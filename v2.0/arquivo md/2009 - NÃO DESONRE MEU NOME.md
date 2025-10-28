@@ -1,0 +1,9 @@
+Não sei bem porque a música da Pitty foi tão importante quando prestei atenção nela. De fato devo ter ouvido essa música em algum momento antes dela fazer algum sentido, mas lá pelos idos de 2012, ela não só fez sentido como definitivamente me contou uma história que parecia ser a minha história. Música tem isso, o outro mundo que ela remete pode muito bem ser exatamente o seu mundo, desenhado por melodias, trombes e tons. 
+
+“Me Adora” conta uma história de paradoxos, alguém que partiu, que rompeu com você e que pode até mesmo te desonrar, mas que não reconhece que te adora. E mais, vai embora sim e não vai perceber. Exatamente porque esse “te adora” é apenas um enorme desejo que tudo volte a dar certo, que algo de muito importante que aconteceu permaneça. Apesar das evidências de que a destruição já tomou conta da relação. Afinal, “você nem me ouve até o fim, injustamente julga por prazer”, o que é a prova de que sim, é possível que você já desonra o meu nome.
+
+Pitty canta essa música com a força justa de quem vive esse tormento profundamente, a sua voz grita os detalhes dessa desgraça e quando afirma que “você me adora, me acha foda”, é apenas um arremate melancólico e deprimente de que já perdeu. Não poderia deixar de dizer que, durante um tempo, ouvia essa música em repetições sistemáticas que poderiam durar uma hora. Esse acerto, justo ajuste, encaixe emocional entre uma música e as nossas emoções e sentimentos, é como um encontro, uma situação mágica de conformidade, algo que só a música proporciona.
+
+“Só não desonre o meu nome”.
+
+Pitty - Me Adora - https://youtu.be/66PrK9b_WD8?si=CvNbEXhXydbEnf4c

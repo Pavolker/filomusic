@@ -1,0 +1,3 @@
+
+O tal do Serge, na verdade Lucien Ginzburg, filho de imigrantes  ucranianos, feio que dói,  para a nossa mais absoluta surpresa - o que mostra que não existe mesmo divindade nenhuma nesse universo - abateu nada mais nada menos do que Brigitte Bardot, em 67, para quem fez essa música. Chegou a gravar com ela a primeira versão.  Mas a garota proibiu a divulgação porque estava casada com outro. Então nasceu a versão com a estonteante Birkin, que o canalha do Serge também abatia.  A música foi um sucesso de venda e um recorde de proibições por todo o mundo, inclusive no Brasil. Lembro de ouvir essa música como se fosse segredo de estado, escondido, com caixa acústica no ouvido. 
+https://youtu.be/j9Zw4LeSt2w

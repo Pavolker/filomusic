@@ -1,0 +1,1022 @@
+/* Dial de Rádio - Estilos */
+
+/* Estilo para as imagens do header (igual v1.0) */
+.header-image {
+    max-height: 180px;
+    width: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .header-image {
+        max-height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-image {
+        max-height: 60px;
+    }
+}
+
+.dial-section {
+    min-height: 60vh;
+    padding: 2rem 0;
+    background-image: url('../parede1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Efeito parallax suave */
+    position: relative;
+}
+
+/* Overlay escuro para melhorar legibilidade do conteúdo */
+.dial-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 23, 42, 0.75); /* Overlay azul escuro semi-transparente */
+    z-index: 0;
+}
+
+/* Garantir que o conteúdo fique acima do overlay */
+.dial-section > .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Instruções abaixo do título */
+.dial-instructions {
+    color: #ffffff !important;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+/* Ajuste para dispositivos móveis - melhor performance */
+@media (max-width: 768px) {
+    .dial-section {
+        background-attachment: scroll; /* Melhor performance no mobile */
+    }
+    
+    .dial-instructions {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+}
+
+/* Utilitários básicos */
+.hidden { display: none !important; }
+
+/* Seção de Citações */
+.quotes-section {
+    padding: 1.5rem 0 0.5rem 0;
+}
+
+.quotes-title {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #ffffff; /* branco */
+    margin: 0 0 1rem 0;
+    letter-spacing: 0.5px;
+}
+
+.quote-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.quote-btn {
+    /* Ajuste de tamanho em relação aos botões principais */
+    padding: 0.5rem 0.9rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: none;
+    border-color: #93c5fd;
+}
+
+.quote-btn::before { opacity: 0.7; }
+
+.quote-btn:hover {
+    box-shadow: 0 12px 28px rgba(0,0,0,0.55), 0 0 20px rgba(147,197,253,0.35);
+}
+
+.quote-card {
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(145deg, #1e293b, #0f172a);
+    border-radius: 16px;
+    border: 2px solid rgba(147, 197, 253, 0.4);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6), inset 0 0 16px rgba(147,197,253,0.15);
+    position: relative;
+}
+
+.quote-card-header {
+    position: relative;
+    padding: 0.75rem 1.25rem 0 1.25rem;
+}
+
+.quote-close-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.75rem;
+    background: transparent;
+    border: 2px solid rgba(239, 68, 68, 0.5);
+    color: #ef4444;
+    font-size: 1.75rem;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    line-height: 1;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(239, 68, 68, 0.3);
+}
+
+.quote-close-btn:hover {
+    background: rgba(239, 68, 68, 0.1);
+    border-color: #ef4444;
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.6);
+    transform: scale(1.1);
+}
+
+.quote-close-btn:active {
+    transform: scale(0.95);
+}
+
+.quote-card-content { 
+    padding: 1rem 1.25rem 1.25rem 1.25rem; 
+}
+
+.quote-text {
+    color: #e0e7ff;
+    font-size: 1.125rem; /* ~18px */
+    line-height: 1.7;
+    margin: 0 0 0.5rem 0;
+}
+
+.quote-author {
+    color: #93c5fd;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+/* Biblioteca da Filosofia da Música */
+.library-section {
+    padding: 3rem 0;
+    background: linear-gradient(to bottom, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.95));
+}
+
+.library-title {
+    text-align: center;
+    color: #ffffff; /* branco */
+    margin-bottom: 2rem;
+}
+
+.library-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.library-btn {
+    min-width: 200px;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0.65rem 1.15rem;
+}
+
+.library-content {
+    color: #e0e7ff;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.library-content p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.library-content h1,
+.library-content h2,
+.library-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #bfdbfe;
+    font-weight: bold;
+}
+
+.library-content h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid rgba(59, 130, 246, 0.3);
+    padding-bottom: 0.5rem;
+}
+
+.library-content h2 {
+    font-size: 1.5rem;
+    color: #93c5fd;
+}
+
+.library-content h3 {
+    font-size: 1.25rem;
+    color: #93c5fd;
+}
+
+.library-content strong {
+    color: #dbeafe;
+    font-weight: 600;
+}
+
+.library-content em {
+    font-style: italic;
+    color: #c7d2fe;
+}
+
+.library-content a {
+    color: #60a5fa;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.library-content a:hover {
+    color: #93c5fd;
+}
+
+@media (max-width: 768px) {
+    .library-btn {
+        min-width: 150px;
+        font-size: 0.85rem;
+        padding: 0.6rem 1rem;
+    }
+    
+    .library-content {
+        font-size: 0.95rem;
+    }
+    
+    .library-content h1 {
+        font-size: 1.5rem;
+    }
+    
+    .library-content h2 {
+        font-size: 1.25rem;
+    }
+    
+    .library-content h3 {
+        font-size: 1.1rem;
+    }
+}
+
+/* Centralização do título da seção do dial */
+.dial-section h2 {
+    text-align: center;
+}
+
+/* Título da seção do dial: tamanho aumentado */
+.dial-title {
+    text-align: center;
+    color: #ffffff; /* branco */
+    font-size: 2.5rem; /* ~40px */
+}
+
+@media (max-width: 480px) {
+    .dial-title {
+        font-size: 2rem; /* ~32px para mobile */
+    }
+}
+
+/* Botões criativos sintonizados com o layout do dial */
+.btn-dial {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 9999px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background: linear-gradient(145deg, #1e293b, #0f172a);
+    border: 2px solid #3b82f6;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5), inset 0 0 12px rgba(59,130,246,0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-dial:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6), 0 0 25px rgba(59,130,246,0.35);
+    filter: brightness(1.05);
+}
+
+.btn-dial:active {
+    transform: translateY(0);
+    filter: brightness(0.95);
+}
+
+.btn-dial:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59,130,246,0.35), 0 10px 25px rgba(0,0,0,0.5), inset 0 0 12px rgba(59,130,246,0.3);
+}
+
+.btn-dial::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+    box-shadow: 0 0 8px currentColor;
+    background: currentColor;
+    opacity: 0.85;
+}
+
+/* Variações de estilo alinhadas com as cores do dial */
+.btn-play {
+    border-color: #10b981; /* verde */
+    background: linear-gradient(145deg, #064e3b, #0b3d2e);
+}
+
+.btn-play::before {
+    color: #10b981;
+}
+
+.btn-play:hover {
+    box-shadow: 0 0 20px rgba(16,185,129,0.45), 0 15px 35px rgba(0,0,0,0.6);
+}
+
+.btn-read {
+    border-color: #3b82f6; /* azul */
+    background: linear-gradient(145deg, #1e3a8a, #0f172a);
+}
+
+.btn-read::before {
+    color: #3b82f6;
+}
+
+.btn-read:hover {
+    box-shadow: 0 0 20px rgba(59,130,246,0.45), 0 15px 35px rgba(0,0,0,0.6);
+}
+
+.btn-stop {
+    border-color: #ef4444; /* vermelho */
+    background: linear-gradient(145deg, #7f1d1d, #450a0a);
+}
+
+.btn-stop::before {
+    color: #ef4444;
+}
+
+.btn-stop:hover {
+    box-shadow: 0 0 20px rgba(239,68,68,0.45), 0 15px 35px rgba(0,0,0,0.6);
+}
+
+/* Centralização do container dos botões e largura total */
+.dial-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    text-align: center;
+}
+
+/* Dial Container */
+.dial-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Dial com luzes - Linear */
+.dial-control-wrapper {
+    position: relative;
+    padding: 30px 20px;
+    background: linear-gradient(145deg, #1e293b, #0f172a);
+    border-radius: 30px;
+    border: 3px solid #3b82f6;
+    box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.8),
+        inset 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dial-value-display {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #00ff88;
+    text-shadow: 
+        0 0 10px rgba(0, 255, 136, 0.8),
+        0 0 20px rgba(0, 255, 136, 0.5);
+    letter-spacing: 3px;
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
+    padding: 20px 40px;
+    border-radius: 15px;
+    border: 2px solid #667eea;
+    box-shadow: 
+        inset 0 2px 5px rgba(0, 0, 0, 0.8),
+        0 0 15px rgba(102, 126, 234, 0.3);
+}
+
+.station-name {
+    font-size: 14px;
+    color: #667eea;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    min-height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dial-slider-line {
+    position: relative;
+    height: 120px;
+    background: linear-gradient(to right, 
+        transparent 0%, 
+        rgba(59, 130, 246, 0.3) 5%, 
+        rgba(251, 191, 36, 0.6) 20%, 
+        rgba(251, 191, 36, 1) 50%, 
+        rgba(251, 191, 36, 0.6) 80%, 
+        rgba(59, 130, 246, 0.3) 95%, 
+        transparent 100%
+    );
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);
+    border: 2px solid #3b82f6;
+}
+
+/* Escala de Tempo (Estações) */
+.time-scale {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    z-index: 1;
+}
+
+.time-marker {
+    position: relative;
+    font-size: 11px;
+    color: #93c5fd;
+    font-weight: bold;
+    text-align: center;
+    min-width: 40px;
+    text-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+}
+
+.time-marker::after {
+    content: '';
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 12px;
+    background: #93c5fd;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.8);
+}
+
+/* Marcadores maiores para anos importantes */
+.time-marker:first-child,
+.time-marker:last-child {
+    font-size: 12px;
+    color: #fbbf24;
+    font-weight: 900;
+}
+
+.time-marker:first-child::after,
+.time-marker:last-child::after {
+    height: 16px;
+    background: #fbbf24;
+    box-shadow: 0 0 10px rgba(251, 191, 36, 1);
+}
+
+/* Estado ativo do marcador de tempo */
+.time-marker.active {
+    color: #fbbf24;
+    font-size: 13px;
+    font-weight: 900;
+    text-shadow: 
+        0 0 10px rgba(251, 191, 36, 1),
+        0 0 20px rgba(251, 191, 36, 0.8);
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.time-marker.active::after {
+    height: 18px;
+    background: #fbbf24;
+    box-shadow: 
+        0 0 15px rgba(251, 191, 36, 1),
+        0 0 30px rgba(251, 191, 36, 0.8);
+    width: 3px;
+}
+
+/* Pontos na Régua (200 pontos) */
+.ruler-points-container {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.ruler-point {
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    background: #93c5fd !important;
+    border-radius: 0;
+    transition: all 0.3s ease;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    border: 1px solid #1e3a8a;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ruler-point:hover {
+    height: 12px;
+    background: #93c5fd;
+    box-shadow: 0 0 5px rgba(147, 197, 253, 0.8);
+}
+
+.ruler-point.active {
+    height: 24px;
+    width: 6px;
+    background: #fbbf24 !important;
+    border: 2px solid #f59e0b !important;
+    box-shadow: 
+        0 0 10px rgba(251, 191, 36, 1),
+        0 0 20px rgba(251, 191, 36, 0.8);
+    z-index: 5;
+    animation: pointPulse 2s ease-in-out infinite;
+}
+
+@keyframes pointPulse {
+    0%, 100% {
+        box-shadow: 
+            0 0 10px rgba(251, 191, 36, 1),
+            0 0 20px rgba(251, 191, 36, 0.8);
+    }
+    50% {
+        box-shadow: 
+            0 0 20px rgba(251, 191, 36, 1),
+            0 0 40px rgba(251, 191, 36, 1);
+    }
+}
+
+/* Cores especiais aplicadas via inline style no JS */
+
+.dial-with-light {
+    position: relative;
+    height: 100px;
+}
+
+.dial-lights-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 80px;
+    z-index: 2;
+    transition: left 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.8), transparent);
+    border: 3px solid #3b82f6;
+    box-shadow: 
+        0 0 20px rgba(59, 130, 246, 0.8),
+        inset 0 0 25px rgba(59, 130, 246, 0.4);
+    transition: all 0.3s ease;
+    opacity: 0.3;
+    position: relative;
+}
+
+.light::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: radial-gradient(circle, rgba(251, 191, 36, 0.3), transparent);
+    border-radius: 50%;
+    animation: lightGlow 2s ease-in-out infinite;
+}
+
+@keyframes lightGlow {
+    0%, 100% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+}
+
+.light.active {
+    background: radial-gradient(circle, rgba(251, 191, 36, 1), rgba(251, 191, 36, 0.5));
+    border-color: #fbbf24;
+    box-shadow: 
+        0 0 30px rgba(251, 191, 36, 1),
+        inset 0 0 35px rgba(251, 191, 36, 0.7);
+    opacity: 1;
+    animation: activePulse 2s ease-in-out infinite;
+}
+
+@keyframes activePulse {
+    0%, 100% {
+        box-shadow: 
+            0 0 30px rgba(251, 191, 36, 1),
+            inset 0 0 35px rgba(251, 191, 36, 0.7);
+    }
+    50% {
+        box-shadow: 
+            0 0 50px rgba(251, 191, 36, 1),
+            inset 0 0 55px rgba(251, 191, 36, 1);
+    }
+}
+
+/* Input Range - estilo unificado */
+.dial-range-input {
+    width: 100%;
+    height: 56px;
+    background: transparent;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    cursor: grab;
+    z-index: 2;
+}
+
+.dial-range-input:active {
+    cursor: grabbing;
+}
+
+.dial-range-input::-webkit-slider-runnable-track,
+.dial-range-input::-moz-range-track {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, 
+        rgba(59, 130, 246, 0.3),
+        rgba(59, 130, 246, 0.6),
+        rgba(59, 130, 246, 0.3)
+    );
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+}
+
+.dial-range-input::-webkit-slider-thumb,
+.dial-range-input::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.25);
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    box-shadow: 
+        0 0 20px rgba(59, 130, 246, 0.8),
+        inset 0 0 18px rgba(59, 130, 246, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dial-range-input::-webkit-slider-thumb:hover,
+.dial-range-input::-moz-range-thumb:hover {
+    transform: scale(1.05);
+    box-shadow: 
+        0 0 28px rgba(59, 130, 246, 1),
+        inset 0 0 24px rgba(59, 130, 246, 0.45);
+}
+
+.dial-range-input::-webkit-slider-thumb:active,
+.dial-range-input::-moz-range-thumb:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .dial-range-input {
+        height: 48px;
+    }
+
+    .dial-range-input::-webkit-slider-thumb,
+    .dial-range-input::-moz-range-thumb {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dial-range-input {
+        height: 44px;
+    }
+
+    .dial-range-input::-webkit-slider-thumb,
+    .dial-range-input::-moz-range-thumb {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.number-marker {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 30px;
+    position: relative;
+    color: #93c5fd;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.number-marker.active {
+    color: #fbbf24;
+    font-weight: bold;
+}
+
+.number-marker-label {
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+.dial-control-wrapper {
+    padding: 20px 0;
+}
+
+.dial-current-value {
+    margin-bottom: 30px;
+}
+
+.dial-slider-container {
+    position: relative;
+    padding: 40px 20px;
+}
+
+.dial-visual {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80px;
+    pointer-events: none;
+}
+
+.dial-knob {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 0;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 
+        0 0 20px rgba(59, 130, 246, 0.5),
+        inset 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+.dial-indicator {
+    width: 8px;
+    height: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.music-info-panel {
+    animation: slideDown 0.5s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Efeito de luz no dial */
+.dial-knob::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: radial-gradient(circle, rgba(251, 191, 36, 0.3), transparent);
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+.player-status {
+    border-radius: 0.75rem;
+    background: rgba(59, 130, 246, 0.12);
+    border: 1px solid rgba(59, 130, 246, 0.35);
+    padding: 0.75rem 1rem;
+    color: #dbeafe;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.player-status[data-variant="warning"] {
+    background: rgba(250, 204, 21, 0.12);
+    border-color: rgba(250, 204, 21, 0.35);
+    color: #fef3c7;
+}
+
+.player-status[data-variant="error"] {
+    background: rgba(248, 113, 113, 0.12);
+    border-color: rgba(248, 113, 113, 0.35);
+    color: #fecaca;
+}
+
+.dial-error-banner {
+    margin-top: 1.5rem;
+    padding: 1rem 1.25rem;
+    border-radius: 0.75rem;
+    background: rgba(248, 113, 121, 0.12);
+    border: 1px solid rgba(248, 113, 121, 0.35);
+    color: #fecaca;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.btn-dial:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+    filter: grayscale(0.2);
+    box-shadow: none;
+}
+
+.quote-fallback {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 1.25rem;
+    color: #bfdbfe;
+    background: rgba(30, 41, 59, 0.6);
+    border-radius: 0.75rem;
+    border: 1px solid rgba(59, 130, 246, 0.35);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .dial-knob {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .numbers-track {
+        height: 50px;
+    }
+}
+
+/* Indicador de "Música Tocando" - Estilo Rádio Antigo */
+.playing-indicator {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.playing-light {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #ef4444; /* Vermelho estilo rádio antigo */
+    border: 2px solid #dc2626;
+    box-shadow: 
+        0 0 10px rgba(239, 68, 68, 0.8),
+        0 0 20px rgba(239, 68, 68, 0.6),
+        inset 0 0 8px rgba(255, 255, 255, 0.3);
+    animation: radioPulse 1s ease-in-out infinite;
+}
+
+.playing-indicator.playing .playing-light {
+    animation: radioPulse 1s ease-in-out infinite;
+}
+
+.playing-indicator:not(.playing) .playing-light {
+    background: #6b7280;
+    border-color: #4b5563;
+    box-shadow: none;
+    animation: none;
+}
+
+@keyframes radioPulse {
+    0% {
+        opacity: 1;
+        box-shadow: 
+            0 0 10px rgba(239, 68, 68, 0.8),
+            0 0 20px rgba(239, 68, 68, 0.6),
+            inset 0 0 8px rgba(255, 255, 255, 0.3);
+    }
+    50% {
+        opacity: 0.5;
+        box-shadow: 
+            0 0 20px rgba(239, 68, 68, 1),
+            0 0 40px rgba(239, 68, 68, 0.8),
+            inset 0 0 12px rgba(255, 255, 255, 0.5);
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        box-shadow: 
+            0 0 10px rgba(239, 68, 68, 0.8),
+            0 0 20px rgba(239, 68, 68, 0.6),
+            inset 0 0 8px rgba(255, 255, 255, 0.3);
+    }
+}
+
+.playing-text {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fbbf24;
+    text-shadow: 
+        0 0 5px rgba(251, 191, 36, 0.8),
+        0 0 10px rgba(251, 191, 36, 0.5);
+    text-transform: uppercase;
+    animation: textGlow 2s ease-in-out infinite;
+}
+
+.playing-indicator:not(.playing) .playing-text {
+    color: #6b7280;
+    text-shadow: none;
+    animation: none;
+}
+
+@keyframes textGlow {
+    0%, 100% {
+        opacity: 0.8;
+        text-shadow: 
+            0 0 5px rgba(251, 191, 36, 0.8),
+            0 0 10px rgba(251, 191, 36, 0.5);
+    }
+    50% {
+        opacity: 1;
+        text-shadow: 
+            0 0 10px rgba(251, 191, 36, 1),
+            0 0 20px rgba(251, 191, 36, 0.8);
+    }
+}
+
+@media (max-width: 768px) {
+    .playing-indicator {
+        top: -35px;
+    }
+    
+    .playing-light {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .playing-text {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+}

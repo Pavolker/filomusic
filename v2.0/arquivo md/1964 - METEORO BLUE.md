@@ -1,0 +1,11 @@
+
+Dizer que Otis Redding cantava blues é como dizer que Picasso pinta quadros de cubismo. John Ford fazia  Western. Pablo Neruda escreve poemas.  Com uma pequena e determinante diferença, todos os gênios citados acima firmaram suas genialidades e obras maravilhosas ao longo de toda uma vida, em vários casos maior que meio século.  Otis, pelo contrário,  só teve míseros 26 anos para mostrar para o mundo a sua genialidade. E ninguém nunca duvidou disso. O Soul, o blues e a arte de cantar de forma geral, de 1941 a 1967, conheceram uma voz única. Além dos timbres, notas, abertura e a afinação, Otis colocava tanta emoção e profundidade no seu cantar, que é como se o canto tivesse atingido o seu ser viceral. Mas naquele domingo, 10 de dezembro, mesmo com o conselho contrário de James Brown, porque chovia e o tempo estava nublado, Otis resolve voar. Ele tinha pressa. Sua voz ficou lá , congelada no lago Monona. Ninguém pode dizer o que seria da música se esse meteoro continuasse a percorrer a Terra. Mas o que ele fez de 1958, quando começou a cantar, até 1967 foi extraordinário. Claro que, em 9 anos, não foi uma obra volumosa, mas a qualidade e a novidade da sua voz, do seu jeito de cantar e a sua capacidade de atrair o que havia de melhor em termos de músicos, é único. Parecia que todos os grandes da sua época sabiam que Otis não iria durar e todos precisavam estar próximos daquela voz. Assim fizeram Steve Cropper, Donald Duck Dunn, Al Jackson Jr, Isaac Hayes, Booker T. Jones, James Brown, Areta Franklin, entre outros. Quando, em 1965 - ele com 24 anos -, se autodenomina Otis Blue e, em 24 horas, grava sua obra prima, "Otis Blue: Otis Redding Sings Soul" nos estúdios da Stax Records, a gravadora do branco Jim Stewart, o blue atinge o seu pico de qualidade. Seu terceiro álbum, dos 6 que gravou. Único cantor negro que ficou em primeiro lugar nas paradas de sucesso depois de morto com seu álbum "The Dock of the Bay" (1968). 
+Então, vamos ouvir Otis, e não parar nunca... 
+https://youtu.be/rTVjnBo96Ug 
+https://youtu.be/qZ6OrrkeVFo 
+https://youtu.be/xqVO41NKw9A 
+https://youtu.be/0iPtG_O8w8g 
+https://youtu.be/yyhL0ioST_U 
+https://youtu.be/HIoQDG-iRn4 
+https://youtu.be/qD9VfaozIy8 
+

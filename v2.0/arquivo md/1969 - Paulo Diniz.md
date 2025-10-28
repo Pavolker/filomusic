@@ -1,0 +1,7 @@
+
+Paulo Diniz, pelo nome ninguém vai lembrar dele, mas da música todos irão lembrar. Essa é uma daqueles músicas que, com certeza, esteve escondida no fundo da sua memória, esperando esse dia para vc lembrar dela e, o mais incrível da mágica das músicas, lembrar de tudo que estava associado a ela lá nos idos da década de 70.  "Quero Voltar Pra Bahia", já foi muito cantada. Cantada antes da farra pesada,  antes das cicatrizes da noite: calça suja de tombo, camisa rasgada de raspar em paredes e mãos machucadas de carregar coisas (cadeiras, latas de lixo, placas e demais objetos comuns das noites).  Então, antes da luta pesada da noite, enquanto a beberagem fazia efeito, tinha a seção musical e, durante um tempo, vinha lá a música de Paulo Diniz. Esse pernambucano fez sucesso com essa música e todos os inimigos possíveis entre os pernambucanos. Afinal, ele não quer voltar para Recife, quer voltar para a Bahia, e, na época, época de brigas e ciúmes entre as tribos nordestinas,  isso era falta grave para um pernambucano. Em 70 ele lança do disco "Quero Voltar para a Bahia", com a música título e "Piri Piri".  Ele fez ainda a bela  “Pingos de amor” e, ainda  musicou "José", de Carlos Drummond de Andrade  e  "Vou-me embora pra pasárgada", de Manuel Bandeira, duas versões que vale a pena ouvir. 
+ Quero Voltar Pra Bahia https://youtu.be/74SjGhduZkk
+Pingos de amor https://youtu.be/sT4-fcLazsI
+Piri Piri https://youtu.be/431GIiR9iiw
+Jose  https://youtu.be/1L9mZIxgaq0
+Passarada  https://youtu.be/CuOXzGR4PR4

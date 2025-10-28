@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Filosofia da Música 2.0 - Interface com dial de rádio interativo">
+    <title>Filosofia da Música 2.0</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link href="./css/tailwind.css" rel="stylesheet">
+    <link href="./css/dial-radio.css" rel="stylesheet">
+    <style>
+        /* Estilos básicos até o Tailwind estar compilado */
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: system-ui, -apple-system, sans-serif; }
+        
+        /* Header flex horizontal */
+        header { background: white; padding: 1rem; box-shadow: 0 10px 25px rgba(0,0,0,0.3); }
+        .header-container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+        .header-flex { display: flex; align-items: center; justify-content: space-between; flex-wrap: nowrap; }
+        .header-center { flex: 1; text-align: center; padding: 0 0.5rem; }
+        .header-image { max-height: 180px; width: auto; object-fit: contain; display: block; }
+        
+        @media (max-width: 768px) { .header-image { max-height: 80px; } }
+        @media (max-width: 480px) { .header-image { max-height: 60px; } }
+        
+        /* Títulos */
+        .header-title { font-size: 1.5rem; font-weight: bold; color: #1e3a8a; margin: 0; }
+        .header-subtitle { font-size: 1rem; color: #1e40af; margin: 0; font-style: italic; }
+        .header-author { font-size: 0.875rem; color: #3b82f6; margin: 0; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white min-h-screen">
+    
+    <!-- Header (reutilizado da v1.0) -->
+    <header>
+        <div class="header-container">
+            <div class="header-flex">
+                <img src="./assets/Original_jpg.jpg" alt="Retrato de Paulo Volker" class="header-image" loading="eager">
+                <div class="header-center">
+                    <h1 class="header-title">Filosofia da Música</h1>
+                    <p class="header-subtitle">– 200 textos em busca do sentido da musicalidade –</p>
+                    <p class="header-author">Do livro 'Filosofia da Música' de Paulo Volker</p>
+                </div>
+                <img src="./assets/capas  volume_MUSICA.png" alt="Capa do livro" class="header-image" loading="eager">
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção de Citações -->
+    <section class="quotes-section">
+        <div class="container mx-auto px-4">
+            <h2 class="quotes-title">Citações sobre a Música</h2>
+            <div id="quoteButtons" class="quote-buttons"></div>
+            <div id="quoteCard" class="quote-card hidden">
+                <div class="quote-card-header">
+                    <button id="closeQuoteCard" class="quote-close-btn" aria-label="Fechar citação">
+                        ×
+                    </button>
+                </div>
+                <div class="quote-card-content">
+                    <p id="quoteText" class="quote-text"></p>
+                    <p id="quoteAuthor" class="quote-author"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção do Dial de Rádio -->
+    <section class="dial-section">
+        <div class="container mx-auto px-4">
+            <h2 class="dial-title text-3xl font-bold text-center mb-4 text-white">
+                Selecione uma Música
+            </h2>
+            <p class="dial-instructions">
+                Selecione a música no dial, ou, no botão "Ler o Texto" selecione o link da música para ver o vídeo no youtube
+            </p>
+            
+            <!-- Dial Container -->
+            <div class="dial-container">
+                
+                <!-- Dial (Controle deslizante com luz) -->
+                <div class="dial-control-wrapper">
+                    <!-- Display Digital (Valor atual) -->
+                    <div class="dial-value-display">
+                        <span id="currentDialValue">1</span>
+                        <div class="station-name" id="stationName">Buscando...</div>
+                    </div>
+                    
+                    <!-- Linha do Dial com gradient e escala temporal -->
+                    <div class="dial-slider-line">
+                        <!-- Escala de tempo (estações) -->
+                        <div class="time-scale">
+                            <div class="time-marker" data-year="1100">1100</div>
+                            <div class="time-marker" data-year="1500">1500</div>
+                            <div class="time-marker" data-year="1750">1750</div>
+                            <div class="time-marker" data-year="1850">1850</div>
+                            <div class="time-marker" data-year="1950">1950</div>
+                            <div class="time-marker" data-year="1980">1980</div>
+                            <div class="time-marker" data-year="2025">2025</div>
+                        </div>
+                        
+                        <!-- Container para 200 pontos (injetado pelo JS) -->
+                        <div class="ruler-points-container"></div>
+                        
+                        <div class="dial-with-light">
+                            <div class="dial-lights-container">
+                                <div class="light light-left"></div>
+                                <div class="light light-center active" id="centerLight"></div>
+                                <div class="light light-right"></div>
+                            </div>
+                            <!-- Luz de "música tocando" - estilo rádio antigo -->
+                            <div id="playingIndicator" class="playing-indicator" style="display: none;">
+                                <div class="playing-light"></div>
+                                <div class="playing-text">TOCANDO</div>
+                            </div>
+                            
+                            <!-- Input Range (controle funcional) -->
+                            <input type="range" 
+                                   id="dialInput" 
+                                   min="1" 
+                                   max="200" 
+                                   value="1" 
+                                   step="1"
+                                   class="dial-range-input"
+                                   aria-label="Dial para selecionar música">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Informações da Música Selecionada -->
+                <div id="musicInfo" class="music-info-panel bg-white/10 backdrop-blur-sm rounded-xl p-6 mt-8 border border-blue-400/50 shadow-xl hidden">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="flex-1">
+                            <h3 id="musicTitle" class="text-2xl font-bold text-blue-200 mb-2"></h3>
+                            <p id="musicAuthor" class="text-lg text-blue-300 mb-2"></p>
+                            <p id="musicDate" class="text-sm text-blue-400"></p>
+                        </div>
+                        <div class="flex items-center gap-4 dial-buttons">
+                            <button id="playBtn" class="btn-dial btn-play" aria-label="Reproduzir">
+                                ▶️ Reproduzir
+                            </button>
+                            <button id="stopBtn" class="btn-dial btn-stop" aria-label="Parar">
+                                ⏹️ Parar
+                            </button>
+                            <button id="readBtn" class="btn-dial btn-read" aria-label="Ler Texto">
+                                📖 Ler Texto
+                            </button>
+                        </div>
+                    </div>
+                    <div id="playerStatus" class="player-status hidden mt-4 text-sm"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção da Biblioteca da Filosofia da Música -->
+    <section class="library-section">
+        <div class="container mx-auto px-4">
+            <h2 class="library-title text-3xl font-bold text-center mb-8 text-white">
+                Biblioteca da Filosofia da Música
+            </h2>
+            <div id="libraryButtons" class="library-buttons"></div>
+            
+            <!-- Card para exibir texto da biblioteca -->
+            <div id="libraryCard" class="quote-card hidden">
+                <div class="quote-card-header">
+                    <button id="closeLibraryCard" class="quote-close-btn" aria-label="Fechar texto">
+                        ×
+                    </button>
+                </div>
+                <div class="quote-card-content">
+                    <div id="libraryContent" class="library-content"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Player (invisível) -->
+    <div id="youtubePlayer" style="display: none;"></div>
+
+    <!-- Modal para exibir textos -->
+    <div id="textModal" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 1rem;">
+        <div style="background: linear-gradient(to bottom right, #1e293b, #0f172a); border-radius: 0.75rem; max-width: 56rem; width: 100%; max-height: 90vh; overflow: hidden; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.8); border: 1px solid rgba(59, 130, 246, 0.3);">
+            <div style="position: sticky; top: 0; background: linear-gradient(to right, #1e40af, #312e81); border-bottom: 1px solid rgba(59, 130, 246, 0.3); padding: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <h2 id="modalTitle" class="text-2xl font-bold text-white"></h2>
+                    <p id="modalSubtitle" class="text-blue-200 mt-1"></p>
+                </div>
+                <button id="closeModal" style="color: #bfdbfe; font-size: 2rem; font-weight: bold; cursor: pointer; transition: color 0.2s;" onmouseover="this.style.color='white'" onmouseout="this.style.color='#bfdbfe'">
+                    ×
+                </button>
+            </div>
+            <div id="modalContent" style="padding: 1.5rem; overflow-y: auto; max-height: calc(90vh - 120px); max-width: none; color: #e0e7ff;">
+                <!-- Conteúdo será inserido aqui -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/data.js"></script>
+    <script src="./js/youtube-data.js"></script>
+    <script src="./js/markdown-content.js"></script>
+    <script src="./js/youtube-player.js"></script>
+    <script src="./js/citations.js"></script>
+    <script src="./js/dial-radio.js"></script>
+    <script src="./js/library.js"></script>
+    
+</body>
+</html>

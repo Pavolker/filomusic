@@ -1,0 +1,3 @@
+Claro que Linn Anderson cantou muito, fez uma longa carreira. Mas nada que chegasse perto do "Rose Garden" . Música quase que icônica da década de 70, foi sucesso no mundo inteiro. Foi colocada no terceiro LP da cantora na marra, já que o marido achava que não era música para mulheres. Vejam ai o resultado: 
+
+Lynn Anderson - I Beg Your Pardon, I Never Promised You A Rose Garden - https://youtu.be/2-eclUz-RYI

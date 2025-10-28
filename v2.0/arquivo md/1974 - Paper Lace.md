@@ -1,0 +1,7 @@
+Paper Lace, banda britânica de Nottingham, alcançou sucesso internacional em 1974 com "The Night Chicago Died", uma narrativa dramática sobre violência e crime na Chicago da era Al Capone. A música, escrita por Peter Callander e Mitch Murray, atingiu o primeiro lugar nas paradas americanas, embora a banda ironicamente nunca tenha visitado Chicago quando a gravou.
+
+"The Night Chicago Died" conta uma história fictícia sobre um tiroteio entre a polícia de Chicago e a gangue de Al Capone, narrada da perspectiva do filho de um policial. Apesar de algumas imprecisões históricas (como situar Capone no "East Side" quando sua base era no South Side), a música capturou a imaginação do público com sua narrativa dramática, arranjos orquestrais marcantes e refrão memorável. É interessante notar que a banda era britânica cantando sobre eventos americanos, algo comum na época.
+
+O grupo teve outro hit notável com "Billy Don't Be a Hero", mas foi "The Night Chicago Died" que os imortalizou internacionalmente. Paper Lace se tornou um exemplo clássico do que os americanos chamam de "one-hit wonder" nos EUA, embora tenham conseguido mais sucessos em seu país natal. A música permanece como um dos exemplos mais interessantes de narrativa histórica ficcionalizada no pop dos anos 70.
+
+The Night Chicago Died -  https://youtu.be/ryVh9BuwOs4

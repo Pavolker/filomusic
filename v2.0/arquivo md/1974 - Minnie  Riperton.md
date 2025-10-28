@@ -1,0 +1,7 @@
+Minnie Riperton, dotada de uma extensão vocal extraordinária que abrangia cinco oitavas e meia, criou um dos momentos mais memoráveis da música pop com "Lovin' You", lançada em 1975. A música, co-escrita por Riperton e seu marido Richard Rudolph, foi originalmente composta como uma canção de ninar para sua filha Maya (que mais tarde se tornaria a atriz Maya Rudolph).
+
+"Lovin' You" se destacou por sua simplicidade encantadora e pela demonstração do impressionante alcance vocal de Riperton, particularmente suas notas agudíssimas em whistle register (registro de apito). A produção minimalista, com piano elétrico, violão e sons de pássaros ao fundo, criou o cenário perfeito para que sua voz única brilhasse. A música alcançou o topo das paradas nos Estados Unidos e no Reino Unido, tornando-se sua assinatura musical.
+
+Tragicamente, Riperton faleceu em 1979, aos 31 anos, vítima de câncer de mama, deixando um legado musical significativo. Além de "Lovin' You", ela trabalhou com artistas importantes como Stevie Wonder, que produziu alguns de seus álbuns, e influenciou gerações de cantoras com sua técnica vocal extraordinária. Sua capacidade de transitar entre diferentes registros vocais e sua musicalidade sofisticada continuam inspirando artistas até hoje.
+
+Loving You - Minnie Riperton, Loving you - https://youtu.be/kE0pwJ5PMDg
